@@ -1,4 +1,4 @@
-update=Wed 17 Feb 2021 11:50:15 CET
+update=Wed 02 Jun 2021 18:03:01 CEST
 version=1
 last_client=kicad
 [general]
@@ -26,8 +26,8 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
-BoardThickness=1.6
+CopperLayerCount=4
+BoardThickness=1.55
 AllowMicroVias=0
 AllowBlindVias=1
 RequireCourtyardDefinitions=0
@@ -77,12 +77,12 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -263,12 +263,12 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=PCIe
 Clearance=0.1
-TrackWidth=0.11
+TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.5
 uViaDrill=0.2
-dPairWidth=0.15
+dPairWidth=0.25
 dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
