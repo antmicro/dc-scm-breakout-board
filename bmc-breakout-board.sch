@@ -1577,4 +1577,37 @@ Wire Wire Line
 Connection ~ 13650 6150
 Wire Wire Line
 	13650 6150 14075 6150
+$Comp
+L bmc-breakout-board:PCB_Mount_Hole_2.5_6.2 MP2
+U 1 1 6105A94D
+P 9150 10825
+F 0 "MP2" H 9358 10871 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5_6.2" H 9358 10780 50  0000 L CNN
+F 2 "bmc-breakout-board-footprints:Mount-hole-M2.5" H 9950 11525 50  0001 C CNN
+F 3 "" H 10100 11625 50  0001 C CNN
+	1    9150 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L bmc-breakout-board:PCB_Mount_Hole_2.5_6.2 MP3
+U 1 1 6105ADF7
+P 10525 10825
+F 0 "MP3" H 10733 10871 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5_6.2" H 10733 10780 50  0000 L CNN
+F 2 "bmc-breakout-board-footprints:Mount-hole-M2.5" H 11325 11525 50  0001 C CNN
+F 3 "" H 11475 11625 50  0001 C CNN
+	1    10525 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L bmc-breakout-board:PCB_Mount_Hole_2.5_6.2 MP1
+U 1 1 6105B178
+P 7800 10850
+F 0 "MP1" H 8008 10896 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5_6.2" H 8008 10805 50  0000 L CNN
+F 2 "bmc-breakout-board-footprints:Mount-hole-M2.5" H 8600 11550 50  0001 C CNN
+F 3 "" H 8750 11650 50  0001 C CNN
+	1    7800 10850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

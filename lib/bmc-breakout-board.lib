@@ -663,4 +663,17 @@ X ~ 6 200 -300 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PCB_Mount_Hole_2.5_6.2
+#
+DEF PCB_Mount_Hole_2.5_6.2 MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "PCB_Mount_Hole_2.5_6.2" 0 -250 50 H V C CNN
+F2 "bmc-breakout-board-footprints:Mount-hole-M2.5" 800 700 50 H I C CNN
+F3 "" 950 800 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library
