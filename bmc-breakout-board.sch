@@ -713,12 +713,12 @@ Wire Wire Line
 Wire Wire Line
 	5575 5875 6125 5875
 $Comp
-L antmicroPciConnectors:ME1016813401101 J5
+L bmc-breakout-board:ME1016813401101 J5
 U 1 1 602B2E89
 P 4875 1475
 F 0 "J5" H 4875 1640 50  0000 C CNN
 F 1 "ME1016813401101" H 4875 1549 50  0000 C CNN
-F 2 "antmicro-footprints:ME1016813401101" H 5025 1525 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:ME1016813401101" H 5025 1525 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/cme10168x340x10x.pdf" H 5075 1425 50  0001 C CNN
 	1    4875 1475
 	1    0    0    -1  
@@ -935,12 +935,12 @@ Wire Wire Line
 	5575 6775 6300 6775
 Connection ~ 5825 10475
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x13 J2
+L bmc-breakout-board:PinHeader_2x13 J2
 U 1 1 6067B534
 P 1775 2875
 F 0 "J2" H 1775 3322 60  0000 C CNN
 F 1 "PinHeader_2x13" H 1775 3216 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x13_P2.54mm_Vertical" H 1325 3275 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x13_P2.54mm_Vertical" H 1325 3275 60  0001 L CNN
 F 3 "" V 1975 3175 60  0001 L CNN
 F 4 "" H 1975 3375 60  0001 L CNN "MPN"
 F 5 "CNC Tech" H 1975 3975 60  0001 L CNN "Manufacturer"
@@ -948,12 +948,12 @@ F 5 "CNC Tech" H 1975 3975 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300411121 J4
+L bmc-breakout-board:61300411121 J4
 U 1 1 606C0FC0
 P 2025 7025
 F 0 "J4" V 2216 6947 50  0000 R CNN
 F 1 "61300411121" V 2125 6947 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 2225 7225 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 2225 7225 60  0001 L CNN
 F 3 "" H 2225 7325 60  0001 L CNN
 F 4 "61300411121" H 2225 7525 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 2225 8125 60  0001 L CNN "Manufacturer"
@@ -965,12 +965,12 @@ PRSNT1_N
 Text GLabel 1250 7925 0    50   Input ~ 0
 VIRTUAL_RESEAT
 $Comp
-L antmicroBarrelAudioConnectors:DC_SOCKET J7
+L bmc-breakout-board:DC_SOCKET J7
 U 1 1 6074EED5
 P 7950 1550
 F 0 "J7" H 7572 1611 60  0000 R CNN
 F 1 "DC_SOCKET" H 8000 1275 60  0001 C CNN
-F 2 "antmicro-footprints:DC_SOCKET" H 8000 1200 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:DC_SOCKET" H 8000 1200 60  0001 C CNN
 F 3 "" H 7950 1550 60  0001 C CNN
 F 4 "Multicomp" H 7975 1075 50  0001 C CNN "Manufacturer"
 F 5 "MJ-179PH" H 7572 1513 50  0000 R CNN "MPN"
@@ -985,12 +985,12 @@ Connection ~ 7750 1650
 Wire Wire Line
 	7750 1650 7750 1825
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300411121 J6
+L bmc-breakout-board:61300411121 J6
 U 1 1 607C8309
 P 7800 2375
 F 0 "J6" V 7575 2433 50  0000 C CNN
 F 1 "61300411121" V 7666 2433 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 8000 2575 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 8000 2575 60  0001 L CNN
 F 3 "" H 8000 2675 60  0001 L CNN
 F 4 "61300411121" H 8000 2875 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 8000 3475 60  0001 L CNN "Manufacturer"
@@ -998,12 +998,12 @@ F 5 "Wurth Electronics Inc." H 8000 3475 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300411121 J12
+L bmc-breakout-board:61300411121 J12
 U 1 1 607FA136
 P 8900 2375
 F 0 "J12" V 8675 2433 50  0000 C CNN
 F 1 "61300411121" V 8766 2433 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9100 2575 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9100 2575 60  0001 L CNN
 F 3 "" H 9100 2675 60  0001 L CNN
 F 4 "61300411121" H 9100 2875 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 9100 3475 60  0001 L CNN "Manufacturer"
@@ -1011,12 +1011,12 @@ F 5 "Wurth Electronics Inc." H 9100 3475 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x05 J11
+L bmc-breakout-board:PinHeader_2x05 J11
 U 1 1 60922CD7
 P 8675 6850
 F 0 "J11" H 8675 7297 60  0000 C CNN
 F 1 "PinHeader_2x05" H 8675 7191 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x05_P2.54mm_Vertical" H 8225 7200 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x05_P2.54mm_Vertical" H 8225 7200 60  0001 L CNN
 F 3 "" V 8875 7150 60  0001 L CNN
 F 4 "" H 8875 7350 60  0001 L CNN "MPN"
 F 5 "CNC Tech" H 8875 7950 60  0001 L CNN "Manufacturer"
@@ -1024,12 +1024,12 @@ F 5 "CNC Tech" H 8875 7950 60  0001 L CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroPciConnectors:PCIE_BUS_x1 J14
+L bmc-breakout-board:PCIE_BUS_x1 J14
 U 1 1 60A0F5F5
 P 12625 2425
 F 0 "J14" H 13200 2780 50  0000 C CNN
 F 1 "PCIE_BUS_x1" H 13200 2689 50  0000 C CNN
-F 2 "antmicro-footprints:BUS_PCIexpress_x1" H 12190 3110 50  0001 L BNN
+F 2 "bmc-breakout-board-footprints:BUS_PCIexpress_x1" H 12190 3110 50  0001 L BNN
 F 3 "" H 12575 3175 50  0001 C CNN
 F 4 "SAMTEC" H 13200 2598 50  0000 C CNN "Manufacturer"
 	1    12625 2425
@@ -1154,12 +1154,12 @@ Connection ~ 12000 3125
 Wire Wire Line
 	12000 3325 12000 3125
 $Comp
-L antmicroResistors0402:R_0R_0402 R1
+L bmc-breakout-board:R_0R_0402 R1
 U 1 1 60ED386A
 P 12225 3325
 F 0 "R1" H 12225 3538 60  0000 C CNN
 F 1 "R_0R_0402" H 12225 3175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12425 3525 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:0402-res" H 12425 3525 60  0001 L CNN
 F 3 "" H 12225 3325 50  0001 C CNN
 F 4 "PANASONIC" H 12425 3725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12425 3625 60  0001 L CNN "MPN"
@@ -1180,12 +1180,12 @@ NoConn ~ 13775 2425
 NoConn ~ 12625 3625
 NoConn ~ 12625 4125
 $Comp
-L antmicroUSBDVIHDMIConnectors:0473460001 J15
+L bmc-breakout-board:0473460001 J15
 U 1 1 6102F623
 P 13825 8225
 F 0 "J15" H 13611 8242 50  0000 R CNN
 F 1 "0473460001" H 13611 8151 50  0000 R CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_0473460001" H 14025 8425 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:USB_Micro_B_Female_0473460001" H 14025 8425 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 14025 8525 60  0001 L CNN
 F 4 "0473460001" H 14025 8725 60  0001 L CNN "MPN"
 F 5 "Molex" H 14025 9325 60  0001 L CNN "Manufacturer"
@@ -1193,12 +1193,12 @@ F 5 "Molex" H 14025 9325 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:0473460001 J13
+L bmc-breakout-board:0473460001 J13
 U 1 1 61030069
 P 11250 8250
 F 0 "J13" H 11036 8267 50  0000 R CNN
 F 1 "0473460001" H 11036 8176 50  0000 R CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_0473460001" H 11450 8450 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:USB_Micro_B_Female_0473460001" H 11450 8450 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 11450 8550 60  0001 L CNN
 F 4 "0473460001" H 11450 8750 60  0001 L CNN "MPN"
 F 5 "Molex" H 11450 9350 60  0001 L CNN "Manufacturer"
@@ -1246,12 +1246,12 @@ VBUS
 Text GLabel 13525 7675 1    50   Input ~ 0
 VBUS
 $Comp
-L antmicroTVSDiodes:TPD2E009 D1
+L bmc-breakout-board:TPD2E009 D1
 U 1 1 611D9D42
 P 10575 8575
 F 0 "D1" V 10615 8705 60  0000 L CNN
 F 1 "TPD2E009" V 10721 8705 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-3" H 10625 8775 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:SOT-3" H 10625 8775 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 10575 8575 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 10275 8875 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10275 8975 50  0001 C CNN "Manufacturer"
@@ -1259,12 +1259,12 @@ F 5 "Texas Instruments" H 10275 8975 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:TPD2E009 D2
+L bmc-breakout-board:TPD2E009 D2
 U 1 1 611DAFDA
 P 13100 8625
 F 0 "D2" V 13140 8755 60  0000 L CNN
 F 1 "TPD2E009" V 13246 8755 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-3" H 13150 8825 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:SOT-3" H 13150 8825 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 13100 8625 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 12800 8925 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 12800 9025 50  0001 C CNN "Manufacturer"
@@ -1300,93 +1300,93 @@ Wire Wire Line
 Wire Wire Line
 	10050 8375 10050 8850
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x4 J1
+L bmc-breakout-board:PinHeader_2x4 J1
 U 1 1 61306EE1
 P 1775 2175
 F 0 "J1" H 1775 2622 60  0000 C CNN
 F 1 "PinHeader_2x4" H 1775 2516 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x04_P2.54mm_Vertical" H 1325 2525 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x04_P2.54mm_Vertical" H 1325 2525 60  0001 L CNN
 F 3 "" V 1975 2475 60  0001 L CNN
 F 4 "CNC Tech" H 1975 3275 60  0001 L CNN "Manufacturer"
 	1    1775 2175
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_1x07 J9
+L bmc-breakout-board:PinHeader_1x07 J9
 U 1 1 61396BD3
 P 8225 4350
 F 0 "J9" H 8233 4565 50  0000 C CNN
 F 1 "PinHeader_1x07" H 8233 4474 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x07_P2.54mm_Vertical" H 8425 4550 50  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_1x07_P2.54mm_Vertical" H 8425 4550 50  0001 L CNN
 F 3 "" V 8425 4650 50  0001 L CNN
 F 4 "Sullins Connector Solutions" H 8425 5450 60  0001 L CNN "Manufacturer"
 	1    8225 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_1x07 J16
+L bmc-breakout-board:PinHeader_1x07 J16
 U 1 1 61398176
 P 9200 4350
 F 0 "J16" H 9208 4565 50  0000 C CNN
 F 1 "PinHeader_1x07" H 9208 4474 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x07_P2.54mm_Vertical" H 9400 4550 50  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_1x07_P2.54mm_Vertical" H 9400 4550 50  0001 L CNN
 F 3 "" V 9400 4650 50  0001 L CNN
 F 4 "Sullins Connector Solutions" H 9400 5450 60  0001 L CNN "Manufacturer"
 	1    9200 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x08 J3
+L bmc-breakout-board:PinHeader_2x08 J3
 U 1 1 6145FBC2
 P 1450 8125
 F 0 "J3" H 1450 8572 60  0000 C CNN
 F 1 "PinHeader_2x08" H 1450 8466 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x08_P2.54mm_Vertical" H 1000 8475 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x08_P2.54mm_Vertical" H 1000 8475 60  0001 L CNN
 F 3 "" V 1650 8425 60  0001 L CNN
 F 4 "CNC Tech" H 1650 9225 60  0001 L CNN "Manufacturer"
 	1    1450 8125
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x4 J10
+L bmc-breakout-board:PinHeader_2x4 J10
 U 1 1 614B2A28
 P 8725 5850
 F 0 "J10" H 8725 6297 60  0000 C CNN
 F 1 "PinHeader_2x4" H 8725 6191 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x04_P2.54mm_Vertical" H 8275 6200 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x04_P2.54mm_Vertical" H 8275 6200 60  0001 L CNN
 F 3 "" V 8925 6150 60  0001 L CNN
 F 4 "CNC Tech" H 8925 6950 60  0001 L CNN "Manufacturer"
 	1    8725 5850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:PinHeader_2x05 J8
+L bmc-breakout-board:PinHeader_2x05 J8
 U 1 1 614DBEB2
 P 8725 3525
 F 0 "J8" H 8725 3972 60  0000 C CNN
 F 1 "PinHeader_2x05" H 8725 3866 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x05_P2.54mm_Vertical" H 8275 3875 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:PinHeader_2x05_P2.54mm_Vertical" H 8275 3875 60  0001 L CNN
 F 3 "" V 8925 3825 60  0001 L CNN
 F 4 "CNC Tech" H 8925 4625 60  0001 L CNN "Manufacturer"
 	1    8725 3525
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:antmicro_logo N1
+L bmc-breakout-board:antmicro_logo N1
 U 1 1 603012AD
 P 14950 1100
 F 0 "N1" H 15164 1193 50  0000 L CNN
 F 1 "antmicro_logo" H 15164 1102 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 14850 1350 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:antmicro-logo_scaled_20mm_mask" H 14850 1350 50  0001 C CNN
 F 3 "" H 14950 1450 50  0001 C CNN
 	1    14950 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0101
 U 1 1 603085E5
 P 10050 8850
-F 0 "#PWR?" H 10050 8600 50  0001 C CNN
+F 0 "#PWR0101" H 10050 8600 50  0001 C CNN
 F 1 "GND" H 10055 8677 50  0000 C CNN
 F 2 "" H 10050 8850 50  0001 C CNN
 F 3 "" H 10050 8850 50  0001 C CNN
@@ -1394,10 +1394,10 @@ F 3 "" H 10050 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0102
 U 1 1 6030A505
 P 11150 9075
-F 0 "#PWR?" H 11150 8825 50  0001 C CNN
+F 0 "#PWR0102" H 11150 8825 50  0001 C CNN
 F 1 "GND" H 11155 8902 50  0000 C CNN
 F 2 "" H 11150 9075 50  0001 C CNN
 F 3 "" H 11150 9075 50  0001 C CNN
@@ -1405,10 +1405,10 @@ F 3 "" H 11150 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0103
 U 1 1 6030A7F3
 P 3925 10675
-F 0 "#PWR?" H 3925 10425 50  0001 C CNN
+F 0 "#PWR0103" H 3925 10425 50  0001 C CNN
 F 1 "GND" H 3930 10502 50  0000 C CNN
 F 2 "" H 3925 10675 50  0001 C CNN
 F 3 "" H 3925 10675 50  0001 C CNN
@@ -1416,10 +1416,10 @@ F 3 "" H 3925 10675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0104
 U 1 1 60318239
 P 5825 10675
-F 0 "#PWR?" H 5825 10425 50  0001 C CNN
+F 0 "#PWR0104" H 5825 10425 50  0001 C CNN
 F 1 "GND" H 5830 10502 50  0000 C CNN
 F 2 "" H 5825 10675 50  0001 C CNN
 F 3 "" H 5825 10675 50  0001 C CNN
@@ -1427,10 +1427,10 @@ F 3 "" H 5825 10675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0105
 U 1 1 60319322
 P 12575 8900
-F 0 "#PWR?" H 12575 8650 50  0001 C CNN
+F 0 "#PWR0105" H 12575 8650 50  0001 C CNN
 F 1 "GND" H 12580 8727 50  0000 C CNN
 F 2 "" H 12575 8900 50  0001 C CNN
 F 3 "" H 12575 8900 50  0001 C CNN
@@ -1438,10 +1438,10 @@ F 3 "" H 12575 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0106
 U 1 1 6031DAB7
 P 13725 9050
-F 0 "#PWR?" H 13725 8800 50  0001 C CNN
+F 0 "#PWR0106" H 13725 8800 50  0001 C CNN
 F 1 "GND" H 13730 8877 50  0000 C CNN
 F 2 "" H 13725 9050 50  0001 C CNN
 F 3 "" H 13725 9050 50  0001 C CNN
@@ -1449,10 +1449,10 @@ F 3 "" H 13725 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0107
 U 1 1 6031DDFF
 P 12475 4425
-F 0 "#PWR?" H 12475 4175 50  0001 C CNN
+F 0 "#PWR0107" H 12475 4175 50  0001 C CNN
 F 1 "GND" H 12480 4252 50  0000 C CNN
 F 2 "" H 12475 4425 50  0001 C CNN
 F 3 "" H 12475 4425 50  0001 C CNN
@@ -1460,10 +1460,10 @@ F 3 "" H 12475 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0108
 U 1 1 60320C74
 P 13875 4425
-F 0 "#PWR?" H 13875 4175 50  0001 C CNN
+F 0 "#PWR0108" H 13875 4175 50  0001 C CNN
 F 1 "GND" H 13880 4252 50  0000 C CNN
 F 2 "" H 13875 4425 50  0001 C CNN
 F 3 "" H 13875 4425 50  0001 C CNN
@@ -1471,10 +1471,10 @@ F 3 "" H 13875 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L bmc-breakout-board:GND #PWR0109
 U 1 1 60323931
 P 7750 1825
-F 0 "#PWR?" H 7750 1575 50  0001 C CNN
+F 0 "#PWR0109" H 7750 1575 50  0001 C CNN
 F 1 "GND" H 7755 1652 50  0000 C CNN
 F 2 "" H 7750 1825 50  0001 C CNN
 F 3 "" H 7750 1825 50  0001 C CNN
