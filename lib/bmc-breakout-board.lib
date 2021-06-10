@@ -711,6 +711,65 @@ X ~ SH -100 -600 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 5001
+#
+DEF 5001 TP 0 40 N N 1 F N
+F0 "TP" -50 50 50 H V R CNN
+F1 "5001" 0 -100 50 H I C CNN
+F2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" 200 200 60 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=1310" 200 300 60 H I L CNN
+F4 "5001" 200 500 60 H I L CNN "MPN"
+F5 "Keystone Electronics" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FT234XD-R
+#
+DEF FT234XD-R U 0 40 Y Y 1 F N
+F0 "U" -200 350 60 H V C CNN
+F1 "FT234XD-R" 300 -600 60 H V L CNN
+F2 "bmc-breakout-board-footprints:DFN-12-1EP_3x3mm" 200 200 60 H I L CNN
+F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" 200 300 60 H I L CNN
+F4 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F5 "FT234XD-R" 200 500 60 H I L CNN "MPN"
+DRAW
+S -300 300 400 -500 0 1 0 f
+X USBDM 1 -400 100 100 R 50 50 1 1 B
+X RXD 10 -400 -200 100 R 50 50 1 1 I
+X CTS# 11 -400 -300 100 R 50 50 1 1 I
+X USBDP 12 -400 0 100 R 50 50 1 1 B
+X GND 13 200 -600 100 U 50 50 1 1 W
+X RESET# 2 -400 -100 100 R 50 50 1 1 I
+X 3.3VOUT 3 500 0 100 L 50 50 1 1 P
+X VCC 4 100 400 100 D 50 50 1 1 W
+X GND 5 100 -600 100 U 50 50 1 1 W
+X CBUS0 6 -400 -400 100 R 50 50 1 1 B
+X TXD 7 500 -100 100 L 50 50 1 1 O
+X RTS# 8 500 -200 100 L 50 50 1 1 O
+X VCCIO 9 200 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# R_220R_0402
+#
+DEF R_220R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "R_220R_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
+F6 "220R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C_100n_0402
 #
 DEF C_100n_0402 C 0 0 Y Y 1 F N
@@ -729,18 +788,38 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 5001
+# C_1u_0402
 #
-DEF 5001 TP 0 40 N N 1 F N
-F0 "TP" -50 50 50 H V R CNN
-F1 "5001" 0 -100 50 H I C CNN
-F2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" 200 200 60 H I L CNN
-F3 "http://www.keyelco.com/product-pdf.cfm?p=1310" 200 300 60 H I L CNN
-F4 "5001" 200 500 60 H I L CNN "MPN"
-F5 "Keystone Electronics" 200 1100 60 H I L CNN "Manufacturer"
+DEF C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "C_1u_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
 DRAW
-C 0 0 22 0 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22R_0402
+#
+DEF R_22R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "R_22R_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
+F6 "22R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
