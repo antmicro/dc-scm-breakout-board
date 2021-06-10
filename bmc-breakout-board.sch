@@ -184,13 +184,11 @@ Wire Wire Line
 Wire Wire Line
 	4175 4475 3925 4475
 Wire Wire Line
-	4175 4575 3625 4575
+	4175 4675 3725 4675
 Wire Wire Line
-	4175 4675 3625 4675
+	4175 4875 3300 4875
 Wire Wire Line
-	4175 4875 3625 4875
-Wire Wire Line
-	4175 4975 3625 4975
+	4175 4975 3725 4975
 Wire Wire Line
 	4175 5175 3625 5175
 Wire Wire Line
@@ -230,26 +228,6 @@ Wire Wire Line
 Wire Wire Line
 	5575 8875 6125 8875
 Wire Wire Line
-	6125 9075 5575 9075
-Wire Wire Line
-	6125 9175 5575 9175
-Wire Wire Line
-	5575 9375 6125 9375
-Wire Wire Line
-	6125 9475 5575 9475
-Wire Wire Line
-	5575 9675 6125 9675
-Wire Wire Line
-	6125 9775 5575 9775
-Wire Wire Line
-	5575 9975 6125 9975
-Wire Wire Line
-	6125 10075 5575 10075
-Wire Wire Line
-	5575 10275 6125 10275
-Wire Wire Line
-	6125 10375 5575 10375
-Wire Wire Line
 	4175 7775 3625 7775
 Wire Wire Line
 	4175 7875 3625 7875
@@ -282,27 +260,11 @@ Wire Wire Line
 Wire Wire Line
 	4175 9275 3925 9275
 Wire Wire Line
-	3625 9375 4175 9375
-Wire Wire Line
-	4175 9475 3625 9475
-Wire Wire Line
 	4175 9575 3925 9575
-Wire Wire Line
-	3625 9675 4175 9675
-Wire Wire Line
-	4175 9775 3625 9775
 Wire Wire Line
 	4175 9875 3925 9875
 Wire Wire Line
-	3625 9975 4175 9975
-Wire Wire Line
-	4175 10075 3625 10075
-Wire Wire Line
 	4175 10175 3925 10175
-Wire Wire Line
-	3625 10275 4175 10275
-Wire Wire Line
-	4175 10375 3625 10375
 Wire Wire Line
 	4175 10475 3925 10475
 Text GLabel 3625 1675 0    50   Input ~ 0
@@ -395,13 +357,13 @@ Text GLabel 3625 4275 0    50   Input ~ 0
 PCIE_BMC_CLK_100_P
 Text GLabel 3625 4375 0    50   Input ~ 0
 PCIE_BMC_CLK_100_N
-Text GLabel 3625 4575 0    50   Input ~ 0
+Text GLabel 2900 4575 0    50   Input ~ 0
 PCIE_BMC_TX_P
-Text GLabel 3625 4675 0    50   Input ~ 0
+Text GLabel 2900 4675 0    50   Input ~ 0
 PCIE_BMC_TX_N
-Text GLabel 3625 4875 0    50   Input ~ 0
+Text GLabel 2900 4875 0    50   Input ~ 0
 PCIE_BMC_RX_P
-Text GLabel 3625 4975 0    50   Input ~ 0
+Text GLabel 2900 4975 0    50   Input ~ 0
 PCIE_BMC_RX_N
 Text GLabel 3625 5175 0    50   Input ~ 0
 I2C[5]_SCL
@@ -654,18 +616,6 @@ Wire Wire Line
 	5825 10475 5825 10675
 Wire Wire Line
 	5575 6275 6125 6275
-Text GLabel 3625 9375 0    50   Input ~ 0
-PCIE_HPM_RX[0]_P
-Text GLabel 3625 9475 0    50   Input ~ 0
-PCIE_HPM_RX[0]_N
-Text GLabel 3625 9675 0    50   Input ~ 0
-PCIE_HPM_RX[1]_P
-Text GLabel 3625 9775 0    50   Input ~ 0
-PCIE_HPM_RX[1]_N
-Text GLabel 3625 10275 0    50   Input ~ 0
-PCIE_HPM_RX[3]_P
-Text GLabel 3625 10375 0    50   Input ~ 0
-PCIE_HPM_RX[3]_N
 Text GLabel 6125 9675 2    50   Input ~ 0
 PCIE_HPM_TX[1]_P
 Text GLabel 6125 9775 2    50   Input ~ 0
@@ -678,10 +628,6 @@ Text GLabel 6125 10275 2    50   Input ~ 0
 PCIE_HPM_TX[3]_P
 Text GLabel 6125 10375 2    50   Input ~ 0
 PCIE_HPM_TX[3]_N
-Text GLabel 3625 10075 0    50   Input ~ 0
-PCIE_HPM_RX[2]_N
-Text GLabel 3625 9975 0    50   Input ~ 0
-PCIE_HPM_RX[2]_P
 Text GLabel 6125 9075 2    50   Input ~ 0
 PCIE_HPM_CLK_P
 Text GLabel 6125 9175 2    50   Input ~ 0
@@ -1613,4 +1559,130 @@ Wire Wire Line
 Connection ~ 10950 8900
 Wire Wire Line
 	10950 8900 10950 9075
+Wire Wire Line
+	5575 9075 6125 9075
+Wire Wire Line
+	5575 9175 6125 9175
+Text GLabel 3625 9975 0    50   Input ~ 0
+PCIE_HPM_RX[2]_P
+Text GLabel 3625 10075 0    50   Input ~ 0
+PCIE_HPM_RX[2]_N
+Text GLabel 3625 10375 0    50   Input ~ 0
+PCIE_HPM_RX[3]_N
+Text GLabel 3625 10275 0    50   Input ~ 0
+PCIE_HPM_RX[3]_P
+Text GLabel 3625 9775 0    50   Input ~ 0
+PCIE_HPM_RX[1]_N
+Text GLabel 3625 9675 0    50   Input ~ 0
+PCIE_HPM_RX[1]_P
+Text GLabel 3625 9475 0    50   Input ~ 0
+PCIE_HPM_RX[0]_N
+Text GLabel 3625 9375 0    50   Input ~ 0
+PCIE_HPM_RX[0]_P
+Wire Wire Line
+	4175 10375 3625 10375
+Wire Wire Line
+	3625 10275 4175 10275
+Wire Wire Line
+	4175 10075 3625 10075
+Wire Wire Line
+	3625 9975 4175 9975
+Wire Wire Line
+	4175 9775 3625 9775
+Wire Wire Line
+	3625 9675 4175 9675
+Wire Wire Line
+	4175 9475 3625 9475
+Wire Wire Line
+	3625 9375 4175 9375
+Wire Wire Line
+	5575 9475 6125 9475
+Wire Wire Line
+	5575 9375 6125 9375
+Wire Wire Line
+	5575 9775 6125 9775
+Wire Wire Line
+	5575 9675 6125 9675
+Wire Wire Line
+	5575 10075 6125 10075
+Wire Wire Line
+	5575 9975 6125 9975
+Wire Wire Line
+	5575 10375 6125 10375
+Wire Wire Line
+	5575 10275 6125 10275
+$Comp
+L bmc-breakout-board:C_100n_0402 C4
+U 1 1 610E9609
+P 3575 4975
+F 0 "C4" V 3525 4850 60  0000 C CNN
+F 1 "C_100n_0402" H 3575 4825 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 3775 5175 60  0001 L CNN
+F 3 "" H 3575 4975 50  0001 C CNN
+F 4 "Walsin" H 3775 5375 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3775 5275 60  0001 L CNN "MPN"
+F 6 "100n" V 3625 5125 50  0000 C CNN "Val"
+	1    3575 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L bmc-breakout-board:C_100n_0402 C2
+U 1 1 610E9600
+P 3150 4875
+F 0 "C2" V 3100 4750 60  0000 C CNN
+F 1 "C_100n_0402" H 3150 4725 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 3350 5075 60  0001 L CNN
+F 3 "" H 3150 4875 50  0001 C CNN
+F 4 "Walsin" H 3350 5275 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3350 5175 60  0001 L CNN "MPN"
+F 6 "100n" V 3200 5025 50  0000 C CNN "Val"
+	1    3150 4875
+	0    1    1    0   
+$EndComp
+$Comp
+L bmc-breakout-board:C_100n_0402 C3
+U 1 1 614725A7
+P 3575 4675
+F 0 "C3" V 3525 4550 60  0000 C CNN
+F 1 "C_100n_0402" H 3575 4525 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 3775 4875 60  0001 L CNN
+F 3 "" H 3575 4675 50  0001 C CNN
+F 4 "Walsin" H 3775 5075 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3775 4975 60  0001 L CNN "MPN"
+F 6 "100n" V 3625 4825 50  0000 C CNN "Val"
+	1    3575 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L bmc-breakout-board:C_100n_0402 C1
+U 1 1 614725B0
+P 3150 4575
+F 0 "C1" V 3100 4450 60  0000 C CNN
+F 1 "C_100n_0402" H 3150 4425 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 3350 4775 60  0001 L CNN
+F 3 "" H 3150 4575 50  0001 C CNN
+F 4 "Walsin" H 3350 4975 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3350 4875 60  0001 L CNN "MPN"
+F 6 "100n" V 3200 4725 50  0000 C CNN "Val"
+	1    3150 4575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4175 4575 3300 4575
+Wire Wire Line
+	3425 4675 2900 4675
+Wire Wire Line
+	3000 4575 2900 4575
+Wire Wire Line
+	3425 4975 2900 4975
+Wire Wire Line
+	3000 4875 2900 4875
+Text Label 3950 4575 0    50   ~ 0
+TX_P
+Text Label 3950 4675 0    50   ~ 0
+TX_N
+Text Label 3950 4975 0    50   ~ 0
+RX_N
+Text Label 3950 4875 0    50   ~ 0
+RX_P
 $EndSCHEMATC
