@@ -1741,10 +1741,10 @@ $EndComp
 Text Notes 8675 9675 0    50   ~ 0
 GND probes
 $Comp
-L bmc-breakout-board:FT234XD-R U?
+L bmc-breakout-board:FT234XD-R U1
 U 1 1 619D808C
 P 14225 6100
-F 0 "U?" H 14000 6475 60  0000 C CNN
+F 0 "U1" H 14000 6475 60  0000 C CNN
 F 1 "FT234XD-R" H 13950 5525 60  0000 C CNN
 F 2 "bmc-breakout-board-footprints:DFN-12-1EP_3x3mm" H 14425 6300 60  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" H 14425 6400 60  0001 L CNN
@@ -1763,10 +1763,10 @@ Wire Wire Line
 	14325 6850 14325 7000
 Connection ~ 14325 6850
 $Comp
-L bmc-breakout-board:GND #PWR?
+L bmc-breakout-board:GND #PWR0113
 U 1 1 61AF1FE7
 P 14325 7000
-F 0 "#PWR?" H 14325 6750 50  0001 C CNN
+F 0 "#PWR0113" H 14325 6750 50  0001 C CNN
 F 1 "GND" H 14330 6827 50  0000 C CNN
 F 2 "" H 14325 7000 50  0001 C CNN
 F 3 "" H 14325 7000 50  0001 C CNN
@@ -1799,30 +1799,30 @@ Connection ~ 14425 5525
 Wire Wire Line
 	13000 6300 13025 6300
 Wire Wire Line
-	14725 6200 14925 6200
+	14725 6200 15025 6200
 Text GLabel 13000 6300 0    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 15275 6200 2    50   Input ~ 0
+Text GLabel 15400 6200 2    50   Input ~ 0
 UART0_SCM_RX
 $Comp
-L bmc-breakout-board:R_220R_0402 R?
+L bmc-breakout-board:R_220R_0402 R6
 U 1 1 61BE88F3
-P 15075 6200
-F 0 "R?" H 15025 6300 60  0000 C CNN
-F 1 "R_220R_0402" H 15075 6050 60  0001 C CNN
-F 2 "bmc-breakout-board-footprints:0402-res" H 15275 6400 60  0001 L CNN
-F 3 "" H 15075 6200 50  0001 C CNN
-F 4 "Panasonic" H 15275 6600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ221X" H 15275 6500 60  0001 L CNN "MPN"
-F 6 "220R" H 15075 6100 50  0000 C CNN "Val"
-	1    15075 6200
+P 15175 6200
+F 0 "R6" H 15125 6300 60  0000 C CNN
+F 1 "R_220R_0402" H 15175 6050 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-res" H 15375 6400 60  0001 L CNN
+F 3 "" H 15175 6200 50  0001 C CNN
+F 4 "Panasonic" H 15375 6600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ221X" H 15375 6500 60  0001 L CNN "MPN"
+F 6 "220R" H 15175 6100 50  0000 C CNN "Val"
+	1    15175 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L bmc-breakout-board:R_220R_0402 R?
+L bmc-breakout-board:R_220R_0402 R3
 U 1 1 61BE8BB6
 P 13175 6300
-F 0 "R?" H 13125 6400 60  0000 C CNN
+F 0 "R3" H 13125 6400 60  0000 C CNN
 F 1 "R_220R_0402" H 13175 6150 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-res" H 13375 6500 60  0001 L CNN
 F 3 "" H 13175 6300 50  0001 C CNN
@@ -1835,12 +1835,12 @@ $EndComp
 Wire Wire Line
 	13325 6300 13825 6300
 Wire Wire Line
-	15225 6200 15275 6200
+	15325 6200 15400 6200
 $Comp
-L bmc-breakout-board:C_100n_0402 C?
+L bmc-breakout-board:C_100n_0402 C7
 U 1 1 61C08691
 P 14875 6500
-F 0 "C?" H 14760 6455 60  0000 R CNN
+F 0 "C7" H 14760 6455 60  0000 R CNN
 F 1 "C_100n_0402" H 14875 6350 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-cap" H 15075 6700 60  0001 L CNN
 F 3 "" H 14875 6500 50  0001 C CNN
@@ -1854,10 +1854,10 @@ NoConn ~ 14725 6300
 Wire Wire Line
 	14875 6650 14875 6800
 $Comp
-L bmc-breakout-board:GND #PWR?
+L bmc-breakout-board:GND #PWR0114
 U 1 1 61C4C68C
 P 14875 6800
-F 0 "#PWR?" H 14875 6550 50  0001 C CNN
+F 0 "#PWR0114" H 14875 6550 50  0001 C CNN
 F 1 "GND" H 14880 6627 50  0000 C CNN
 F 2 "" H 14875 6800 50  0001 C CNN
 F 3 "" H 14875 6800 50  0001 C CNN
@@ -1872,10 +1872,10 @@ Wire Wire Line
 Wire Wire Line
 	13025 5375 13150 5375
 $Comp
-L bmc-breakout-board:C_100n_0402 C?
+L bmc-breakout-board:C_100n_0402 C5
 U 1 1 61D03EE4
 P 13150 5525
-F 0 "C?" H 13150 5450 60  0000 R CNN
+F 0 "C5" H 13150 5450 60  0000 R CNN
 F 1 "C_100n_0402" H 13150 5375 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-cap" H 13350 5725 60  0001 L CNN
 F 3 "" H 13150 5525 50  0001 C CNN
@@ -1889,10 +1889,10 @@ Connection ~ 13150 5375
 Wire Wire Line
 	13150 5375 13400 5375
 $Comp
-L bmc-breakout-board:C_1u_0402 C?
+L bmc-breakout-board:C_1u_0402 C6
 U 1 1 61D40FF8
 P 13400 5525
-F 0 "C?" H 13400 5600 60  0000 L CNN
+F 0 "C6" H 13400 5600 60  0000 L CNN
 F 1 "C_1u_0402" H 13400 5375 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-cap" H 13600 5725 60  0001 L CNN
 F 3 "" H 13400 5525 50  0001 C CNN
@@ -1913,10 +1913,10 @@ Wire Wire Line
 	13150 5725 13150 5675
 Connection ~ 13400 5725
 $Comp
-L bmc-breakout-board:GND #PWR?
+L bmc-breakout-board:GND #PWR0115
 U 1 1 61D45FD6
 P 13400 5750
-F 0 "#PWR?" H 13400 5500 50  0001 C CNN
+F 0 "#PWR0115" H 13400 5500 50  0001 C CNN
 F 1 "GND" H 13405 5577 50  0000 C CNN
 F 2 "" H 13400 5750 50  0001 C CNN
 F 3 "" H 13400 5750 50  0001 C CNN
@@ -1924,10 +1924,10 @@ F 3 "" H 13400 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bmc-breakout-board:R_22R_0402 R?
+L bmc-breakout-board:R_22R_0402 R5
 U 1 1 61DDB24D
 P 13350 6100
-F 0 "R?" H 13150 6150 60  0000 C CNN
+F 0 "R5" H 13150 6150 60  0000 C CNN
 F 1 "R_22R_0402" H 13350 5950 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-res" H 13550 6300 60  0001 L CNN
 F 3 "" H 13350 6100 50  0001 C CNN
@@ -1938,10 +1938,10 @@ F 6 "22R" H 13525 6050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bmc-breakout-board:R_22R_0402 R?
+L bmc-breakout-board:R_22R_0402 R4
 U 1 1 61E3AA54
 P 13350 6000
-F 0 "R?" H 13150 6050 60  0000 C CNN
+F 0 "R4" H 13150 6050 60  0000 C CNN
 F 1 "R_22R_0402" H 13350 5850 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-res" H 13550 6200 60  0001 L CNN
 F 3 "" H 13350 6000 50  0001 C CNN
@@ -1974,10 +1974,10 @@ Wire Wire Line
 Text GLabel 11375 5450 1    50   Input ~ 0
 VBUS
 $Comp
-L bmc-breakout-board:TPD2E009 D?
+L bmc-breakout-board:TPD2E009 D3
 U 1 1 61F54A7F
 P 10950 6400
-F 0 "D?" V 10990 6530 60  0000 L CNN
+F 0 "D3" V 10990 6530 60  0000 L CNN
 F 1 "TPD2E009" V 11096 6530 60  0000 L CNN
 F 2 "bmc-breakout-board-footprints:SOT-3" H 11000 6600 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 10950 6400 60  0001 C CNN
@@ -2001,10 +2001,10 @@ Wire Wire Line
 Wire Wire Line
 	10425 6200 10425 6675
 $Comp
-L bmc-breakout-board:GND #PWR?
+L bmc-breakout-board:GND #PWR0116
 U 1 1 61F54A8D
 P 10425 6675
-F 0 "#PWR?" H 10425 6425 50  0001 C CNN
+F 0 "#PWR0116" H 10425 6425 50  0001 C CNN
 F 1 "GND" H 10430 6502 50  0000 C CNN
 F 2 "" H 10425 6675 50  0001 C CNN
 F 3 "" H 10425 6675 50  0001 C CNN
@@ -2014,10 +2014,10 @@ $EndComp
 Wire Wire Line
 	11375 6675 11575 6675
 $Comp
-L bmc-breakout-board:GND #PWR?
+L bmc-breakout-board:GND #PWR0117
 U 1 1 61F54A94
 P 11575 6825
-F 0 "#PWR?" H 11575 6575 50  0001 C CNN
+F 0 "#PWR0117" H 11575 6575 50  0001 C CNN
 F 1 "GND" H 11580 6652 50  0000 C CNN
 F 2 "" H 11575 6825 50  0001 C CNN
 F 3 "" H 11575 6825 50  0001 C CNN
@@ -2035,10 +2035,10 @@ Wire Wire Line
 	11375 6200 11375 6675
 NoConn ~ 11375 6100
 $Comp
-L bmc-breakout-board:0473460001 J?
+L bmc-breakout-board:0473460001 J13
 U 1 1 61F54AA2
 P 11675 6000
-F 0 "J?" H 11825 6625 50  0000 R CNN
+F 0 "J13" H 11825 6625 50  0000 R CNN
 F 1 "0473460001" H 11450 5700 50  0000 R CNN
 F 2 "bmc-breakout-board-footprints:USB_Micro_B_Female_0473460001" H 11875 6200 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 11875 6300 60  0001 L CNN
@@ -2051,4 +2051,8 @@ Text GLabel 10600 6000 0    50   Input ~ 0
 FTDI_USB_D_P
 Text GLabel 10600 5900 0    50   Input ~ 0
 FTDI_USB_D_N
+Text Label 13375 6300 0    50   ~ 0
+UART_TX
+Text Label 14725 6200 0    50   ~ 0
+UART_RX
 $EndSCHEMATC
