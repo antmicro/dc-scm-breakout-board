@@ -1,4 +1,4 @@
-16869543597096439
+16903634122676373
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -69307,6 +69307,13 @@ antmicro-footprints
 2
 2
 antmicro-footprints
+744235900
+Choke, Double, Doppeldrossel,  SMD, , Wuerth
+Choke Double Doppeldrossel SMD  Wuerth 
+0
+4
+4
+antmicro-footprints
 744776127
 
 
@@ -75531,6 +75538,146 @@ vic7100
 777
 antmicro-footprints
 zglue-logo
+
+
+0
+0
+0
+bmc-breakout-board-footprints
+0402-cap
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+bmc-breakout-board-footprints
+0402-res
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+bmc-breakout-board-footprints
+BUS_PCIexpress_x1
+PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
+PCIe
+0
+36
+36
+bmc-breakout-board-footprints
+DC_SOCKET
+
+
+0
+3
+3
+bmc-breakout-board-footprints
+DFN-12-1EP_3x3mm
+http://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Example%20IC%20PCB%20Footprints.pdf
+
+0
+13
+13
+bmc-breakout-board-footprints
+ME1016813401101
+
+
+0
+170
+169
+bmc-breakout-board-footprints
+Mount-hole-M2.5
+
+
+0
+1
+1
+bmc-breakout-board-footprints
+PinHeader_1x4_P2.54mm_Drill1.02mm
+http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
+0
+4
+4
+bmc-breakout-board-footprints
+PinHeader_1x07_P2.54mm_Vertical
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+bmc-breakout-board-footprints
+PinHeader_2x04_P2.54mm_Vertical
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+bmc-breakout-board-footprints
+PinHeader_2x05_P2.54mm_Vertical
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+bmc-breakout-board-footprints
+PinHeader_2x08_P2.54mm_Vertical
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+bmc-breakout-board-footprints
+PinHeader_2x13_P2.54mm_Vertical
+Through hole straight pin header, 2x13, 2.54mm pitch, double rows
+Through hole pin header THT 2x13 2.54mm double row
+0
+26
+26
+bmc-breakout-board-footprints
+SOT-3
+http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+
+0
+3
+3
+bmc-breakout-board-footprints
+SOT-23-3
+
+
+0
+3
+3
+bmc-breakout-board-footprints
+Switch_Slide_JS202011SCQN
+
+
+0
+6
+6
+bmc-breakout-board-footprints
+Test_Point_D1.02mm
+
+
+0
+1
+1
+bmc-breakout-board-footprints
+USB_A_Female_UE27AC54100
+
+
+0
+6
+5
+bmc-breakout-board-footprints
+USB_Micro_B_Female_0473460001
+http://www.molex.com/pdm_docs/sd/473460001_sd.pdf
+
+0
+11
+6
+bmc-breakout-board-footprints
+antmicro-logo
 
 
 0
