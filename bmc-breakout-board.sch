@@ -1685,4 +1685,59 @@ Text Label 3950 4975 0    50   ~ 0
 RX_N
 Text Label 3950 4875 0    50   ~ 0
 RX_P
+$Comp
+L bmc-breakout-board:5001 TP1
+U 1 1 618E6D9F
+P 8725 9800
+F 0 "TP1" H 8675 9847 50  0000 R CNN
+F 1 "5001" H 8725 9700 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" H 8925 10000 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 8925 10100 60  0001 L CNN
+F 4 "5001" H 8925 10300 60  0001 L CNN "MPN"
+F 5 "Keystone Electronics" H 8925 10900 60  0001 L CNN "Manufacturer"
+F 6 "DNP" H 8725 9800 50  0001 C CNN "DNP"
+	1    8725 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L bmc-breakout-board:5001 TP2
+U 1 1 618ECEC5
+P 8975 9800
+F 0 "TP2" H 8925 9847 50  0000 R CNN
+F 1 "5001" H 8975 9700 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" H 9175 10000 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9175 10100 60  0001 L CNN
+F 4 "5001" H 9175 10300 60  0001 L CNN "MPN"
+F 5 "Keystone Electronics" H 9175 10900 60  0001 L CNN "Manufacturer"
+	1    8975 9800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8725 9900 8725 10100
+$Comp
+L bmc-breakout-board:GND #PWR0111
+U 1 1 61926DD1
+P 8725 10100
+F 0 "#PWR0111" H 8725 9850 50  0001 C CNN
+F 1 "GND" H 8730 9927 50  0000 C CNN
+F 2 "" H 8725 10100 50  0001 C CNN
+F 3 "" H 8725 10100 50  0001 C CNN
+	1    8725 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 9900 8975 10100
+$Comp
+L bmc-breakout-board:GND #PWR0112
+U 1 1 61940E5F
+P 8975 10100
+F 0 "#PWR0112" H 8975 9850 50  0001 C CNN
+F 1 "GND" H 8980 9927 50  0000 C CNN
+F 2 "" H 8975 10100 50  0001 C CNN
+F 3 "" H 8975 10100 50  0001 C CNN
+	1    8975 10100
+	1    0    0    -1  
+$EndComp
+Text Notes 8675 9675 0    50   ~ 0
+GND probes
 $EndSCHEMATC

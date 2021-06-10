@@ -729,4 +729,19 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 5001
+#
+DEF 5001 TP 0 40 N N 1 F N
+F0 "TP" -50 50 50 H V R CNN
+F1 "5001" 0 -100 50 H I C CNN
+F2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" 200 200 60 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=1310" 200 300 60 H I L CNN
+F4 "5001" 200 500 60 H I L CNN "MPN"
+F5 "Keystone Electronics" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
