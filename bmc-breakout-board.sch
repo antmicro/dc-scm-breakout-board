@@ -893,7 +893,7 @@ Text GLabel 8875 6650 2    50   Input ~ 0
 SGPIO_INTR_N
 Text GLabel 8875 7050 2    50   Input ~ 0
 RSVD2
-Text GLabel 8325 4950 2    50   Input ~ 0
+Text GLabel 9300 4950 2    50   Input ~ 0
 QSPI0_CS1_N
 Text GLabel 1650 7925 2    50   Input ~ 0
 HPM_FW_RECOVERY
@@ -1610,4 +1610,6 @@ F 3 "" H 8750 11650 50  0001 C CNN
 	1    7800 10850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8325 4950
+NoConn ~ 8925 3725
 $EndSCHEMATC
