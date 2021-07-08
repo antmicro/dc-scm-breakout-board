@@ -27,7 +27,7 @@
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user)
