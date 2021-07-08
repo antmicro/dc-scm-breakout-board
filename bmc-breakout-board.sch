@@ -1953,19 +1953,6 @@ F 6 "100n" H 13440 4397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bmc-breakout-board:744235900 L1
-U 1 1 621486C2
-P 13925 4450
-F 0 "L1" H 13925 4731 50  0000 C CNN
-F 1 "744235900" H 13925 4640 50  0000 C CNN
-F 2 "bmc-breakout-board-footprints:744235900" H 13925 4450 50  0001 C CNN
-F 3 "~" H 13925 4450 50  0001 C CNN
-F 4 "Wurth Elektronik" H 13925 4450 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 13925 4450 50  0001 C CNN "MPN"
-	1    13925 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L bmc-breakout-board:C_100n_0402_16V C11
 U 1 1 621BA923
 P 14800 4450
@@ -2040,7 +2027,7 @@ Text GLabel 6125 1675 2    50   Input ~ 0
 P12V_AUX
 Text GLabel 6125 1575 2    50   Input ~ 0
 P12V_AUX
-Text Notes 13550 4025 0    79   ~ 0
+Text Notes 13500 3800 0    79   ~ 0
 Power filtering
 Connection ~ 13325 4725
 $Comp
@@ -2185,4 +2172,20 @@ Wire Wire Line
 	12775 4400 12775 4725
 Text Notes 11600 4350 0    79   ~ 0
 12VDC IN
+$Comp
+L antmicroFixedInductors:744235900 L1
+U 1 1 614300DC
+P 13925 4450
+F 0 "L1" H 13925 4975 50  0000 C CNN
+F 1 "744235900" H 13925 4275 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 14525 4950 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 13925 4450 50  0001 C CNN
+F 4 "Wurth Elektronik" H 13925 4875 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 13925 4775 50  0000 C CNN "MPN"
+F 6 "2A" H 14000 5100 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 14075 5025 50  0001 C CNN "Size"
+F 8 "300n/2A" H 14150 4675 50  0001 C CNN "Val"
+	1    13925 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,50 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroFixedInductors_744235900
+#
+DEF antmicroFixedInductors_744235900 L 0 10 Y N 1 F N
+F0 "L" -200 375 50 H V L CNN
+F1 "antmicroFixedInductors_744235900" 0 -175 50 H I C CNN
+F2 "antmicro-footprints:744235900" 600 500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Wurth Elektronik" -200 300 50 H V L CNN "Manufacturer"
+F5 "744235900" -200 225 50 H V L CNN "MPN"
+F6 "2A" 75 650 50 H I C CNN "MaxCur"
+F7 "3.2x4.5" 150 575 50 H I C CNN "Size"
+F8 "300n/2A" 225 225 50 H I C CNN "Val"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
+A -80 80 20 -1799 -1 0 1 0 N -100 80 -60 80
+A -40 -80 20 1 1799 0 1 0 N -20 -80 -60 -80
+A -40 80 20 -1799 -1 0 1 0 N -60 80 -20 80
+A 0 -80 20 1 1799 0 1 0 N 20 -80 -20 -80
+A 0 80 20 -1799 -1 0 1 0 N -20 80 20 80
+A 40 -80 20 1 1799 0 1 0 N 60 -80 20 -80
+A 40 80 20 -1799 -1 0 1 0 N 20 80 60 80
+A 80 -80 20 1 1799 0 1 0 N 100 -80 60 -80
+A 80 80 20 -1799 -1 0 1 0 N 60 80 100 80
+C -120 -50 10 0 1 0 F
+C -120 60 10 0 1 0 F
+P 2 0 1 0 -100 -80 -100 -100 N
+P 2 0 1 0 -100 20 100 20 N
+P 2 0 1 0 -100 80 -100 100 N
+P 2 0 1 0 100 -80 100 -100 N
+P 2 0 1 0 100 -20 -100 -20 N
+P 2 0 1 0 100 100 100 80 N
+X 1 1 -200 100 100 R 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+X 3 3 200 -100 100 L 50 50 1 1 P
+X 4 4 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_oshw_logo
 #
 DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
@@ -134,47 +178,6 @@ X ~ 1 0 150 100 D 50 50 1 1 P
 X ~ 2 100 150 100 D 50 50 1 1 P
 X ~ 3 200 150 100 D 50 50 1 1 P
 X ~ 4 300 150 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_744235900
-#
-DEF bmc-breakout-board_744235900 L 0 10 Y N 1 F N
-F0 "L" 0 175 50 H V C CNN
-F1 "bmc-breakout-board_744235900" 0 -175 50 H V C CNN
-F2 "bmc-breakout-board-footprints:744235900" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
-F5 "744235900" 0 0 50 H I C CNN "MPN"
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
-A -80 80 20 -1799 -1 0 1 0 N -100 80 -60 80
-A -40 -80 20 1 1799 0 1 0 N -20 -80 -60 -80
-A -40 80 20 -1799 -1 0 1 0 N -60 80 -20 80
-A 0 -80 20 1 1799 0 1 0 N 20 -80 -20 -80
-A 0 80 20 -1799 -1 0 1 0 N -20 80 20 80
-A 40 -80 20 1 1799 0 1 0 N 60 -80 20 -80
-A 40 80 20 -1799 -1 0 1 0 N 20 80 60 80
-A 80 -80 20 1 1799 0 1 0 N 100 -80 60 -80
-A 80 80 20 -1799 -1 0 1 0 N 60 80 100 80
-C -120 -50 10 0 1 0 F
-C -120 60 10 0 1 0 F
-P 2 0 1 0 -100 -80 -100 -100 N
-P 2 0 1 0 -100 20 100 20 N
-P 2 0 1 0 -100 80 -100 100 N
-P 2 0 1 0 100 -80 100 -100 N
-P 2 0 1 0 100 -20 -100 -20 N
-P 2 0 1 0 100 100 100 80 N
-X 1 1 -200 100 100 R 50 50 1 1 P
-X 2 2 200 100 100 L 50 50 1 1 P
-X 3 3 -200 -100 100 R 50 50 1 1 P
-X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
