@@ -551,7 +551,7 @@
     )
   )
 
-  (module antmicro-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 602D376E)
+  (module bmc-breakout-board-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 602D376E)
     (at 104.17 102.205)
     (path /603012AD)
     (attr virtual)
@@ -1537,7 +1537,7 @@
     )
   )
 
-  (module antmicro-footprints:744235900 (layer F.Cu) (tedit 60CFF3F3) (tstamp 60E724AE)
+  (module bmc-breakout-board-footprints:744235900 (layer F.Cu) (tedit 60CFF3F3) (tstamp 60E724AE)
     (at 62.9 106.065 90)
     (descr "Choke, Double, Doppeldrossel,  SMD, , Wuerth")
     (tags "Choke Double Doppeldrossel SMD  Wuerth ")
@@ -1573,19 +1573,19 @@
       (net 155 P12V_IN))
     (pad 3 smd rect (at 1.85 -1.1 180) (size 1.55 1.15) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_WE-DD-Typ-L-Typ-XL-Typ-XXL.wrl
+    (model ${KIPRJMOD}/lib/3d-models/L_Wuerth_WE-DD-Typ-L-Typ-XL-Typ-XXL.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${ANT3DMDL}/744235900.stp
+    (model ${KIPRJMOD}/lib/3d-models/744235900.stp
       (offset (xyz 0 0 2.75))
       (scale (xyz 1 1 1))
       (rotate (xyz -180 0 0))
     )
   )
 
-  (module antmicro-footprints:Switch_Slide_11.6x4mm_EG1218 (layer F.Cu) (tedit 5A1EC915) (tstamp 60E6EEFC)
+  (module bmc-breakout-board-footprints:Switch_Slide_11.6x4mm_EG1218 (layer F.Cu) (tedit 5A1EC915) (tstamp 60E6EEFC)
     (at 63.9 118.365 90)
     (descr http://spec_sheets.e-switch.com/specs/P040040.pdf)
     (path /60FD2969)
@@ -1622,7 +1622,7 @@
       (net 172 "Net-(S1-Pad1)"))
   )
 
-  (module antmicro-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 60E6EE3C)
+  (module bmc-breakout-board-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 60E6EE3C)
     (at 66.8 100.865)
     (path /612434C1)
     (attr smd)
@@ -1661,14 +1661,14 @@
       (net 155 P12V_IN) (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0) (size 1.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 49 P12V_AUX) (solder_mask_margin 0.07))
-    (model ${ANT3DMDL}/sot23-3.step
+    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module antmicro-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 60E6EE20)
+  (module bmc-breakout-board-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 60E6EE20)
     (at 134 72.065)
     (path /60C9DEB2)
     (attr virtual)

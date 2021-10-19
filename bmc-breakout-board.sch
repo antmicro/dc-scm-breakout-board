@@ -2098,12 +2098,12 @@ Connection ~ 13050 4725
 Wire Wire Line
 	13050 4725 13325 4725
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L bmc-breakout-board:oshw_logo N2
 U 1 1 60C9DEB2
 P 9000 9975
 F 0 "N2" H 9194 9978 50  0000 L CNN
 F 1 "oshw_logo" H 9194 9887 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 9020 9735 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:oshw-logo" H 9020 9735 50  0001 C CNN
 F 3 "" H 9000 9975 50  0001 C CNN
 	1    9000 9975
 	1    0    0    -1  
@@ -2121,12 +2121,12 @@ Connection ~ 13850 6125
 Wire Wire Line
 	13850 6125 13700 6125
 $Comp
-L antmicroSlideSwitches:EG1218 S1
+L bmc-breakout-board:EG1218 S1
 U 1 1 60FD2969
 P 13500 6125
 F 0 "S1" H 13650 6525 50  0000 C CNN
 F 1 "EG1218" H 13500 6315 50  0001 C CNN
-F 2 "antmicro-footprints:Switch_Slide_11.6x4mm_EG1218" H 13700 6325 50  0001 L CNN
+F 2 "bmc-breakout-board-footprints:Switch_Slide_11.6x4mm_EG1218" H 13700 6325 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13700 6425 60  0001 L CNN
 F 4 "EG1218" H 13525 6425 60  0000 C CNN "MPN"
 F 5 "E-Switch" H 13500 6321 60  0000 C CNN "Manufacturer"
@@ -2136,12 +2136,12 @@ $EndComp
 Wire Wire Line
 	13300 6225 13100 6225
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SI2337DS Q1
+L bmc-breakout-board:SI2337DS Q1
 U 1 1 612434C1
 P 14325 5475
 F 0 "Q1" V 14650 5300 60  0000 C CNN
 F 1 "SI2337DS" V 14461 5475 60  0001 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 14525 5675 60  0001 L CNN
+F 2 "bmc-breakout-board-footprints:SOT-23-3" H 14525 5675 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045706.pdf" H 14525 5775 60  0001 L CNN
 F 4 "SI2337DS-T1-E3" V 14475 5650 60  0000 C CNN "MPN"
 F 5 "Vishay" V 14550 5400 60  0000 C CNN "Manufacturer"
@@ -2173,12 +2173,12 @@ Wire Wire Line
 Text Notes 11600 4350 0    79   ~ 0
 12VDC IN
 $Comp
-L antmicroFixedInductors:744235900 L1
+L bmc-breakout-board:744235900 L1
 U 1 1 614300DC
 P 13925 4450
 F 0 "L1" H 13925 4975 50  0000 C CNN
 F 1 "744235900" H 13925 4275 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 14525 4950 50  0001 C CNN
+F 2 "bmc-breakout-board-footprints:744235900" H 14525 4950 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 13925 4450 50  0001 C CNN
 F 4 "Wurth Elektronik" H 13925 4875 50  0000 C CNN "Manufacturer"
 F 5 "744235900" H 13925 4775 50  0000 C CNN "MPN"
