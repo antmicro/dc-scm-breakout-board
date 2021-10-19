@@ -658,6 +658,8 @@ F 0 "J5" H 4875 1640 50  0000 C CNN
 F 1 "ME1016813401101" H 4875 1549 50  0000 C CNN
 F 2 "bmc-breakout-board-footprints:ME1016813401101" H 5025 1525 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/cme10168x340x10x.pdf" H 5075 1425 50  0001 C CNN
+F 4 "ME1016813401101" H 4875 1475 50  0001 C CNN "MPN"
+F 5 "Amphenol" H 4875 1475 50  0001 C CNN "Manufacturer"
 	1    4875 1475
 	1    0    0    -1  
 $EndComp
