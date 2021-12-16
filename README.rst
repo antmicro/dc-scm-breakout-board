@@ -13,6 +13,7 @@ Overview
 This repository contains open hardware design files for a breakout board exposing IO interfaces offered by 
 Data Center Secure Control Modules (DC-SCM).
 This board aids software development and allows for initial testing of the DC-SCM before installing it in a server.
+This board is compatible with Antmicro's `Experimental DC-SCM card <https://github.com/antmicro/artix-dc-scm>`_ based on Xilinx Artix-7 FPGA.
 
 Repository structure:
 ---------------------
