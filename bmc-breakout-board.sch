@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Artix - Datacenter Secure Control Module (DC-SCM)"
-Date ""
+Title "Datacenter Secure Control Module Breakout Board"
+Date "2021-12-16"
 Rev "1.0.3"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd"
 Comment3 ""
 Comment4 ""
 $EndDescr
