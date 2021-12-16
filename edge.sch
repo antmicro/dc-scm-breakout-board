@@ -16,832 +16,832 @@ $EndDescr
 Text Notes 550  775  0    118  ~ 24
 Pinheaders
 Wire Wire Line
-	3750 1750 3200 1750
+	4825 1775 4275 1775
 Wire Wire Line
-	3750 1850 3200 1850
+	4825 1875 4275 1875
 Wire Wire Line
-	3750 2050 3500 2050
+	4825 2075 4575 2075
 Wire Wire Line
-	3200 2250 3750 2250
+	4275 2275 4825 2275
 Wire Wire Line
-	3750 2350 3200 2350
+	4825 2375 4275 2375
 Wire Wire Line
-	3750 2450 3200 2450
+	4825 2475 4275 2475
 Wire Wire Line
-	3200 2550 3750 2550
+	4275 2575 4825 2575
 Wire Wire Line
-	3750 2650 3200 2650
+	4825 2675 4275 2675
 Wire Wire Line
-	3750 2750 3200 2750
+	4825 2775 4275 2775
 Wire Wire Line
-	3200 2850 3750 2850
+	4275 2875 4825 2875
 Wire Wire Line
-	3750 2950 3500 2950
+	4825 2975 4575 2975
 Wire Wire Line
-	3750 3050 3200 3050
+	4825 3075 4275 3075
 Wire Wire Line
-	5700 1750 5150 1750
+	6775 1775 6225 1775
 Wire Wire Line
-	5700 1850 5150 1850
+	6775 1875 6225 1875
 Wire Wire Line
-	5150 1950 5700 1950
+	6225 1975 6775 1975
 Wire Wire Line
-	5150 2250 5700 2250
+	6225 2275 6775 2275
 Wire Wire Line
-	5700 2450 5150 2450
+	6775 2475 6225 2475
 Wire Wire Line
-	5150 2550 5700 2550
+	6225 2575 6775 2575
 Wire Wire Line
-	5700 2750 5150 2750
+	6775 2775 6225 2775
 Wire Wire Line
-	5150 2850 5700 2850
+	6225 2875 6775 2875
 Wire Wire Line
-	5700 2950 5150 2950
+	6775 2975 6225 2975
 Wire Wire Line
-	5700 3050 5150 3050
+	6775 3075 6225 3075
 Wire Wire Line
-	3750 6350 3200 6350
+	4825 6375 4275 6375
 Wire Wire Line
-	3750 6450 3200 6450
+	4825 6475 4275 6475
 Wire Wire Line
-	3200 6550 3750 6550
+	4275 6575 4825 6575
 Wire Wire Line
-	3750 6650 3200 6650
+	4825 6675 4275 6675
 Wire Wire Line
-	3750 6750 3500 6750
+	4825 6775 4575 6775
 Wire Wire Line
-	3200 6850 3750 6850
+	4275 6875 4825 6875
 Wire Wire Line
-	3750 6950 3200 6950
+	4825 6975 4275 6975
 Wire Wire Line
-	3750 7050 3200 7050
+	4825 7075 4275 7075
 Wire Wire Line
-	3200 7150 3750 7150
+	4275 7175 4825 7175
 Wire Wire Line
-	3750 7250 3200 7250
+	4825 7275 4275 7275
 Wire Wire Line
-	3750 7350 3200 7350
+	4825 7375 4275 7375
 Wire Wire Line
-	3200 7450 3750 7450
+	4275 7475 4825 7475
 Wire Wire Line
-	3750 7550 3200 7550
+	4825 7575 4275 7575
 Wire Wire Line
-	3750 7650 3500 7650
+	4825 7675 4575 7675
 Wire Wire Line
-	5700 6350 5150 6350
+	6775 6375 6225 6375
 Wire Wire Line
-	5150 6550 5700 6550
+	6225 6575 6775 6575
 Wire Wire Line
-	5700 6650 5150 6650
+	6775 6675 6225 6675
 Wire Wire Line
-	5150 6850 5700 6850
+	6225 6875 6775 6875
 Wire Wire Line
-	5700 7050 5150 7050
+	6775 7075 6225 7075
 Wire Wire Line
-	5150 7150 5700 7150
+	6225 7175 6775 7175
 Wire Wire Line
-	5700 7350 5150 7350
+	6775 7375 6225 7375
 Wire Wire Line
-	5150 7450 5700 7450
+	6225 7475 6775 7475
 Wire Wire Line
-	5700 7550 5150 7550
+	6775 7575 6225 7575
 Wire Wire Line
-	5700 7650 5150 7650
+	6775 7675 6225 7675
 Wire Wire Line
-	5700 3350 5150 3350
+	6775 3375 6225 3375
 Wire Wire Line
-	5700 3450 5150 3450
+	6775 3475 6225 3475
 Wire Wire Line
-	5150 3550 5700 3550
+	6225 3575 6775 3575
 Wire Wire Line
-	5700 3650 5150 3650
+	6775 3675 6225 3675
 Wire Wire Line
-	5700 3750 5150 3750
+	6775 3775 6225 3775
 Wire Wire Line
-	5150 3850 5700 3850
+	6225 3875 6775 3875
 Wire Wire Line
-	5700 3950 5150 3950
+	6775 3975 6225 3975
 Wire Wire Line
-	5700 4050 5150 4050
+	6775 4075 6225 4075
 Wire Wire Line
-	5150 4150 5700 4150
+	6225 4175 6775 4175
 Wire Wire Line
-	5700 4350 5150 4350
+	6775 4375 6225 4375
 Wire Wire Line
-	5150 4450 5700 4450
+	6225 4475 6775 4475
 Wire Wire Line
-	5700 4550 5150 4550
+	6775 4575 6225 4575
 Wire Wire Line
-	5700 4650 5150 4650
+	6775 4675 6225 4675
 Wire Wire Line
-	5700 4750 5150 4750
+	6775 4775 6225 4775
 Wire Wire Line
-	5700 4850 5150 4850
+	6775 4875 6225 4875
 Wire Wire Line
-	5150 4950 5400 4950
+	6225 4975 6475 4975
 Wire Wire Line
-	5700 5050 5150 5050
+	6775 5075 6225 5075
 Wire Wire Line
-	5700 5150 5150 5150
+	6775 5175 6225 5175
 Wire Wire Line
-	5150 5250 5700 5250
+	6225 5275 6775 5275
 Wire Wire Line
-	5700 5350 5150 5350
+	6775 5375 6225 5375
 Wire Wire Line
-	5700 5450 5150 5450
+	6775 5475 6225 5475
 Wire Wire Line
-	5150 5550 5700 5550
+	6225 5575 6775 5575
 Wire Wire Line
-	5700 5650 5150 5650
+	6775 5675 6225 5675
 Wire Wire Line
-	5700 5750 5150 5750
+	6775 5775 6225 5775
 Wire Wire Line
-	5150 5850 5400 5850
+	6225 5875 6475 5875
 Wire Wire Line
-	3750 3350 3200 3350
+	4825 3375 4275 3375
 Wire Wire Line
-	3750 3450 3200 3450
+	4825 3475 4275 3475
 Wire Wire Line
-	3200 3550 3750 3550
+	4275 3575 4825 3575
 Wire Wire Line
-	3750 3650 3200 3650
+	4825 3675 4275 3675
 Wire Wire Line
-	3750 3750 3200 3750
+	4825 3775 4275 3775
 Wire Wire Line
-	3200 3850 3750 3850
+	4275 3875 4825 3875
 Wire Wire Line
-	3750 3950 3200 3950
+	4825 3975 4275 3975
 Wire Wire Line
-	3750 4050 3200 4050
+	4825 4075 4275 4075
 Wire Wire Line
-	3200 4150 3750 4150
+	4275 4175 4825 4175
 Wire Wire Line
-	3750 4250 3200 4250
+	4825 4275 4275 4275
 Wire Wire Line
-	3750 4350 3500 4350
+	4825 4375 4575 4375
 Wire Wire Line
-	3200 4450 3750 4450
+	4275 4475 4825 4475
 Wire Wire Line
-	3750 4550 3200 4550
+	4825 4575 4275 4575
 Wire Wire Line
-	3750 4650 3500 4650
+	4825 4675 4575 4675
 Wire Wire Line
-	3750 4850 3300 4850
+	4825 4875 4375 4875
 Wire Wire Line
-	3750 5050 2875 5050
+	4825 5075 3950 5075
 Wire Wire Line
-	3750 5150 3300 5150
+	4825 5175 4375 5175
 Wire Wire Line
-	3750 5350 3200 5350
+	4825 5375 4275 5375
 Wire Wire Line
-	3750 5450 3200 5450
+	4825 5475 4275 5475
 Wire Wire Line
-	3200 5550 3750 5550
+	4275 5575 4825 5575
 Wire Wire Line
-	3750 5650 3200 5650
+	4825 5675 4275 5675
 Wire Wire Line
-	3750 5750 3200 5750
+	4825 5775 4275 5775
 Wire Wire Line
-	3200 5850 3750 5850
+	4275 5875 4825 5875
 Wire Wire Line
-	3750 5950 3200 5950
+	4825 5975 4275 5975
 Wire Wire Line
-	3750 6050 3200 6050
+	4825 6075 4275 6075
 Wire Wire Line
-	5700 7950 5150 7950
+	6775 7975 6225 7975
 Wire Wire Line
-	5700 8050 5150 8050
+	6775 8075 6225 8075
 Wire Wire Line
-	5150 8150 5700 8150
+	6225 8175 6775 8175
 Wire Wire Line
-	5700 8250 5150 8250
+	6775 8275 6225 8275
 Wire Wire Line
-	5700 8350 5150 8350
+	6775 8375 6225 8375
 Wire Wire Line
-	5150 8450 5700 8450
+	6225 8475 6775 8475
 Wire Wire Line
-	5700 8650 5150 8650
+	6775 8675 6225 8675
 Wire Wire Line
-	5150 8750 5700 8750
+	6225 8775 6775 8775
 Wire Wire Line
-	5400 8850 5150 8850
+	6475 8875 6225 8875
 Wire Wire Line
-	5700 8950 5150 8950
+	6775 8975 6225 8975
 Wire Wire Line
-	5150 9050 5700 9050
+	6225 9075 6775 9075
 Wire Wire Line
-	3750 7950 3200 7950
+	4825 7975 4275 7975
 Wire Wire Line
-	3750 8050 3200 8050
+	4825 8075 4275 8075
 Wire Wire Line
-	3200 8150 3750 8150
+	4275 8175 4825 8175
 Wire Wire Line
-	3750 8250 3200 8250
+	4825 8275 4275 8275
 Wire Wire Line
-	3750 8350 3200 8350
+	4825 8375 4275 8375
 Wire Wire Line
-	3200 8450 3750 8450
+	4275 8475 4825 8475
 Wire Wire Line
-	3750 8550 3200 8550
+	4825 8575 4275 8575
 Wire Wire Line
-	3750 8650 3200 8650
+	4825 8675 4275 8675
 Wire Wire Line
-	3200 8750 3750 8750
+	4275 8775 4825 8775
 Wire Wire Line
-	3750 8850 3200 8850
+	4825 8875 4275 8875
 Wire Wire Line
-	3750 8950 3200 8950
+	4825 8975 4275 8975
 Wire Wire Line
-	3200 9050 3750 9050
+	4275 9075 4825 9075
 Wire Wire Line
-	3750 9150 3200 9150
+	4825 9175 4275 9175
 Wire Wire Line
-	3750 9250 3200 9250
+	4825 9275 4275 9275
 Wire Wire Line
-	3750 9350 3200 9350
+	4825 9375 4275 9375
 Wire Wire Line
-	3750 9450 3500 9450
+	4825 9475 4575 9475
 Wire Wire Line
-	3750 9750 3500 9750
+	4825 9775 4575 9775
 Wire Wire Line
-	3750 10050 3500 10050
+	4825 10075 4575 10075
 Wire Wire Line
-	3750 10350 3500 10350
+	4825 10375 4575 10375
 Wire Wire Line
-	3750 10650 3500 10650
-Connection ~ 3500 2950
+	4825 10675 4575 10675
+Connection ~ 4575 2975
 Wire Wire Line
-	3500 2950 3500 4350
-Connection ~ 3500 4350
+	4575 2975 4575 4375
+Connection ~ 4575 4375
 Wire Wire Line
-	3500 4350 3500 4650
-Connection ~ 3500 4650
+	4575 4375 4575 4675
+Connection ~ 4575 4675
 Wire Wire Line
-	3500 4650 3500 4950
-Connection ~ 3500 4950
+	4575 4675 4575 4975
+Connection ~ 4575 4975
 Wire Wire Line
-	3500 4950 3750 4950
+	4575 4975 4825 4975
 Wire Wire Line
-	3500 4950 3500 5250
-Connection ~ 3500 5250
+	4575 4975 4575 5275
+Connection ~ 4575 5275
 Wire Wire Line
-	3500 5250 3750 5250
+	4575 5275 4825 5275
 Wire Wire Line
-	3500 5250 3500 6750
-Connection ~ 3500 6750
+	4575 5275 4575 6775
+Connection ~ 4575 6775
 Wire Wire Line
-	3500 6750 3500 7650
-Connection ~ 3500 7650
+	4575 6775 4575 7675
+Connection ~ 4575 7675
 Wire Wire Line
-	3500 7650 3500 9450
-Connection ~ 3500 9450
+	4575 7675 4575 9475
+Connection ~ 4575 9475
 Wire Wire Line
-	3500 9450 3500 9750
-Connection ~ 3500 10050
+	4575 9475 4575 9775
+Connection ~ 4575 10075
 Wire Wire Line
-	3500 10050 3500 10350
-Connection ~ 3500 10350
+	4575 10075 4575 10375
+Connection ~ 4575 10375
 Wire Wire Line
-	3500 10350 3500 10650
+	4575 10375 4575 10675
 Wire Wire Line
-	3500 10650 3500 10850
-Connection ~ 3500 10650
+	4575 10675 4575 10875
+Connection ~ 4575 10675
 Wire Wire Line
-	3500 2050 3500 2950
+	4575 2075 4575 2975
 Wire Wire Line
-	3500 2050 3500 1950
+	4575 2075 4575 1975
 Wire Wire Line
-	3500 1950 3750 1950
-Connection ~ 3500 2050
+	4575 1975 4825 1975
+Connection ~ 4575 2075
 Wire Wire Line
-	3200 2150 3750 2150
-Text GLabel 3200 2150 0    50   Input ~ 0
+	4275 2175 4825 2175
+Text GLabel 4275 2175 0    50   Input ~ 0
 I3C[0]_SCL
-Text GLabel 3200 2250 0    50   Input ~ 0
+Text GLabel 4275 2275 0    50   Input ~ 0
 I3C[0]_SDA
-Text GLabel 3200 2350 0    50   Input ~ 0
+Text GLabel 4275 2375 0    50   Input ~ 0
 I3C[1]_SCL
-Text GLabel 3200 2450 0    50   Input ~ 0
+Text GLabel 4275 2475 0    50   Input ~ 0
 I3C[1]_SDA
-Text GLabel 3200 2550 0    50   Input ~ 0
+Text GLabel 4275 2575 0    50   Input ~ 0
 I3C[2]_SCL
-Text GLabel 3200 2650 0    50   Input ~ 0
+Text GLabel 4275 2675 0    50   Input ~ 0
 I3C[2]_SDA
-Text GLabel 3200 2750 0    50   Input ~ 0
+Text GLabel 4275 2775 0    50   Input ~ 0
 I3C[3]_SCL
-Text GLabel 3200 2850 0    50   Input ~ 0
+Text GLabel 4275 2875 0    50   Input ~ 0
 I3C[3]_SDA
-Text GLabel 3200 3050 0    50   Input ~ 0
+Text GLabel 4275 3075 0    50   Input ~ 0
 VIRTUAL_RESEAT
-Text GLabel 3200 3350 0    50   Input ~ 0
+Text GLabel 4275 3375 0    50   Input ~ 0
 I2C[0]_SCL
-Text GLabel 3200 3450 0    50   Input ~ 0
+Text GLabel 4275 3475 0    50   Input ~ 0
 I2C[0]_SDA
-Text GLabel 3200 3550 0    50   Input ~ 0
+Text GLabel 4275 3575 0    50   Input ~ 0
 I2C[1]_SCL
-Text GLabel 3200 3650 0    50   Input ~ 0
+Text GLabel 4275 3675 0    50   Input ~ 0
 I2C[1]_SDA
-Text GLabel 3200 3750 0    50   Input ~ 0
+Text GLabel 4275 3775 0    50   Input ~ 0
 I2C[2]_SCL
-Text GLabel 3200 3850 0    50   Input ~ 0
+Text GLabel 4275 3875 0    50   Input ~ 0
 I2C[2]_SDA
-Text GLabel 3200 3950 0    50   Input ~ 0
+Text GLabel 4275 3975 0    50   Input ~ 0
 I2C[3]_SCL
-Text GLabel 3200 4050 0    50   Input ~ 0
+Text GLabel 4275 4075 0    50   Input ~ 0
 I2C[3]_SDA
-Text GLabel 3200 4150 0    50   Input ~ 0
+Text GLabel 4275 4175 0    50   Input ~ 0
 I2C[4]_SCL
-Text GLabel 3200 4250 0    50   Input ~ 0
+Text GLabel 4275 4275 0    50   Input ~ 0
 I2C[4]_SDA
-Text GLabel 3200 4450 0    50   Input ~ 0
+Text GLabel 4275 4475 0    50   Input ~ 0
 PCIE_BMC_CLK_100_P
-Text GLabel 3200 4550 0    50   Input ~ 0
+Text GLabel 4275 4575 0    50   Input ~ 0
 PCIE_BMC_CLK_100_N
-Text GLabel 2475 4750 0    50   Input ~ 0
+Text GLabel 3550 4775 0    50   Input ~ 0
 PCIE_BMC_TX_P
-Text GLabel 2475 4850 0    50   Input ~ 0
+Text GLabel 3550 4875 0    50   Input ~ 0
 PCIE_BMC_TX_N
-Text GLabel 2475 5050 0    50   Input ~ 0
+Text GLabel 3550 5075 0    50   Input ~ 0
 PCIE_BMC_RX_P
-Text GLabel 2475 5150 0    50   Input ~ 0
+Text GLabel 3550 5175 0    50   Input ~ 0
 PCIE_BMC_RX_N
-Text GLabel 3200 5350 0    50   Input ~ 0
+Text GLabel 4275 5375 0    50   Input ~ 0
 I2C[5]_SCL
-Text GLabel 3200 5450 0    50   Input ~ 0
+Text GLabel 4275 5475 0    50   Input ~ 0
 I2C[5]_SDA
-Text GLabel 3200 5550 0    50   Input ~ 0
+Text GLabel 4275 5575 0    50   Input ~ 0
 I2C[6]_SCL
-Text GLabel 3200 5650 0    50   Input ~ 0
+Text GLabel 4275 5675 0    50   Input ~ 0
 I2C[6]_SDA
-Text GLabel 3200 5750 0    50   Input ~ 0
+Text GLabel 4275 5775 0    50   Input ~ 0
 I2C[7]_SCL
-Text GLabel 3200 5850 0    50   Input ~ 0
+Text GLabel 4275 5875 0    50   Input ~ 0
 I2C[7]_SDA
-Text GLabel 3200 5950 0    50   Input ~ 0
+Text GLabel 4275 5975 0    50   Input ~ 0
 I2C[8]_SCL
-Text GLabel 3200 6050 0    50   Input ~ 0
+Text GLabel 4275 6075 0    50   Input ~ 0
 I2C[8]_SDA
-Text GLabel 3200 6350 0    50   Input ~ 0
+Text GLabel 4275 6375 0    50   Input ~ 0
 I2C[9]_SCL
-Text GLabel 3200 6450 0    50   Input ~ 0
+Text GLabel 4275 6475 0    50   Input ~ 0
 I2C[9]_SDA
-Text GLabel 3200 6550 0    50   Input ~ 0
+Text GLabel 4275 6575 0    50   Input ~ 0
 I2C[10]_SCL
-Text GLabel 3200 6650 0    50   Input ~ 0
+Text GLabel 4275 6675 0    50   Input ~ 0
 I2C[10]_SDA
-Text GLabel 3200 6850 0    50   Input ~ 0
+Text GLabel 4275 6875 0    50   Input ~ 0
 JTAG_TCK
-Text GLabel 3200 6950 0    50   Input ~ 0
+Text GLabel 4275 6975 0    50   Input ~ 0
 JTAG_TMS
-Text GLabel 3200 7050 0    50   Input ~ 0
+Text GLabel 4275 7075 0    50   Input ~ 0
 JTAG_TDI
-Text GLabel 3200 7150 0    50   Input ~ 0
+Text GLabel 4275 7175 0    50   Input ~ 0
 JTAG_TDO
-Text GLabel 3200 7250 0    50   Input ~ 0
+Text GLabel 4275 7275 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 3200 7350 0    50   Input ~ 0
+Text GLabel 4275 7375 0    50   Input ~ 0
 I2C[11]_SDA
-Text GLabel 3200 7450 0    50   Input ~ 0
+Text GLabel 4275 7475 0    50   Input ~ 0
 I2C[12]_SCL
-Text GLabel 3200 7550 0    50   Input ~ 0
+Text GLabel 4275 7575 0    50   Input ~ 0
 I2C[12]_SDA
-Text GLabel 3200 7950 0    50   Input ~ 0
+Text GLabel 4275 7975 0    50   Input ~ 0
 HPM_FW_RECOVERY
-Text GLabel 3200 8050 0    50   Input ~ 0
+Text GLabel 4275 8075 0    50   Input ~ 0
 HPM_STBY_RDY
-Text GLabel 3200 8150 0    50   Input ~ 0
+Text GLabel 4275 8175 0    50   Input ~ 0
 HPM_STBY_EN
-Text GLabel 3200 8250 0    50   Input ~ 0
+Text GLabel 4275 8275 0    50   Input ~ 0
 HPM_STBY_RST_N
-Text GLabel 3200 8350 0    50   Input ~ 0
+Text GLabel 4275 8375 0    50   Input ~ 0
 SYS_PWRBTN_N
-Text GLabel 3200 8450 0    50   Input ~ 0
+Text GLabel 4275 8475 0    50   Input ~ 0
 SYS_PWROK
-Text GLabel 3200 8550 0    50   Input ~ 0
+Text GLabel 4275 8575 0    50   Input ~ 0
 DBP_PREQ_N
-Text GLabel 3200 8650 0    50   Input ~ 0
+Text GLabel 4275 8675 0    50   Input ~ 0
 DBP_PRDY_N
-Text GLabel 3200 8750 0    50   Input ~ 0
+Text GLabel 4275 8775 0    50   Input ~ 0
 RST_PLTRST_BUF_N
-Text GLabel 3200 8850 0    50   Input ~ 0
+Text GLabel 4275 8875 0    50   Input ~ 0
 SPARE1
-Text GLabel 3200 8950 0    50   Input ~ 0
+Text GLabel 4275 8975 0    50   Input ~ 0
 RoT_CPU_RST_N
-Text GLabel 3200 9050 0    50   Input ~ 0
+Text GLabel 4275 9075 0    50   Input ~ 0
 CHASI#
-Text GLabel 3200 9150 0    50   Input ~ 0
+Text GLabel 4275 9175 0    50   Input ~ 0
 SPARE0
-Text GLabel 3200 9250 0    50   Input ~ 0
+Text GLabel 4275 9275 0    50   Input ~ 0
 IRQ_N
-Text GLabel 3200 9350 0    50   Input ~ 0
+Text GLabel 4275 9375 0    50   Input ~ 0
 PRSNT1_N
-Connection ~ 3500 9750
+Connection ~ 4575 9775
 Wire Wire Line
-	3500 9750 3500 10050
-Text GLabel 5700 1950 2    50   Input ~ 0
+	4575 9775 4575 10075
+Text GLabel 6775 1975 2    50   Input ~ 0
 PRSNT0_N
 Wire Wire Line
-	5400 2050 5150 2050
+	6475 2075 6225 2075
 Wire Wire Line
-	5150 2150 5700 2150
+	6225 2175 6775 2175
 Wire Wire Line
-	5400 2050 5400 2350
-Connection ~ 5400 2350
+	6475 2075 6475 2375
+Connection ~ 6475 2375
 Wire Wire Line
-	5400 2350 5150 2350
+	6475 2375 6225 2375
 Wire Wire Line
-	5400 2350 5400 2650
-Connection ~ 5400 2650
+	6475 2375 6475 2675
+Connection ~ 6475 2675
 Wire Wire Line
-	5400 2650 5150 2650
+	6475 2675 6225 2675
 Wire Wire Line
-	5400 2650 5400 4250
-Connection ~ 5400 4250
+	6475 2675 6475 4275
+Connection ~ 6475 4275
 Wire Wire Line
-	5400 4250 5150 4250
+	6475 4275 6225 4275
 Wire Wire Line
-	5400 4250 5400 4950
-Connection ~ 5400 4950
+	6475 4275 6475 4975
+Connection ~ 6475 4975
 Wire Wire Line
-	5400 4950 5400 5850
-Connection ~ 5400 5850
+	6475 4975 6475 5875
+Connection ~ 6475 5875
 Wire Wire Line
-	5400 5850 5400 6750
-Connection ~ 5400 6750
+	6475 5875 6475 6775
+Connection ~ 6475 6775
 Wire Wire Line
-	5400 6750 5150 6750
+	6475 6775 6225 6775
 Wire Wire Line
-	5400 6750 5400 7250
-Connection ~ 5400 7250
+	6475 6775 6475 7275
+Connection ~ 6475 7275
 Wire Wire Line
-	5400 7250 5150 7250
+	6475 7275 6225 7275
 Wire Wire Line
-	5400 7250 5400 8550
-Connection ~ 5400 8550
+	6475 7275 6475 8575
+Connection ~ 6475 8575
 Wire Wire Line
-	5400 8550 5150 8550
+	6475 8575 6225 8575
 Wire Wire Line
-	5400 8550 5400 8850
-Connection ~ 5400 9150
+	6475 8575 6475 8875
+Connection ~ 6475 9175
 Wire Wire Line
-	5400 9150 5150 9150
+	6475 9175 6225 9175
 Wire Wire Line
-	5400 9150 5400 9450
-Connection ~ 5400 9450
+	6475 9175 6475 9475
+Connection ~ 6475 9475
 Wire Wire Line
-	5400 9450 5150 9450
+	6475 9475 6225 9475
 Wire Wire Line
-	5400 9450 5400 9750
-Connection ~ 5400 9750
+	6475 9475 6475 9775
+Connection ~ 6475 9775
 Wire Wire Line
-	5400 9750 5150 9750
+	6475 9775 6225 9775
 Wire Wire Line
-	5400 9750 5400 10050
-Connection ~ 5400 10050
+	6475 9775 6475 10075
+Connection ~ 6475 10075
 Wire Wire Line
-	5400 10050 5150 10050
+	6475 10075 6225 10075
 Wire Wire Line
-	5400 10050 5400 10350
-Connection ~ 5400 10350
+	6475 10075 6475 10375
+Connection ~ 6475 10375
 Wire Wire Line
-	5400 10350 5150 10350
+	6475 10375 6225 10375
 Wire Wire Line
-	5400 10350 5400 10650
+	6475 10375 6475 10675
 Wire Wire Line
-	5400 10650 5150 10650
-Text GLabel 5700 2150 2    50   Input ~ 0
+	6475 10675 6225 10675
+Text GLabel 6775 2175 2    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 5700 2250 2    50   Input ~ 0
+Text GLabel 6775 2275 2    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 5700 2450 2    50   Input ~ 0
+Text GLabel 6775 2475 2    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 5700 2550 2    50   Input ~ 0
+Text GLabel 6775 2575 2    50   Input ~ 0
 UART0_SCM_RX
-Text GLabel 5700 2750 2    50   Input ~ 0
+Text GLabel 6775 2775 2    50   Input ~ 0
 SPI0_CLK
-Text GLabel 5700 2850 2    50   Input ~ 0
+Text GLabel 6775 2875 2    50   Input ~ 0
 SPI0_CS_N
-Text GLabel 5700 2950 2    50   Input ~ 0
+Text GLabel 6775 2975 2    50   Input ~ 0
 SPI0_MOSI
-Text GLabel 5700 3050 2    50   Input ~ 0
+Text GLabel 6775 3075 2    50   Input ~ 0
 SPI0_MISO
-Text GLabel 5700 4350 2    50   Input ~ 0
+Text GLabel 6775 4375 2    50   Input ~ 0
 QSPI0_CLK
-Text GLabel 5700 4450 2    50   Input ~ 0
+Text GLabel 6775 4475 2    50   Input ~ 0
 QSPI0_CS0_N
-Text GLabel 5700 4550 2    50   Input ~ 0
+Text GLabel 6775 4575 2    50   Input ~ 0
 QSPI0_D0
-Text GLabel 5700 4650 2    50   Input ~ 0
+Text GLabel 6775 4675 2    50   Input ~ 0
 QSPI0_D1
-Text GLabel 5700 4750 2    50   Input ~ 0
+Text GLabel 6775 4775 2    50   Input ~ 0
 QSPI0_D2
-Text GLabel 5700 4850 2    50   Input ~ 0
+Text GLabel 6775 4875 2    50   Input ~ 0
 QSPI0_D3
-Text GLabel 5700 5050 2    50   Input ~ 0
+Text GLabel 6775 5075 2    50   Input ~ 0
 NCSI_CLK
-Text GLabel 5700 5150 2    50   Input ~ 0
+Text GLabel 6775 5175 2    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 5700 5250 2    50   Input ~ 0
+Text GLabel 6775 5275 2    50   Input ~ 0
 NCSI_TXEN
-Text GLabel 5700 5350 2    50   Input ~ 0
+Text GLabel 6775 5375 2    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 5700 5450 2    50   Input ~ 0
+Text GLabel 6775 5475 2    50   Input ~ 0
 NCSI_TXD1
-Text GLabel 5700 5550 2    50   Input ~ 0
+Text GLabel 6775 5575 2    50   Input ~ 0
 NCSI_RXER
-Text GLabel 5700 5650 2    50   Input ~ 0
+Text GLabel 6775 5675 2    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 5700 5750 2    50   Input ~ 0
+Text GLabel 6775 5775 2    50   Input ~ 0
 NCSI_RXD1
-Text GLabel 5700 5950 2    50   Input ~ 0
+Text GLabel 6775 5975 2    50   Input ~ 0
 PECI_BMC
-Text GLabel 5700 6050 2    50   Input ~ 0
+Text GLabel 6775 6075 2    50   Input ~ 0
 PVCCIO_PECI
-Text GLabel 5700 6350 2    50   Input ~ 0
+Text GLabel 6775 6375 2    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 5700 6450 2    50   Input ~ 0
+Text GLabel 6775 6475 2    50   Input ~ 0
 SGPIO0_CLK
-Text GLabel 5700 6550 2    50   Input ~ 0
+Text GLabel 6775 6575 2    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 5700 6650 2    50   Input ~ 0
+Text GLabel 6775 6675 2    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 5700 6850 2    50   Input ~ 0
+Text GLabel 6775 6875 2    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 5875 6950 2    50   Input ~ 0
+Text GLabel 6950 6975 2    50   Input ~ 0
 RSVD2
-Text GLabel 5700 7050 2    50   Input ~ 0
+Text GLabel 6775 7075 2    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 5700 7150 2    50   Input ~ 0
+Text GLabel 6775 7175 2    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 5700 7350 2    50   Input ~ 0
+Text GLabel 6775 7375 2    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 5700 7450 2    50   Input ~ 0
+Text GLabel 6775 7475 2    50   Input ~ 0
 SGPIO_INTR_N
-Text GLabel 5700 7550 2    50   Input ~ 0
+Text GLabel 6775 7575 2    50   Input ~ 0
 3V0_BAT
-Text GLabel 5700 7650 2    50   Input ~ 0
+Text GLabel 6775 7675 2    50   Input ~ 0
 QSPI0_CS1_N
-Text GLabel 5700 7950 2    50   Input ~ 0
+Text GLabel 6775 7975 2    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 5700 8050 2    50   Input ~ 0
+Text GLabel 6775 8075 2    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 5700 8150 2    50   Input ~ 0
+Text GLabel 6775 8175 2    50   Input ~ 0
 QSPI1_D0
-Text GLabel 5700 8250 2    50   Input ~ 0
+Text GLabel 6775 8275 2    50   Input ~ 0
 QSPI1_D1
-Text GLabel 5700 8350 2    50   Input ~ 0
+Text GLabel 6775 8375 2    50   Input ~ 0
 QSPI1_D2
-Text GLabel 5700 8450 2    50   Input ~ 0
+Text GLabel 6775 8475 2    50   Input ~ 0
 QSPI1_D3
-Text GLabel 5700 8650 2    50   Input ~ 0
+Text GLabel 6775 8675 2    50   Input ~ 0
 USB2_D_P
-Text GLabel 5700 8750 2    50   Input ~ 0
+Text GLabel 6775 8775 2    50   Input ~ 0
 USB2_D_N
-Connection ~ 5400 8850
+Connection ~ 6475 8875
 Wire Wire Line
-	5400 8850 5400 9150
-Text GLabel 5700 8950 2    50   Input ~ 0
+	6475 8875 6475 9175
+Text GLabel 6775 8975 2    50   Input ~ 0
 USB1_D_P
-Text GLabel 5700 9050 2    50   Input ~ 0
+Text GLabel 6775 9075 2    50   Input ~ 0
 USB1_D_N
 Wire Wire Line
-	5400 10650 5400 10850
+	6475 10675 6475 10875
 Wire Wire Line
-	5150 6450 5700 6450
-Text GLabel 5700 9850 2    50   Input ~ 0
+	6225 6475 6775 6475
+Text GLabel 6775 9875 2    50   Input ~ 0
 PCIE_HPM_TX[1]_P
-Text GLabel 5700 9950 2    50   Input ~ 0
+Text GLabel 6775 9975 2    50   Input ~ 0
 PCIE_HPM_TX[1]_N
-Text GLabel 5700 10150 2    50   Input ~ 0
+Text GLabel 6775 10175 2    50   Input ~ 0
 PCIE_HPM_TX[2]_P
-Text GLabel 5700 10250 2    50   Input ~ 0
+Text GLabel 6775 10275 2    50   Input ~ 0
 PCIE_HPM_TX[2]_N
-Text GLabel 5700 10450 2    50   Input ~ 0
+Text GLabel 6775 10475 2    50   Input ~ 0
 PCIE_HPM_TX[3]_P
-Text GLabel 5700 10550 2    50   Input ~ 0
+Text GLabel 6775 10575 2    50   Input ~ 0
 PCIE_HPM_TX[3]_N
-Text GLabel 5700 9250 2    50   Input ~ 0
+Text GLabel 6775 9275 2    50   Input ~ 0
 PCIE_HPM_CLK_P
-Text GLabel 5700 9350 2    50   Input ~ 0
+Text GLabel 6775 9375 2    50   Input ~ 0
 PCIE_HPM_CLK_N
-Text GLabel 5700 9650 2    50   Input ~ 0
+Text GLabel 6775 9675 2    50   Input ~ 0
 PCIE_HPM_TX[0]_N
-Text GLabel 5700 9550 2    50   Input ~ 0
+Text GLabel 6775 9575 2    50   Input ~ 0
 PCIE_HPM_TX[0]_P
-Text GLabel 5700 3750 2    50   Input ~ 0
+Text GLabel 6775 3775 2    50   Input ~ 0
 ESPI_IO0_1V8
-Text GLabel 5700 3850 2    50   Input ~ 0
+Text GLabel 6775 3875 2    50   Input ~ 0
 ESPI_IO1_1V8
-Text GLabel 5700 3950 2    50   Input ~ 0
+Text GLabel 6775 3975 2    50   Input ~ 0
 ESPI_IO2_1V8
-Text GLabel 5700 4050 2    50   Input ~ 0
+Text GLabel 6775 4075 2    50   Input ~ 0
 ESPI_IO3_1V8
-Text GLabel 5700 3650 2    50   Input ~ 0
+Text GLabel 6775 3675 2    50   Input ~ 0
 ESPI_RESET_N_1V8
-Text GLabel 5700 3550 2    50   Input ~ 0
+Text GLabel 6775 3575 2    50   Input ~ 0
 ESPI_ALERT_N_1V8
-Text GLabel 5700 3450 2    50   Input ~ 0
+Text GLabel 6775 3475 2    50   Input ~ 0
 ESPI_CS0_N_1V8
-Text GLabel 5700 3350 2    50   Input ~ 0
+Text GLabel 6775 3375 2    50   Input ~ 0
 ESPI_CLK_1V8
-Text GLabel 5700 4150 2    50   Input ~ 0
+Text GLabel 6775 4175 2    50   Input ~ 0
 ESPI_CS1_N_1V8
 Wire Wire Line
-	5150 5950 5700 5950
+	6225 5975 6775 5975
 Wire Wire Line
-	5150 6050 5700 6050
+	6225 6075 6775 6075
 $Comp
 L bmc-breakout-board:ME1016813401101 J?
 U 1 1 61DD7E7E
-P 4450 1650
+P 5525 1675
 AR Path="/61DD7E7E" Ref="J?"  Part="1" 
 AR Path="/61D8DA15/61DD7E7E" Ref="J5"  Part="1" 
 AR Path="/61E3FB26/61DD7E7E" Ref="J?"  Part="1" 
-F 0 "J?" H 4450 1815 50  0000 C CNN
-F 1 "ME1016813401101" H 4450 1724 50  0000 C CNN
-F 2 "bmc-breakout-board-footprints:ME1016813401101" H 4600 1700 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/cme10168x340x10x.pdf" H 4650 1600 50  0001 C CNN
-F 4 "ME1016813401101" H 4450 1650 50  0001 C CNN "MPN"
-F 5 "Amphenol" H 4450 1650 50  0001 C CNN "Manufacturer"
-	1    4450 1650
+F 0 "J5" H 5525 1840 50  0000 C CNN
+F 1 "ME1016813401101" H 5525 1749 50  0000 C CNN
+F 2 "bmc-breakout-board-footprints:ME1016813401101" H 5675 1725 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/cme10168x340x10x.pdf" H 5725 1625 50  0001 C CNN
+F 4 "ME1016813401101" H 5525 1675 50  0001 C CNN "MPN"
+F 5 "Amphenol" H 5525 1675 50  0001 C CNN "Manufacturer"
+	1    5525 1675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 6950 5875 6950
-Connection ~ 5400 10650
+	6225 6975 6950 6975
+Connection ~ 6475 10675
 $Comp
 L bmc-breakout-board:GND #PWR?
 U 1 1 61DD7E86
-P 3500 10850
+P 4575 10875
 AR Path="/61DD7E86" Ref="#PWR?"  Part="1" 
 AR Path="/61D8DA15/61DD7E86" Ref="#PWR0101"  Part="1" 
 AR Path="/61E3FB26/61DD7E86" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 3500 10600 50  0001 C CNN
-F 1 "GND" H 3505 10677 50  0000 C CNN
-F 2 "" H 3500 10850 50  0001 C CNN
-F 3 "" H 3500 10850 50  0001 C CNN
-	1    3500 10850
+F 0 "#PWR0101" H 4575 10625 50  0001 C CNN
+F 1 "GND" H 4580 10702 50  0000 C CNN
+F 2 "" H 4575 10875 50  0001 C CNN
+F 3 "" H 4575 10875 50  0001 C CNN
+	1    4575 10875
 	1    0    0    -1  
 $EndComp
 $Comp
 L bmc-breakout-board:GND #PWR?
 U 1 1 61DD7E8C
-P 5400 10850
+P 6475 10875
 AR Path="/61DD7E8C" Ref="#PWR?"  Part="1" 
 AR Path="/61D8DA15/61DD7E8C" Ref="#PWR0102"  Part="1" 
 AR Path="/61E3FB26/61DD7E8C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 5400 10600 50  0001 C CNN
-F 1 "GND" H 5405 10677 50  0000 C CNN
-F 2 "" H 5400 10850 50  0001 C CNN
-F 3 "" H 5400 10850 50  0001 C CNN
-	1    5400 10850
+F 0 "#PWR0102" H 6475 10625 50  0001 C CNN
+F 1 "GND" H 6480 10702 50  0000 C CNN
+F 2 "" H 6475 10875 50  0001 C CNN
+F 3 "" H 6475 10875 50  0001 C CNN
+	1    6475 10875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 9250 5700 9250
+	6225 9275 6775 9275
 Wire Wire Line
-	5150 9350 5700 9350
-Text GLabel 3200 10150 0    50   Input ~ 0
+	6225 9375 6775 9375
+Text GLabel 4275 10175 0    50   Input ~ 0
 PCIE_HPM_RX[2]_P
-Text GLabel 3200 10250 0    50   Input ~ 0
+Text GLabel 4275 10275 0    50   Input ~ 0
 PCIE_HPM_RX[2]_N
-Text GLabel 3200 10550 0    50   Input ~ 0
+Text GLabel 4275 10575 0    50   Input ~ 0
 PCIE_HPM_RX[3]_N
-Text GLabel 3200 10450 0    50   Input ~ 0
+Text GLabel 4275 10475 0    50   Input ~ 0
 PCIE_HPM_RX[3]_P
-Text GLabel 3200 9950 0    50   Input ~ 0
+Text GLabel 4275 9975 0    50   Input ~ 0
 PCIE_HPM_RX[1]_N
-Text GLabel 3200 9850 0    50   Input ~ 0
+Text GLabel 4275 9875 0    50   Input ~ 0
 PCIE_HPM_RX[1]_P
-Text GLabel 3200 9650 0    50   Input ~ 0
+Text GLabel 4275 9675 0    50   Input ~ 0
 PCIE_HPM_RX[0]_N
-Text GLabel 3200 9550 0    50   Input ~ 0
+Text GLabel 4275 9575 0    50   Input ~ 0
 PCIE_HPM_RX[0]_P
 Wire Wire Line
-	3750 10550 3200 10550
+	4825 10575 4275 10575
 Wire Wire Line
-	3200 10450 3750 10450
+	4275 10475 4825 10475
 Wire Wire Line
-	3750 10250 3200 10250
+	4825 10275 4275 10275
 Wire Wire Line
-	3200 10150 3750 10150
+	4275 10175 4825 10175
 Wire Wire Line
-	3750 9950 3200 9950
+	4825 9975 4275 9975
 Wire Wire Line
-	3200 9850 3750 9850
+	4275 9875 4825 9875
 Wire Wire Line
-	3750 9650 3200 9650
+	4825 9675 4275 9675
 Wire Wire Line
-	3200 9550 3750 9550
+	4275 9575 4825 9575
 Wire Wire Line
-	5150 9650 5700 9650
+	6225 9675 6775 9675
 Wire Wire Line
-	5150 9550 5700 9550
+	6225 9575 6775 9575
 Wire Wire Line
-	5150 9950 5700 9950
+	6225 9975 6775 9975
 Wire Wire Line
-	5150 9850 5700 9850
+	6225 9875 6775 9875
 Wire Wire Line
-	5150 10250 5700 10250
+	6225 10275 6775 10275
 Wire Wire Line
-	5150 10150 5700 10150
+	6225 10175 6775 10175
 Wire Wire Line
-	5150 10550 5700 10550
+	6225 10575 6775 10575
 Wire Wire Line
-	5150 10450 5700 10450
+	6225 10475 6775 10475
 $Comp
 L bmc-breakout-board:C_100n_0402 C?
 U 1 1 61DD7EAF
-P 3150 5150
+P 4225 5175
 AR Path="/61DD7EAF" Ref="C?"  Part="1" 
 AR Path="/61D8DA15/61DD7EAF" Ref="C4"  Part="1" 
 AR Path="/61E3FB26/61DD7EAF" Ref="C?"  Part="1" 
-F 0 "C?" V 3100 5025 60  0000 C CNN
-F 1 "C_100n_0402" H 3150 5000 60  0001 C CNN
-F 2 "bmc-breakout-board-footprints:0402-cap" H 3350 5350 60  0001 L CNN
-F 3 "" H 3150 5150 50  0001 C CNN
-F 4 "Walsin" H 3350 5550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3350 5450 60  0001 L CNN "MPN"
-F 6 "100n" V 3200 5300 50  0000 C CNN "Val"
-	1    3150 5150
+F 0 "C4" V 4175 5050 60  0000 C CNN
+F 1 "C_100n_0402" H 4225 5025 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 4425 5375 60  0001 L CNN
+F 3 "" H 4225 5175 50  0001 C CNN
+F 4 "Walsin" H 4425 5575 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4425 5475 60  0001 L CNN "MPN"
+F 6 "100n" V 4275 5325 50  0000 C CNN "Val"
+	1    4225 5175
 	0    1    1    0   
 $EndComp
 $Comp
 L bmc-breakout-board:C_100n_0402 C?
 U 1 1 61DD7EB8
-P 2725 5050
+P 3800 5075
 AR Path="/61DD7EB8" Ref="C?"  Part="1" 
 AR Path="/61D8DA15/61DD7EB8" Ref="C2"  Part="1" 
 AR Path="/61E3FB26/61DD7EB8" Ref="C?"  Part="1" 
-F 0 "C?" V 2675 4925 60  0000 C CNN
-F 1 "C_100n_0402" H 2725 4900 60  0001 C CNN
-F 2 "bmc-breakout-board-footprints:0402-cap" H 2925 5250 60  0001 L CNN
-F 3 "" H 2725 5050 50  0001 C CNN
-F 4 "Walsin" H 2925 5450 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2925 5350 60  0001 L CNN "MPN"
-F 6 "100n" V 2775 5200 50  0000 C CNN "Val"
-	1    2725 5050
+F 0 "C2" V 3750 4950 60  0000 C CNN
+F 1 "C_100n_0402" H 3800 4925 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 4000 5275 60  0001 L CNN
+F 3 "" H 3800 5075 50  0001 C CNN
+F 4 "Walsin" H 4000 5475 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4000 5375 60  0001 L CNN "MPN"
+F 6 "100n" V 3850 5225 50  0000 C CNN "Val"
+	1    3800 5075
 	0    1    1    0   
 $EndComp
 $Comp
 L bmc-breakout-board:C_100n_0402 C?
 U 1 1 61DD7EC1
-P 3150 4850
+P 4225 4875
 AR Path="/61DD7EC1" Ref="C?"  Part="1" 
 AR Path="/61D8DA15/61DD7EC1" Ref="C3"  Part="1" 
 AR Path="/61E3FB26/61DD7EC1" Ref="C?"  Part="1" 
-F 0 "C?" V 3100 4725 60  0000 C CNN
-F 1 "C_100n_0402" H 3150 4700 60  0001 C CNN
-F 2 "bmc-breakout-board-footprints:0402-cap" H 3350 5050 60  0001 L CNN
-F 3 "" H 3150 4850 50  0001 C CNN
-F 4 "Walsin" H 3350 5250 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3350 5150 60  0001 L CNN "MPN"
-F 6 "100n" V 3200 5000 50  0000 C CNN "Val"
-	1    3150 4850
+F 0 "C3" V 4175 4750 60  0000 C CNN
+F 1 "C_100n_0402" H 4225 4725 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 4425 5075 60  0001 L CNN
+F 3 "" H 4225 4875 50  0001 C CNN
+F 4 "Walsin" H 4425 5275 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4425 5175 60  0001 L CNN "MPN"
+F 6 "100n" V 4275 5025 50  0000 C CNN "Val"
+	1    4225 4875
 	0    1    1    0   
 $EndComp
 $Comp
 L bmc-breakout-board:C_100n_0402 C?
 U 1 1 61DD7ECA
-P 2725 4750
+P 3800 4775
 AR Path="/61DD7ECA" Ref="C?"  Part="1" 
 AR Path="/61D8DA15/61DD7ECA" Ref="C1"  Part="1" 
 AR Path="/61E3FB26/61DD7ECA" Ref="C?"  Part="1" 
-F 0 "C?" V 2675 4625 60  0000 C CNN
-F 1 "C_100n_0402" H 2725 4600 60  0001 C CNN
-F 2 "bmc-breakout-board-footprints:0402-cap" H 2925 4950 60  0001 L CNN
-F 3 "" H 2725 4750 50  0001 C CNN
-F 4 "Walsin" H 2925 5150 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2925 5050 60  0001 L CNN "MPN"
-F 6 "100n" V 2775 4900 50  0000 C CNN "Val"
-	1    2725 4750
+F 0 "C1" V 3750 4650 60  0000 C CNN
+F 1 "C_100n_0402" H 3800 4625 60  0001 C CNN
+F 2 "bmc-breakout-board-footprints:0402-cap" H 4000 4975 60  0001 L CNN
+F 3 "" H 3800 4775 50  0001 C CNN
+F 4 "Walsin" H 4000 5175 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4000 5075 60  0001 L CNN "MPN"
+F 6 "100n" V 3850 4925 50  0000 C CNN "Val"
+	1    3800 4775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3750 4750 2875 4750
+	4825 4775 3950 4775
 Wire Wire Line
-	3000 4850 2475 4850
+	4075 4875 3550 4875
 Wire Wire Line
-	2575 4750 2475 4750
+	3650 4775 3550 4775
 Wire Wire Line
-	3000 5150 2475 5150
+	4075 5175 3550 5175
 Wire Wire Line
-	2575 5050 2475 5050
-Text Label 3525 4750 0    50   ~ 0
+	3650 5075 3550 5075
+Text Label 4600 4775 0    50   ~ 0
 TX_P
-Text Label 3525 4850 0    50   ~ 0
+Text Label 4600 4875 0    50   ~ 0
 TX_N
-Text Label 3525 5150 0    50   ~ 0
+Text Label 4600 5175 0    50   ~ 0
 RX_N
-Text Label 3525 5050 0    50   ~ 0
+Text Label 4600 5075 0    50   ~ 0
 RX_P
-Text GLabel 3200 1850 0    50   Input ~ 0
+Text GLabel 4275 1875 0    50   Input ~ 0
 P12V_AUX
-Text GLabel 3200 1750 0    50   Input ~ 0
+Text GLabel 4275 1775 0    50   Input ~ 0
 P12V_AUX
-Text GLabel 5700 1850 2    50   Input ~ 0
+Text GLabel 6775 1875 2    50   Input ~ 0
 P12V_AUX
-Text GLabel 5700 1750 2    50   Input ~ 0
+Text GLabel 6775 1775 2    50   Input ~ 0
 P12V_AUX
 $Comp
 L bmc-breakout-board:PCIE_BUS_x1 J?
@@ -850,7 +850,7 @@ P 10150 2400
 AR Path="/61DFF0AA" Ref="J?"  Part="1" 
 AR Path="/61D8DA15/61DFF0AA" Ref="J14"  Part="1" 
 AR Path="/61E3FB26/61DFF0AA" Ref="J?"  Part="1" 
-F 0 "J?" H 10725 2755 50  0000 C CNN
+F 0 "J14" H 10725 2755 50  0000 C CNN
 F 1 "PCIE_BUS_x1" H 10725 2664 50  0001 C CNN
 F 2 "bmc-breakout-board-footprints:BUS_PCIexpress_x1" H 9715 3085 50  0001 L BNN
 F 3 "" H 10100 3150 50  0001 C CNN
@@ -983,7 +983,7 @@ P 9750 3300
 AR Path="/61DFF0F4" Ref="R?"  Part="1" 
 AR Path="/61D8DA15/61DFF0F4" Ref="R1"  Part="1" 
 AR Path="/61E3FB26/61DFF0F4" Ref="R?"  Part="1" 
-F 0 "R?" H 9750 3200 60  0000 C CNN
+F 0 "R1" H 9750 3200 60  0000 C CNN
 F 1 "R_0R_0402" H 9750 3150 60  0001 C CNN
 F 2 "bmc-breakout-board-footprints:0402-res" H 9950 3500 60  0001 L CNN
 F 3 "" H 9750 3300 50  0001 C CNN
@@ -1033,12 +1033,12 @@ F 3 "" H 11400 4400 50  0001 C CNN
 	1    11400 4400
 	1    0    0    -1  
 $EndComp
-Text Notes 4025 1350 0    118  ~ 24
+Text Notes 5100 1375 0    118  ~ 24
 DC-SCM
 Text Notes 10325 1450 0    118  ~ 24
 PCIe x1
 $Bitmap
-Pos 1500 10693
+Pos 1500 10700
 Scale 0.400000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 F7 00 00 01 94 08 06 00 00 00 59 42 C7 
@@ -1754,7 +1754,7 @@ BE CB B4 52 EF 44 A9 07 00 00 00 EC 1B E5 1E 3B A1 94 32 49 72 30 FC 4C F2 FE B2
 EndData
 $EndBitmap
 $Bitmap
-Pos 1700 10693
+Pos 2775 10718
 Scale 0.150000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 B0 00 00 04 B0 08 02 00 00 00 64 43 24 
