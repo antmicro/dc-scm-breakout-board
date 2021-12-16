@@ -130,7 +130,7 @@ F0 "Pinheads" 50
 F1 "pinheads.sch" 50
 $EndSheet
 $Sheet
-S 7425 7475 725  600 
+S 7425 7500 725  600 
 U 61D8DA15
 F0 "Edge Connectors" 50
 F1 "edge.sch" 50

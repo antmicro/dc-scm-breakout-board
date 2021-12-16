@@ -1,7 +1,92 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# bmc-breakout-board_0473460001
+# TPD2E009
+#
+DEF bmc-breakout-board_TPD2E009 D 0 40 Y Y 1 F N
+F0 "D" -300 -500 60 H V L BNN
+F1 "bmc-breakout-board_TPD2E009" -300 -600 60 V V L BNN
+F2 "bmc-breakout-board-footprints:SOT-3" 50 200 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
+F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
+DRAW
+S 400 -300 0 100 0 1 10 f
+P 2 0 1 10 310 -10 310 -230 N
+P 3 0 1 10 280 -100 340 -100 340 -110 N
+P 4 0 1 10 350 -160 310 -100 270 -160 350 -160 N
+X IO1 1 -200 0 200 R 70 70 0 1 P
+X IO2 2 -200 -100 200 R 70 70 0 1 P
+X GND 3 -200 -200 200 R 70 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF bmc-breakout-board_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "bmc-breakout-board_GND" 0 -150 50 H V C CNN
+F2 "bmc-breakout-board-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# R_10k_0402
+#
+DEF bmc-breakout-board_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_R_10k_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UE27AC54100
+#
+DEF bmc-breakout-board_UE27AC54100 J 0 40 Y Y 1 F N
+F0 "J" -50 375 60 H V C CNN
+F1 "bmc-breakout-board_UE27AC54100" -125 75 60 V V C CNN
+F2 "bmc-breakout-board-footprints:USB_A_Female_UE27AC54100" 200 200 60 H I L CNN
+F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 300 60 H I L CNN
+F4 "UE27AC54100" 200 500 60 H I L CNN "MPN"
+F5 "Amphenol ICC (Commercial Products)" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 -175 -75 275 0 1 0 f
+S 50 250 0 -150 0 1 0 N
+S 100 -75 75 -125 0 1 0 F
+S 100 25 75 -25 0 1 0 F
+S 100 125 75 75 0 1 0 F
+S 100 175 75 225 0 1 0 F
+S 150 -200 -25 -225 0 1 0 f
+S 150 300 -25 325 0 1 0 f
+S 175 275 200 -175 0 1 0 f
+P 2 0 1 0 50 -150 75 -175 N
+P 2 0 1 0 50 250 75 275 N
+P 2 0 1 0 200 -100 100 -100 N
+P 2 0 1 0 200 0 100 0 N
+P 2 0 1 0 200 100 100 100 N
+P 2 0 1 0 200 200 100 200 N
+P 19 0 1 0 -25 250 -25 -150 -25 -157 -24 -162 -22 -169 -16 -174 -9 -175 -5 -174 -3 -175 -2 -174 0 -175 75 -175 75 275 0 275 -7 272 -16 267 -20 263 -23 259 -25 250 N
+P 25 0 1 0 -25 -200 150 -200 156 -198 164 -195 168 -189 172 -185 173 -179 175 -175 175 275 174 279 174 280 173 286 167 294 160 299 150 300 -25 300 -32 298 -44 289 -48 281 -50 275 -50 -175 -48 -184 -42 -193 -36 -198 -25 -200 f
+X ~ 1 300 -100 100 L 50 50 1 1 P
+X ~ 2 300 0 100 L 50 50 1 1 P
+X ~ 3 300 100 100 L 50 50 1 1 P
+X ~ 4 300 200 100 L 50 50 1 1 P
+X ~ SH 125 -325 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0473460001
 #
 DEF bmc-breakout-board_0473460001 J 0 40 Y Y 1 F N
 F0 "J" -150 500 50 H V R CNN
@@ -35,44 +120,235 @@ X ~ SH -100 -600 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_5001
+# FT234XD-R
 #
-DEF bmc-breakout-board_5001 TP 0 40 N N 1 F N
-F0 "TP" -50 50 50 H V R CNN
-F1 "bmc-breakout-board_5001" 0 -100 50 H I C CNN
-F2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" 200 200 60 H I L CNN
-F3 "http://www.keyelco.com/product-pdf.cfm?p=1310" 200 300 60 H I L CNN
-F4 "5001" 200 500 60 H I L CNN "MPN"
-F5 "Keystone Electronics" 200 1100 60 H I L CNN "Manufacturer"
+DEF bmc-breakout-board_FT234XD-R U 0 40 Y Y 1 F N
+F0 "U" -200 350 60 H V C CNN
+F1 "bmc-breakout-board_FT234XD-R" 300 -600 60 H V L CNN
+F2 "bmc-breakout-board-footprints:DFN-12-1EP_3x3mm" 200 200 60 H I L CNN
+F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" 200 300 60 H I L CNN
+F4 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F5 "FT234XD-R" 200 500 60 H I L CNN "MPN"
 DRAW
-C 0 0 22 0 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
+S -300 300 400 -500 0 1 0 f
+X USBDM 1 -400 100 100 R 50 50 1 1 B
+X RXD 10 -400 -200 100 R 50 50 1 1 I
+X CTS# 11 -400 -300 100 R 50 50 1 1 I
+X USBDP 12 -400 0 100 R 50 50 1 1 B
+X GND 13 200 -600 100 U 50 50 1 1 W
+X RESET# 2 -400 -100 100 R 50 50 1 1 I
+X 3.3VOUT 3 500 0 100 L 50 50 1 1 P
+X VCC 4 100 400 100 D 50 50 1 1 W
+X GND 5 100 -600 100 U 50 50 1 1 W
+X CBUS0 6 -400 -400 100 R 50 50 1 1 B
+X TXD 7 500 -100 100 L 50 50 1 1 O
+X RTS# 8 500 -200 100 L 50 50 1 1 O
+X VCCIO 9 200 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_61300411121
+# R_220R_0402
 #
-DEF bmc-breakout-board_61300411121 J 0 40 Y Y 1 F N
-F0 "J" -200 100 50 H V L CNN
-F1 "bmc-breakout-board_61300411121" 100 -100 50 H V C CNN
-F2 "bmc-breakout-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+DEF bmc-breakout-board_R_220R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_R_220R_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
+F6 "220R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100n_0402
+#
+DEF bmc-breakout-board_C_100n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_C_100n_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
+F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_1u_0402
+#
+DEF bmc-breakout-board_C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_C_1u_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22R_0402
+#
+DEF bmc-breakout-board_R_22R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_R_22R_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
+F6 "22R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100n_0402_16V
+#
+DEF bmc-breakout-board_C_100n_0402_16V C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_C_100n_0402_16V" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MC0402B104K160CT" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_10u_25V_0603
+#
+DEF bmc-breakout-board_C_10u_25V_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_C_10u_25V_0603" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1608X5R1E106M080AC" 200 300 60 H I L CNN "MPN"
+F6 "10u/25V" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_1n_0603
+#
+DEF bmc-breakout-board_C_1n_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_C_1n_0603" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
+F5 "06031C102JAT2A" 200 300 60 H I L CNN "MPN"
+F6 "1n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EG1218
+#
+DEF bmc-breakout-board_EG1218 S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "bmc-breakout-board_EG1218" 0 -210 50 H V C CNN
+F2 "bmc-breakout-board-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1218" 200 500 60 H I L CNN "MPN"
+F5 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SI2337DS
+#
+DEF bmc-breakout-board_SI2337DS Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "bmc-breakout-board_SI2337DS" 136 0 60 V I C CNN
+F2 "bmc-breakout-board-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
-F4 "61300411121" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+F4 "SI2337DS-T1-E3" 200 500 60 H V L CNN "MPN"
+F5 "Vishay" 200 1100 60 H V L CNN "Manufacturer"
 DRAW
-S -50 50 350 -50 0 1 0 f
-S -10 5 10 -15 1 1 0 F
-S 90 5 110 -15 1 1 0 F
-S 190 5 210 -15 1 1 0 F
-S 290 5 310 -15 1 1 0 F
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 100 150 100 D 50 50 1 1 P
-X ~ 3 200 150 100 D 50 50 1 1 P
-X ~ 4 300 150 100 D 50 50 1 1 P
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -12 20 -12 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 20 20 60 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_744235900
+# DC_SOCKET
+#
+DEF bmc-breakout-board_DC_SOCKET J 0 40 Y Y 1 F N
+F0 "J" -350 -230 60 H V L BNN
+F1 "bmc-breakout-board_DC_SOCKET" 50 -275 60 H I C CNN
+F2 "bmc-breakout-board-footprints:DC_SOCKET" 50 -350 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Multicomp" 25 -475 50 H I C CNN "Manufacturer"
+F5 "MJ-179PH" 0 -200 50 H V C CNN "MPN"
+DRAW
+A -200 -100 80 0 600 1 1 15 N -120 -100 -160 -30
+A -200 -100 80 600 1200 1 1 15 N -160 -30 -240 -30
+A -200 -100 80 1200 1800 1 1 15 N -240 -30 -280 -100
+S -350 150 50 -150 0 1 0 f
+P 2 0 1 30 -300 100 -100 100 N
+P 2 0 1 15 0 -100 -120 -100 N
+P 2 0 1 15 0 0 0 -100 N
+P 2 0 1 10 0 100 -200 100 N
+X 1 1 200 100 200 L 70 1 0 1 P
+X 2 2 200 0 200 L 70 1 0 1 P
+X 3 3 200 -100 200 L 70 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 744235900
 #
 DEF bmc-breakout-board_744235900 L 0 10 Y N 1 F N
 F0 "L" -200 375 50 H V L CNN
@@ -85,10 +361,10 @@ F6 "2A" 75 650 50 H I C CNN "MaxCur"
 F7 "3.2x4.5" 150 575 50 H I C CNN "Size"
 F8 "300n/2A" 225 225 50 H I C CNN "Val"
 $FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
+Choke_*
+*Coil*
+Inductor_*
+L_*
 $ENDFPLIST
 DRAW
 A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
@@ -116,181 +392,7 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_C_100n_0402
-#
-DEF bmc-breakout-board_C_100n_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_C_100n_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
-F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_C_100n_0402_16V
-#
-DEF bmc-breakout-board_C_100n_0402_16V C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_C_100n_0402_16V" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
-F5 "MC0402B104K160CT" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_C_10u_25V_0603
-#
-DEF bmc-breakout-board_C_10u_25V_0603 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_C_10u_25V_0603" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0603-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
-F5 "C1608X5R1E106M080AC" 200 300 60 H I L CNN "MPN"
-F6 "10u/25V" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_C_1n_0603
-#
-DEF bmc-breakout-board_C_1n_0603 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_C_1n_0603" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0603-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
-F5 "06031C102JAT2A" 200 300 60 H I L CNN "MPN"
-F6 "1n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_C_1u_0402
-#
-DEF bmc-breakout-board_C_1u_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_C_1u_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
-F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
-F6 "1u" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_DC_SOCKET
-#
-DEF bmc-breakout-board_DC_SOCKET J 0 40 Y Y 1 F N
-F0 "J" -350 -230 60 H V L BNN
-F1 "bmc-breakout-board_DC_SOCKET" 50 -275 60 H I C CNN
-F2 "bmc-breakout-board-footprints:DC_SOCKET" 50 -350 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Multicomp" 25 -475 50 H I C CNN "Manufacturer"
-F5 "MJ-179PH" 0 -200 50 H V C CNN "MPN"
-DRAW
-A -200 -100 80 0 600 1 1 15 N -120 -100 -160 -30
-A -200 -100 80 600 1200 1 1 15 N -160 -30 -240 -30
-A -200 -100 80 1200 1800 1 1 15 N -240 -30 -280 -100
-S -350 150 50 -150 0 1 0 f
-P 2 0 1 30 -300 100 -100 100 N
-P 2 0 1 15 0 -100 -120 -100 N
-P 2 0 1 15 0 0 0 -100 N
-P 2 0 1 10 0 100 -200 100 N
-X 1 1 200 100 200 L 70 1 0 1 P
-X 2 2 200 0 200 L 70 1 0 1 P
-X 3 3 200 -100 200 L 70 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_EG1218
-#
-DEF bmc-breakout-board_EG1218 S 0 0 Y Y 1 F N
-F0 "S" -150 90 50 H V C CNN
-F1 "bmc-breakout-board_EG1218" 0 -210 50 H V C CNN
-F2 "bmc-breakout-board-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
-F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
-F4 "EG1218" 200 500 60 H I L CNN "MPN"
-F5 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-C -90 0 14 0 1 0 F
-C 90 -100 14 0 1 0 F
-C 100 100 14 0 1 0 F
-P 2 0 1 0 -80 0 120 90 N
-X ~ 1 200 100 100 L 50 50 1 1 P
-X ~ 2 -200 0 100 R 50 50 1 1 P
-X ~ 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_FT234XD-R
-#
-DEF bmc-breakout-board_FT234XD-R U 0 40 Y Y 1 F N
-F0 "U" -200 350 60 H V C CNN
-F1 "bmc-breakout-board_FT234XD-R" 300 -600 60 H V L CNN
-F2 "bmc-breakout-board-footprints:DFN-12-1EP_3x3mm" 200 200 60 H I L CNN
-F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" 200 300 60 H I L CNN
-F4 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
-F5 "FT234XD-R" 200 500 60 H I L CNN "MPN"
-DRAW
-S -300 300 400 -500 0 1 0 f
-X USBDM 1 -400 100 100 R 50 50 1 1 B
-X RXD 10 -400 -200 100 R 50 50 1 1 I
-X CTS# 11 -400 -300 100 R 50 50 1 1 I
-X USBDP 12 -400 0 100 R 50 50 1 1 B
-X GND 13 200 -600 100 U 50 50 1 1 W
-X RESET# 2 -400 -100 100 R 50 50 1 1 I
-X 3.3VOUT 3 500 0 100 L 50 50 1 1 P
-X VCC 4 100 400 100 D 50 50 1 1 W
-X GND 5 100 -600 100 U 50 50 1 1 W
-X CBUS0 6 -400 -400 100 R 50 50 1 1 B
-X TXD 7 500 -100 100 L 50 50 1 1 O
-X RTS# 8 500 -200 100 L 50 50 1 1 O
-X VCCIO 9 200 400 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_GND
-#
-DEF bmc-breakout-board_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "bmc-breakout-board_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_ME1016813401101
+# ME1016813401101
 #
 DEF bmc-breakout-board_ME1016813401101 J 0 40 Y Y 1 F N
 F0 "J" -500 250 50 H V L CNN
@@ -478,20 +580,7 @@ X OB9 OB9 700 -900 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PCB_Mount_Hole_2.5_6.2
-#
-DEF bmc-breakout-board_PCB_Mount_Hole_2.5_6.2 MP 0 40 Y Y 1 F N
-F0 "MP" 0 250 50 H V C CNN
-F1 "bmc-breakout-board_PCB_Mount_Hole_2.5_6.2" 0 -250 50 H V C CNN
-F2 "bmc-breakout-board-footprints:Mount-hole-M2.5" 800 700 50 H I C CNN
-F3 "" 950 800 50 H I C CNN
-DRAW
-C 0 0 71 0 1 0 N
-C 0 0 180 0 1 0 N
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_PCIE_BUS_x1
+# PCIE_BUS_x1
 #
 DEF bmc-breakout-board_PCIE_BUS_x1 J 0 40 Y Y 1 F N
 F0 "J" 200 150 50 H V L BNN
@@ -540,34 +629,46 @@ X JTAG1 B9 0 -800 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PinHeader_1x07
+# R_0R_0402
 #
-DEF bmc-breakout-board_PinHeader_1x07 J 0 40 Y N 1 F N
-F0 "J" -100 100 50 H V L CNN
-F1 "bmc-breakout-board_PinHeader_1x07" 450 -300 50 V V C CNN
-F2 "bmc-breakout-board-footprints:PinHeader_1x07_P2.54mm_Vertical" 200 200 50 H I L CNN
-F3 "" 200 300 50 V I L CNN
-F4 "Sullins Connector Solutions" 200 1100 60 H I L CNN "Manufacturer"
+DEF bmc-breakout-board_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "bmc-breakout-board_R_0R_0402" 0 -150 60 H I C CNN
+F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
 DRAW
-S -45 -590 -65 -610 1 1 0 F
-S -45 -490 -65 -510 1 1 0 F
-S -45 -390 -65 -410 1 1 0 F
-S -45 -290 -65 -310 1 1 0 F
-S -45 -190 -65 -210 1 1 0 F
-S -45 -90 -65 -110 1 1 0 F
-S -45 10 -65 -10 1 1 0 F
-S 0 50 -100 -650 1 1 0 f
-X ~ 1 100 0 100 L 50 50 1 1 P
-X ~ 2 100 -100 100 L 50 50 1 1 P
-X ~ 3 100 -200 100 L 50 50 1 1 P
-X ~ 4 100 -300 100 L 50 50 1 1 P
-X ~ 5 100 -400 100 L 50 50 1 1 P
-X ~ 6 100 -500 100 L 50 50 1 1 P
-X ~ 7 100 -600 100 L 50 50 1 1 P
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PinHeader_2x05
+# 61300411121
+#
+DEF bmc-breakout-board_61300411121 J 0 40 Y Y 1 F N
+F0 "J" -200 100 50 H V L CNN
+F1 "bmc-breakout-board_61300411121" 100 -100 50 H V C CNN
+F2 "bmc-breakout-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "61300411121" 200 500 60 H I L CNN "MPN"
+F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 50 350 -50 0 1 0 f
+S -10 5 10 -15 1 1 0 F
+S 90 5 110 -15 1 1 0 F
+S 190 5 210 -15 1 1 0 F
+S 290 5 310 -15 1 1 0 F
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 100 150 100 D 50 50 1 1 P
+X ~ 3 200 150 100 D 50 50 1 1 P
+X ~ 4 300 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PinHeader_2x05
 #
 DEF bmc-breakout-board_PinHeader_2x05 J 0 40 Y Y 1 F N
 F0 "J" -100 300 60 H V L CNN
@@ -600,16 +701,43 @@ X ~ 9 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PinHeader_2x08
+# PinHeader_1x07
 #
-DEF bmc-breakout-board_PinHeader_2x08 J 0 40 Y Y 1 F N
+DEF bmc-breakout-board_PinHeader_1x07 J 0 40 Y N 1 F N
+F0 "J" -100 100 50 H V L CNN
+F1 "bmc-breakout-board_PinHeader_1x07" 450 -300 50 V V C CNN
+F2 "bmc-breakout-board-footprints:PinHeader_1x07_P2.54mm_Vertical" 200 200 50 H I L CNN
+F3 "" 200 300 50 V I L CNN
+F4 "Sullins Connector Solutions" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -45 -590 -65 -610 1 1 0 F
+S -45 -490 -65 -510 1 1 0 F
+S -45 -390 -65 -410 1 1 0 F
+S -45 -290 -65 -310 1 1 0 F
+S -45 -190 -65 -210 1 1 0 F
+S -45 -90 -65 -110 1 1 0 F
+S -45 10 -65 -10 1 1 0 F
+S 0 50 -100 -650 1 1 0 f
+X ~ 1 100 0 100 L 50 50 1 1 P
+X ~ 2 100 -100 100 L 50 50 1 1 P
+X ~ 3 100 -200 100 L 50 50 1 1 P
+X ~ 4 100 -300 100 L 50 50 1 1 P
+X ~ 5 100 -400 100 L 50 50 1 1 P
+X ~ 6 100 -500 100 L 50 50 1 1 P
+X ~ 7 100 -600 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PinHeader_2x4
+#
+DEF bmc-breakout-board_PinHeader_2x4 J 0 40 Y Y 1 F N
 F0 "J" -100 300 60 H V L CNN
-F1 "bmc-breakout-board_PinHeader_2x08" 50 450 60 H V C CNN
-F2 "bmc-breakout-board-footprints:PinHeader_2x08_P2.54mm_Vertical" -450 350 60 H I L CNN
+F1 "bmc-breakout-board_PinHeader_2x4" 50 450 60 H V C CNN
+F2 "bmc-breakout-board-footprints:PinHeader_2x04_P2.54mm_Vertical" -450 350 60 H I L CNN
 F3 "" 200 300 60 V I L CNN
 F4 "CNC Tech" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
-S -100 250 100 -550 0 1 0 f
+S -100 250 100 -150 0 1 0 f
 S -60 -90 -40 -110 0 1 0 F
 S -60 10 -40 -10 0 1 0 F
 S -60 110 -40 90 0 1 0 F
@@ -618,22 +746,7 @@ S 40 -90 60 -110 0 1 0 F
 S 40 10 60 -10 0 1 0 F
 S 40 110 60 90 0 1 0 F
 S 40 210 60 190 0 1 0 F
-S -60 -490 -40 -510 1 1 0 F
-S -60 -390 -40 -410 1 1 0 F
-S -60 -290 -40 -310 1 1 0 F
-S -60 -190 -40 -210 1 1 0 F
-S 40 -490 60 -510 1 1 0 F
-S 40 -390 60 -410 1 1 0 F
-S 40 -290 60 -310 1 1 0 F
-S 40 -190 60 -210 1 1 0 F
 X ~ 1 -200 200 100 R 50 50 1 1 P
-X ~ 10 200 -200 100 L 50 50 1 1 P
-X ~ 11 -200 -300 100 R 50 50 1 1 P
-X ~ 12 200 -300 100 L 50 50 1 1 P
-X ~ 13 -200 -400 100 R 50 50 1 1 P
-X ~ 14 200 -400 100 L 50 50 1 1 P
-X ~ 15 -200 -500 100 R 50 50 1 1 P
-X ~ 16 200 -500 100 L 50 50 1 1 P
 X ~ 2 200 200 100 L 50 50 1 1 P
 X ~ 3 -200 100 100 R 50 50 1 1 P
 X ~ 4 200 100 100 L 50 50 1 1 P
@@ -641,11 +754,10 @@ X ~ 5 -200 0 100 R 50 50 1 1 P
 X ~ 6 200 0 100 L 50 50 1 1 P
 X ~ 7 -200 -100 100 R 50 50 1 1 P
 X ~ 8 200 -100 100 L 50 50 1 1 P
-X ~ 9 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PinHeader_2x13
+# PinHeader_2x13
 #
 DEF bmc-breakout-board_PinHeader_2x13 J 0 40 Y Y 1 F N
 F0 "J" -100 300 60 H V L CNN
@@ -710,16 +822,16 @@ X ~ 9 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_PinHeader_2x4
+# PinHeader_2x08
 #
-DEF bmc-breakout-board_PinHeader_2x4 J 0 40 Y Y 1 F N
+DEF bmc-breakout-board_PinHeader_2x08 J 0 40 Y Y 1 F N
 F0 "J" -100 300 60 H V L CNN
-F1 "bmc-breakout-board_PinHeader_2x4" 50 450 60 H V C CNN
-F2 "bmc-breakout-board-footprints:PinHeader_2x04_P2.54mm_Vertical" -450 350 60 H I L CNN
+F1 "bmc-breakout-board_PinHeader_2x08" 50 450 60 H V C CNN
+F2 "bmc-breakout-board-footprints:PinHeader_2x08_P2.54mm_Vertical" -450 350 60 H I L CNN
 F3 "" 200 300 60 V I L CNN
 F4 "CNC Tech" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
-S -100 250 100 -150 0 1 0 f
+S -100 250 100 -550 0 1 0 f
 S -60 -90 -40 -110 0 1 0 F
 S -60 10 -40 -10 0 1 0 F
 S -60 110 -40 90 0 1 0 F
@@ -728,7 +840,22 @@ S 40 -90 60 -110 0 1 0 F
 S 40 10 60 -10 0 1 0 F
 S 40 110 60 90 0 1 0 F
 S 40 210 60 190 0 1 0 F
+S -60 -490 -40 -510 1 1 0 F
+S -60 -390 -40 -410 1 1 0 F
+S -60 -290 -40 -310 1 1 0 F
+S -60 -190 -40 -210 1 1 0 F
+S 40 -490 60 -510 1 1 0 F
+S 40 -390 60 -410 1 1 0 F
+S 40 -290 60 -310 1 1 0 F
+S 40 -190 60 -210 1 1 0 F
 X ~ 1 -200 200 100 R 50 50 1 1 P
+X ~ 10 200 -200 100 L 50 50 1 1 P
+X ~ 11 -200 -300 100 R 50 50 1 1 P
+X ~ 12 200 -300 100 L 50 50 1 1 P
+X ~ 13 -200 -400 100 R 50 50 1 1 P
+X ~ 14 200 -400 100 L 50 50 1 1 P
+X ~ 15 -200 -500 100 R 50 50 1 1 P
+X ~ 16 200 -500 100 L 50 50 1 1 P
 X ~ 2 200 200 100 L 50 50 1 1 P
 X ~ 3 -200 100 100 R 50 50 1 1 P
 X ~ 4 200 100 100 L 50 50 1 1 P
@@ -736,166 +863,11 @@ X ~ 5 -200 0 100 R 50 50 1 1 P
 X ~ 6 200 0 100 L 50 50 1 1 P
 X ~ 7 -200 -100 100 R 50 50 1 1 P
 X ~ 8 200 -100 100 L 50 50 1 1 P
+X ~ 9 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_R_0R_0402
-#
-DEF bmc-breakout-board_R_0R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_R_0R_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_R_10k_0402
-#
-DEF bmc-breakout-board_R_10k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_R_10k_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "10k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_R_220R_0402
-#
-DEF bmc-breakout-board_R_220R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_R_220R_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
-F6 "220R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_R_22R_0402
-#
-DEF bmc-breakout-board_R_22R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "bmc-breakout-board_R_22R_0402" 0 -150 60 H I C CNN
-F2 "bmc-breakout-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
-F6 "22R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_SI2337DS
-#
-DEF bmc-breakout-board_SI2337DS Q 0 0 Y Y 1 F N
-F0 "Q" -106 143 60 H V R CNN
-F1 "bmc-breakout-board_SI2337DS" 136 0 60 V I C CNN
-F2 "bmc-breakout-board-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "SI2337DS-T1-E3" 200 500 60 H V L CNN "MPN"
-F5 "Vishay" 200 1100 60 H V L CNN "Manufacturer"
-DRAW
-C -50 0 130 0 1 0 f
-C 0 -75 5 0 1 0 N
-C 0 -55 5 0 1 0 N
-C 0 75 5 0 1 0 N
-P 2 0 1 0 0 -55 -100 -55 N
-P 3 0 1 0 -200 -100 -120 -100 -120 55 N
-P 3 0 1 0 0 -100 0 0 -100 0 N
-P 3 0 1 0 0 100 0 55 -100 55 N
-P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
-P 2 1 1 0 -100 -55 -100 -75 N
-P 2 1 1 0 -100 -55 -100 -35 N
-P 2 1 1 0 -100 0 -100 -20 N
-P 2 1 1 0 -100 0 -100 20 N
-P 2 1 1 0 -100 75 -100 35 N
-P 2 1 1 0 60 -12 20 -12 N
-P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
-P 4 1 1 0 40 -10 20 20 60 20 40 -10 F
-X G 1 -300 -100 100 R 50 50 1 1 B
-X S 2 0 -200 100 U 50 50 1 1 B
-X D 3 0 200 100 D 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_TPD2E009
-#
-DEF bmc-breakout-board_TPD2E009 D 0 40 Y Y 1 F N
-F0 "D" -300 -500 60 H V L BNN
-F1 "bmc-breakout-board_TPD2E009" -300 -600 60 V V L BNN
-F2 "bmc-breakout-board-footprints:SOT-3" 50 200 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
-F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
-DRAW
-S 400 -300 0 100 0 1 10 f
-P 2 0 1 10 310 -10 310 -230 N
-P 3 0 1 10 280 -100 340 -100 340 -110 N
-P 4 0 1 10 350 -160 310 -100 270 -160 350 -160 N
-X IO1 1 -200 0 200 R 70 70 0 1 P
-X IO2 2 -200 -100 200 R 70 70 0 1 P
-X GND 3 -200 -200 200 R 70 70 0 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_UE27AC54100
-#
-DEF bmc-breakout-board_UE27AC54100 J 0 40 Y Y 1 F N
-F0 "J" -50 375 60 H V C CNN
-F1 "bmc-breakout-board_UE27AC54100" -125 75 60 V V C CNN
-F2 "bmc-breakout-board-footprints:USB_A_Female_UE27AC54100" 200 200 60 H I L CNN
-F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 300 60 H I L CNN
-F4 "UE27AC54100" 200 500 60 H I L CNN "MPN"
-F5 "Amphenol ICC (Commercial Products)" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -50 -175 -75 275 0 1 0 f
-S 50 250 0 -150 0 1 0 N
-S 100 -75 75 -125 0 1 0 F
-S 100 25 75 -25 0 1 0 F
-S 100 125 75 75 0 1 0 F
-S 100 175 75 225 0 1 0 F
-S 150 -200 -25 -225 0 1 0 f
-S 150 300 -25 325 0 1 0 f
-S 175 275 200 -175 0 1 0 f
-P 2 0 1 0 50 -150 75 -175 N
-P 2 0 1 0 50 250 75 275 N
-P 2 0 1 0 200 -100 100 -100 N
-P 2 0 1 0 200 0 100 0 N
-P 2 0 1 0 200 100 100 100 N
-P 2 0 1 0 200 200 100 200 N
-P 19 0 1 0 -25 250 -25 -150 -25 -157 -24 -162 -22 -169 -16 -174 -9 -175 -5 -174 -3 -175 -2 -174 0 -175 75 -175 75 275 0 275 -7 272 -16 267 -20 263 -23 259 -25 250 N
-P 25 0 1 0 -25 -200 150 -200 156 -198 164 -195 168 -189 172 -185 173 -179 175 -175 175 275 174 279 174 280 173 286 167 294 160 299 150 300 -25 300 -32 298 -44 289 -48 281 -50 275 -50 -175 -48 -184 -42 -193 -36 -198 -25 -200 f
-X ~ 1 300 -100 100 L 50 50 1 1 P
-X ~ 2 300 0 100 L 50 50 1 1 P
-X ~ 3 300 100 100 L 50 50 1 1 P
-X ~ 4 300 200 100 L 50 50 1 1 P
-X ~ SH 125 -325 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bmc-breakout-board_antmicro_logo
+# antmicro_logo
 #
 DEF bmc-breakout-board_antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
@@ -907,7 +879,35 @@ T 0 50 50 79 0 0 0 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# bmc-breakout-board_oshw_logo
+# PCB_Mount_Hole_2.5_6.2
+#
+DEF bmc-breakout-board_PCB_Mount_Hole_2.5_6.2 MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "bmc-breakout-board_PCB_Mount_Hole_2.5_6.2" 0 -250 50 H V C CNN
+F2 "bmc-breakout-board-footprints:Mount-hole-M2.5" 800 700 50 H I C CNN
+F3 "" 950 800 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# 5001
+#
+DEF bmc-breakout-board_5001 TP 0 40 N N 1 F N
+F0 "TP" -50 50 50 H V R CNN
+F1 "bmc-breakout-board_5001" 0 -100 50 H I C CNN
+F2 "bmc-breakout-board-footprints:Test_Point_D1.02mm" 200 200 60 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=1310" 200 300 60 H I L CNN
+F4 "5001" 200 500 60 H I L CNN "MPN"
+F5 "Keystone Electronics" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# oshw_logo
 #
 DEF bmc-breakout-board_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
