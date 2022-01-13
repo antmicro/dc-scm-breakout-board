@@ -2,7 +2,7 @@
 Data Center Secure Control Module (DC-SCM) Breakout Board
 =========================================================
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2022 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: img/bmc-breakout-board.png
    
