@@ -6,7 +6,7 @@ Copyright (c) 2020-2023 [Antmicro](https://www.antmicro.com)
 
 ![K410T devboard](/img/bmc-breakout-board.png)
 
-### Overview
+## Overview
 
 This project contains open hardware design files for a breakout board exposing IO interfaces offered by Data Center Secure Control Modules (DC-SCM).
 This board aids software development and allows for initial testing of the DC-SCM before installing it in a server.
