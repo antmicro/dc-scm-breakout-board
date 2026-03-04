@@ -51,8 +51,47 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|103719827|102135076|00000000-0000-0000-0000-0000602d376e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|105145000|63532068|00000000-0000-0000-0000-0000602a752c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|135440000|115820000|00000000-0000-0000-0000-000060c26174|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|146100000|66665000|00000000-0000-0000-0000-000060c219d7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|146600000|118965000|00000000-0000-0000-0000-000060c219cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|64100000|66665000|00000000-0000-0000-0000-000060c21bfc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69895000|122665000|f4d11800-6111-4041-a077-3602844f1bc9|0b049427-c809-4943-adcb-a738f3c341cc",
+          ""
+        ],
+        [
+          "silk_edge_clearance|79695000|122665000|f4d11800-6111-4041-a077-3602844f1bc9|a6a9cee4-3edb-4215-aadc-0c2d94c497a5",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -96,8 +135,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -130,7 +169,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
@@ -485,7 +524,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.5,
@@ -496,14 +535,13 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.11,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.5,
@@ -514,14 +552,13 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -532,14 +569,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.21,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PCIe_inner",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.5,
@@ -550,14 +586,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "via_diameter": 0.5,
