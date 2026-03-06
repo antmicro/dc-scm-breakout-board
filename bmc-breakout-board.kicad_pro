@@ -604,7 +604,164 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0.PCIeREFCLK": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1.PCIeREFCLK": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.PCIE": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.RX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII.TX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE0_SGMII{PCIE}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.PCIE": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1{PCIE}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.PCIE": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT{PCIE}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.eSPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI{eSPI}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.LTPI": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI{LTPI}": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.QSPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI{QSPI}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.SPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL{SPI}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.SPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI{SPI}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB1.USB": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB1{USB}": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB2.USB": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB2{USB}": [
+        "90Ohm-diff"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -1442,12 +1599,12 @@
       "Pinheads"
     ],
     [
-      "00000000-0000-0000-0000-000061d8da15",
-      "Edge Connectors"
-    ],
-    [
       "00000000-0000-0000-0000-000061e3fb26",
       "USB & POWER"
+    ],
+    [
+      "bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5",
+      "DC-SCM 2.1 connector"
     ]
   ],
   "text_variables": {}

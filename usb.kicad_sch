@@ -1701,18 +1701,6 @@
 			)
 			(symbol "DC_SOCKET_1_1"
 				(arc
-					(start -7.112 -2.54)
-					(mid -6.8375 -1.5201)
-					(end -6.096 -0.762)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start -6.096 -0.762)
 					(mid -5.08 -0.4922)
 					(end -4.064 -0.762)
@@ -1728,6 +1716,18 @@
 					(start -4.064 -0.762)
 					(mid -3.3088 -1.5121)
 					(end -3.048 -2.54)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.112 -2.54)
+					(mid -6.8375 -1.5201)
+					(end -6.096 -0.762)
 					(stroke
 						(width 0.381)
 						(type solid)
