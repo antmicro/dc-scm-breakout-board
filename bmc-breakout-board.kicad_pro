@@ -1605,6 +1605,10 @@
     [
       "bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5",
       "DC-SCM 2.1 connector"
+    ],
+    [
+      "2af4bc97-3599-45a7-a55a-50109ab85386",
+      "EEPROM"
     ]
   ],
   "text_variables": {}

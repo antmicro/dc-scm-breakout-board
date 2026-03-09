@@ -262,6 +262,36 @@
 		)
 		(uuid "4392067e-f476-4724-9523-3cafbca74c38")
 	)
+	(bus
+		(pts
+			(xy 57.15 207.01) (xy 91.44 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d8ae14-99c5-4488-9f24-0077abc344c6")
+	)
+	(wire
+		(pts
+			(xy 57.15 64.77) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb3e86a-5ba4-4fe5-8e6a-eb74488fada0")
+	)
+	(wire
+		(pts
+			(xy 87.63 203.2) (xy 91.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17b6f8a-e282-4f94-b941-dfe97cd04078")
+	)
 	(wire
 		(pts
 			(xy 91.44 93.98) (xy 57.15 93.98)
@@ -281,6 +311,16 @@
 			(type default)
 		)
 		(uuid "e618fa13-d492-4c83-ba9c-d064ae71ca5a")
+	)
+	(wire
+		(pts
+			(xy 87.63 64.77) (xy 87.63 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e703c8f3-267b-471f-999c-9717230ee619")
 	)
 	(wire
 		(pts
@@ -2794,6 +2834,68 @@
 		)
 	)
 	(sheet
+		(at 91.44 200.66)
+		(size 26.67 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2af4bc97-3599-45a7-a55a-50109ab85386")
+		(property "Sheetname" "EEPROM"
+			(at 91.44 199.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 91.44 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_SCM_I2C0{I2C}" bidirectional
+			(at 91.44 207.01 180)
+			(uuid "5fb92323-f7db-495e-b426-402b19284886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_SCM_HPM_FRU" input
+			(at 91.44 203.2 180)
+			(uuid "773e28a8-2823-415a-b0de-633d085be604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 55.88)
 		(size 34.29 10.16)
 		(exclude_from_sim no)
@@ -2856,8 +2958,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 217.17)
-		(size 33.02 8.89)
+		(at 91.44 218.44)
+		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2872,7 +2974,7 @@
 		)
 		(uuid "9c17dc04-3cda-4241-b037-a77b6cc96081")
 		(property "Sheetname" "Sensors"
-			(at 91.44 216.4584 0)
+			(at 91.44 217.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
