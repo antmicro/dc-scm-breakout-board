@@ -252,9 +252,25 @@
 		)
 		(uuid "dde7ab75-b5e2-46ae-9a77-098fe6866bb5")
 	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41787a6a-cd65-4f24-b3e6-50ca8baa4284")
+	)
 	(bus
 		(pts
-			(xy 57.15 222.25) (xy 91.44 222.25)
+			(xy 57.15 198.12) (xy 91.44 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9ec1a7-a027-412a-bfc0-9b70253ab45e")
+	)
+	(bus
+		(pts
+			(xy 57.15 222.25) (xy 111.76 222.25)
 		)
 		(stroke
 			(width 0)
@@ -264,13 +280,63 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 207.01) (xy 91.44 207.01)
+			(xy 91.44 198.12) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5158dd2d-caef-4723-9908-795b078cae75")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 95.25 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529cea50-b10e-42c1-a787-2f23a006050e")
+	)
+	(wire
+		(pts
+			(xy 109.22 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dac2504-6215-4c00-9e8a-38ba0de07e66")
+	)
+	(wire
+		(pts
+			(xy 95.25 259.08) (xy 57.15 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9160d8f7-74f3-41c7-b50f-ab1e679c5ba5")
+	)
+	(bus
+		(pts
+			(xy 57.15 207.01) (xy 111.76 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92d8ae14-99c5-4488-9f24-0077abc344c6")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a671915-17ab-44e5-98b7-b09a88e0dc72")
 	)
 	(wire
 		(pts
@@ -284,7 +350,27 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 203.2) (xy 91.44 203.2)
+			(xy 109.22 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a716d6c8-6065-4264-a9d9-5fe9fdecde9c")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7138c2-aa78-432c-9ae3-c8506a693b54")
+	)
+	(wire
+		(pts
+			(xy 87.63 203.2) (xy 111.76 203.2)
 		)
 		(stroke
 			(width 0)
@@ -304,7 +390,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 91.44 63.5)
+			(xy 109.22 96.52) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad878cc-032e-41b5-b131-6ddc7d843ef1")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 91.44 63.5)
 		)
 		(stroke
 			(width 0)
@@ -324,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 59.69) (xy 95.25 59.69)
+			(xy 57.15 59.69) (xy 109.22 59.69)
 		)
 		(stroke
 			(width 0)
@@ -341,6 +437,16 @@
 			(type default)
 		)
 		(uuid "ec1500b8-9fa8-464c-835e-bb7426675be0")
+	)
+	(bus
+		(pts
+			(xy 91.44 104.14) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d36642-dbdb-462b-927f-da2fccec799a")
 	)
 	(image
 		(at 288.925 272.415)
@@ -2834,7 +2940,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 200.66)
+		(at 111.76 200.66)
 		(size 26.67 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2850,7 +2956,7 @@
 		)
 		(uuid "2af4bc97-3599-45a7-a55a-50109ab85386")
 		(property "Sheetname" "EEPROM"
-			(at 91.44 199.9484 0)
+			(at 111.76 199.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2965,7 @@
 			)
 		)
 		(property "Sheetfile" "eeprom.kicad_sch"
-			(at 91.44 210.1346 0)
+			(at 111.76 210.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2974,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C0{I2C}" bidirectional
-			(at 91.44 207.01 180)
+			(at 111.76 207.01 180)
 			(uuid "5fb92323-f7db-495e-b426-402b19284886")
 			(effects
 				(font
@@ -2878,7 +2984,7 @@
 			)
 		)
 		(pin "VCC_SCM_HPM_FRU" input
-			(at 91.44 203.2 180)
+			(at 111.76 203.2 180)
 			(uuid "773e28a8-2823-415a-b0de-633d085be604")
 			(effects
 				(font
@@ -2896,7 +3002,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 55.88)
+		(at 109.22 55.88)
 		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2912,7 +3018,7 @@
 		)
 		(uuid "6a40469a-13ae-4d69-8a2b-3c10ffcd9800")
 		(property "Sheetname" "Power"
-			(at 95.25 55.1684 0)
+			(at 109.22 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3027,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 95.25 66.6246 0)
+			(at 109.22 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3036,7 @@
 			)
 		)
 		(pin "P12V_AUX" output
-			(at 95.25 59.69 180)
+			(at 109.22 59.69 180)
 			(uuid "18d3b000-c2f2-4094-8e63-58e193432e4a")
 			(effects
 				(font
@@ -2940,7 +3046,7 @@
 			)
 		)
 		(pin "DC_SCM_STBY_RST" input
-			(at 95.25 63.5 180)
+			(at 109.22 63.5 180)
 			(uuid "919c5c2d-1c51-464e-b75d-285319314bdc")
 			(effects
 				(font
@@ -2958,7 +3064,99 @@
 		)
 	)
 	(sheet
-		(at 91.44 218.44)
+		(at 109.22 93.98)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71f72096-b015-4537-aa01-1b933a065d45")
+		(property "Sheetname" "LTPI"
+			(at 109.22 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ltpi.kicad_sch"
+			(at 109.22 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_SCM_LTPI{LTPI}" bidirectional
+			(at 109.22 104.14 180)
+			(uuid "1af3d424-a6e4-4404-81dc-729dd9494f91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_SCM_PECI" bidirectional
+			(at 109.22 106.68 180)
+			(uuid "bd79086e-3d3e-4e62-9001-7728f34e93e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_SCM_STBY_EN" output
+			(at 109.22 96.52 180)
+			(uuid "c81f7c56-18bd-47df-918a-721335837c1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_SCM_STBY_RDY" input
+			(at 109.22 99.06 180)
+			(uuid "fc6629d9-bf6c-436a-adb6-8d6227f5db14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{DC_SCM_STBY_RST}" output
+			(at 109.22 101.6 180)
+			(uuid "2b087f70-a41f-4370-9a95-0ce19026c4a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 218.44)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2974,7 +3172,7 @@
 		)
 		(uuid "9c17dc04-3cda-4241-b037-a77b6cc96081")
 		(property "Sheetname" "Sensors"
-			(at 91.44 217.7284 0)
+			(at 111.76 217.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3181,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 91.44 226.6446 0)
+			(at 111.76 226.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3190,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C6{I2C}" bidirectional
-			(at 91.44 222.25 180)
+			(at 111.76 222.25 180)
 			(uuid "6af473fb-6d3c-4931-b982-809bce54aa2d")
 			(effects
 				(font
