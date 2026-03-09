@@ -215,7 +215,7 @@
 	)
 	(text "Logotypes"
 		(exclude_from_sim no)
-		(at 378.46 208.28 0)
+		(at 255.778 247.396 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -228,7 +228,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 167.005 257.81 0)
+		(at 116.205 263.525 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -273,7 +273,7 @@
 		(uuid "e0a85212-6e02-4bc3-a2e3-f9fbc0509d45")
 	)
 	(image
-		(at 392.43 240.03)
+		(at 288.925 272.415)
 		(scale 0.15)
 		(uuid "6f3be3fe-72d7-4f6c-9e01-78f74defdc98")
 		(data "iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -2049,7 +2049,7 @@
 		)
 	)
 	(image
-		(at 354.33 239.8522)
+		(at 250.825 272.2372)
 		(scale 0.4)
 		(uuid "a33fa993-ad11-4eca-9d18-e88ac00f7140")
 		(data "iVBORw0KGgoAAAANSUhEUgAABPcAAAGUCAYAAABZQseRAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz"
@@ -2455,7 +2455,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:antmicro_logo")
-		(at 380.365 224.155 0)
+		(at 276.86 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2463,7 +2463,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000603012ad")
 		(property "Reference" "N1"
-			(at 385.8006 221.7928 0)
+			(at 282.2956 254.1778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Value" "antmicro_logo"
-			(at 385.8006 224.1042 0)
+			(at 282.2956 256.4892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm_mask"
-			(at 377.825 217.805 0)
+			(at 274.32 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 380.365 215.265 0)
+			(at 276.86 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 380.365 224.155 0)
+			(at 276.86 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:oshw_logo")
-		(at 381 215.9 0)
+		(at 250.19 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2525,7 +2525,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c9deb2")
 		(property "Reference" "N2"
-			(at 385.9276 215.8238 0)
+			(at 255.1176 253.9238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Value" "oshw_logo"
-			(at 385.9276 218.1352 0)
+			(at 255.1176 256.2352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:oshw-logo"
-			(at 381.508 221.996 0)
+			(at 250.698 260.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 215.9 0)
+			(at 250.19 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 381 215.9 0)
+			(at 250.19 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 204.47 269.875 0)
+		(at 153.67 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2587,7 +2587,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105a94d")
 		(property "Reference" "MP2"
-			(at 209.7532 268.7066 0)
+			(at 158.9532 274.4216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2596,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 209.7532 271.018 0)
+			(at 158.9532 276.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2605,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 224.79 252.095 0)
+			(at 173.99 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 249.555 0)
+			(at 177.8 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 269.875 0)
+			(at 153.67 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2641,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 239.395 269.875 0)
+		(at 188.595 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2649,7 +2649,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105adf7")
 		(property "Reference" "MP3"
-			(at 244.6782 268.7066 0)
+			(at 193.8782 274.4216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 244.6782 271.018 0)
+			(at 193.8782 276.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 259.715 252.095 0)
+			(at 208.915 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 263.525 249.555 0)
+			(at 212.725 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 239.395 269.875 0)
+			(at 188.595 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 170.18 269.875 0)
+		(at 119.38 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2711,7 +2711,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105b178")
 		(property "Reference" "MP1"
-			(at 175.4632 268.7066 0)
+			(at 124.6632 274.4216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 175.4632 271.018 0)
+			(at 124.6632 276.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2729,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 190.5 252.095 0)
+			(at 139.7 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 249.555 0)
+			(at 143.51 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 269.875 0)
+			(at 119.38 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
