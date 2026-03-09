@@ -887,6 +887,14 @@
 		(at 80.01 59.69)
 		(uuid "0eb2c3ca-e3d0-4d24-8ebf-a5bc4bf62d84")
 	)
+	(no_connect
+		(at 69.85 54.61)
+		(uuid "33c38e5f-b6c1-442c-8860-dd810c5ed727")
+	)
+	(no_connect
+		(at 80.01 54.61)
+		(uuid "b21876f6-32f9-487d-9971-f7a15f85e358")
+	)
 	(bus_entry
 		(at 113.03 40.64)
 		(size -1.27 1.27)
