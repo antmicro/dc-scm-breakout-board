@@ -3848,6 +3848,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
 	(text "PCIe directions from HPM POV\n"
 		(exclude_from_sim no)
 		(at 369.57 110.49 0)
@@ -6444,6 +6447,16 @@
 	)
 	(bus
 		(pts
+			(xy 58.42 147.32) (xy 58.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f01d136-0282-4a35-8ef6-e692ac640a6d")
+	)
+	(bus
+		(pts
 			(xy 351.79 153.67) (xy 351.79 154.94)
 		)
 		(stroke
@@ -6931,16 +6944,6 @@
 			(type default)
 		)
 		(uuid "9f4cf1d4-7f5d-4347-b859-124e4ec13d05")
-	)
-	(bus
-		(pts
-			(xy 58.42 147.32) (xy 58.42 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a13afcf8-3c36-4960-9973-fc603a8b4fe9")
 	)
 	(wire
 		(pts
