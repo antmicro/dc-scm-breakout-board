@@ -215,7 +215,7 @@
 	)
 	(text "Logotypes"
 		(exclude_from_sim no)
-		(at 255.778 247.396 0)
+		(at 255.27 247.65 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -228,7 +228,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 116.205 263.525 0)
+		(at 116.84 264.16 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -241,7 +241,7 @@
 	)
 	(text "Data Center Secure Control Module (DC-SCM) Breakout Board"
 		(exclude_from_sim no)
-		(at 15.24 20.955 0)
+		(at 15.24 21.59 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -260,17 +260,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d1ee1d32-582b-4bd4-9001-0a4726cc9cfd")
-	)
-	(wire
-		(pts
-			(xy 57.15 64.77) (xy 91.44 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a85212-6e02-4bc3-a2e3-f9fbc0509d45")
+		(uuid "95ffbf30-666d-4cbf-9159-4a4f649c034e")
 	)
 	(image
 		(at 288.925 272.415)
@@ -2764,7 +2754,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 57.15)
+		(at 91.44 54.61)
 		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2780,7 +2770,7 @@
 		)
 		(uuid "6a40469a-13ae-4d69-8a2b-3c10ffcd9800")
 		(property "Sheetname" "Power"
-			(at 91.44 56.4384 0)
+			(at 91.44 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2779,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 91.44 67.8946 0)
+			(at 91.44 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,19 +2787,9 @@
 				(justify left top)
 			)
 		)
-		(pin "+12V_IN" input
+		(pin "P12V_AUX" output
 			(at 91.44 59.69 180)
-			(uuid "35fca8bb-1247-4d43-8563-572c21e2522d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+3V3_OUT" output
-			(at 91.44 64.77 180)
-			(uuid "951f2eed-9cbb-4331-b723-4ed462fc3676")
+			(uuid "18d3b000-c2f2-4094-8e63-58e193432e4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2879,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_PRSNT0_N" output
+		(pin "DC_SCM_PRSNT0_N" input
 			(at 57.15 52.07 0)
 			(uuid "177a4fe9-5c8d-48c6-957e-2571ffe194a4")
 			(effects
@@ -2909,7 +2889,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_12V_AUX" output
+		(pin "DC_SCM_12V_AUX" input
 			(at 57.15 59.69 0)
 			(uuid "b94ec5c5-4104-435d-9f0b-8d32c5ec443e")
 			(effects
@@ -2939,7 +2919,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_P3V0" output
+		(pin "DC_SCM_P3V0" input
 			(at 57.15 167.64 0)
 			(uuid "55aed446-f0d5-49eb-9b0b-673ebce81004")
 			(effects
@@ -3009,7 +2989,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_PRSNT1_N" input
+		(pin "DC_SCM_PRSNT1_N" output
 			(at 57.15 54.61 0)
 			(uuid "d8e8df9b-b085-4712-a000-22db16fd2ca1")
 			(effects
@@ -3079,7 +3059,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_STBY_EN" input
+		(pin "DC_SCM_STBY_EN" output
 			(at 57.15 96.52 0)
 			(uuid "fca271fa-d855-451e-a7c1-e0a45c5beabd")
 			(effects
@@ -3089,7 +3069,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_STBY_RDY" output
+		(pin "DC_SCM_STBY_RDY" input
 			(at 57.15 99.06 0)
 			(uuid "91751403-ff71-44dc-aee9-ea5689b6953c")
 			(effects
@@ -3109,7 +3089,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_HPM_FRU" input
+		(pin "DC_SCM_HPM_FRU" output
 			(at 57.15 64.77 0)
 			(uuid "c6adb52f-2b4c-4753-84ce-469721a5344d")
 			(effects
@@ -3219,7 +3199,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{DC_SCM_SPI_SCMCNTRL_IRQ0}" input
+		(pin "~{DC_SCM_SPI_SCMCNTRL_IRQ0}" output
 			(at 57.15 107.95 0)
 			(uuid "5ec462ed-8baa-4bdb-b1eb-60f788cb273f")
 			(effects
@@ -3229,7 +3209,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC-SCM_CLK_100M_0{PCIeREFCLK}" output
+		(pin "DC-SCM_CLK_100M_0{PCIeREFCLK}" input
 			(at 57.15 144.78 0)
 			(uuid "193baeed-9937-4e53-b72d-3af3ab34d727")
 			(effects
@@ -3279,7 +3259,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{DC_SCM_INTRUSION}" output
+		(pin "~{DC_SCM_INTRUSION}" input
 			(at 57.15 101.6 0)
 			(uuid "fcc79715-f88e-4b2b-b534-ecc62529fb2c")
 			(effects
@@ -3289,7 +3269,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{DC_SCM_STBY_RST}" input
+		(pin "~{DC_SCM_STBY_RST}" output
 			(at 57.15 93.98 0)
 			(uuid "7c75f611-a366-427c-b2c2-99506cd86927")
 			(effects
@@ -3299,7 +3279,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{PCIE_HPM_SCM_PERST}" output
+		(pin "~{PCIE_HPM_SCM_PERST}" input
 			(at 57.15 135.89 0)
 			(uuid "46002229-304c-4660-8d30-af42f036f809")
 			(effects
