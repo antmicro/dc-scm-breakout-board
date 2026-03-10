@@ -8336,7 +8336,7 @@
 		(uuid "27ca82bb-7973-4fb9-88c4-189e75c00819")
 	)
 	(label "DC_SCM_UART.TX"
-		(at 158.75 64.77 0)
+		(at 158.75 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8366,7 +8366,7 @@
 		(uuid "3391e8af-01ba-4c1d-98e3-2fd6f997e46a")
 	)
 	(label "DC_SCM_UART.RX"
-		(at 158.75 67.31 0)
+		(at 158.75 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)

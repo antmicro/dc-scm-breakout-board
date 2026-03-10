@@ -1628,11 +1628,7 @@
 			(uuid "99ebed1a-20ef-4099-b05e-0fcb0b805b27")
 		)
 		(instances
-			(project ""
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/71f72096-b015-4537-aa01-1b933a065d45"
-					(reference "J2")
-					(unit 1)
-				)
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
 					(reference "J2")
 					(unit 1)
@@ -1728,11 +1724,7 @@
 			(uuid "8b668c86-48b0-4d7c-aa06-1ae6ff13612f")
 		)
 		(instances
-			(project ""
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/71f72096-b015-4537-aa01-1b933a065d45"
-					(reference "#PWR026")
-					(unit 1)
-				)
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
 					(reference "#PWR026")
 					(unit 1)
@@ -1750,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8d7817-7fe5-4b9d-9fb5-27e3c142d61b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 92.71 64.77 0)
 			(effects
 				(font
