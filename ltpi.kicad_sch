@@ -865,6 +865,16 @@
 		)
 		(uuid "4f76cf0c-02c6-46fe-82c8-a85cca4c0667")
 	)
+	(text "Diff pairs aligned to keep pair cables next to each other in IDC cable\n"
+		(exclude_from_sim no)
+		(at 77.724 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc2892d4-58a6-4a30-8ef6-8dc598738507")
+	)
 	(junction
 		(at 67.31 52.07)
 		(diameter 0)
@@ -1356,16 +1366,6 @@
 			(justify left bottom)
 		)
 		(uuid "8dcf7944-3489-47c4-b64d-c580ef965f4f")
-	)
-	(label "Diff pairs aligned to keep pair cables next to each other in IDC cable"
-		(at 44.45 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97e9269f-87e9-4176-9c9f-5885ef53696e")
 	)
 	(label "DC_SCM_LTPI.RXD+"
 		(at 40.64 39.37 0)

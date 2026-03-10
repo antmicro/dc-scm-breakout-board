@@ -3553,7 +3553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baad6988-c1ef-4414-9e3b-c2ac8b28f557")
-		(property "Reference" "TP1"
+		(property "Reference" "TP11"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 		(instances
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/2af4bc97-3599-45a7-a55a-50109ab85386"
-					(reference "TP1")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
