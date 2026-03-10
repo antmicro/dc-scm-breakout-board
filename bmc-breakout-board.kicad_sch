@@ -3072,6 +3072,48 @@
 		)
 	)
 	(sheet
+		(at 109.22 36.83)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07ab1158-ddfb-42f0-9fa7-f1beb51ab908")
+		(property "Sheetname" "USBs"
+			(at 109.22 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbs.kicad_sch"
+			(at 109.22 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 111.76 200.66)
 		(size 26.67 8.89)
 		(exclude_from_sim no)
@@ -3708,7 +3750,7 @@
 			)
 		)
 		(pin "DC_SCM_USB2{USB}" bidirectional
-			(at 57.15 48.26 0)
+			(at 57.15 43.18 0)
 			(uuid "f318f01f-17b2-4818-a502-50b8ee294eb4")
 			(effects
 				(font

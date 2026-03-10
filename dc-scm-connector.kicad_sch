@@ -10,6 +10,219 @@
 		(rev "1.1.0")
 	)
 	(lib_symbols
+		(symbol "GND_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PWR_FLAG_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroEdgeConnectors:Socket_DC-SCM-2.1_2x84_Rev-1-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3636,220 +3849,75 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+	)
+	(bus_alias "DP"
+		(members "TXD0-" "TXD0+" "TXD1-" "TXD1+" "TXD2-" "TXD2+" "TXD3-" "TXD3+"
+			"HPD" "AUX-" "AUX+"
 		)
-		(symbol "antmicropower:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+	)
+	(bus_alias "DSI"
+		(members "D0+" "D0-" "D1+" "D1-" "D2+" "D2-" "D3+" "D3-" "CLK+" "CLK-")
+	)
+	(bus_alias "ETHERNET"
+		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+")
 	)
 	(bus_alias "I2C"
 		(members "SCL" "SDA")
+	)
+	(bus_alias "I3C"
+		(members "SCL" "SDA")
+	)
+	(bus_alias "JTAG"
+		(members "TCK" "TDO" "TDI" "TMS" "TRST")
+	)
+	(bus_alias "LTPI"
+		(members "RXD-" "RXD+" "TXD-" "TXD+" "RXCK+" "RXCK-" "TXCK+" "TXCK-")
+	)
+	(bus_alias "NC-SI"
+		(members "REF_CLK" "CRS_DV" "RXD[0..1]" "TX_EN" "TXD[0..1]")
+	)
+	(bus_alias "PCIE"
+		(members "RX0+" "RX0-" "TX0+" "TX0-" "RX1+" "RX1-" "TX1+" "TX1-" "RX2+"
+			"RX2-" "TX2+" "TX2-" "RX3+" "RX3-" "TX3+" "TX3-"
+		)
+	)
+	(bus_alias "PCIeREFCLK"
+		(members "CLK+" "CLK-")
+	)
+	(bus_alias "QSPI"
+		(members "IO0" "IO1" "IO2" "IO3" "SCK" "~{CS0}" "~{CS1}")
+	)
+	(bus_alias "RGMII"
+		(members "TXD0" "TXD1" "TXD2" "TXD3" "RXD0" "RXD1" "RXD2" "RXD3" "TX_CLK"
+			"TX_CTL" "RX_CTL" "RX_CLK" "MDIO" "MDC"
+		)
+	)
+	(bus_alias "SDIO"
+		(members "DAT[0..7]" "CMD" "CLK" "~{CD}" "IOPWR" "PWR_EN" "WP" "DS")
+	)
+	(bus_alias "SGMII"
+		(members "TX+" "TX-" "RX+" "RX-")
+	)
+	(bus_alias "SPI"
+		(members "DO" "DI" "SCK" "~{CS0}" "~{CS1}")
+	)
+	(bus_alias "STBY_1V8"
+		(members "RDY" "EN" "~{RST_N}")
+	)
+	(bus_alias "STBY_3V3"
+		(members "RDY" "EN" "~{RST_N}")
+	)
+	(bus_alias "UART"
+		(members "RX" "TX")
+	)
+	(bus_alias "USB"
+		(members "D+" "D-")
+	)
+	(bus_alias "USBSS"
+		(members "RX+" "RX-" "TX+" "TX-")
+	)
+	(bus_alias "eSPI"
+		(members "IO0" "IO1" "IO2" "IO3" "SCK" "~{CS0}" "~{ALERT0}" "~{RESET}")
 	)
 	(text "PCIe directions from HPM POV\n"
 		(exclude_from_sim no)
@@ -11334,6 +11402,74 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 82.55 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f72ca8c-13ca-4767-9b44-62a2d3da5b0d")
+		(property "Reference" "#FLG05"
+			(at 82.55 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81dc5481-92ec-4cac-a81b-57b41a9e1283")
+		)
+		(instances
+			(project ""
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 74.93 57.15 0)
 		(unit 1)
@@ -11483,16 +11619,18 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 82.55 41.91 0)
+		(at 187.96 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "67ee494f-f1b4-40e8-abbb-aa13ed1f88be")
+		(fields_autoplaced yes)
+		(uuid "72a6aa69-bb04-4634-a1d6-eca2402fa742")
 		(property "Reference" "#FLG01"
-			(at 82.55 40.005 0)
+			(at 187.96 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +11639,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 82.55 38.1 0)
+			(at 187.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 41.91 0)
+			(at 187.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 41.91 0)
+			(at 187.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,16 +11665,17 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 41.91 0)
+			(at 187.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "36842853-3863-4b0c-8712-5f762682698a")
+			(uuid "121eb4f2-5f1d-45af-8f8e-c54ad22ca3bb")
 		)
 		(instances
 			(project "bmc-breakout-board"
@@ -13233,6 +13372,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "antmicropower:GND")
 		(at 83.82 88.9 0)
 		(unit 1)
@@ -13240,8 +13380,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9b7b896-9048-4ae5-b570-b7a1370ff013")
-		(property "Reference" "#PWR02"
+		(fields_autoplaced yes)
+		(uuid "d7dd0fc2-7af2-4e8d-bc08-5c1f564d9db4")
+		(property "Reference" "#PWR038"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -13253,7 +13394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 92.71 0)
+			(at 83.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,11 +13425,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 88.9 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -13315,77 +13457,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2cb2877-32f2-4d43-917b-798734f0ed6f")
+			(uuid "5c4109f1-9e49-4ebf-9818-5c89917e5f3f")
 		)
 		(instances
-			(project "bmc-breakout-board"
+			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 187.96 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3aea925-ec73-48e0-be6c-9a719536bcef")
-		(property "Reference" "#FLG02"
-			(at 187.96 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 187.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b094af24-60d7-40e8-9c85-c33f8833cac0")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5"
-					(reference "#FLG02")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

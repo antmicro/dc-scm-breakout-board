@@ -692,10 +692,46 @@
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX0-": [
         "85Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX3-": [
+        "85Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0+": [
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX3-": [
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1{PCIE}": [
@@ -710,16 +746,76 @@
       "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX0-": [
         "85Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.RX3-": [
+        "85Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX0+": [
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX0-": [
         "85Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT.TX3-": [
+        "85Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_SCMROOT{PCIE}": [
         "85Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO3": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.SCK": [
+        "50Ohm-se"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_ESPI.eSPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.~{ALERT0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_ESPI.~{RESET}": [
         "50Ohm-se"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_ESPI{eSPI}": [
@@ -728,31 +824,118 @@
       "/DC-SCM 2.1 connector/DC_SCM_LTPI.LTPI": [
         "100Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.RXCK+": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.RXCK-": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.RXD+": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.RXD-": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.TXCK+": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.TXCK-": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.TXD+": [
+        "100Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_LTPI.TXD-": [
+        "100Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_LTPI{LTPI}": [
         "100Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO3": [
+        "50Ohm-se"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_QSPI.QSPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.SCK": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.~{CS1}": [
         "50Ohm-se"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_QSPI{QSPI}": [
         "50Ohm-se"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.DI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.DO": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.SCK": [
+        "50Ohm-se"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.SPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.~{CS1}": [
         "50Ohm-se"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL{SPI}": [
         "50Ohm-se"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.DI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.DO": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.SCK": [
+        "50Ohm-se"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.SPI": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI.~{CS1}": [
         "50Ohm-se"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI{SPI}": [
         "50Ohm-se"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB1.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB1.D-": [
+        "90Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_USB1.USB": [
         "90Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_USB1{USB}": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB2.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB2.D-": [
         "90Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_USB2.USB": [
@@ -1625,6 +1808,10 @@
     [
       "7d9b23ce-a430-4fe9-932d-039608fe4530",
       "JTAG"
+    ],
+    [
+      "07ab1158-ddfb-42f0-9fa7-f1beb51ab908",
+      "USBs"
     ]
   ],
   "text_variables": {}
