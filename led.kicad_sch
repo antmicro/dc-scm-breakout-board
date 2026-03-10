@@ -696,7 +696,7 @@
 		(uuid "618de0f5-30cb-4e3a-a157-ec256349e116")
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
-		(shape output)
+		(shape input)
 		(at 46.99 52.07 0)
 		(effects
 			(font
