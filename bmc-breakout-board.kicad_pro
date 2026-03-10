@@ -1621,6 +1621,10 @@
     [
       "854b0d46-68ae-4dbb-9d3e-7b698a73d13a",
       "LED"
+    ],
+    [
+      "7d9b23ce-a430-4fe9-932d-039608fe4530",
+      "JTAG"
     ]
   ],
   "text_variables": {}

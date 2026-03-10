@@ -228,7 +228,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 116.84 264.16 0)
+		(at 152.654 266.192 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -369,6 +369,16 @@
 			(type default)
 		)
 		(uuid "6f17f4b4-8215-41ec-8b5c-080c7f28685a")
+	)
+	(bus
+		(pts
+			(xy 57.15 262.89) (xy 111.76 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790ea5df-4614-4b2e-870c-534f497e82fe")
 	)
 	(bus
 		(pts
@@ -3125,7 +3135,7 @@
 	)
 	(sheet
 		(at 109.22 55.88)
-		(size 34.29 10.16)
+		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3187,7 +3197,7 @@
 	)
 	(sheet
 		(at 109.22 93.98)
-		(size 34.29 15.24)
+		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3273,6 +3283,58 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 259.08)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d9b23ce-a430-4fe9-932d-039608fe4530")
+		(property "Sheetname" "JTAG"
+			(at 111.76 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 111.76 267.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_SCM_JTAG{JTAG}" bidirectional
+			(at 111.76 262.89 180)
+			(uuid "7e657506-9a98-4c78-add2-d1074f5f4e55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "9")
 				)
 			)
 		)
