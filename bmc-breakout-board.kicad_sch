@@ -270,7 +270,17 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 222.25) (xy 111.76 222.25)
+			(xy 102.87 222.25) (xy 57.15 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eba9c87-a0a8-41e0-807f-03a8cd2a8f83")
+	)
+	(bus
+		(pts
+			(xy 102.87 234.95) (xy 111.76 234.95)
 		)
 		(stroke
 			(width 0)
@@ -307,6 +317,26 @@
 			(type default)
 		)
 		(uuid "5dac2504-6215-4c00-9e8a-38ba0de07e66")
+	)
+	(bus
+		(pts
+			(xy 102.87 234.95) (xy 102.87 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f17f4b4-8215-41ec-8b5c-080c7f28685a")
+	)
+	(bus
+		(pts
+			(xy 57.15 219.71) (xy 111.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4d5bfe-2cbb-4b86-9f48-4a4909053615")
 	)
 	(wire
 		(pts
@@ -3117,7 +3147,7 @@
 				(justify left)
 			)
 		)
-		(pin "DC_SCM_STBY_EN" output
+		(pin "DC_SCM_STBY_EN" input
 			(at 109.22 96.52 180)
 			(uuid "c81f7c56-18bd-47df-918a-721335837c1c")
 			(effects
@@ -3127,7 +3157,7 @@
 				(justify left)
 			)
 		)
-		(pin "DC_SCM_STBY_RDY" input
+		(pin "DC_SCM_STBY_RDY" output
 			(at 109.22 99.06 180)
 			(uuid "fc6629d9-bf6c-436a-adb6-8d6227f5db14")
 			(effects
@@ -3137,7 +3167,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{DC_SCM_STBY_RST}" output
+		(pin "~{DC_SCM_STBY_RST}" input
 			(at 109.22 101.6 180)
 			(uuid "2b087f70-a41f-4370-9a95-0ce19026c4a1")
 			(effects
@@ -3156,7 +3186,49 @@
 		)
 	)
 	(sheet
-		(at 111.76 218.44)
+		(at 109.22 135.89)
+		(size 36.83 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "854b0d46-68ae-4dbb-9d3e-7b698a73d13a")
+		(property "Sheetname" "LED"
+			(at 109.22 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 109.22 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 231.14)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3172,7 +3244,7 @@
 		)
 		(uuid "9c17dc04-3cda-4241-b037-a77b6cc96081")
 		(property "Sheetname" "Sensors"
-			(at 111.76 217.7284 0)
+			(at 111.76 230.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3253,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 111.76 226.6446 0)
+			(at 111.76 239.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3262,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C6{I2C}" bidirectional
-			(at 111.76 222.25 180)
+			(at 111.76 234.95 180)
 			(uuid "6af473fb-6d3c-4931-b982-809bce54aa2d")
 			(effects
 				(font
@@ -3700,8 +3772,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 143.51)
-		(size 34.29 15.24)
+		(at 111.76 215.9)
+		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3716,7 +3788,7 @@
 		)
 		(uuid "d9b5a36f-f960-4ce7-8269-f56a658e52fc")
 		(property "Sheetname" "QWIIC"
-			(at 110.49 142.7984 0)
+			(at 111.76 215.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3797,7 @@
 			)
 		)
 		(property "Sheetfile" "qwiic.kicad_sch"
-			(at 110.49 159.3346 0)
+			(at 111.76 224.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,49 +3805,9 @@
 				(justify left top)
 			)
 		)
-		(pin "DC_SCM_LTPI{LTPI}" bidirectional
-			(at 110.49 153.67 180)
-			(uuid "657e8d27-5d32-49ed-a79a-83e91e8e7655")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_SCM_PECI" bidirectional
-			(at 110.49 156.21 180)
-			(uuid "ad2fead3-81cc-470b-a6ca-085789dc2db4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_SCM_STBY_EN" output
-			(at 110.49 146.05 180)
-			(uuid "1bd5e663-61df-435e-a815-81019b6197e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_SCM_STBY_RDY" input
-			(at 110.49 148.59 180)
-			(uuid "5e99172d-3e52-458e-80d8-6f45065b84cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{DC_SCM_STBY_RST}" output
-			(at 110.49 151.13 180)
-			(uuid "7da54511-a426-4302-9830-5f13560c83be")
+		(pin "DC_SCM_I2C5{I2C}" bidirectional
+			(at 111.76 219.71 180)
+			(uuid "8deb1f30-64f4-46da-a059-4cd58d171519")
 			(effects
 				(font
 					(size 1.27 1.27)

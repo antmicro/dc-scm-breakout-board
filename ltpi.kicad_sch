@@ -1420,7 +1420,7 @@
 		(uuid "141d9afb-e5ea-4900-8987-c102f25edff2")
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
-		(shape output)
+		(shape input)
 		(at 90.17 57.15 0)
 		(effects
 			(font
@@ -1442,7 +1442,7 @@
 		(uuid "c3cf3fec-9eff-4e08-b8cb-f752cc55a873")
 	)
 	(hierarchical_label "~{DC_SCM_STBY_RST}"
-		(shape output)
+		(shape input)
 		(at 59.69 59.69 180)
 		(effects
 			(font
@@ -1453,7 +1453,7 @@
 		(uuid "d30f327e-7bc3-4d23-8c71-908a5e0aa71e")
 	)
 	(hierarchical_label "DC_SCM_STBY_RDY"
-		(shape input)
+		(shape output)
 		(at 59.69 57.15 180)
 		(effects
 			(font
@@ -1633,10 +1633,6 @@
 					(reference "J2")
 					(unit 1)
 				)
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
-					(reference "J2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1730,10 +1726,6 @@
 		(instances
 			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/71f72096-b015-4537-aa01-1b933a065d45"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -1831,10 +1823,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/71f72096-b015-4537-aa01-1b933a065d45"
 					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)

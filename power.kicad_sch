@@ -5294,7 +5294,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 209.55) (xy 379.73 209.55)
+			(xy 381 209.55) (xy 378.46 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5831,16 +5831,6 @@
 			(type default)
 		)
 		(uuid "be5b7e00-ee80-4557-ba93-4337573d9f0c")
-	)
-	(wire
-		(pts
-			(xy 379.73 209.55) (xy 379.73 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e2ae1c-5e61-4ee0-a496-028fcfafa431")
 	)
 	(wire
 		(pts
@@ -7156,7 +7146,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 379.73 210.82 0)
+		(at 378.46 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7164,7 +7154,7 @@
 		(dnp no)
 		(uuid "68a2d589-bbbd-4a0b-bf46-cf85334cdee5")
 		(property "Reference" "#PWR081"
-			(at 388.62 213.36 0)
+			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.73 214.63 0)
+			(at 374.65 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 218.44 0)
+			(at 370.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 223.52 0)
+			(at 365.76 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 210.82 0)
+			(at 378.46 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7205,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 388.62 218.44 0)
+			(at 370.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7216,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 388.62 220.98 0)
+			(at 368.3 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
