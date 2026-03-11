@@ -3020,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bmc-breakout-board-footprints:oshw-logo"
+		(property "Footprint" "antmicro-footprints:OSHW-Logo_7.5x8mm_Copper"
 			(at 250.698 260.096 0)
 			(effects
 				(font
@@ -3082,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
+		(property "Footprint" "antmicro-footprints:MP_Pad5.5mm_Drill2.9mm"
 			(at 360.68 224.79 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
+		(property "Footprint" "antmicro-footprints:MP_Pad5.5mm_Drill2.9mm"
 			(at 395.605 224.79 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
+		(property "Footprint" "antmicro-footprints:MP_Pad5.5mm_Drill2.9mm"
 			(at 326.39 224.79 0)
 			(effects
 				(font
