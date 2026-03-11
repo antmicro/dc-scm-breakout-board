@@ -84866,11 +84866,11 @@
 	(footprint "antmicro-footprints:Socket_DC-SCM-2.1_2x84_Rev-1-1"
 		(layer "F.Cu")
 		(uuid "1a26b298-c367-4cc2-a758-4d1c090cdc98")
-		(at 104.81 51.175)
+		(at 108 62.51)
 		(property "Reference" "J1"
 			(at -37.21 -12.98 0)
 			(layer "F.SilkS")
-			(uuid "ae6bc713-26cf-4845-a7ae-8a9f896a9d54")
+			(uuid "d97a07d1-85bb-49c1-bd9c-0100c0b7ecb1")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -84882,7 +84882,7 @@
 		(property "Value" "Socket_Amphenol_ME1016813401101"
 			(at -37.21 5.87 0)
 			(layer "F.Fab")
-			(uuid "a952d8c3-1bff-472a-8a0c-8d229fcb3862")
+			(uuid "749e961f-6644-42dc-9cb1-4cd86ae768ae")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -84894,7 +84894,7 @@
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/cme10168x340x10x.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c942506f-a639-4103-9afd-cf432e9bf450")
+			(uuid "3741ec75-73ed-479f-aa77-fd160f2844f6")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -84906,7 +84906,7 @@
 		(property "Description" "DC-SCM 2.1 Socket, Gen Z EDSFF OCP 30 168 pins SMT Straddle Mount"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ed0e7002-e17a-4a5e-8995-218bbdb84309")
+			(uuid "c3a2be18-9e94-4cf2-94b0-8cf3ec5367d8")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -159102,8 +159102,8 @@
 		(uuid "fdd780f3-7e95-4f32-a8ac-20856a9ec332")
 	)
 	(gr_line
-		(start 118.47 48.665)
-		(end 118.47 54.165)
+		(start 121.66 60)
+		(end 121.66 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159112,8 +159112,8 @@
 		(uuid "00000000-0000-0000-0000-0000602ac30f")
 	)
 	(gr_line
-		(start 85.56 48.665)
-		(end 103.9 48.665)
+		(start 88.75 60)
+		(end 107.09 60)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159122,8 +159122,8 @@
 		(uuid "00000000-0000-0000-0000-0000602ac319")
 	)
 	(gr_line
-		(start 105.76 48.665)
-		(end 115.72 48.665)
+		(start 108.95 60)
+		(end 118.91 60)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159132,9 +159132,9 @@
 		(uuid "00000000-0000-0000-0000-0000602ac31a")
 	)
 	(gr_arc
-		(start 116.64 55.085)
-		(mid 115.989462 54.815538)
-		(end 115.72 54.165)
+		(start 119.83 66.42)
+		(mid 119.179462 66.150538)
+		(end 118.91 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159143,9 +159143,9 @@
 		(uuid "00000000-0000-0000-0000-0000602ac336")
 	)
 	(gr_arc
-		(start 118.47 54.165)
-		(mid 118.200538 54.815538)
-		(end 117.55 55.085)
+		(start 121.66 65.5)
+		(mid 121.390538 66.150538)
+		(end 120.74 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159154,8 +159154,8 @@
 		(uuid "00000000-0000-0000-0000-0000602ac349")
 	)
 	(gr_line
-		(start 116.64 55.085)
-		(end 117.55 55.085)
+		(start 119.83 66.42)
+		(end 120.74 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159164,8 +159164,8 @@
 		(uuid "00000000-0000-0000-0000-0000602ac352")
 	)
 	(gr_line
-		(start 104.82 55.085)
-		(end 104.84 55.085)
+		(start 108.01 66.42)
+		(end 108.03 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159174,8 +159174,8 @@
 		(uuid "00000000-0000-0000-0000-0000602ac353")
 	)
 	(gr_line
-		(start 84.22 55.085)
-		(end 84.64 55.085)
+		(start 87.41 66.42)
+		(end 87.83 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159184,9 +159184,9 @@
 		(uuid "00000000-0000-0000-0000-0000602ac354")
 	)
 	(gr_arc
-		(start 85.56 54.165)
-		(mid 85.290538 54.815538)
-		(end 84.64 55.085)
+		(start 88.75 65.5)
+		(mid 88.480538 66.150538)
+		(end 87.83 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159195,9 +159195,9 @@
 		(uuid "18cea34a-4990-40fb-aefd-ba06f7f866f4")
 	)
 	(gr_arc
-		(start 105.76 54.165)
-		(mid 105.490538 54.815538)
-		(end 104.84 55.085)
+		(start 108.95 65.5)
+		(mid 108.680538 66.150538)
+		(end 108.03 66.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159206,9 +159206,9 @@
 		(uuid "1d1663f2-79a8-4fc8-a673-231688b31a99")
 	)
 	(gr_arc
-		(start 84.22 55.085)
-		(mid 83.569462 54.815538)
-		(end 83.3 54.165)
+		(start 87.41 66.42)
+		(mid 86.759462 66.150538)
+		(end 86.49 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159217,8 +159217,8 @@
 		(uuid "2c1ba71b-d330-41ba-8db4-f727d82124b7")
 	)
 	(gr_line
-		(start 115.72 48.665)
-		(end 115.72 54.165)
+		(start 118.91 60)
+		(end 118.91 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159237,8 +159237,8 @@
 		(uuid "4ed12f99-fb17-4557-b17e-93cbb034c52f")
 	)
 	(gr_line
-		(start 83.3 48.665)
-		(end 60 48.665)
+		(start 86.49 60)
+		(end 60 60)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159247,8 +159247,8 @@
 		(uuid "7f7607b5-2b53-42eb-b67e-681683903be7")
 	)
 	(gr_line
-		(start 83.3 48.665)
-		(end 83.3 54.165)
+		(start 86.49 60)
+		(end 86.49 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159257,8 +159257,8 @@
 		(uuid "af9d355c-0f60-4a2d-aaf5-6fe0a3347bb0")
 	)
 	(gr_line
-		(start 85.56 48.665)
-		(end 85.56 54.165)
+		(start 88.75 60)
+		(end 88.75 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159267,8 +159267,8 @@
 		(uuid "b585458c-56b6-4402-b104-070c46020f76")
 	)
 	(gr_line
-		(start 105.76 48.665)
-		(end 105.76 54.165)
+		(start 108.95 60)
+		(end 108.95 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159277,9 +159277,9 @@
 		(uuid "c7d8b4c6-f75c-4dcd-86ee-def3a0d51ba5")
 	)
 	(gr_arc
-		(start 104.82 55.085)
-		(mid 104.169462 54.815538)
-		(end 103.9 54.165)
+		(start 108.01 66.42)
+		(mid 107.359462 66.150538)
+		(end 107.09 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159288,8 +159288,8 @@
 		(uuid "d8ff8b06-9708-419f-a0b3-700f5193937d")
 	)
 	(gr_line
-		(start 118.47 48.665)
-		(end 150.025 48.665)
+		(start 121.66 60)
+		(end 150.025 60)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159318,8 +159318,8 @@
 		(uuid "f4d11800-6111-4041-a077-3602844f1bc9")
 	)
 	(gr_line
-		(start 103.9 48.665)
-		(end 103.9 54.165)
+		(start 107.09 60)
+		(end 107.09 65.5)
 		(stroke
 			(width 0.05)
 			(type solid)
