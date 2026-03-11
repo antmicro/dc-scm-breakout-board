@@ -1773,7 +1773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d23354ab-2f32-4ac6-b4ea-a507ff02baa5")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 59.69 50.8 0)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 		(instances
 			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/d9b5a36f-f960-4ce7-8269-f56a658e52fc"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)

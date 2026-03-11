@@ -60,18 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|103719827|102135076|00000000-0000-0000-0000-0000602d376e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|105145000|63532068|00000000-0000-0000-0000-0000602a752c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|135440000|115820000|00000000-0000-0000-0000-000060c26174|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|146100000|66665000|00000000-0000-0000-0000-000060c219d7|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -81,14 +69,6 @@
         ],
         [
           "lib_footprint_mismatch|64100000|66665000|00000000-0000-0000-0000-000060c21bfc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|69895000|122665000|f4d11800-6111-4041-a077-3602844f1bc9|0b049427-c809-4943-adcb-a738f3c341cc",
-          ""
-        ],
-        [
-          "silk_edge_clearance|79695000|122665000|f4d11800-6111-4041-a077-3602844f1bc9|a6a9cee4-3edb-4215-aadc-0c2d94c497a5",
           ""
         ]
       ],
@@ -1008,12 +988,108 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMax",
+          "name": "IMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISat",
+          "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. Curr.",
+          "name": "Max. Curr.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

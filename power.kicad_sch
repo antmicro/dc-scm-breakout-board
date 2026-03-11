@@ -11354,7 +11354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d91b5f29-0642-424b-9c9e-3e3411247643")
-		(property "Reference" "J14"
+		(property "Reference" "J5"
 			(at 67.945 83.82 0)
 			(effects
 				(font
@@ -11457,7 +11457,7 @@
 		(instances
 			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
-					(reference "J14")
+					(reference "J5")
 					(unit 1)
 				)
 			)

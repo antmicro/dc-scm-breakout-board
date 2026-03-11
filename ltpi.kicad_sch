@@ -1473,7 +1473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcf862c-d1f7-460e-be76-c4627b532f05")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 74.6125 30.48 0)
 			(effects
 				(font
@@ -1630,7 +1630,7 @@
 		(instances
 			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/71f72096-b015-4537-aa01-1b933a065d45"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
