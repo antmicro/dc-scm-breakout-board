@@ -228,7 +228,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 362.204 233.934 0)
+		(at 345.694 232.664 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -3057,7 +3057,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 356.87 243.84 0)
+		(at 340.36 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3065,7 +3065,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105a94d")
 		(property "Reference" "MP2"
-			(at 362.1532 242.6716 0)
+			(at 345.6432 241.4016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 362.1532 244.983 0)
+			(at 345.6432 243.713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 377.19 226.06 0)
+			(at 360.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 223.52 0)
+			(at 364.49 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 243.84 0)
+			(at 340.36 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3119,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 391.795 243.84 0)
+		(at 375.285 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3127,7 +3127,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105adf7")
 		(property "Reference" "MP3"
-			(at 397.0782 242.6716 0)
+			(at 380.5682 241.4016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3136,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 397.0782 244.983 0)
+			(at 380.5682 243.713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3145,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 412.115 226.06 0)
+			(at 395.605 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.925 223.52 0)
+			(at 399.415 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.795 243.84 0)
+			(at 375.285 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3181,7 @@
 	)
 	(symbol
 		(lib_id "bmc-breakout-board:PCB_Mount_Hole_2.5_6.2")
-		(at 322.58 243.84 0)
+		(at 306.07 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3189,7 +3189,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006105b178")
 		(property "Reference" "MP1"
-			(at 327.8632 242.6716 0)
+			(at 311.3532 241.4016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Value" "PCB_Mount_Hole_2.5_6.2"
-			(at 327.8632 244.983 0)
+			(at 311.3532 243.713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3207,7 @@
 			)
 		)
 		(property "Footprint" "bmc-breakout-board-footprints:Mount-hole-M2.5"
-			(at 342.9 226.06 0)
+			(at 326.39 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 223.52 0)
+			(at 330.2 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 243.84 0)
+			(at 306.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
