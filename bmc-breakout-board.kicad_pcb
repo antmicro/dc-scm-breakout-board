@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.549999)
+		(thickness 1.586)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -30,6 +30,8 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(47 "User.5" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -41,28 +43,28 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(thickness 0.01)
+				(thickness 0.02)
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 1"
-				(type "core")
-				(thickness 0.463333)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(type "prepreg")
+				(thickness 0.12)
+				(material "IS400 PR2116")
+				(epsilon_r 4.06)
+				(loss_tangent 0.0189)
 			)
 			(layer "In1.Cu"
 				(type "copper")
 				(thickness 0.035)
 			)
 			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 0.463333)
-				(material "FR4")
-				(epsilon_r 4.5)
+				(type "core")
+				(thickness 1.2)
+				(material "FR-4")
+				(epsilon_r 4.35)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
@@ -70,19 +72,19 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 3"
-				(type "core")
-				(thickness 0.463333)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(type "prepreg")
+				(thickness 0.12)
+				(material "IS400 PR2116")
+				(epsilon_r 4.06)
+				(loss_tangent 0.0189)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0.02)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -91,7 +93,7 @@
 				(type "Bottom Silk Screen")
 			)
 			(copper_finish "None")
-			(dielectric_constraints no)
+			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
 		(solder_mask_min_width 0.01)
@@ -1129,7 +1131,7 @@
 	(footprint "antmicro-footprints:antmicro-logo_scaled_20mm_mask"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000602d376e")
-		(at 104.095 99.54)
+		(at 103.538578 139.033827)
 		(descr "Antmicro Logo scaled 20mm F.Mask")
 		(tags "Antmicro Logo scaled 20mm F.Mask")
 		(property "Reference" "N1"
@@ -2069,7 +2071,7 @@
 	(footprint "antmicro-footprints:TP_SMD_0.75mm"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000060c33899")
-		(at 41.6 100.165)
+		(at 72.1 87.665)
 		(property "Reference" "TP1"
 			(at 0 -0.6 0)
 			(layer "F.SilkS")
@@ -2235,7 +2237,7 @@
 	(footprint "antmicro-footprints:TP_SMD_0.75mm"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000060c338a2")
-		(at 35.6 99.665 180)
+		(at 76.1 87.665 180)
 		(property "Reference" "TP2"
 			(at 0 -0.6 180)
 			(layer "F.SilkS")
@@ -53271,7 +53273,7 @@
 	(footprint "bmc-breakout-board-footprints:oshw-logo"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000060e6ee20")
-		(at 120.025 99.5)
+		(at 119.302853 139.546939)
 		(property "Reference" "N2"
 			(at -3.08 -4.76 0)
 			(layer "F.SilkS")
@@ -54681,7 +54683,7 @@
 	(footprint "antmicro-footprints:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000060e6ee3c")
-		(at 66.725 98.2)
+		(at 75 98.6655)
 		(property "Reference" "Q1"
 			(at -1.8 -1.8 0)
 			(layer "F.SilkS")
@@ -84200,7 +84202,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "09c86f22-f111-4185-a2a4-e96109cf1a9f")
-		(at 28.905 158.66)
+		(at 50.62 68.655)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R35"
@@ -89912,6 +89914,17 @@
 				(xyz 0 -180 0)
 			)
 		)
+		(model "/home/kbizon/Downloads/bmc-reference-carrier-board.step"
+			(offset
+				(xyz -81 -83.5 -1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -90252,7 +90265,7 @@
 	(footprint "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "23bb3b5c-01ae-4174-9044-715ea54e1eee")
-		(at 46.995 140.95)
+		(at 93.814 76.033)
 		(property "Reference" "U2"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
@@ -93258,7 +93271,7 @@
 	(footprint "antmicro-footprints:TSOT23-6"
 		(layer "F.Cu")
 		(uuid "264ba4be-be1b-4bfb-b1ec-f7f4bc4c86de")
-		(at 48.2 150.39)
+		(at 81.801 99.661)
 		(property "Reference" "U4"
 			(at 0 -1.9 0)
 			(layer "F.SilkS")
@@ -95095,7 +95108,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "284e9eee-d1ed-4728-a41a-a85279393ce5")
-		(at 23.105 154.68)
+		(at 44.82 64.675)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R7"
@@ -95946,7 +95959,7 @@
 	(footprint "antmicro-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
 		(layer "F.Cu")
 		(uuid "4559e803-de2b-4b8c-bec4-60154e6d529a")
-		(at 107.025 143.865)
+		(at 116.451 88.928)
 		(property "Reference" "J7"
 			(at -1.85 -4 0)
 			(layer "F.SilkS")
@@ -99271,7 +99284,7 @@
 	(footprint "antmicro-footprints:DFN-12-1EP_3x3mm"
 		(layer "F.Cu")
 		(uuid "4602430a-5f0c-4a30-b47b-c29cfd84a2a3")
-		(at 38.33 143.4)
+		(at 120.1 107.665)
 		(descr "http://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Example%20IC%20PCB%20Footprints.pdf")
 		(property "Reference" "U5"
 			(at 0 -2.926 0)
@@ -103430,7 +103443,7 @@
 	(footprint "antmicro-footprints:PinHeader_2x10_P1.27mm_SMD_Shrouded"
 		(layer "F.Cu")
 		(uuid "5a76b8e0-78ff-42a8-b6c5-baf799466465")
-		(at 100.1 82.379 -90)
+		(at 103.526 87.842 -90)
 		(property "Reference" "J6"
 			(at 0 -3.7 90)
 			(layer "F.SilkS")
@@ -107671,7 +107684,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "69a89322-9f94-4621-bb4b-6e80d162495f")
-		(at 28.905 154.68)
+		(at 50.62 64.675)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R25"
@@ -116364,7 +116377,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "74307334-32cf-403d-9e8a-0bf3c5bb447d")
-		(at 26.005 154.68)
+		(at 47.72 64.675)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R10"
@@ -117049,7 +117062,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7b306bce-68f8-4658-91c1-28950b3da33e")
-		(at 26.005 158.66)
+		(at 47.72 68.655)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R24"
@@ -117398,7 +117411,7 @@
 	(footprint "antmicro-footprints:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator"
 		(layer "F.Cu")
 		(uuid "86d8a85c-353b-40a3-b3a0-a9e421d89a3a")
-		(at 90.23 82.663 90)
+		(at 93.656 88.126 90)
 		(descr "Pin Header 2x7 SMD Shrouded no-locator")
 		(property "Reference" "J8"
 			(at 0 -4.452 90)
@@ -121697,7 +121710,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8dbe2d7c-bac8-407e-a98c-d71531ee4aa9")
-		(at 28.905 156.67)
+		(at 50.62 66.665)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R27"
@@ -128111,7 +128124,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9844f0f8-438e-49e6-a164-15f412324a7d")
-		(at 23.105 158.66)
+		(at 44.82 68.655)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R9"
@@ -128460,7 +128473,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "99097d52-a180-48cd-8dd9-8957a9f65f50")
-		(at 23.105 156.67)
+		(at 44.82 66.665)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R8"
@@ -136522,7 +136535,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a9478766-2bea-43b2-a4dc-7753a797c8cc")
-		(at 26.005 156.67)
+		(at 47.72 66.665)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R23"
@@ -140245,7 +140258,7 @@
 	(footprint "antmicro-footprints:Conn_Molex_Nano-Fit_1x2_105313-2202_Compliant_105309-2202"
 		(layer "F.Cu")
 		(uuid "e9bd6409-6592-4a93-b1ef-3a977226b6d5")
-		(at 74.35 109.2325 -90)
+		(at 74.35 108.2325 -90)
 		(descr "Molex Nano-Fit Power Connectors, 105313-xx02, 105309-xx02, 2 Pins per row")
 		(tags "connector Molex Nano-Fit top/side entry")
 		(property "Reference" "J5"
@@ -145897,7 +145910,7 @@
 	(footprint "antmicro-footprints:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-000060c2d93a")
-		(at 62.3 93.875 180)
+		(at 69.4 93.875 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
 		(property "Reference" "C2"
@@ -151635,7 +151648,7 @@
 	(footprint "antmicro-footprints:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-000060c2d964")
-		(at 62.3 94.82 180)
+		(at 64.62 93.665 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C4"
@@ -159089,176 +159102,6 @@
 		(uuid "fdd780f3-7e95-4f32-a8ac-20856a9ec332")
 	)
 	(gr_line
-		(start 215.3 62.999999)
-		(end 215.3 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "020acdd9-bd42-47b6-8c05-75e8eebb07f5")
-	)
-	(gr_line
-		(start 155 62.999999)
-		(end 215.3 62.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "03379bc5-50f3-478a-941a-40da456e2f36")
-	)
-	(gr_line
-		(start 205 62.999999)
-		(end 205 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0651730b-512f-4485-8355-77af451300fc")
-	)
-	(gr_line
-		(start 155 70.999999)
-		(end 215.3 70.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0cdab989-7a90-4cc6-b763-6fb1af1dbe4d")
-	)
-	(gr_line
-		(start 155 62.999999)
-		(end 155 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "162b960e-1af0-4d48-8f9d-a44966d4eb27")
-	)
-	(gr_line
-		(start 155 64.999999)
-		(end 215.3 64.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "2419ab2b-d6fa-4cd3-9b50-64e7ec40c079")
-	)
-	(gr_line
-		(start 162 62.999999)
-		(end 162 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "3a26acd3-0cb0-49c9-984b-c584e039935c")
-	)
-	(gr_line
-		(start 155 68.999999)
-		(end 215.3 68.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "47c234b4-ce67-4a89-9da1-4ff2394254ec")
-	)
-	(gr_line
-		(start 155 66.999999)
-		(end 215.3 66.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "55d46fb1-7fd3-4ca9-8b45-af2c8b5314f4")
-	)
-	(gr_line
-		(start 155 78.999999)
-		(end 215.3 78.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "6b7c626b-647a-4dc3-ac72-fb8fd78d8a68")
-	)
-	(gr_line
-		(start 155 82.999999)
-		(end 215.3 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "807cc3f7-79f7-4d67-8908-7163b1e44a5a")
-	)
-	(gr_line
-		(start 155 74.999999)
-		(end 215.3 74.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "82e66e2e-662a-4bd0-b885-3f129592be55")
-	)
-	(gr_line
-		(start 155 76.999999)
-		(end 215.3 76.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "97114fac-9249-416e-bc56-2719acbade69")
-	)
-	(gr_line
-		(start 155 72.999999)
-		(end 215.3 72.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "addb06f0-7ede-49e3-8df2-8b9cfac3a141")
-	)
-	(gr_line
-		(start 177.8 62.999999)
-		(end 177.8 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "c8dd4c67-fef2-4224-9cd5-bfc2b4fbf716")
-	)
-	(gr_line
-		(start 155 80.999999)
-		(end 215.3 80.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "cd3e9da5-74e2-474d-ab49-1ff89e6aff11")
-	)
-	(gr_line
-		(start 193.599999 62.999999)
-		(end 193.599999 82.999999)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "dfa69c60-a911-4622-9f9c-ac1216cb4cd0")
-	)
-	(gr_line
 		(start 118.47 60)
 		(end 118.47 65.5)
 		(stroke
@@ -159495,7 +159338,7 @@
 		(uuid "fd94a4d7-871c-4d21-8aca-9c4682dde2d6")
 	)
 	(gr_text "DC-SCM \nBreakout Board\nRev. 1.0.1"
-		(at 100.515 103.17 0)
+		(at 100.1 142.665 0)
 		(layer "F.Mask")
 		(uuid "00000000-0000-0000-0000-000060b7956a")
 		(effects
@@ -160609,690 +160452,6 @@
 				(size 0.7 0.7)
 				(thickness 0.15)
 			)
-		)
-	)
-	(gr_text "5"
-		(at 156.5 73.999999 0)
-		(layer "Dwgs.User")
-		(uuid "0a93e994-e638-4252-8585-03a7a31c3d98")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "8"
-		(at 156.5 79.999999 0)
-		(layer "Dwgs.User")
-		(uuid "0c3c3147-3348-472e-8f71-dc987cd376e4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text ""
-		(at 206.5 67.999999 0)
-		(layer "Dwgs.User")
-		(uuid "0d57b1d7-a0e3-4f54-bd95-27fd0225a3da")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.02  mm"
-		(at 195.099999 81.999999 0)
-		(layer "Dwgs.User")
-		(uuid "0e43b3ab-087d-4342-8dc1-265889ad1278")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Thickness"
-		(at 195.099999 63.999999 0)
-		(layer "Dwgs.User")
-		(uuid "13de0e83-d9b3-4a8e-8164-0ee87228af3e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Dielectric 2"
-		(at 163.5 73.999999 0)
-		(layer "Dwgs.User")
-		(uuid "203283c5-dea4-4ae4-a709-5ced7354cf1a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Solder mask: matt black"
-		(at 155 89.999999 0)
-		(layer "Dwgs.User")
-		(uuid "244e4e10-7908-4d26-b55b-cf320c3ba4f8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Dielectric 1"
-		(at 163.5 69.999999 0)
-		(layer "Dwgs.User")
-		(uuid "24bb8798-095c-44df-bdaf-9281b9ceec86")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.035 mm"
-		(at 195.099999 75.999999 0)
-		(layer "Dwgs.User")
-		(uuid "2605eec4-0f18-418d-aa7a-1a6728de989e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text ""
-		(at 206.5 79.999999 0)
-		(layer "Dwgs.User")
-		(uuid "2622b113-15b7-4ac5-b228-c8f95c2427b5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "1"
-		(at 156.5 65.999999 0)
-		(layer "Dwgs.User")
-		(uuid "300adbbb-9dde-4437-b341-21f8f5233a76")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text ""
-		(at 206.5 75.999999 0)
-		(layer "Dwgs.User")
-		(uuid "36de78cf-6f10-4de0-8fb2-d2e8a962bc50")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Layer"
-		(at 156.5 63.999999 0)
-		(layer "Dwgs.User")
-		(uuid "37852993-2904-4b5d-81f8-5f38c8a291c1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Copper"
-		(at 179.3 75.999999 0)
-		(layer "Dwgs.User")
-		(uuid "3a860299-fd86-4ee3-acd9-2c6cc80561f1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.36  mm"
-		(at 195.099999 77.999999 0)
-		(layer "Dwgs.User")
-		(uuid "4142d678-55f6-4430-968e-2229938e5fdc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Gold plating (ENIG, selective)"
-		(at 155 87.999999 0)
-		(layer "Dwgs.User")
-		(uuid "42ef951f-ace1-4f5e-9f06-5d2259bb07e7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Prepreg"
-		(at 179.3 77.999999 0)
-		(layer "Dwgs.User")
-		(uuid "43549878-a1ba-4f66-b176-3ad4cbc2779d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "FR-4"
-		(at 179.3 73.999999 0)
-		(layer "Dwgs.User")
-		(uuid "4bedf5b5-a5d6-4776-bac3-cbb65f63d371")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "7"
-		(at 156.5 77.999999 0)
-		(layer "Dwgs.User")
-		(uuid "4f28e418-6042-46a6-b0e5-dda2b41a8a70")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Silkscreen: white"
-		(at 155 91.999999 0)
-		(layer "Dwgs.User")
-		(uuid "4f49cc5b-44ce-4422-a5d3-b75fd21febb0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Name"
-		(at 163.5 63.999999 0)
-		(layer "Dwgs.User")
-		(uuid "51a6274c-1486-4e32-a1ff-91829fcfbd91")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "The design includes high speed signaling"
-		(at 155 94.999999 0)
-		(layer "Dwgs.User")
-		(uuid "59fcb597-aecb-4d71-ab71-005c6c940ce3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Bottom Solder"
-		(at 163.5 81.999999 0)
-		(layer "Dwgs.User")
-		(uuid "5e8fec79-e0d7-419a-b181-ef18a05adee1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Copper"
-		(at 179.3 67.999999 0)
-		(layer "Dwgs.User")
-		(uuid "638e4158-0b3b-4b51-8e81-d518baa3f16b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "4.6"
-		(at 206.5 73.999999 0)
-		(layer "Dwgs.User")
-		(uuid "6539eeff-fc9c-4626-9067-ce9ddffea3ab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "6"
-		(at 156.5 75.999999 0)
-		(layer "Dwgs.User")
-		(uuid "68702ab8-3b8f-478e-a3c1-0ba5a343caf8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.018 mm"
-		(at 195.099999 79.999999 0)
-		(layer "Dwgs.User")
-		(uuid "694f3062-d335-421b-832d-e929f10038b3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "3"
-		(at 156.5 69.999999 0)
-		(layer "Dwgs.User")
-		(uuid "70c41f9e-35b3-4410-b970-61980d54c7dc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Constant"
-		(at 206.5 63.999999 0)
-		(layer "Dwgs.User")
-		(uuid "76e46994-e80f-4839-8822-302e291b53a2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "4.2"
-		(at 206.5 69.999999 0)
-		(layer "Dwgs.User")
-		(uuid "78967d6e-7173-4299-9acb-24c769253324")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "9"
-		(at 156.5 81.999999 0)
-		(layer "Dwgs.User")
-		(uuid "8511f47a-ae9c-476b-b3dd-4a30f276103a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Dielectric 3"
-		(at 163.5 77.999999 0)
-		(layer "Dwgs.User")
-		(uuid "8733a752-9844-43d9-9ee3-f99e73a514d9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.71  mm"
-		(at 195.099999 73.999999 0)
-		(layer "Dwgs.User")
-		(uuid "8c083f4d-96ed-469c-a940-9af1364f2580")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Top Layer"
-		(at 163.5 67.999999 0)
-		(layer "Dwgs.User")
-		(uuid "8c1520cd-7f79-47d6-a5c9-b1df4aa5ba9c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Signal 1"
-		(at 163.5 71.999999 0)
-		(layer "Dwgs.User")
-		(uuid "9a19064b-74e3-42d9-81b6-24b5d4e562ff")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "4.2"
-		(at 206.5 77.999999 0)
-		(layer "Dwgs.User")
-		(uuid "9bec184f-ba18-4390-892c-c6399418e59f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Prepreg"
-		(at 179.3 69.999999 0)
-		(layer "Dwgs.User")
-		(uuid "a41a97f6-91c3-4c58-9cfd-753a490baa98")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Solder Resist"
-		(at 179.3 81.999999 0)
-		(layer "Dwgs.User")
-		(uuid "a7658c04-c528-40b1-9715-a628566207cd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Suggested prepreg material is ISOLA PR2116"
-		(at 155 96.999999 0)
-		(layer "Dwgs.User")
-		(uuid "a7e12481-918b-48be-90e2-44737bb8a4e7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Material"
-		(at 179.3 63.999999 0)
-		(layer "Dwgs.User")
-		(uuid "b47afac9-d254-4711-9625-e84d49c6bd67")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Signal 2"
-		(at 163.5 75.999999 0)
-		(layer "Dwgs.User")
-		(uuid "b4f66139-de03-4b9a-b89f-dc94b6b1c3bc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Copper"
-		(at 179.3 79.999999 0)
-		(layer "Dwgs.User")
-		(uuid "bd5f06fc-068b-4657-bbca-499fda826dbe")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Recommended PCB stackup"
-		(at 155 61 0)
-		(layer "Dwgs.User")
-		(uuid "c200b04e-fb2c-4964-977a-33eafbfa28e0")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Recommended PCB finish:"
-		(at 155 85.999999 0)
-		(layer "Dwgs.User")
-		(uuid "c6cda7e0-ef0d-4760-b5e5-71351be13789")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Solder Resist"
-		(at 179.3 65.999999 0)
-		(layer "Dwgs.User")
-		(uuid "cadedac2-4492-49da-9930-cd69197106f7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text ""
-		(at 206.5 71.999999 0)
-		(layer "Dwgs.User")
-		(uuid "d06080b0-b2d8-4efd-956e-95b26aba2dee")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.36  mm"
-		(at 195.099999 69.999999 0)
-		(layer "Dwgs.User")
-		(uuid "d4a99e39-6cd6-4b76-8dfc-bee7f9263d4c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.02  mm"
-		(at 195.099999 65.999999 0)
-		(layer "Dwgs.User")
-		(uuid "d661ed5a-6ae1-49c1-ae53-3a0438effec5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Copper"
-		(at 179.3 71.999999 0)
-		(layer "Dwgs.User")
-		(uuid "d886ed0c-594b-40fd-b138-cc1aacf589ee")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "4"
-		(at 156.5 71.999999 0)
-		(layer "Dwgs.User")
-		(uuid "d93a3758-7f8c-4799-a115-2c0c3a5c7aba")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "3.5"
-		(at 206.5 81.999999 0)
-		(layer "Dwgs.User")
-		(uuid "e082f83d-80e3-45a4-bf69-77c7cd89188e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "3.5"
-		(at 206.5 65.999999 0)
-		(layer "Dwgs.User")
-		(uuid "e5a72aef-9ba8-4bd6-92ee-768798f3c6f9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.018 mm"
-		(at 195.099999 67.999999 0)
-		(layer "Dwgs.User")
-		(uuid "f06b2680-7603-46fa-91cd-aa283b19e069")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Bottom Layer"
-		(at 163.5 79.999999 0)
-		(layer "Dwgs.User")
-		(uuid "f3a33e6b-34ed-4780-97e4-621232f1e858")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "2"
-		(at 156.5 67.999999 0)
-		(layer "Dwgs.User")
-		(uuid "f92f67cc-60ed-41d9-9a64-f290589b58e6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Top Solder"
-		(at 163.5 65.999999 0)
-		(layer "Dwgs.User")
-		(uuid "fa51eebb-a43e-4f80-9360-fb465322d2bf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "0.035 mm"
-		(at 195.099999 71.999999 0)
-		(layer "Dwgs.User")
-		(uuid "fb40c918-65cc-4433-8b42-217cac3530d8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "${REFERENCE}"
