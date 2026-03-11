@@ -893,30 +893,6 @@
       ],
       "/DC-SCM 2.1 connector/DC_SCM_USB2{USB}": [
         "90Ohm-diff"
-      ],
-      "/USBs/DC_SCM_QSPI.IO0": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.IO1": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.IO2": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.IO3": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.SCK": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.~{CS0}": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI.~{CS1}": [
-        "50Ohm-se"
-      ],
-      "/USBs/DC_SCM_QSPI{QSPI}": [
-        "50Ohm-se"
       ]
     },
     "netclass_patterns": []
@@ -1184,7 +1160,7 @@
     ],
     [
       "07ab1158-ddfb-42f0-9fa7-f1beb51ab908",
-      "USBs"
+      "USBs and FTDI"
     ]
   ],
   "text_variables": {}
