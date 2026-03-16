@@ -3401,9 +3401,9 @@
 				(justify left)
 			)
 		)
-		(pin "FTDI_3V3" output
-			(at 175.26 41.91 0)
-			(uuid "fcbf90cd-c558-46aa-9e72-a44fda6211e7")
+		(pin "USB_DEBUG_VBUS" output
+			(at 175.26 46.99 0)
+			(uuid "8cc4024d-ce66-4d3d-b6df-29ff620347fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,9 +3411,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DEBUG_VBUS" output
-			(at 175.26 46.99 0)
-			(uuid "8cc4024d-ce66-4d3d-b6df-29ff620347fd")
+		(pin "FTDI_3V3" input
+			(at 175.26 41.91 0)
+			(uuid "2bc288f2-aaaf-473a-a55e-9832d639cf04")
 			(effects
 				(font
 					(size 1.27 1.27)

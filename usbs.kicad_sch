@@ -7244,7 +7244,7 @@
 		(uuid "c113b71e-bfd2-43c1-a100-2418ee982802")
 	)
 	(hierarchical_label "FTDI_3V3"
-		(shape output)
+		(shape input)
 		(at 26.67 96.52 180)
 		(effects
 			(font
