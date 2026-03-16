@@ -386,6 +386,16 @@
 		(at 57.15 248.92)
 		(uuid "ff26015b-c72c-40b5-9b1c-bd1fa72d7934")
 	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049d4296-6990-4d1e-bd5c-23b734c2779a")
+	)
 	(bus
 		(pts
 			(xy 57.15 194.31) (xy 115.57 194.31)
@@ -475,6 +485,26 @@
 			(type default)
 		)
 		(uuid "529cea50-b10e-42c1-a787-2f23a006050e")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be8c2c5-ce2b-4b76-ac8e-ed9794a96123")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf40243-40fc-4d38-a8ac-e60a8ddcf164")
 	)
 	(wire
 		(pts
@@ -608,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 57.15 55.88)
+			(xy 57.15 55.88) (xy 133.35 55.88)
 		)
 		(stroke
 			(width 0)
@@ -638,16 +668,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 115.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6f3342-f3be-45ac-a826-c85468556a1b")
-	)
-	(wire
-		(pts
 			(xy 133.35 72.39) (xy 119.38 72.39)
 		)
 		(stroke
@@ -665,6 +685,16 @@
 			(type default)
 		)
 		(uuid "b17b6f8a-e282-4f94-b941-dfe97cd04078")
+	)
+	(wire
+		(pts
+			(xy 177.8 46.99) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8faed62-0140-4b76-a27f-f18e0b19da7d")
 	)
 	(wire
 		(pts
@@ -708,7 +738,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 115.57 62.23)
+			(xy 180.34 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56ba480-534f-4de9-9776-f9149e4d0163")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -726,16 +766,6 @@
 		)
 		(uuid "e703c8f3-267b-471f-999c-9717230ee619")
 	)
-	(wire
-		(pts
-			(xy 115.57 58.42) (xy 133.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b28544-84c6-4664-b788-f2b9f9fc7b75")
-	)
 	(bus
 		(pts
 			(xy 133.35 43.18) (xy 77.47 43.18)
@@ -748,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 115.57 76.2)
+			(xy 115.57 60.96) (xy 115.57 76.2)
 		)
 		(stroke
 			(width 0)
@@ -765,6 +795,16 @@
 			(type default)
 		)
 		(uuid "f5d36642-dbdb-462b-927f-da2fccec799a")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e39166-0015-4803-88ee-77ccc83c3df2")
 	)
 	(bus
 		(pts
@@ -3289,7 +3329,7 @@
 	)
 	(sheet
 		(at 133.35 33.02)
-		(size 26.67 16.51)
+		(size 41.91 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3359,6 +3399,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "FTDI_3V3" output
+			(at 175.26 41.91 0)
+			(uuid "fcbf90cd-c558-46aa-9e72-a44fda6211e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DEBUG_VBUS" output
+			(at 175.26 46.99 0)
+			(uuid "8cc4024d-ce66-4d3d-b6df-29ff620347fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3432,8 +3492,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 54.61)
-		(size 26.67 10.16)
+		(at 133.35 53.34)
+		(size 41.91 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3448,7 +3508,7 @@
 		)
 		(uuid "6a40469a-13ae-4d69-8a2b-3c10ffcd9800")
 		(property "Sheetname" "Power"
-			(at 133.35 53.8984 0)
+			(at 133.35 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3526,7 @@
 			)
 		)
 		(pin "P12V_AUX" output
-			(at 133.35 58.42 180)
+			(at 133.35 55.88 180)
 			(uuid "18d3b000-c2f2-4094-8e63-58e193432e4a")
 			(effects
 				(font
@@ -3476,13 +3536,33 @@
 			)
 		)
 		(pin "DC_SCM_STBY_RST" input
-			(at 133.35 62.23 180)
+			(at 133.35 60.96 180)
 			(uuid "919c5c2d-1c51-464e-b75d-285319314bdc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USB_DEBUG_VBUS" input
+			(at 175.26 55.88 0)
+			(uuid "7c5ce03d-b964-4ed9-8327-e349c4bd0923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_3V3" output
+			(at 175.26 60.96 0)
+			(uuid "801aa9d8-25bb-4200-9370-7b6ddf429e5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
