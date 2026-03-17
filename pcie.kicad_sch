@@ -1599,6 +1599,919 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 39.37 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
+				(at 39.37 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
+				(at 39.37 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
+				(at 39.37 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
+				(at 39.37 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Amphenol"
+				(at 39.37 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "G14A421211112HR"
+				(at 39.37 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 39.37 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 39.37 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, CONNECTOR, PCIE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side_1_1"
+				(rectangle
+					(start 3.81 2.54)
+					(end 21.59 -93.98)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "V_{ACT}_RX_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "V_{ACT}_TX_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 3.81)
+					(name "VSP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 3.81)
+					(name "VSP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 3.81)
+					(name "~{PERST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 3.81)
+					(name "~{CPRSNT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 3.81)
+					(name "~{CWAKE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -35.56 0)
+					(length 3.81)
+					(name "PET0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -38.1 0)
+					(length 3.81)
+					(name "PET0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -43.18 0)
+					(length 3.81)
+					(name "PET1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -45.72 0)
+					(length 3.81)
+					(name "PET1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -50.8 0)
+					(length 3.81)
+					(name "PET2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -53.34 0)
+					(length 3.81)
+					(name "PET2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -58.42 0)
+					(length 3.81)
+					(name "PET3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -60.96 0)
+					(length 3.81)
+					(name "PET3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -66.04 0)
+					(length 3.81)
+					(name "PER0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -68.58 0)
+					(length 3.81)
+					(name "PER0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -73.66 0)
+					(length 3.81)
+					(name "PER1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -76.2 0)
+					(length 3.81)
+					(name "PER1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -81.28 0)
+					(length 3.81)
+					(name "PER2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -83.82 0)
+					(length 3.81)
+					(name "PER2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -88.9 0)
+					(length 3.81)
+					(name "PER3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -91.44 0)
+					(length 3.81)
+					(name "PER3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 21.59 -76.2 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -88.9 180)
+					(length 3.81)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -91.44 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroTestPoints:TP_0.75mm_SMD"
 			(pin_names
 				(hide yes)
@@ -1893,10 +2806,6 @@
 		(uuid "4df10e62-16b4-4003-bd0a-7a4474e80e33")
 	)
 	(no_connect
-		(at 226.06 49.53)
-		(uuid "4f1065dd-fc80-4091-94a3-370d56130fd0")
-	)
-	(no_connect
 		(at 226.06 118.11)
 		(uuid "52627dc9-1090-4df6-8ef9-eca37ed67ad4")
 	)
@@ -1905,16 +2814,8 @@
 		(uuid "57d65728-5e89-486a-8af3-3c38f434a200")
 	)
 	(no_connect
-		(at 67.31 67.31)
-		(uuid "5b450e5d-ed2c-4d8e-b534-80d2112f72b7")
-	)
-	(no_connect
 		(at 226.06 90.17)
 		(uuid "5d0fe001-21c1-4ca2-a675-f4ed53543c1a")
-	)
-	(no_connect
-		(at 226.06 67.31)
-		(uuid "6805ae98-8d13-4a40-8b6d-ea96668d68b3")
 	)
 	(no_connect
 		(at 67.31 87.63)
@@ -1925,20 +2826,12 @@
 		(uuid "726a03e4-e45d-4f7f-98ce-617b6c0bfaa0")
 	)
 	(no_connect
-		(at 67.31 46.99)
-		(uuid "8b631b8a-ba0f-4908-9d55-c3365bc06a89")
-	)
-	(no_connect
 		(at 67.31 118.11)
 		(uuid "9abe9dd0-6378-4cc6-b6b3-da86520c4400")
 	)
 	(no_connect
 		(at 67.31 113.03)
 		(uuid "ad3f0e1d-aff5-4ab1-bfaf-d98ea21d1867")
-	)
-	(no_connect
-		(at 67.31 49.53)
-		(uuid "bdaeadb5-c1d5-4cbc-98a4-bfcd9d8b812d")
 	)
 	(no_connect
 		(at 67.31 128.27)
@@ -1955,10 +2848,6 @@
 	(no_connect
 		(at 67.31 90.17)
 		(uuid "db95a0f7-1dea-4056-b5bf-ef3cfc0e6e42")
-	)
-	(no_connect
-		(at 226.06 46.99)
-		(uuid "df35a2a9-96d9-4e98-b814-b82207b3814a")
 	)
 	(no_connect
 		(at 67.31 36.83)
@@ -2142,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 67.31) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e458e8-7ff0-4957-83a9-b157a3a0b4d1")
+	)
+	(wire
+		(pts
 			(xy 95.25 128.27) (xy 92.71 128.27)
 		)
 		(stroke
@@ -2169,6 +3068,16 @@
 			(type default)
 		)
 		(uuid "1bbe9949-c412-498b-978e-758004bd9a10")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e3feff-2249-45a8-9b71-4a42ac1d5030")
 	)
 	(bus
 		(pts
@@ -2199,6 +3108,16 @@
 			(type default)
 		)
 		(uuid "24e4e3d2-ea55-4463-b677-d653a04832d0")
+	)
+	(wire
+		(pts
+			(xy 64.77 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6ee3b9-cbb6-4ddd-ad45-0d226b0d7033")
 	)
 	(bus
 		(pts
@@ -2372,16 +3291,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 63.5) (xy 25.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df91674-a0fd-4623-9f14-ed58888cbf70")
-	)
-	(wire
-		(pts
 			(xy 204.47 41.91) (xy 226.06 41.91)
 		)
 		(stroke
@@ -2529,6 +3438,16 @@
 			(type default)
 		)
 		(uuid "80a7c933-f7b0-4412-88bb-cfc043ae2112")
+	)
+	(wire
+		(pts
+			(xy 223.52 67.31) (xy 226.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826c23b7-5740-40b9-9285-97eea7b66f44")
 	)
 	(wire
 		(pts
@@ -3059,16 +3978,6 @@
 			(type default)
 		)
 		(uuid "fe9ac54a-3dd1-4123-b822-7953530cac0e")
-	)
-	(wire
-		(pts
-			(xy 184.15 63.5) (xy 184.15 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff01dbd9-e346-409f-81a0-08c30c2dbe54")
 	)
 	(bus
 		(pts
@@ -5061,248 +5970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR")
-		(at 226.06 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4844e46e-f659-48d9-ae6b-e46eaa1f4221")
-		(property "Reference" "J11"
-			(at 238.76 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR"
-			(at 265.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
-			(at 265.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
-			(at 265.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
-			(at 265.43 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol"
-			(at 265.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "G14A421211112HR"
-			(at 238.76 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 265.43 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "B5"
-			(uuid "5b159e07-9762-45e9-8f45-67447bb7ac0e")
-		)
-		(pin "B8"
-			(uuid "bc96e205-ece1-49f0-8533-e13167bd55b5")
-		)
-		(pin "A15"
-			(uuid "6dad28b4-c21d-4226-bd3a-4641a8297661")
-		)
-		(pin "A9"
-			(uuid "32d3bd5b-3806-4cd3-9f24-93165c8edcaf")
-		)
-		(pin "A3"
-			(uuid "b2eec8ed-4423-4b60-97da-c32cf37692d4")
-		)
-		(pin "A5"
-			(uuid "7e81ee9f-6335-450a-a669-a5ceec1fcbe6")
-		)
-		(pin "A18"
-			(uuid "b94744e7-36e1-491c-a373-e5d71d1bfd70")
-		)
-		(pin "B18"
-			(uuid "3f320536-fc6a-4d8c-960d-4d57f5e4f473")
-		)
-		(pin "A10"
-			(uuid "d2358dfe-d217-41f0-b503-c695bc319a91")
-		)
-		(pin "A11"
-			(uuid "fbd1c1fe-b385-4458-9d7e-d09054f7c198")
-		)
-		(pin "B10"
-			(uuid "de091589-a6db-45e2-bc1d-880df5226604")
-		)
-		(pin "A16"
-			(uuid "9c1a2cf7-b8eb-4cf2-b9ad-eb66ac9ea206")
-		)
-		(pin "A17"
-			(uuid "66ad472b-2e89-4597-9917-557beb49d51c")
-		)
-		(pin "B17"
-			(uuid "e703919e-ea0d-4af4-aacf-7e503aff96b2")
-		)
-		(pin "A7"
-			(uuid "feb0865b-6cbf-4a2b-ba69-9137deccc07e")
-		)
-		(pin "B16"
-			(uuid "ddc40da6-7eef-4e0d-a98a-0484502b9cad")
-		)
-		(pin "A1"
-			(uuid "5d0b2183-2150-4ad7-8dc4-e133f00c2ef9")
-		)
-		(pin "A12"
-			(uuid "941df016-efd3-4373-95fa-65413a966cbc")
-		)
-		(pin "B4"
-			(uuid "f11e1fd4-389f-467b-a337-7c5f906f083e")
-		)
-		(pin "A2"
-			(uuid "c29825fe-c1f1-48d2-bcb1-744037e12852")
-		)
-		(pin "A6"
-			(uuid "00dd7bf9-603e-4391-877e-90e5ab8badb9")
-		)
-		(pin "A21"
-			(uuid "7910f8cc-25db-4be2-8090-bed5339fe39b")
-		)
-		(pin "B3"
-			(uuid "fdad5764-7aa2-44de-b61f-3ec86f420ae5")
-		)
-		(pin "B7"
-			(uuid "06a6fdc4-25a2-4e92-b1b3-a9628ed121f9")
-		)
-		(pin "B20"
-			(uuid "e3eb787c-21da-4ca0-bdf6-dfdb463f4803")
-		)
-		(pin "A13"
-			(uuid "bb3cfb34-2f08-4c2d-a272-312bd6845b6a")
-		)
-		(pin "B2"
-			(uuid "6b8972fe-c063-41f5-bbe3-c06312ded202")
-		)
-		(pin "A8"
-			(uuid "f8a327a8-b91d-4154-a6a7-2e04ebf6c544")
-		)
-		(pin "B6"
-			(uuid "3e2cc83e-c948-427c-a848-fdec544bc099")
-		)
-		(pin "B1"
-			(uuid "615e1ea2-0280-4148-9704-d80a4873ee16")
-		)
-		(pin "B13"
-			(uuid "bd570117-a825-4993-8d3b-595bd841aed9")
-		)
-		(pin "A19"
-			(uuid "f691a271-300a-4765-b2d8-e943d7fef4f1")
-		)
-		(pin "B9"
-			(uuid "5673e044-117e-42cc-bb78-cd2920a25bf3")
-		)
-		(pin "B19"
-			(uuid "5332d17c-ccde-43e7-9ec5-a6cb59a65687")
-		)
-		(pin "B15"
-			(uuid "bc24b540-d43e-4ac3-bee3-0fe7f2f9e771")
-		)
-		(pin "A20"
-			(uuid "1b9163fd-c420-466c-8381-8ade0d41b4d4")
-		)
-		(pin "A14"
-			(uuid "6593b6f8-c63f-4cf6-991f-f63924ae6f4a")
-		)
-		(pin "A4"
-			(uuid "a061f178-4caf-47a6-b527-362115dc053e")
-		)
-		(pin "B14"
-			(uuid "5d5a6877-734c-4ccb-8675-feca046f99ed")
-		)
-		(pin "B21"
-			(uuid "511a8bbb-3516-45e3-ac15-7a56062dbf4e")
-		)
-		(pin "B12"
-			(uuid "fa28531c-cf27-4235-a617-890487d14b9d")
-		)
-		(pin "SH"
-			(uuid "0d6c5999-6a8c-4d30-a158-7921b15fda39")
-		)
-		(pin "B11"
-			(uuid "7bf86193-0174-4dd7-9d94-359cd45e6a2b")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_0R_0402_1")
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 158.75 161.29 270)
@@ -5764,6 +6431,248 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side")
+		(at 226.06 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "533fd22c-4db1-41b2-abe7-95043f6f72e6")
+		(property "Reference" "J11"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
+			(at 265.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G14A421211112HR"
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A4"
+			(uuid "66b3ab11-e786-4e67-9723-3d7566aab6fd")
+		)
+		(pin "B18"
+			(uuid "fb50fca2-fe5b-481a-9466-f1451ddf6ca0")
+		)
+		(pin "B19"
+			(uuid "d547e4c6-9e20-43c9-94ca-98310caa4e8f")
+		)
+		(pin "B16"
+			(uuid "82837fe8-54d1-4fe1-84ce-d33d3c334f35")
+		)
+		(pin "A6"
+			(uuid "d6be8c5c-a011-4770-9d77-dbc23b4f8ac1")
+		)
+		(pin "A3"
+			(uuid "7bf3afaa-c6f9-40e4-9c0a-b3ebde17f908")
+		)
+		(pin "B20"
+			(uuid "a4b432cf-33ce-42f4-b033-a25d2ffa9bf8")
+		)
+		(pin "B15"
+			(uuid "b9cf2bc9-3a3e-4d90-8580-95a509fce36d")
+		)
+		(pin "B21"
+			(uuid "3248d58f-198b-496a-af75-ef75d46c815b")
+		)
+		(pin "A9"
+			(uuid "e08b33b0-5475-46d4-bbf1-b3a6d5f1f426")
+		)
+		(pin "A14"
+			(uuid "21d993e4-c29d-4541-b41e-2d4714ccd270")
+		)
+		(pin "A2"
+			(uuid "91fba707-93e7-4c4c-9a43-47d4a680f530")
+		)
+		(pin "A15"
+			(uuid "5d608e7e-8031-4efa-bdb7-e96e538a91f9")
+		)
+		(pin "A12"
+			(uuid "7e0c14e4-0f9d-4086-a713-23631f6d7945")
+		)
+		(pin "A7"
+			(uuid "aebfa816-5be6-422e-9d38-111fe35cdc98")
+		)
+		(pin "B9"
+			(uuid "1f57a825-8fb6-4a3a-b073-99eb6cb501a9")
+		)
+		(pin "A17"
+			(uuid "c5a2c666-879f-4fc4-9213-599fce28d104")
+		)
+		(pin "A20"
+			(uuid "68221440-ba02-47d5-a9d4-25c33b4f9d2f")
+		)
+		(pin "A5"
+			(uuid "dfca7109-562e-408e-9b05-09c857bfec3e")
+		)
+		(pin "B17"
+			(uuid "164ce8f7-23d2-463b-a9df-3e8bdc2efa24")
+		)
+		(pin "B11"
+			(uuid "cc910c57-6f04-4677-a263-6c9451e3b9b2")
+		)
+		(pin "B10"
+			(uuid "3c45facc-8d55-4569-bb4a-9ca1880bb5b7")
+		)
+		(pin "B12"
+			(uuid "39927521-f020-4f88-9550-02834de4f35c")
+		)
+		(pin "A10"
+			(uuid "eae62217-e850-47c5-bc9e-4c6156f4b879")
+		)
+		(pin "B4"
+			(uuid "73d02d37-3be5-41ec-bf52-948aec320985")
+		)
+		(pin "A8"
+			(uuid "73556aa6-8394-4d1d-bd9c-e3628c78860e")
+		)
+		(pin "B14"
+			(uuid "05551ec0-b5b1-4b40-bf8e-8b75b55aea8b")
+		)
+		(pin "A11"
+			(uuid "ec5d5058-da5d-4555-9dc7-4da1ef756382")
+		)
+		(pin "A19"
+			(uuid "859fb4aa-70fb-4329-b8a5-d4241cd933f8")
+		)
+		(pin "B1"
+			(uuid "71e1fbc0-03c0-4e4b-882c-1e533d0bfc71")
+		)
+		(pin "A13"
+			(uuid "a38eb5d2-6744-46f8-8a63-d6bc19986248")
+		)
+		(pin "A1"
+			(uuid "a4dca819-a92c-4461-9bc9-d9511d622eb2")
+		)
+		(pin "B8"
+			(uuid "f0cd5bf2-0691-4a9d-a741-69c127167665")
+		)
+		(pin "B5"
+			(uuid "5a8179fd-295b-46be-a9f4-b6c0da4a0140")
+		)
+		(pin "SH"
+			(uuid "fb21c34e-fc73-4460-9894-23937910214c")
+		)
+		(pin "A18"
+			(uuid "81b5051c-e753-4551-8696-0410cf25944f")
+		)
+		(pin "A16"
+			(uuid "f5d52e7d-1729-44d1-8ec8-cf88ccbfde81")
+		)
+		(pin "B3"
+			(uuid "00f8dfb4-1f9d-45c6-8430-c60383b0261e")
+		)
+		(pin "A21"
+			(uuid "41b679a0-faac-42da-b3a2-697ae2f18e73")
+		)
+		(pin "B13"
+			(uuid "de1c206c-5b39-471e-8d98-4a2008f762cd")
+		)
+		(pin "B2"
+			(uuid "121a271b-b7ea-4227-a977-98682ffe92f9")
+		)
+		(pin "B7"
+			(uuid "9427eb7d-ab95-4ac5-b276-11f109ce5649")
+		)
+		(pin "B6"
+			(uuid "332a7d81-d1b0-4eda-84cc-214b754da905")
+		)
+		(instances
+			(project ""
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_0R_0402_1")
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 158.75 179.07 270)
@@ -5912,6 +6821,123 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 64.77 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5838e6db-37f3-4b6b-a9d9-f92d06955ca6")
+		(property "Reference" "TP61"
+			(at 58.166 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 53.975 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.975 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.975 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 54.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e56da36-5748-4a54-9047-67758bcc53a0")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP61")
 					(unit 1)
 				)
 			)
@@ -6219,6 +7245,357 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 223.52 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "691a608a-49b9-4a44-bc6d-69d7dc730006")
+		(property "Reference" "TP65"
+			(at 216.916 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 213.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 212.725 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 212.725 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 212.725 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 213.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4990a4-e84b-4686-9248-5eab2a4c40d8")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 226.06 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c05a4d2-fe98-4a99-9f30-2e3629f3d9b3")
+		(property "Reference" "TP62"
+			(at 219.456 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 215.265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 215.265 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 215.265 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2b54112-db14-4db5-9256-e39aad89b322")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 64.77 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6df3f65a-89c3-4bac-b5ab-ec1254d4ef7f")
+		(property "Reference" "TP59"
+			(at 58.166 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 54.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 53.975 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.975 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.975 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7c00341-7742-4052-ac24-4b34d7501328")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -6629,6 +8006,123 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 226.06 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "99d1abd6-0475-472e-abef-fbd9cd6ea9a6")
+		(property "Reference" "TP63"
+			(at 219.456 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 215.265 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 215.265 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 215.265 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de2ba01-defd-45fb-89b3-e84c4538554f")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "antmicropower:GND")
 		(at 95.25 130.81 0)
@@ -6824,26 +8318,24 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 25.4 63.5 90)
+		(at 64.77 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c22b66c7-578a-4335-baa8-735a1d4b20a7")
 		(property "Reference" "TP58"
-			(at 27.94 60.325 90)
+			(at 58.166 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 29.21 53.34 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +8346,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 31.75 53.34 0)
+			(at 54.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +8357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 45.72 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +8368,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 39.37 52.705 0)
+			(at 53.975 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +8378,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 36.83 52.705 0)
+			(at 53.975 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +8389,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 31.75 52.705 0)
+			(at 53.975 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +8400,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 34.29 53.34 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +8411,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 36.83 53.34 0)
+			(at 54.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +8425,7 @@
 			(uuid "b8bffcd1-00bf-4e3f-b8b9-fc05857567d1")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "TP58")
 					(unit 1)
@@ -6943,7 +8435,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 184.15 63.5 90)
+		(at 184.15 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6951,18 +8443,17 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca25e736-0441-4da1-b889-f62577133fda")
-		(property "Reference" "TP59"
-			(at 186.69 60.325 90)
+		(property "Reference" "TP64"
+			(at 180.975 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 187.96 53.34 0)
+			(at 173.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +8464,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 190.5 53.34 0)
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +8475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 45.72 0)
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +8486,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 198.12 52.705 0)
+			(at 173.355 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +8496,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 195.58 52.705 0)
+			(at 173.355 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +8507,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 190.5 52.705 0)
+			(at 173.355 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +8518,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.04 53.34 0)
+			(at 173.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +8529,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 195.58 53.34 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +8545,7 @@
 		(instances
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "TP59")
+					(reference "TP64")
 					(unit 1)
 				)
 			)
@@ -7208,6 +8699,123 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 25.4 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0446317-f9a4-4562-bf02-cf2dada07e77")
+		(property "Reference" "TP60"
+			(at 18.796 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 15.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 15.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 14.605 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 14.605 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 14.605 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 15.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 15.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb6746e0-dd63-4304-b314-0d886f50b710")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP60")
 					(unit 1)
 				)
 			)
