@@ -4256,6 +4256,48 @@
 		)
 	)
 	(sheet
+		(at 274.32 130.81)
+		(size 63.5 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92b60d6e-26d5-4bc0-84f3-a50a27571d9f")
+		(property "Sheetname" "PCIE"
+			(at 274.32 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie.kicad_sch"
+			(at 274.32 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 175.26 227.33)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
