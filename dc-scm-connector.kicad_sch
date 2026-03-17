@@ -9392,7 +9392,7 @@
 		(uuid "03af7980-3c7d-4106-ab20-5b109852e909")
 	)
 	(hierarchical_label "DC_SCM_PRSNT1_N"
-		(shape input)
+		(shape output)
 		(at 73.66 80.01 180)
 		(effects
 			(font
@@ -9557,7 +9557,7 @@
 		(uuid "5e31ebb2-226f-4840-ace8-67cf0ceacb13")
 	)
 	(hierarchical_label "DC_SCM_P3V0"
-		(shape output)
+		(shape input)
 		(at 80.01 46.99 180)
 		(effects
 			(font
@@ -9601,7 +9601,7 @@
 		(uuid "6d69a7ed-4d90-48d2-8502-21f267532b0a")
 	)
 	(hierarchical_label "DC_SCM_HPM_FRU"
-		(shape input)
+		(shape output)
 		(at 149.86 44.45 0)
 		(effects
 			(font
@@ -9623,7 +9623,7 @@
 		(uuid "7a5225f7-fa8a-46c4-b972-8c2ec85522d1")
 	)
 	(hierarchical_label "DC_SCM_12V_AUX"
-		(shape output)
+		(shape input)
 		(at 80.01 44.45 180)
 		(effects
 			(font
@@ -9634,7 +9634,7 @@
 		(uuid "7c5d59c0-ec81-4e47-be14-93d2b1323207")
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
-		(shape input)
+		(shape output)
 		(at 55.88 57.15 180)
 		(effects
 			(font
@@ -9645,7 +9645,7 @@
 		(uuid "7ce34000-a70b-462a-9968-730d08e7919c")
 	)
 	(hierarchical_label "~{DC_SCM_INTRUSION}"
-		(shape output)
+		(shape input)
 		(at 73.66 82.55 180)
 		(effects
 			(font
@@ -9678,7 +9678,7 @@
 		(uuid "87445ebc-31fe-4686-8ca1-84c394d2a2df")
 	)
 	(hierarchical_label "~{DC_SCM_SPI_SCMCNTRL_IRQ0}"
-		(shape input)
+		(shape output)
 		(at 172.72 58.42 0)
 		(effects
 			(font
@@ -9689,7 +9689,7 @@
 		(uuid "8f81017e-01b1-4cfb-a302-fb295f312de8")
 	)
 	(hierarchical_label "DC_SCM_PRSNT0_N"
-		(shape output)
+		(shape input)
 		(at 73.66 77.47 180)
 		(effects
 			(font
@@ -9722,7 +9722,7 @@
 		(uuid "974f4335-8c3b-4e48-ac5a-f502043dbfe9")
 	)
 	(hierarchical_label "DC_SCM_STBY_RDY"
-		(shape output)
+		(shape input)
 		(at 55.88 52.07 180)
 		(effects
 			(font
@@ -9766,7 +9766,7 @@
 		(uuid "a3d0f1fc-95aa-411f-848b-0bc7ab6ceec1")
 	)
 	(hierarchical_label "~{DC_SCM_STBY_RST}"
-		(shape input)
+		(shape output)
 		(at 55.88 54.61 180)
 		(effects
 			(font
@@ -9821,7 +9821,7 @@
 		(uuid "d432e7df-0f93-46a9-8a0c-00a78074d36c")
 	)
 	(hierarchical_label "DC-SCM_CLK_100M_0{PCIeREFCLK}"
-		(shape output)
+		(shape input)
 		(at 354.33 81.28 0)
 		(effects
 			(font
@@ -9843,7 +9843,7 @@
 		(uuid "d4fe9d78-0ac5-44cd-9c04-8bf5db3c90a4")
 	)
 	(hierarchical_label "~{PCIE_HPM_SCM_PERST}"
-		(shape output)
+		(shape input)
 		(at 318.77 80.01 0)
 		(effects
 			(font
