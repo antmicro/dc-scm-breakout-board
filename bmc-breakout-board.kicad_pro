@@ -1161,6 +1161,10 @@
     [
       "07ab1158-ddfb-42f0-9fa7-f1beb51ab908",
       "USBs and FTDI"
+    ],
+    [
+      "fecc653a-e183-4b2f-86ec-726b965d7d21",
+      "I2C SPI testpads"
     ]
   ],
   "text_variables": {}
