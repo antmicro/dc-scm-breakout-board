@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a3d6298-3e7b-4e31-a26f-44aece7c521a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP8"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 		(instances
 			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/2af4bc97-3599-45a7-a55a-50109ab85386"
-					(reference "TP11")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
