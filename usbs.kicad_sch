@@ -4742,7 +4742,7 @@
 	)
 	(text "FTDI Debug Console USB"
 		(exclude_from_sim no)
-		(at 82.296 145.034 0)
+		(at 82.55 144.78 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -4755,7 +4755,7 @@
 	)
 	(text "Host USB"
 		(exclude_from_sim no)
-		(at 77.47 34.036 0)
+		(at 77.47 34.29 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -4768,7 +4768,7 @@
 	)
 	(text "Client USB"
 		(exclude_from_sim no)
-		(at 323.85 39.116 0)
+		(at 323.85 39.37 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)

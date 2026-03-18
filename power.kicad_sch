@@ -6531,7 +6531,7 @@
 	)
 	(text "12VDC IN"
 		(exclude_from_sim no)
-		(at 50.038 76.708 0)
+		(at 49.53 76.2 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -6542,7 +6542,7 @@
 	)
 	(text "3V3 FTDI LDO"
 		(exclude_from_sim no)
-		(at 128.524 181.61 0)
+		(at 128.27 181.61 0)
 		(effects
 			(font
 				(size 4 4)
@@ -6591,7 +6591,7 @@
 	)
 	(text "12V IN"
 		(exclude_from_sim no)
-		(at 119.38 66.548 0)
+		(at 119.38 66.04 0)
 		(effects
 			(font
 				(size 4 4)

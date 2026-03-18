@@ -3512,7 +3512,7 @@
 	)
 	(text "OCuLink HPMROOT\n"
 		(exclude_from_sim no)
-		(at 130.048 22.098 0)
+		(at 129.54 21.59 0)
 		(effects
 			(font
 				(size 4 4)
@@ -3525,7 +3525,7 @@
 	)
 	(text "OCuLink SCMROOT\n"
 		(exclude_from_sim no)
-		(at 344.678 29.972 0)
+		(at 344.17 30.48 0)
 		(effects
 			(font
 				(size 4 4)
