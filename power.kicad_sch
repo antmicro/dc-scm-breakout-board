@@ -3266,6 +3266,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroCapacitors0402:C_1u_10V_X7R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1u_10V_X7R_0402"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRM155Z71A105KE01_01A-1984538.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "MLCC - SMD/SMT, 1UF, 10V, 10%, 0402, X7R"
+				(at 15.24 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM155Z71A105KE01D"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1u"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "10V"
+				(at 15.24 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 15.24 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1u_10V_X7R_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1u_10V_X7R_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0603:C_10u_16V_0603"
 			(pin_numbers
 				(hide yes)
@@ -3902,240 +4117,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitorspol:C_Pol_10u_16V_KEMET-T491-A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 13.97 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_Pol_10u_16V_KEMET-T491-A"
-				(at 13.97 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_Pol_EIA-A"
-				(at 13.97 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/T491A106M016AT.html"
-				(at 13.97 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Surface Mount Tantalum Capacitor, 10 µF, 16 V, 1206 [3216 Metric], ± 10%, 7 ohm, A"
-				(at 13.97 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "10u"
-				(at 13.97 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "T491A106M016AT"
-				(at 13.97 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 13.97 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 13.97 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 13.97 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 13.97 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "template_dielectric"
-				(at 13.97 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, POLARIZED, TANTALUM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Pol_10u_16V_KEMET-T491-A_0_1"
-				(polyline
-					(pts
-						(xy 0.9652 1.27) (xy 0.9652 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.2192 1.524) (xy 0.7112 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.905 -1.524)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.921 -1.524)
-					(end 3.302 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Pol_10u_16V_KEMET-T491-A_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroLEDIndicationDiscrete:LED_G_0402_VLMTG1500-GS08"
 			(pin_numbers
 				(hide yes)
@@ -4375,7 +4356,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPMICVoltageRegulatorsLinear:LD1117S33TR"
+		(symbol "antmicroPMICVoltageRegulatorsLinear:MCP1700T-3302E_TT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4389,7 +4370,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "LD1117S33TR"
+			(property "Value" "MCP1700T-3302E_TT"
+				(at 30.48 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOT-23-3"
 				(at 30.48 -7.62 0)
 				(effects
 					(font
@@ -4400,7 +4392,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SOT-223"
+			(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779"
 				(at 30.48 -10.16 0)
 				(effects
 					(font
@@ -4411,7 +4403,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
+			(property "Description" "Fixed LDO Voltage Regulator, 2.3V to 6V, 178mV Dropout, 3.3Vout, 250mAout, SOT-23-3"
+				(at 30.48 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP1700T-3302E/TT"
 				(at 30.48 -12.7 0)
 				(effects
 					(font
@@ -4419,10 +4421,9 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Description" "Fixed LDO Voltage Regulator, 1V Dropout, 3.3V out, 800mA out, SOT-223"
+			(property "Manufacturer" "Microchip Technology"
 				(at 30.48 -15.24 0)
 				(effects
 					(font
@@ -4433,17 +4434,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LD1117S33TR"
-				(at 30.48 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
+			(property "Author" "Antmicro"
 				(at 30.48 -17.78 0)
 				(effects
 					(font
@@ -4454,19 +4445,8 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 30.48 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "License" "Apache-2.0"
-				(at 30.48 -22.86 0)
+				(at 30.48 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4485,7 +4465,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LD1117S33TR_1_1"
+			(symbol "MCP1700T-3302E_TT_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 12.7 -5.08)
@@ -4516,7 +4496,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -2.54 0)
+					(at 7.62 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4544,25 +4524,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6605,16 +6566,6 @@
 		)
 		(uuid "4755b6ad-8f87-4026-af64-dabde8a82667")
 	)
-	(text "ULVO set\nto 8.4V"
-		(exclude_from_sim no)
-		(at 259.08 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f6947cb-6707-4f0e-88b5-aedc8babe02d")
-	)
 	(text "3V3 DCDC"
 		(exclude_from_sim no)
 		(at 308.61 64.77 0)
@@ -7183,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 154.94) (xy 318.77 156.21)
+			(xy 318.77 154.94) (xy 318.77 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7333,7 +7284,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 156.21) (xy 297.18 149.86)
+			(xy 306.07 157.48) (xy 306.07 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7693,16 +7644,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 149.86) (xy 298.45 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef842371-1b39-4834-aee6-1451f7d63808")
-	)
-	(wire
-		(pts
 			(xy 289.56 149.86) (xy 289.56 147.32)
 		)
 		(stroke
@@ -7733,7 +7674,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 154.94) (xy 289.56 156.21)
+			(xy 289.56 154.94) (xy 289.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7792,7 +7733,7 @@
 		)
 		(uuid "289f835b-826a-401e-b6aa-783d16f0f29a")
 	)
-	(hierarchical_label "DC_SCM_STBY_RST"
+	(hierarchical_label "~{DC_SCM_STBY_RST}"
 		(shape input)
 		(at 260.35 107.95 180)
 		(effects
@@ -8021,7 +7962,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 289.56 156.21 0)
+		(at 289.56 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8030,7 +7971,7 @@
 		(fields_autoplaced yes)
 		(uuid "105f2726-d70c-4f57-8496-ef37d6c784f3")
 		(property "Reference" "#PWR048"
-			(at 289.56 162.56 0)
+			(at 289.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +7980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.655 160.655 0)
+			(at 287.655 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +7990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 163.83 0)
+			(at 298.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 168.91 0)
+			(at 298.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 156.21 0)
+			(at 289.56 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8021,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 298.45 161.29 0)
+			(at 298.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8032,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 298.45 163.83 0)
+			(at 298.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,6 +9420,128 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPMICVoltageRegulatorsLinear:MCP1700T-3302E_TT")
+		(at 298.45 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365936a0-12aa-42f0-8a78-baff2b968995")
+		(property "Reference" "U6"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MCP1700T-3302E_TT"
+			(at 328.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOT-23-3"
+			(at 328.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779"
+			(at 328.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed LDO Voltage Regulator, 2.3V to 6V, 178mV Dropout, 3.3Vout, 250mAout, SOT-23-3"
+			(at 328.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP1700T-3302E/TT"
+			(at 306.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 328.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 328.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "888c683e-5d48-42fc-b4e3-9973737ca425")
+		)
+		(pin "1"
+			(uuid "afa3eec5-55e8-43d5-b057-ca27facd9057")
+		)
+		(pin "3"
+			(uuid "fc6e247e-4139-4796-903e-0877cfdc7f39")
+		)
+		(instances
+			(project ""
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
 		(at 306.07 81.28 0)
 		(unit 1)
@@ -10214,7 +10277,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 297.18 156.21 0)
+		(at 306.07 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10223,7 +10286,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dfcee2d-27f1-4553-a1fe-c8ce20a56b94")
 		(property "Reference" "#PWR046"
-			(at 297.18 162.56 0)
+			(at 306.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,7 +10295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.275 160.655 0)
+			(at 304.165 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 163.83 0)
+			(at 314.96 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 168.91 0)
+			(at 314.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 156.21 0)
+			(at 306.07 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10336,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 306.07 161.29 0)
+			(at 314.96 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10347,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 306.07 163.83 0)
+			(at 314.96 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,36 +10514,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 318.77 156.21 0)
+		(lib_id "antmicroCapacitors0402:C_1u_10V_X7R_0402")
+		(at 289.56 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c71adb9-a07c-4ab9-be38-2702eee3bc80")
-		(property "Reference" "#PWR049"
-			(at 318.77 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 316.865 160.655 0)
+		(uuid "68decadd-de16-419a-9e14-8de65a26dae0")
+		(property "Reference" "C9"
+			(at 292.1 151.1236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 327.66 163.83 0)
+		(property "Value" "C_1u_10V_X7R_0402"
+			(at 299.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,8 +10544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 327.66 168.91 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 302.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,17 +10555,41 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 318.77 156.21 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRM155Z71A105KE01_01A-1984538.pdf"
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 327.66 161.29 0)
+		(property "Description" "MLCC - SMD/SMT, 1UF, 10V, 10%, 0402, X7R"
+			(at 325.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155Z71A105KE01D"
+			(at 309.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 312.42 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10600,147 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 327.66 163.83 0)
+			(at 314.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 317.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 292.1 153.6636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 320.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 322.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3115e9f3-b1c6-43f6-b0de-dc4c8b39fde3")
+		)
+		(pin "1"
+			(uuid "18b5150b-3e5a-4e07-b8d6-391d3d264416")
+		)
+		(instances
+			(project ""
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 318.77 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c71adb9-a07c-4ab9-be38-2702eee3bc80")
+		(property "Reference" "#PWR049"
+			(at 318.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.865 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 327.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 327.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,132 +10757,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPMICVoltageRegulatorsLinear:LD1117S33TR")
-		(at 298.45 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7018269b-8f68-494d-8e51-4b2916dd3d19")
-		(property "Reference" "U5"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "LD1117S33TR"
-			(at 328.93 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOT-223"
-			(at 328.93 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
-			(at 328.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed LDO Voltage Regulator, 1V Dropout, 3.3V out, 800mA out, SOT-223"
-			(at 328.93 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LD1117S33TR"
-			(at 306.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 328.93 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 328.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "88c8aec9-4690-4b62-8144-8a98d2b17623")
-		)
-		(pin "3"
-			(uuid "e52580a9-ae24-4004-b60b-1b133f56f18c")
-		)
-		(pin "1"
-			(uuid "82d45c9e-b7d4-450a-bef9-03a46b0ceb60")
-		)
-		(pin "2"
-			(uuid "34f17101-e176-4ad5-9f24-efee451c4c92")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11438,159 +11530,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 289.56 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "929017f9-7331-4db1-8918-f1d40a1b706f")
-		(property "Reference" "C9"
-			(at 283.21 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_16V_X7R_0402"
-			(at 266.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 264.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 261.62 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 16V, 0402, ±5%, X7R"
-			(at 256.54 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104J4RAC7411"
-			(at 259.08 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 283.21 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 279.4 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 274.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 271.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 269.24 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9fed14b-ba69-451e-8541-908ad2b64f27")
-		)
-		(pin "2"
-			(uuid "c87f2f40-222c-49a5-905f-38b066faab02")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12554,38 +12493,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorspol:C_Pol_10u_16V_KEMET-T491-A")
-		(at 318.77 149.86 270)
+		(lib_id "antmicroCapacitors0402:C_1u_10V_X7R_0402")
+		(at 318.77 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "caa75b8a-25e9-4e4e-87cd-ab089f5523f9")
+		(uuid "c5122a2e-a749-488a-ab2b-f0ead3a93cc2")
 		(property "Reference" "C10"
-			(at 321.31 150.5966 90)
+			(at 321.31 151.1236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C_Pol_10u_16V_KEMET-T491-A"
-			(at 316.23 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_Pol_EIA-A"
-			(at 311.15 163.83 0)
+		(property "Value" "C_1u_10V_X7R_0402"
+			(at 328.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,8 +12523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/T491A106M016AT.html"
-			(at 308.61 163.83 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 331.47 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,28 +12534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface Mount Tantalum Capacitor, 10 µF, 16 V, 1206 [3216 Metric], ± 10%, 7 ohm, A"
-			(at 293.37 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10u"
-			(at 321.31 153.1366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "T491A106M016AT"
-			(at 306.07 163.83 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRM155Z71A105KE01_01A-1984538.pdf"
+			(at 334.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,8 +12545,30 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 303.53 163.83 0)
+		(property "Description" "MLCC - SMD/SMT, 1UF, 10V, 10%, 0402, X7R"
+			(at 354.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155Z71A105KE01D"
+			(at 339.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 341.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12579,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 300.99 163.83 0)
+			(at 344.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12590,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 298.45 163.83 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,34 +12600,46 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 295.91 163.83 0)
+		(property "Val" "1u"
+			(at 321.31 153.6636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 349.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "template_dielectric"
-			(at 293.37 163.83 0)
+		(property "Dielectric" "X7R"
+			(at 351.79 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ec04bad4-b856-4908-9a0f-57a4c9019f01")
 		)
 		(pin "2"
-			(uuid "345a816a-0f5c-460b-86ad-4309f69ca6c7")
+			(uuid "4707119f-eb79-4689-ac66-aa42855af87c")
+		)
+		(pin "1"
+			(uuid "99071958-3c27-471d-a4a4-995e47809c50")
 		)
 		(instances
-			(project "bmc-breakout-board"
+			(project ""
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800"
 					(reference "C10")
 					(unit 1)

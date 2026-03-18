@@ -4105,16 +4105,6 @@
 				(justify left)
 			)
 		)
-		(pin "DC_SCM_STBY_RST" input
-			(at 175.26 60.96 180)
-			(uuid "919c5c2d-1c51-464e-b75d-285319314bdc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_DEBUG_VBUS" input
 			(at 217.17 55.88 0)
 			(uuid "7c5ce03d-b964-4ed9-8327-e349c4bd0923")
@@ -4133,6 +4123,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{DC_SCM_STBY_RST}" input
+			(at 175.26 60.96 180)
+			(uuid "bc636e40-00ff-4ed4-a68f-5300df342ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4219,7 +4219,7 @@
 		)
 		(pin "~{DC_SCM_STBY_RST}" input
 			(at 175.26 97.79 180)
-			(uuid "2b087f70-a41f-4370-9a95-0ce19026c4a1")
+			(uuid "2adb3c20-73e8-4a09-b9cc-ef8dea4d2c32")
 			(effects
 				(font
 					(size 1.27 1.27)
