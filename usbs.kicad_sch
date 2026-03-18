@@ -4780,12 +4780,6 @@
 		(uuid "729f7321-0171-425e-ab1e-69e7fb44cfe6")
 	)
 	(junction
-		(at 193.04 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a4874c7-df5b-4f5f-965d-052b0fe56c82")
-	)
-	(junction
 		(at 55.88 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4814,12 +4808,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df19334-fdf3-4b79-8d26-806717bbf147")
-	)
-	(junction
-		(at 82.55 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "423983ee-b51e-4a61-a10e-ab687ba95982")
 	)
 	(junction
 		(at 109.22 189.23)
@@ -6012,16 +6000,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 36.83) (xy 193.04 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ea23bc-9a1e-4501-bac7-340997a399d4")
-	)
-	(wire
-		(pts
 			(xy 152.4 100.33) (xy 191.77 100.33)
 		)
 		(stroke
@@ -6162,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 40.64) (xy 82.55 43.18)
+			(xy 82.55 40.64) (xy 82.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6219,16 +6197,6 @@
 			(type default)
 		)
 		(uuid "9b5fe04a-4aa3-475c-bc96-432943aa0b05")
-	)
-	(wire
-		(pts
-			(xy 193.04 34.29) (xy 193.04 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b93fff2-1dd4-46cb-9411-bdda82d5a782")
 	)
 	(wire
 		(pts
@@ -6309,16 +6277,6 @@
 			(type default)
 		)
 		(uuid "a6357156-2fbf-4143-bfe6-22e93d0150be")
-	)
-	(wire
-		(pts
-			(xy 74.93 43.18) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab8ba944-9fd3-431a-bc9f-568143cd4809")
 	)
 	(bus
 		(pts
@@ -6592,16 +6550,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 43.18) (xy 82.55 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cafa6a39-b7db-4a0e-aef3-0120876b3834")
-	)
-	(wire
-		(pts
 			(xy 34.29 153.67) (xy 34.29 156.21)
 		)
 		(stroke
@@ -6652,7 +6600,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 36.83) (xy 193.04 40.64)
+			(xy 193.04 34.29) (xy 193.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6950,16 +6898,6 @@
 		)
 		(uuid "30652256-db49-40cb-88ac-a4c381438062")
 	)
-	(label "USB_CLIENT_VBUS"
-		(at 184.15 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d8ddda0-7656-46b4-b24d-3416e1e11755")
-	)
 	(label "FTDI_USB_D-"
 		(at 90.17 125.73 180)
 		(effects
@@ -7039,16 +6977,6 @@
 			(justify left bottom)
 		)
 		(uuid "883a9c09-1130-4825-94c0-2e3c13e97389")
-	)
-	(label "USB_HOST_VBUS"
-		(at 74.93 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f23eae8-f485-4913-8d6b-a0e849b5db68")
 	)
 	(label "DC_SCM_QSPI.IO0"
 		(at 163.83 102.87 0)
