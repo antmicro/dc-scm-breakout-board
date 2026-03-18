@@ -1841,6 +1841,16 @@
 		)
 		(uuid "d2201d3f-c65e-488b-9681-7b5928fef79c")
 	)
+	(text "Primary address set to 0x50"
+		(exclude_from_sim no)
+		(at 92.202 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe16ec5b-0692-4900-a806-4b1bd2bf6f06")
+	)
 	(junction
 		(at 71.12 67.31)
 		(diameter 0)
