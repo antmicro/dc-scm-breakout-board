@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ca7f2544-76de-4863-af61-b722bdf8683a")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "+3V3_1"
 			(power)

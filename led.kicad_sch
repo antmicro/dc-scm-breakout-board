@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2bbf5b50-39f3-4e1e-a12a-958acc9d8c67")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "LED_G_0402_VLMTG1500-GS08_1"
 			(pin_numbers
@@ -1034,7 +1034,7 @@
 	)
 	(text "Indicator LEDs"
 		(exclude_from_sim no)
-		(at 66.802 35.306 0)
+		(at 105.918 45.212 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1047,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 67.31) (xy 21.59 66.04)
+			(xy 45.72 74.93) (xy 45.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 69.85 67.31)
+			(xy 93.98 73.66) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 60.96)
+			(xy 69.85 67.31) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 52.07) (xy 69.85 52.07)
+			(xy 95.25 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 59.69) (xy 21.59 60.96)
+			(xy 45.72 67.31) (xy 45.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 69.85 60.96)
+			(xy 93.98 67.31) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 52.07) (xy 69.85 54.61)
+			(xy 93.98 59.69) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 67.31) (xy 45.72 66.04)
+			(xy 69.85 74.93) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 54.61) (xy 21.59 52.07)
+			(xy 45.72 62.23) (xy 45.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 52.07) (xy 46.99 52.07)
+			(xy 69.85 59.69) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 54.61) (xy 45.72 52.07)
+			(xy 69.85 62.23) (xy 69.85 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 22.86 52.07)
+			(xy 45.72 59.69) (xy 46.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1167,7 @@
 	)
 	(hierarchical_label "~{DC_SCM_SPI_SCMCNTRL_IRQ0}"
 		(shape output)
-		(at 71.12 52.07 0)
+		(at 95.25 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1178,7 +1178,7 @@
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
 		(shape input)
-		(at 46.99 52.07 0)
+		(at 71.12 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1189,7 +1189,7 @@
 	)
 	(hierarchical_label "~{DC_SCM_STBY_RST}"
 		(shape input)
-		(at 22.86 52.07 0)
+		(at 46.99 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 45.72 67.31 0)
+		(at 69.85 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1209,7 +1209,7 @@
 		(fields_autoplaced yes)
 		(uuid "06739ade-1e15-4436-8048-4ad56d96ba5d")
 		(property "Reference" "#PWR032"
-			(at 54.61 69.85 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 72.39 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 74.93 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 80.01 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 82.55 0)
+			(at 78.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 54.61 74.93 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1272,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 54.61 77.47 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 	(symbol
 		(lib_name "R_220R_0402_1")
 		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 21.59 59.69 90)
+		(at 45.72 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1306,7 +1306,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e599a0c-b173-4e3f-9ccf-f2f504801c04")
 		(property "Reference" "R17"
-			(at 24.13 55.88 90)
+			(at 48.26 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Value" "R_220R_0402"
-			(at 34.29 39.37 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 36.83 39.37 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 39.37 39.37 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1349,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 52.07 39.37 0)
+			(at 76.2 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1359,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2200GLF"
-			(at 41.91 39.37 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 44.45 39.37 0)
+			(at 68.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1381,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 46.99 39.37 0)
+			(at 71.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1392,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 49.53 39.37 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Val" "220R"
-			(at 24.13 58.42 90)
+			(at 48.26 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 31.75 39.37 0)
+			(at 55.88 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1440,7 @@
 	(symbol
 		(lib_name "LED_G_0402_VLMTG1500-GS08_2")
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0402_VLMTG1500-GS08")
-		(at 45.72 66.04 90)
+		(at 69.85 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1449,7 +1449,7 @@
 		(fields_autoplaced yes)
 		(uuid "4483f89f-b293-4287-a7e0-0d261cc99f19")
 		(property "Reference" "D10"
-			(at 48.26 62.23 90)
+			(at 72.39 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1459,7 @@
 			)
 		)
 		(property "Value" "LED_G_0402_VLMTG1500-GS08"
-			(at 53.34 43.18 0)
+			(at 77.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0402_1005Metric_G"
-			(at 55.88 43.18 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/82554/vlmo1500.pdf"
-			(at 58.42 43.18 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 1005, 5 mA, 3.1 V, 535 nm"
-			(at 71.12 43.18 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "MPN" "VLMTG1500-GS08"
-			(at 60.96 43.18 0)
+			(at 85.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 63.5 43.18 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1524,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 48.26 64.7699 90)
+			(at 72.39 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 66.04 43.18 0)
+			(at 90.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 68.58 43.18 0)
+			(at 92.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1572,7 @@
 	(symbol
 		(lib_name "LED_G_0402_VLMTG1500-GS08_1")
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0402_VLMTG1500-GS08")
-		(at 21.59 66.04 90)
+		(at 45.72 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1581,7 +1581,7 @@
 		(fields_autoplaced yes)
 		(uuid "470748e3-8d4c-4394-802d-55097efb1cf2")
 		(property "Reference" "D4"
-			(at 24.13 62.23 90)
+			(at 48.26 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1591,7 @@
 			)
 		)
 		(property "Value" "LED_G_0402_VLMTG1500-GS08"
-			(at 29.21 43.18 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0402_1005Metric_G"
-			(at 31.75 43.18 0)
+			(at 55.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/82554/vlmo1500.pdf"
-			(at 34.29 43.18 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 1005, 5 mA, 3.1 V, 535 nm"
-			(at 46.99 43.18 0)
+			(at 71.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(property "MPN" "VLMTG1500-GS08"
-			(at 36.83 43.18 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1645,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 43.18 0)
+			(at 63.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1656,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 24.13 64.7699 90)
+			(at 48.26 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 41.91 43.18 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 44.45 43.18 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 21.59 67.31 0)
+		(at 45.72 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1712,7 +1712,7 @@
 		(fields_autoplaced yes)
 		(uuid "79711a08-bd51-4e15-b326-1bc9e264d4f7")
 		(property "Reference" "#PWR030"
-			(at 30.48 69.85 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 72.39 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 74.93 0)
+			(at 54.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 80.01 0)
+			(at 54.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 82.55 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 30.48 74.93 0)
+			(at 54.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 30.48 77.47 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1800,7 @@
 	(symbol
 		(lib_name "LED_G_0402_VLMTG1500-GS08_3")
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0402_VLMTG1500-GS08")
-		(at 69.85 66.04 90)
+		(at 93.98 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1809,7 +1809,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d11a144-c088-4789-8804-c0879ffb5dd5")
 		(property "Reference" "D11"
-			(at 72.39 62.23 90)
+			(at 96.52 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1819,7 @@
 			)
 		)
 		(property "Value" "LED_G_0402_VLMTG1500-GS08"
-			(at 77.47 43.18 0)
+			(at 101.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1830,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0402_1005Metric_G"
-			(at 80.01 43.18 0)
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/82554/vlmo1500.pdf"
-			(at 82.55 43.18 0)
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1852,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 1005, 5 mA, 3.1 V, 535 nm"
-			(at 95.25 43.18 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "MPN" "VLMTG1500-GS08"
-			(at 85.09 43.18 0)
+			(at 109.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1873,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 87.63 43.18 0)
+			(at 111.76 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 72.39 64.7699 90)
+			(at 96.52 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 90.17 43.18 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1904,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 92.71 43.18 0)
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 69.85 67.31 0)
+		(at 93.98 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,7 +1940,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1c2a23d-c314-4602-adff-8e34eb8c7886")
 		(property "Reference" "#PWR035"
-			(at 78.74 69.85 0)
+			(at 102.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 72.39 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 74.93 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 80.01 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 82.55 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +1992,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 78.74 74.93 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2003,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 78.74 77.47 0)
+			(at 102.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 	(symbol
 		(lib_name "R_220R_0402_1")
 		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 45.72 59.69 90)
+		(at 69.85 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2037,7 +2037,7 @@
 		(fields_autoplaced yes)
 		(uuid "f416dbdc-6562-4ce2-9f56-f0a9b45e6d36")
 		(property "Reference" "R12"
-			(at 48.26 55.88 90)
+			(at 72.39 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Value" "R_220R_0402"
-			(at 58.42 39.37 0)
+			(at 82.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 60.96 39.37 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 63.5 39.37 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 76.2 39.37 0)
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2200GLF"
-			(at 66.04 39.37 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2101,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 68.58 39.37 0)
+			(at 92.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 71.12 39.37 0)
+			(at 95.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 73.66 39.37 0)
+			(at 97.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 			)
 		)
 		(property "Val" "220R"
-			(at 48.26 58.42 90)
+			(at 72.39 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 55.88 39.37 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 	(symbol
 		(lib_name "R_220R_0402_1")
 		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 69.85 59.69 90)
+		(at 93.98 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2180,7 +2180,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa18c531-16e5-4bc5-a04c-6821bdf7f7ea")
 		(property "Reference" "R13"
-			(at 72.39 55.88 90)
+			(at 96.52 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 			)
 		)
 		(property "Value" "R_220R_0402"
-			(at 82.55 39.37 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 85.09 39.37 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 87.63 39.37 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 100.33 39.37 0)
+			(at 124.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2233,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2200GLF"
-			(at 90.17 39.37 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 92.71 39.37 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 95.25 39.37 0)
+			(at 119.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2266,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 97.79 39.37 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2277,7 @@
 			)
 		)
 		(property "Val" "220R"
-			(at 72.39 58.42 90)
+			(at 96.52 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 80.01 39.37 0)
+			(at 104.14 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
