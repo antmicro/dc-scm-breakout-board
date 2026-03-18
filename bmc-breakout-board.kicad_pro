@@ -893,57 +893,6 @@
       ],
       "/DC-SCM 2.1 connector/DC_SCM_USB2{USB}": [
         "90Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX0+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX0-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX1+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX1-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX2+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX2-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX3+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.RX3-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX0+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX0-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX1+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX1-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX2+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX2-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX3+": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII.TX3-": [
-        "85Ohm-diff"
-      ],
-      "/DC-SCM_PCIE0_SGMII{PCIE}": [
-        "85Ohm-diff"
       ]
     },
     "netclass_patterns": []
