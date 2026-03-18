@@ -318,6 +318,16 @@
 		)
 		(uuid "4014bda2-1067-4bf1-a687-de008d267630")
 	)
+	(bus
+		(pts
+			(xy 81.28 87.63) (xy 156.21 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a70f10-78cd-468d-8f14-2fbd4b9bdf08")
+	)
 	(wire
 		(pts
 			(xy 81.28 187.96) (xy 156.21 187.96)
@@ -330,7 +340,7 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 85.09) (xy 156.21 85.09)
+			(xy 81.28 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -450,23 +460,13 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 92.71) (xy 156.21 92.71)
+			(xy 81.28 83.82) (xy 156.21 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "823429a6-4d5d-4cf8-a3a8-df038ff105a8")
-	)
-	(bus
-		(pts
-			(xy 81.28 96.52) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f6bd12-d21f-4a32-9b0d-73c2baf04e07")
+		(uuid "82a20ddc-e966-46b4-b4a3-dde07d19d5c6")
 	)
 	(bus
 		(pts
@@ -568,16 +568,6 @@
 		)
 		(uuid "a5b3e9cd-4bac-4f9e-8040-19d35fa93bf5")
 	)
-	(bus
-		(pts
-			(xy 81.28 88.9) (xy 156.21 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ce2e3a-78f7-427f-87f9-38ae95c4d82b")
-	)
 	(wire
 		(pts
 			(xy 203.2 41.91) (xy 198.12 41.91)
@@ -608,6 +598,16 @@
 		)
 		(uuid "ba62b08a-f787-46a3-8bf5-d8f9a8fc131e")
 	)
+	(bus
+		(pts
+			(xy 81.28 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c622f2f8-08e1-4a29-83e5-3c07b4bda6bf")
+	)
 	(wire
 		(pts
 			(xy 147.32 110.49) (xy 147.32 63.5)
@@ -617,6 +617,16 @@
 			(type default)
 		)
 		(uuid "c71ee546-b8fd-42ec-bf4b-ecb99dd5720f")
+	)
+	(bus
+		(pts
+			(xy 81.28 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df06318c-a3f9-4e5c-ae47-15e98a5d538f")
 	)
 	(wire
 		(pts
@@ -2909,6 +2919,17 @@
 			"RZJ5krlNPQAAAGCf/R9EybKFluyqbAAAAABJRU5ErkJggg=="
 		)
 	)
+	(hierarchical_label "DC-SCM_PCIE0_SGMII{PCIE}"
+		(shape bidirectional)
+		(at 156.21 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2e18c3d-ae22-4fef-ab7c-817dcae166a0")
+	)
 	(symbol
 		(lib_id "bmc-breakout-board:antmicro_logo")
 		(at 368.3 212.09 0)
@@ -3402,8 +3423,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 82.55)
-		(size 41.91 16.51)
+		(at 156.21 77.47)
+		(size 41.91 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3418,7 +3439,7 @@
 		)
 		(uuid "92b60d6e-26d5-4bc0-84f3-a50a27571d9f")
 		(property "Sheetname" "PCIE"
-			(at 156.21 81.8384 0)
+			(at 156.21 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3457,7 @@
 			)
 		)
 		(pin "DC-SCM_CLK_100M_0{PCIeREFCLK}" output
-			(at 156.21 92.71 180)
+			(at 156.21 87.63 180)
 			(uuid "96891b80-4a35-40df-a122-091fe30c7216")
 			(effects
 				(font
@@ -3446,7 +3467,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE1{PCIE}" bidirectional
-			(at 156.21 88.9 180)
+			(at 156.21 83.82 180)
 			(uuid "e7d6755b-3091-4936-8c04-c57b41c2c454")
 			(effects
 				(font
@@ -3456,7 +3477,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
-			(at 156.21 85.09 180)
+			(at 156.21 80.01 180)
 			(uuid "677b6b63-9130-4167-bb28-975c4c87169f")
 			(effects
 				(font
@@ -3466,7 +3487,7 @@
 			)
 		)
 		(pin "DC-SCM_CLK_100M_1{PCIeREFCLK}" bidirectional
-			(at 156.21 96.52 180)
+			(at 156.21 91.44 180)
 			(uuid "bcddf210-07f4-4cf2-a065-141b88a7185d")
 			(effects
 				(font
@@ -3568,7 +3589,7 @@
 			)
 		)
 		(pin "DC-SCM_CLK_100M_0{PCIeREFCLK}" input
-			(at 81.28 92.71 0)
+			(at 81.28 87.63 0)
 			(uuid "193baeed-9937-4e53-b72d-3af3ab34d727")
 			(effects
 				(font
@@ -3578,7 +3599,7 @@
 			)
 		)
 		(pin "DC-SCM_CLK_100M_1{PCIeREFCLK}" bidirectional
-			(at 81.28 96.52 0)
+			(at 81.28 91.44 0)
 			(uuid "4c465a2b-db07-45cd-b11e-b53c93b979f7")
 			(effects
 				(font
@@ -3588,7 +3609,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE1{PCIE}" bidirectional
-			(at 81.28 88.9 0)
+			(at 81.28 83.82 0)
 			(uuid "d4d4039c-51af-4552-9036-d9a4e2a6149b")
 			(effects
 				(font
@@ -3598,7 +3619,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
-			(at 81.28 85.09 0)
+			(at 81.28 80.01 0)
 			(uuid "cfa83dc2-9c69-42e6-87f7-edc67a890223")
 			(effects
 				(font
@@ -3618,7 +3639,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE0_SGMII{PCIE}" bidirectional
-			(at 81.28 102.87 0)
+			(at 81.28 95.25 0)
 			(uuid "f4ff41de-af4c-4aaa-8f2f-2f7b50ec1493")
 			(effects
 				(font
