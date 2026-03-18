@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "675f55d6-ad6c-4a89-a9ef-f96d88cd0311")
 	(paper "A3")
+	(title_block
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2021-12-16")
+		(rev "2.0.0")
+	)
 	(lib_symbols
 		(symbol "C_18p_0402_1"
 			(pin_numbers

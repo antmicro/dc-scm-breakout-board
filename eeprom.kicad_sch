@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "40d48f96-5802-4c05-824c-703e35215089")
 	(paper "A3")
+	(title_block
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2021-12-16")
+		(rev "2.0.0")
+	)
 	(lib_symbols
 		(symbol "+3V3_1"
 			(power)

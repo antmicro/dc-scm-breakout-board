@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "2bbf5b50-39f3-4e1e-a12a-958acc9d8c67")
 	(paper "A3")
+	(title_block
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2021-12-16")
+		(rev "2.0.0")
+	)
 	(lib_symbols
 		(symbol "LED_G_0402_VLMTG1500-GS08_1"
 			(pin_numbers

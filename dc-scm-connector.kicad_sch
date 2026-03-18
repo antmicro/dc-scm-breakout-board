@@ -5,9 +5,9 @@
 	(uuid "66c20c19-62bb-470d-b4ec-1879e3e5df6e")
 	(paper "A3")
 	(title_block
-		(title "DC-SCM Carrier Card for OSM-L SoMs")
-		(date "2025-10-14")
-		(rev "1.1.0")
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2021-12-16")
+		(rev "2.0.0")
 	)
 	(lib_symbols
 		(symbol "GND_1"

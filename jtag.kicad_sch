@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "9df73d2f-e1f3-4174-a109-186027e8243a")
 	(paper "A3")
+	(title_block
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2021-12-16")
+		(rev "2.0.0")
+	)
 	(lib_symbols
 		(symbol "antmicroGenericPinHeaders:PinHeader_1x2_P1.27mm_Drill0.7mm"
 			(exclude_from_sim no)
