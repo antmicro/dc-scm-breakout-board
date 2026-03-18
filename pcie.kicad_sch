@@ -3591,6 +3591,12 @@
 		(uuid "78d61dd0-81a4-4fdf-a72c-968171e605c0")
 	)
 	(junction
+		(at 91.44 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d353e6a-bb86-4c2b-ba63-68ef6bf19354")
+	)
+	(junction
 		(at 124.46 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,6 +4872,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 60.96) (xy 74.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97cb2c7-3d24-4889-b401-f33f5a1c6680")
+	)
+	(wire
+		(pts
 			(xy 182.88 245.11) (xy 226.06 245.11)
 		)
 		(stroke
@@ -5056,6 +5072,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 64.77) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8de27c8-a434-46f9-b660-a3061225f4ab")
+	)
+	(wire
+		(pts
 			(xy 114.3 189.23) (xy 115.57 189.23)
 		)
 		(stroke
@@ -5083,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "ca8f2895-5439-457e-9e9a-f48458b2c751")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad559ba-f6bc-4125-be91-e83129da172d")
 	)
 	(bus
 		(pts
@@ -5114,6 +5150,16 @@
 		)
 		(uuid "d03bb435-1b31-4610-8c1a-a1a80e1693f7")
 	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d12a38-f160-4b6b-8792-563cab1eae79")
+	)
 	(bus
 		(pts
 			(xy 227.33 243.84) (xy 227.33 246.38)
@@ -5126,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 64.77) (xy 87.63 64.77)
+			(xy 102.87 64.77) (xy 91.44 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5904,6 +5950,17 @@
 			(justify right)
 		)
 		(uuid "18fa0b2d-4b1a-40a3-8a1a-ac16db53c500")
+	)
+	(hierarchical_label "~{PCIE_HPM_SCM_PERST}"
+		(shape input)
+		(at 72.39 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ad6f73a-e129-48d7-8af3-6eea39dc7c5c")
 	)
 	(hierarchical_label "DC-SCM_CLK_100M_0{PCIeREFCLK}"
 		(shape output)
@@ -11081,6 +11138,159 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_0R_0402_1")
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 80.01 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e957cdd3-20ed-4aaa-a8a8-11f1d2828821")
+		(property "Reference" "R7"
+			(at 79.502 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 59.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "faf426ce-3dee-4e56-a65e-e51cc22d4fcb")
+		)
+		(pin "1"
+			(uuid "2c74131a-6331-4f93-b6b4-a5c9594b7dda")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
