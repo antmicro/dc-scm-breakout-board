@@ -1127,44 +1127,24 @@
       "Root"
     ],
     [
-      "d9b5a36f-f960-4ce7-8269-f56a658e52fc",
-      "QWIIC"
-    ],
-    [
       "6a40469a-13ae-4d69-8a2b-3c10ffcd9800",
       "Power"
-    ],
-    [
-      "9c17dc04-3cda-4241-b037-a77b6cc96081",
-      "Sensors"
     ],
     [
       "bae8cef5-57a9-4ec0-acbe-6dac48c5cdf5",
       "DC-SCM 2.1 connector"
     ],
     [
-      "2af4bc97-3599-45a7-a55a-50109ab85386",
-      "EEPROM"
-    ],
-    [
-      "71f72096-b015-4537-aa01-1b933a065d45",
-      "LTPI"
-    ],
-    [
-      "7d9b23ce-a430-4fe9-932d-039608fe4530",
-      "JTAG"
-    ],
-    [
       "07ab1158-ddfb-42f0-9fa7-f1beb51ab908",
       "USBs and FTDI"
     ],
     [
-      "fecc653a-e183-4b2f-86ec-726b965d7d21",
-      "I2C SPI testpads"
-    ],
-    [
       "92b60d6e-26d5-4bc0-84f3-a50a27571d9f",
       "PCIE"
+    ],
+    [
+      "f1ecdd24-c7ef-4765-8186-53d06f23944d",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
