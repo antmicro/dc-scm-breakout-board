@@ -4267,6 +4267,99 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "OCuLink HPMROOT\n"
 		(exclude_from_sim no)
@@ -4293,6 +4386,12 @@
 			(justify right bottom)
 		)
 		(uuid "fd99edfa-16ca-4535-808c-fbbae8de329e")
+	)
+	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e1a9d1-65ee-4a1c-a645-b06334795657")
 	)
 	(junction
 		(at 168.91 137.16)
@@ -4323,6 +4422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d166be9-666e-467c-b625-6bf8686c524c")
+	)
+	(junction
+		(at 135.89 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4084da3-75e5-4dea-846d-bfdf690762da")
 	)
 	(junction
 		(at 303.53 49.53)
@@ -4952,6 +5057,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 77.47) (xy 334.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c20de5-c513-4b9b-9bd9-beed8bfe9faa")
+	)
+	(wire
+		(pts
 			(xy 182.88 252.73) (xy 226.06 252.73)
 		)
 		(stroke
@@ -5009,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "2a82819d-dcfe-4efa-b139-171ea9d97b60")
-	)
-	(wire
-		(pts
-			(xy 331.47 74.93) (xy 334.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2acf56a7-4517-4e0c-83ae-ceca6040c1f2")
 	)
 	(bus
 		(pts
@@ -5079,6 +5184,16 @@
 			(type default)
 		)
 		(uuid "3de9814b-03d2-43c1-9e69-37ef36e433eb")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 140.97 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4041a963-f914-4135-b8c3-22cd095b5ee5")
 	)
 	(wire
 		(pts
@@ -5222,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 140.97 48.26)
+			(xy 110.49 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5279,6 +5394,16 @@
 			(type default)
 		)
 		(uuid "56be4fb1-e078-44ca-a57b-e5e5a76ffbc4")
+	)
+	(wire
+		(pts
+			(xy 331.47 74.93) (xy 334.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dbd01b-7ce3-4e1a-b4b5-ab3556d91736")
 	)
 	(bus
 		(pts
@@ -5459,16 +5584,6 @@
 			(type default)
 		)
 		(uuid "80a7c933-f7b0-4412-88bb-cfc043ae2112")
-	)
-	(wire
-		(pts
-			(xy 331.47 77.47) (xy 334.01 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826c23b7-5740-40b9-9285-97eea7b66f44")
 	)
 	(bus
 		(pts
@@ -5952,6 +6067,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 43.18) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78cdfdf-d744-40c2-a38b-126cae45b324")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d824c467-6462-4f96-bf1c-808573bb08f0")
+	)
+	(wire
+		(pts
 			(xy 182.88 262.89) (xy 226.06 262.89)
 		)
 		(stroke
@@ -5989,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "dac05b32-d123-4aac-93b8-83f953540b00")
-	)
-	(wire
-		(pts
-			(xy 331.47 72.39) (xy 334.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacee5a5-ca57-4a93-885d-67f2a398a28d")
 	)
 	(wire
 		(pts
@@ -6112,6 +6237,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 72.39) (xy 334.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f564ebbd-df3b-4ce0-8a7a-ffbb20ae842c")
+	)
+	(wire
+		(pts
 			(xy 290.83 115.57) (xy 334.01 115.57)
 		)
 		(stroke
@@ -6142,6 +6277,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9909905-6566-4d5b-b5c0-84078828c19d")
+	)
+	(wire
+		(pts
 			(xy 336.55 185.42) (xy 339.09 185.42)
 		)
 		(stroke
@@ -6152,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 140.97 50.8)
+			(xy 119.38 50.8) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8381,124 +8526,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 331.47 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "68d7b482-a2f4-4cb8-8007-b59b392cad34")
-		(property "Reference" "TP63"
-			(at 324.866 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 321.31 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 321.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 320.675 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 320.675 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 320.675 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 321.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 321.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a1f4e07-af6b-4479-9c0f-4ced42b75c9d")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "TP63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 331.47 77.47 180)
+		(at 331.47 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8506,7 +8534,7 @@
 		(dnp no)
 		(uuid "691a608a-49b9-4a44-bc6d-69d7dc730006")
 		(property "Reference" "TP65"
-			(at 324.866 77.47 0)
+			(at 324.866 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,17 +8543,6 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 321.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
 			(at 321.31 71.12 0)
 			(effects
 				(font
@@ -8536,50 +8553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 313.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 320.675 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 320.675 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 320.675 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
 			(at 321.31 68.58 0)
 			(effects
 				(font
@@ -8590,8 +8564,62 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Datasheet" ""
+			(at 313.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 320.675 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 320.675 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 320.675 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
 			(at 321.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 321.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,6 +9750,140 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 129.54 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2022f5-005a-439e-93a5-628327d7fea7")
+		(property "Reference" "#FLG013"
+			(at 129.54 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dec15a4-24c7-4efc-ac7a-524f957d188c")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 135.89 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fb9ddcc-8edf-4004-bcc7-27b03682c406")
+		(property "Reference" "#FLG012"
+			(at 135.89 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acbb52df-8180-49f8-96b6-d162548d9d14")
+		)
+		(instances
+			(project ""
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -11003,6 +11165,123 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 331.47 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be944080-eb95-4481-af42-75afef0b4ab2")
+		(property "Reference" "TP55"
+			(at 324.866 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 321.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 320.675 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 320.675 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 320.675 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 321.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 321.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3cc47fc-601e-4eef-902c-520be1d1a7ab")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
 		(at 138.43 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11120,7 +11399,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 331.47 74.93 180)
+		(at 331.47 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11128,7 +11407,7 @@
 		(dnp no)
 		(uuid "ca25e736-0441-4da1-b889-f62577133fda")
 		(property "Reference" "TP64"
-			(at 324.866 75.184 0)
+			(at 324.866 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,17 +11416,6 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 321.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
 			(at 321.31 68.58 0)
 			(effects
 				(font
@@ -11158,50 +11426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 320.675 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 320.675 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 320.675 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
 			(at 321.31 66.04 0)
 			(effects
 				(font
@@ -11212,8 +11437,62 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Datasheet" ""
+			(at 313.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 320.675 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 320.675 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 320.675 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
 			(at 321.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 321.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
