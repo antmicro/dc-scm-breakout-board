@@ -4060,7 +4060,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4079,7 +4078,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie.kicad_sch"
-			(at 156.21 102.1846 0)
+			(at 156.21 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,13 +4647,12 @@
 		)
 	)
 	(sheet
-		(at 156.21 105.41)
-		(size 41.91 172.72)
+		(at 156.21 106.68)
+		(size 41.91 171.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4664,7 +4662,7 @@
 		)
 		(uuid "f1ecdd24-c7ef-4765-8186-53d06f23944d")
 		(property "Sheetname" "Peripherals"
-			(at 156.21 104.6984 0)
+			(at 156.21 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4671,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 156.21 278.7146 0)
+			(at 156.21 279.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
