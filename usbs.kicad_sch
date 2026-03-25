@@ -4996,6 +4996,14 @@
 		(uuid "ff926156-bf19-4336-a26a-e2c29d14f81e")
 	)
 	(no_connect
+		(at 322.58 50.8)
+		(uuid "033ad226-a43f-4428-9637-68c5961271a7")
+	)
+	(no_connect
+		(at 106.68 54.61)
+		(uuid "046def96-6f55-46e0-b34f-a21554d916f8")
+	)
+	(no_connect
 		(at 165.1 175.26)
 		(uuid "0f80469e-65fd-4d89-9e19-d1dd34772695")
 	)
@@ -5299,16 +5307,6 @@
 			(type default)
 		)
 		(uuid "057d7e41-59d4-4c74-95e5-afca6c9feb41")
-	)
-	(wire
-		(pts
-			(xy 320.04 50.8) (xy 322.58 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05dd0497-c402-4b34-b11f-cd04979a7004")
 	)
 	(wire
 		(pts
@@ -6182,16 +6180,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 104.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c21264-4e01-4bb3-a784-3b5e647a8134")
-	)
-	(wire
-		(pts
 			(xy 267.97 205.74) (xy 267.97 203.2)
 		)
 		(stroke
@@ -6692,16 +6680,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 44.45) (xy 320.04 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6dec6ed-5497-47ba-ac41-5529bb6df49d")
-	)
-	(wire
-		(pts
 			(xy 83.82 59.69) (xy 106.68 59.69)
 		)
 		(stroke
@@ -6929,16 +6907,6 @@
 			(type default)
 		)
 		(uuid "fe85efac-9732-4096-adce-be01c6b2a092")
-	)
-	(wire
-		(pts
-			(xy 104.14 54.61) (xy 106.68 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff271671-f637-43f1-bcf9-1a6079e4dbff")
 	)
 	(label "XO"
 		(at 115.57 217.17 0)
@@ -10138,73 +10106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 104.14 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d2e3d35-f3ae-4fbd-8c3e-2d4917a23f47")
-		(property "Reference" "#FLG06"
-			(at 104.14 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 104.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccd3e7c3-5380-4baf-a355-18851f3935cc")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "FB_600Z_0.5A_Murata-BLM18AG_0603_1")
 		(lib_id "antmicroFerriteBeadsandChips:FB_600Z_0.5A_Murata-BLM18AG_0603")
 		(at 48.26 175.26 0)
@@ -10493,72 +10394,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 320.04 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "553a30bb-aa33-46f8-abf3-44c97a04f45c")
-		(property "Reference" "#FLG07"
-			(at 320.04 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 320.04 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bed49b1-5a50-46a5-a33b-ee1afc465c79")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
