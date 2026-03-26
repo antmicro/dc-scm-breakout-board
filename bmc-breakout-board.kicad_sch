@@ -404,6 +404,10 @@
 		(color 0 0 0 0)
 		(uuid "b50a4f47-d7d6-43fd-aeb1-2b5729edb0f4")
 	)
+	(no_connect
+		(at 81.28 102.87)
+		(uuid "2145e839-3091-4924-b8ed-cadf5129f4e7")
+	)
 	(wire
 		(pts
 			(xy 198.12 46.99) (xy 200.66 46.99)
@@ -556,16 +560,6 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 95.25) (xy 156.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6c3304-f936-423d-aff5-ea205168da38")
-	)
-	(bus
-		(pts
 			(xy 81.28 228.6) (xy 156.21 228.6)
 		)
 		(stroke
@@ -656,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 156.21 99.06)
+			(xy 81.28 95.25) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4055,7 +4049,7 @@
 	)
 	(sheet
 		(at 156.21 77.47)
-		(size 41.91 24.13)
+		(size 41.91 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4126,18 +4120,8 @@
 				(justify left)
 			)
 		)
-		(pin "DC-SCM_PCIE0_SGMII{PCIE}" bidirectional
-			(at 156.21 95.25 180)
-			(uuid "c2f6b8c8-e9e9-43b5-a9eb-e9f7d8b1b745")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{PCIE_HPM_SCM_PERST}" input
-			(at 156.21 99.06 180)
+			(at 156.21 95.25 180)
 			(uuid "04bdc337-aee5-452d-a992-0d8cad238c68")
 			(effects
 				(font
@@ -4619,7 +4603,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE0_SGMII{PCIE}" bidirectional
-			(at 81.28 95.25 0)
+			(at 81.28 102.87 0)
 			(uuid "dfea55d7-4ee8-4c36-aace-c7c6ac0dc11a")
 			(effects
 				(font
@@ -4629,7 +4613,7 @@
 			)
 		)
 		(pin "~{PCIE_HPM_SCM_PERST}" input
-			(at 81.28 99.06 0)
+			(at 81.28 95.25 0)
 			(uuid "65116b31-488e-4d4b-9baf-70335d7df787")
 			(effects
 				(font
