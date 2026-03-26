@@ -10202,7 +10202,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "913e57d3-db9b-4456-9f06-c02edd8d9869")
 		(property "Reference" "J17"
