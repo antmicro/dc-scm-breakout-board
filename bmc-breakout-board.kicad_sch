@@ -3139,7 +3139,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "N1")
 					(unit 1)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "N2")
 					(unit 1)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "MP2")
 					(unit 1)
@@ -3325,7 +3325,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "MP3")
 					(unit 1)
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "MP1")
 					(unit 1)

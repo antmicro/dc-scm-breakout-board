@@ -12869,7 +12869,7 @@
 			(uuid "f23202f3-cd31-4f21-b2fa-0925e460c81e")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
 					(reference "TP17")
 					(unit 1)

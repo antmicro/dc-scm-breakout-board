@@ -7850,7 +7850,7 @@
 			(uuid "2b8c03af-a726-4143-b1d9-ec58cc0e3c06")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR077")
 					(unit 1)
@@ -8004,7 +8004,7 @@
 			(uuid "1674c5a8-aea3-45c1-91bc-060e12781fb8")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "C27")
 					(unit 1)
@@ -8246,7 +8246,7 @@
 			(uuid "332a7d81-d1b0-4eda-84cc-214b754da905")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "J11")
 					(unit 1)
@@ -8774,7 +8774,7 @@
 			(uuid "ae21a766-320d-4e7d-870b-ec8deb99831e")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "R25")
 					(unit 1)
@@ -9259,7 +9259,7 @@
 			(uuid "404f8bbb-0a73-40d9-95e1-53e47d2d75da")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR076")
 					(unit 1)
@@ -9881,7 +9881,7 @@
 			(uuid "acbb52df-8180-49f8-96b6-d162548d9d14")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#FLG012")
 					(unit 1)
@@ -10360,7 +10360,7 @@
 			(uuid "b86d09b5-12f7-4300-9e33-276e56196bba")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "J17")
 					(unit 1)
@@ -10671,7 +10671,7 @@
 			(uuid "045b33f6-33d4-4a0f-b2d1-6e5617d96613")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR059")
 					(unit 1)
@@ -10913,7 +10913,7 @@
 			(uuid "5409b6b5-333f-4779-9646-446f564a24d8")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "D8")
 					(unit 1)
@@ -12156,7 +12156,7 @@
 			(uuid "6e8da105-faeb-4158-be0b-e719c9633eb3")
 		)
 		(instances
-			(project ""
+			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "J10")
 					(unit 1)
