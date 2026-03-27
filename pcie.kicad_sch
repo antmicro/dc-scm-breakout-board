@@ -3602,8 +3602,16 @@
 		(uuid "d3e25226-f497-4b67-a6f7-fcdb56eaa159")
 	)
 	(no_connect
+		(at 339.09 180.34)
+		(uuid "021200bf-d321-461a-9347-b21cff1698c9")
+	)
+	(no_connect
 		(at 334.01 123.19)
 		(uuid "0644ce27-29db-4992-95b5-f46810d757ba")
+	)
+	(no_connect
+		(at 339.09 205.74)
+		(uuid "0e635038-4353-4127-8cd5-f5ab60ee0e05")
 	)
 	(no_connect
 		(at 334.01 138.43)
@@ -3616,6 +3624,10 @@
 	(no_connect
 		(at 334.01 105.41)
 		(uuid "1698d36e-a548-4285-8371-845858558dc2")
+	)
+	(no_connect
+		(at 142.24 205.74)
+		(uuid "18f0b451-ea9f-4fdf-aca6-382c5ea2b5bb")
 	)
 	(no_connect
 		(at 334.01 92.71)
@@ -3646,12 +3658,20 @@
 		(uuid "41c02925-8258-4ef4-978d-b61a474aa157")
 	)
 	(no_connect
+		(at 142.24 208.28)
+		(uuid "49857e9b-3995-4e83-a1f9-62e3734e08b5")
+	)
+	(no_connect
 		(at 140.97 91.44)
 		(uuid "4df10e62-16b4-4003-bd0a-7a4474e80e33")
 	)
 	(no_connect
 		(at 334.01 128.27)
 		(uuid "52627dc9-1090-4df6-8ef9-eca37ed67ad4")
+	)
+	(no_connect
+		(at 142.24 181.61)
+		(uuid "53558efc-ab82-4c45-884a-ede8b5d644a1")
 	)
 	(no_connect
 		(at 334.01 135.89)
@@ -3678,6 +3698,14 @@
 		(uuid "ad3f0e1d-aff5-4ab1-bfaf-d98ea21d1867")
 	)
 	(no_connect
+		(at 142.24 184.15)
+		(uuid "b1818afb-c6e5-4b8a-9734-06e7ee170eba")
+	)
+	(no_connect
+		(at 339.09 208.28)
+		(uuid "c2a202a1-132c-47c7-8bde-b67033d63b5b")
+	)
+	(no_connect
 		(at 140.97 137.16)
 		(uuid "cf524cde-183e-4f67-9bf6-7bcd14687b59")
 	)
@@ -3692,6 +3720,10 @@
 	(no_connect
 		(at 140.97 99.06)
 		(uuid "db95a0f7-1dea-4056-b5bf-ef3cfc0e6e42")
+	)
+	(no_connect
+		(at 339.09 182.88)
+		(uuid "e6896012-b07b-4d8a-bec0-464856505d0b")
 	)
 	(no_connect
 		(at 140.97 45.72)
@@ -3724,7 +3756,7 @@
 		(uuid "16035a4e-bb43-4718-aeeb-641ea4a8b122")
 	)
 	(bus_entry
-		(at 97.79 182.88)
+		(at 97.79 201.93)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -3760,7 +3792,7 @@
 		(uuid "3d57ecd2-72ec-4074-aa01-82377ecde864")
 	)
 	(bus_entry
-		(at 294.64 181.61)
+		(at 294.64 201.93)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -3859,7 +3891,7 @@
 		(uuid "de0f4883-6deb-4c0c-a73a-e2803a2a8567")
 	)
 	(bus_entry
-		(at 97.79 180.34)
+		(at 97.79 199.39)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -3877,7 +3909,7 @@
 		(uuid "f2dc2133-3235-4ad4-85f8-348cfd5d6833")
 	)
 	(bus_entry
-		(at 294.64 179.07)
+		(at 294.64 199.39)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -3914,6 +3946,16 @@
 			(type default)
 		)
 		(uuid "096a8ac3-13b7-495f-9eba-a2d90a775e0f")
+	)
+	(wire
+		(pts
+			(xy 295.91 203.2) (xy 339.09 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9467bc-2b1b-4007-ac03-f29b62317d60")
 	)
 	(wire
 		(pts
@@ -3957,7 +3999,7 @@
 	)
 	(bus
 		(pts
-			(xy 97.79 177.8) (xy 97.79 180.34)
+			(xy 97.79 177.8) (xy 97.79 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3974,6 +4016,16 @@
 			(type default)
 		)
 		(uuid "1ae8c5ef-6b32-46da-b6d1-0c5a0b9351b2")
+	)
+	(wire
+		(pts
+			(xy 139.7 186.69) (xy 142.24 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bde664e-a05a-434a-a94b-23fd6a249293")
 	)
 	(wire
 		(pts
@@ -3994,6 +4046,16 @@
 			(type default)
 		)
 		(uuid "22e3feff-2249-45a8-9b71-4a42ac1d5030")
+	)
+	(wire
+		(pts
+			(xy 295.91 200.66) (xy 339.09 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234f3f80-8cec-4bdc-87da-bf2e4687c4c3")
 	)
 	(bus
 		(pts
@@ -4037,7 +4099,7 @@
 	)
 	(bus
 		(pts
-			(xy 97.79 180.34) (xy 97.79 182.88)
+			(xy 97.79 199.39) (xy 97.79 201.93)
 		)
 		(stroke
 			(width 0)
@@ -4057,13 +4119,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 182.88) (xy 339.09 182.88)
+			(xy 139.7 210.82) (xy 142.24 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30b2b235-d623-493c-9764-bfb7d09d85e2")
+		(uuid "30879620-98dc-489c-ba1e-4511c3f502de")
 	)
 	(bus
 		(pts
@@ -4074,6 +4136,16 @@
 			(type default)
 		)
 		(uuid "32d68a29-786c-4d19-bb05-f406e229d0de")
+	)
+	(wire
+		(pts
+			(xy 139.7 189.23) (xy 139.7 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9330e4-df53-4d9c-9df4-fa7955a52c85")
 	)
 	(bus
 		(pts
@@ -4117,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 176.53) (xy 128.27 176.53)
+			(xy 99.06 176.53) (xy 142.24 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4174,16 +4246,6 @@
 			(type default)
 		)
 		(uuid "4ec5c3de-5ea7-474c-a2b2-02f2a58d1903")
-	)
-	(wire
-		(pts
-			(xy 99.06 184.15) (xy 128.27 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "506aac10-0fcb-42bd-8ce7-9acc23bbb4d7")
 	)
 	(wire
 		(pts
@@ -4345,16 +4407,6 @@
 		)
 		(uuid "6b1ad263-3814-4828-a5de-be76248f1e5b")
 	)
-	(wire
-		(pts
-			(xy 99.06 181.61) (xy 128.27 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ecc6f3c-b896-462b-ba24-96c63be70e91")
-	)
 	(bus
 		(pts
 			(xy 110.49 80.01) (xy 110.49 82.55)
@@ -4385,9 +4437,19 @@
 		)
 		(uuid "80a7c933-f7b0-4412-88bb-cfc043ae2112")
 	)
+	(wire
+		(pts
+			(xy 139.7 213.36) (xy 139.7 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818e1e8b-041a-491a-928f-c8d7d219d038")
+	)
 	(bus
 		(pts
-			(xy 294.64 179.07) (xy 294.64 181.61)
+			(xy 294.64 199.39) (xy 294.64 201.93)
 		)
 		(stroke
 			(width 0)
@@ -4414,16 +4476,6 @@
 			(type default)
 		)
 		(uuid "87ab3f05-5313-46e0-a46b-a588179307d4")
-	)
-	(polyline
-		(pts
-			(xy 209.55 205.74) (xy 209.55 210.82)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "8a5f90b5-5e67-428f-82b7-e0cb404fedc8")
 	)
 	(wire
 		(pts
@@ -4505,16 +4557,6 @@
 		)
 		(uuid "9a3985e4-4421-48f2-9fb0-fddb1903926b")
 	)
-	(polyline
-		(pts
-			(xy 12.7 210.82) (xy 407.67 210.82)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9bb6a267-3c3a-46eb-bba0-4ff27e26595f")
-	)
 	(wire
 		(pts
 			(xy 290.83 113.03) (xy 334.01 113.03)
@@ -4537,6 +4579,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 200.66) (xy 142.24 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f36fe23-d2bb-486a-85c3-0e4c5fd4c899")
+	)
+	(wire
+		(pts
 			(xy 101.6 73.66) (xy 140.97 73.66)
 		)
 		(stroke
@@ -4547,7 +4599,7 @@
 	)
 	(bus
 		(pts
-			(xy 294.64 176.53) (xy 294.64 179.07)
+			(xy 294.64 176.53) (xy 294.64 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4565,9 +4617,19 @@
 		)
 		(uuid "b1cc9521-7cd2-4c7c-ba61-b0ca10373eab")
 	)
+	(wire
+		(pts
+			(xy 99.06 203.2) (xy 142.24 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99201b9-97a0-426b-bbe0-548626cafd66")
+	)
 	(polyline
 		(pts
-			(xy 209.55 12.7) (xy 209.55 205.74)
+			(xy 209.55 12.7) (xy 209.55 284.48)
 		)
 		(stroke
 			(width 0)
@@ -4584,6 +4646,16 @@
 			(type default)
 		)
 		(uuid "bbb0d146-8734-49b9-962f-ff40935541c6")
+	)
+	(wire
+		(pts
+			(xy 336.55 210.82) (xy 339.09 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc46ed4-7b5a-4ab2-a648-78b4eb09ead2")
 	)
 	(bus
 		(pts
@@ -4747,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 179.07) (xy 128.27 179.07)
+			(xy 99.06 179.07) (xy 142.24 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4777,16 +4849,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 186.69) (xy 128.27 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dffca39f-398a-4092-b36c-e3c96e8aadab")
-	)
-	(wire
-		(pts
 			(xy 55.88 66.04) (xy 140.97 66.04)
 		)
 		(stroke
@@ -4804,16 +4866,6 @@
 			(type default)
 		)
 		(uuid "e2159561-35ef-4b81-8adf-f87efe1e872c")
-	)
-	(wire
-		(pts
-			(xy 125.73 186.69) (xy 125.73 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34da401-beac-40f9-b4a9-4657454cb90a")
 	)
 	(bus
 		(pts
@@ -4847,13 +4899,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 180.34) (xy 339.09 180.34)
+			(xy 336.55 210.82) (xy 336.55 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efcf75c7-84bb-4425-99ec-1fbc722c7db6")
+		(uuid "f0199bb4-44f7-4fe7-b982-9390595b3962")
 	)
 	(wire
 		(pts
@@ -4986,7 +5038,7 @@
 		(uuid "48862695-5310-498c-b69f-d3f3fdb32f8a")
 	)
 	(label "DC-SCM_PCIE1.TX0-"
-		(at 123.19 184.15 180)
+		(at 123.19 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4996,7 +5048,7 @@
 		(uuid "5773d1c2-5ab8-490f-b24c-a96da4d6f723")
 	)
 	(label "DC-SCM_PCIE_USB_SCMROOT.RX0-"
-		(at 332.74 182.88 180)
+		(at 332.74 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5056,7 +5108,7 @@
 		(uuid "ad684c7a-272b-4290-809a-c3228ac5aea7")
 	)
 	(label "DC-SCM_PCIE1.TX0+"
-		(at 123.19 181.61 180)
+		(at 123.19 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5116,7 +5168,7 @@
 		(uuid "dab1d72e-0c5d-44e2-bfa8-f6090beea183")
 	)
 	(label "DC-SCM_PCIE_USB_SCMROOT.RX0+"
-		(at 332.74 180.34 180)
+		(at 332.74 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5399,6 +5451,103 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "antmicropower:GND")
+		(at 139.7 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0865c76b-3512-46cf-ab79-44314166a3fd")
+		(property "Reference" "#PWR03"
+			(at 148.59 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 148.59 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 148.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b613b670-b129-416e-9503-d4fdf12cdc57")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "antmicropower:GND")
 		(at 110.49 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5593,7 +5742,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "antmicropower:GND")
-		(at 125.73 189.23 0)
+		(at 139.7 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5602,7 +5751,7 @@
 		(fields_autoplaced yes)
 		(uuid "1770eeb6-3cbf-43f6-8093-8966ac80d2df")
 		(property "Reference" "#PWR081"
-			(at 134.62 191.77 0)
+			(at 148.59 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 194.31 0)
+			(at 139.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 196.85 0)
+			(at 148.59 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 201.93 0)
+			(at 148.59 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 204.47 0)
+			(at 148.59 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5803,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 134.62 196.85 0)
+			(at 148.59 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5814,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 134.62 199.39 0)
+			(at 148.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,6 +6236,151 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:ESD204DQAR")
+		(at 339.09 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ee1e92-de48-4269-ac62-0c8785c14cc2")
+		(property "Reference" "D13"
+			(at 349.25 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD204DQAR"
+			(at 363.22 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
+			(at 363.22 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd204.pdf?ts=1706004844383&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fdiodes%252Fesd-protection-diodes%252Fproducts.html"
+			(at 363.22 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 30 kV, USON-10, 3.6 V, 0.55 pF"
+			(at 363.22 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD204DQAR"
+			(at 349.25 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 363.22 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 363.22 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3834e597-11d5-43ec-8df1-fd971ec75aed")
+		)
+		(pin "8"
+			(uuid "0a3db54e-43d7-4204-a45c-1d2bc4b38d67")
+		)
+		(pin "5"
+			(uuid "bf0ce4f7-5c39-48df-8b28-794939bb4ef2")
+		)
+		(pin "3"
+			(uuid "7f80be07-ca6a-4de5-b0a9-ceccfa5d71b9")
+		)
+		(pin "1"
+			(uuid "60082caa-afce-4217-804e-8d467a9af899")
+		)
+		(pin "6"
+			(uuid "f0b6fd6a-5201-40b7-968b-670899b82025")
+		)
+		(pin "2"
+			(uuid "c0bbd9e2-3f39-4c20-bc98-3a29613edd00")
+		)
+		(pin "4"
+			(uuid "35c727b4-2d0c-413b-9c39-b302af4f2951")
+		)
+		(pin "9"
+			(uuid "9bfe6053-9b17-477f-b221-3a4044f3a5e0")
+		)
+		(pin "10"
+			(uuid "09ba26ae-4c70-4cbe-b525-0b5315c56c59")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6850,6 +7144,151 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:ESD204DQAR")
+		(at 142.24 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6235e54f-eeb8-4ef3-9c06-0499de9435cc")
+		(property "Reference" "D9"
+			(at 152.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD204DQAR"
+			(at 166.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
+			(at 166.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd204.pdf?ts=1706004844383&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fdiodes%252Fesd-protection-diodes%252Fproducts.html"
+			(at 166.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 30 kV, USON-10, 3.6 V, 0.55 pF"
+			(at 166.37 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD204DQAR"
+			(at 152.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 166.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 166.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "b3501dcb-ac44-4349-a854-5efef905ccab")
+		)
+		(pin "8"
+			(uuid "cd0e88de-0f89-48e0-84dd-aafc54b6a4e9")
+		)
+		(pin "5"
+			(uuid "8b0b8352-cb12-4876-b6e4-d9a926a108bc")
+		)
+		(pin "3"
+			(uuid "5b06602d-4147-452b-ba35-9c50bf153731")
+		)
+		(pin "1"
+			(uuid "691b06e0-6b16-41ed-81ca-bd6b4a03ea6a")
+		)
+		(pin "6"
+			(uuid "7f177e8d-3fa9-48de-93c9-0ac13133af6f")
+		)
+		(pin "2"
+			(uuid "e652a377-2469-40a9-97ae-82d0cd64c831")
+		)
+		(pin "4"
+			(uuid "590f7360-c80a-479b-bef1-0cdee2111dda")
+		)
+		(pin "9"
+			(uuid "f5152a55-b724-4622-a87b-9092480a3251")
+		)
+		(pin "10"
+			(uuid "4f6d3ba5-1094-4a32-b785-a91256e79a78")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8057,6 +8496,103 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "antmicropower:GND")
+		(at 336.55 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eace897-088d-4486-bead-37b9dedb75a5")
+		(property "Reference" "#PWR076"
+			(at 345.44 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 345.44 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "170a16ff-4f68-422c-b197-e249abe37897")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
 		(at 135.89 46.99 0)
 		(unit 1)
@@ -8653,7 +9189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d903a4-534e-438b-a663-d8dc5cb21fd2")
-		(property "Reference" "D8"
+		(property "Reference" "D12"
 			(at 349.25 179.07 0)
 			(effects
 				(font
@@ -8782,7 +9318,7 @@
 		(instances
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "D8")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8887,7 +9423,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTVSDiodes:ESD204DQAR")
-		(at 128.27 176.53 0)
+		(at 142.24 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8895,8 +9431,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde171d5-9247-4a1c-9652-ece1c982453f")
-		(property "Reference" "D9"
-			(at 138.43 180.34 0)
+		(property "Reference" "D8"
+			(at 152.4 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9442,7 @@
 			)
 		)
 		(property "Value" "ESD204DQAR"
-			(at 152.4 181.61 0)
+			(at 166.37 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +9453,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 152.4 184.15 0)
+			(at 166.37 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +9464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd204.pdf?ts=1706004844383&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fdiodes%252Fesd-protection-diodes%252Fproducts.html"
-			(at 152.4 186.69 0)
+			(at 166.37 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +9475,7 @@
 			)
 		)
 		(property "Description" "TVS diode array, 30 kV, USON-10, 3.6 V, 0.55 pF"
-			(at 152.4 196.85 0)
+			(at 166.37 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +9485,7 @@
 			)
 		)
 		(property "MPN" "ESD204DQAR"
-			(at 138.43 182.88 0)
+			(at 152.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +9495,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 152.4 189.23 0)
+			(at 166.37 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +9506,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 191.77 0)
+			(at 166.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +9517,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 152.4 194.31 0)
+			(at 166.37 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,7 +9560,7 @@
 		(instances
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
