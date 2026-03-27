@@ -3702,7 +3702,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" " AT24C04C-SSHM-T "
+			(property "MPN" "AT24C04C-SSHM-T"
 				(at 35.56 -15.24 0)
 				(effects
 					(font
@@ -13981,142 +13981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMemory:AT24C04C_SOIC8")
-		(at 77.47 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "373776c9-b4c0-4a32-bd4e-d04942cc753d")
-		(property "Reference" "U2"
-			(at 85.344 238.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "AT24C04C_SOIC8"
-			(at 113.03 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm"
-			(at 113.03 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/282/1/AT24C04C-AT24C08C-I2C-Compatible-Two-Wire-Serial-EEPROM-4-Kbit-8-Kbit-20006127.pdf"
-			(at 113.03 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "EEPROM, 4 Kbit, 512 x 8bit, Serial I2C (2-Wire), 1 MHz, SOIC-8"
-			(at 113.03 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Technology"
-			(at 113.03 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" " AT24C04C-SSHM-T "
-			(at 84.836 240.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 113.03 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 113.03 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "d0cb3a6e-4c20-4eff-8621-a884b056ecf2")
-		)
-		(pin "5"
-			(uuid "53bc6ef5-aa70-40fa-b240-13ab1eb4087f")
-		)
-		(pin "7"
-			(uuid "cfff7d77-f973-45e9-bd9c-3f263ff0854b")
-		)
-		(pin "8"
-			(uuid "a046d5a1-ce20-4a03-a1ca-3ee84234cfa2")
-		)
-		(pin "1"
-			(uuid "b6cc2395-dba0-492c-8a69-8ac4efa209d8")
-		)
-		(pin "3"
-			(uuid "23c886ba-ac4b-4bc7-917d-b92c564e2fa9")
-		)
-		(pin "2"
-			(uuid "c17c7538-bdba-4790-8fa2-36e8fc00f54e")
-		)
-		(pin "4"
-			(uuid "7c24bf5b-96b7-4025-be7a-1f1ab51dfb29")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
 		(at 364.49 109.22 0)
 		(unit 1)
@@ -15788,6 +15652,143 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMemory:AT24C04C_SOIC8")
+		(at 77.47 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d8c344-0d9a-4913-8a43-ce450e671649")
+		(property "Reference" "U2"
+			(at 85.09 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "AT24C04C_SOIC8"
+			(at 113.03 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm"
+			(at 113.03 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/282/1/AT24C04C-AT24C08C-I2C-Compatible-Two-Wire-Serial-EEPROM-4-Kbit-8-Kbit-20006127.pdf"
+			(at 113.03 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "EEPROM, 4 Kbit, 512 x 8bit, Serial I2C (2-Wire), 1 MHz, SOIC-8"
+			(at 113.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 113.03 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AT24C04C-SSHM-T"
+			(at 85.09 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 113.03 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 113.03 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "372bc902-963f-41d5-b09c-53f5f13d4f2f")
+		)
+		(pin "3"
+			(uuid "4d032a6c-cd47-4370-bb11-5ad906c0b188")
+		)
+		(pin "8"
+			(uuid "afea7eb3-50bb-4c91-95f1-0fe336e67f44")
+		)
+		(pin "7"
+			(uuid "791865da-8a1b-4022-9a3b-f1bc1480a3dd")
+		)
+		(pin "4"
+			(uuid "e43e7cb4-d0de-445e-a867-efda50f04631")
+		)
+		(pin "2"
+			(uuid "0187a6dc-687b-458d-94d3-f6c44674a64a")
+		)
+		(pin "6"
+			(uuid "8f60e2b5-ae25-4035-8082-9e670df24221")
+		)
+		(pin "5"
+			(uuid "be65c189-59a0-44cd-a903-8146dc9614e7")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
