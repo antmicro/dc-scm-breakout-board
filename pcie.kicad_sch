@@ -6747,248 +6747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side")
-		(at 334.01 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533fd22c-4db1-41b2-abe7-95043f6f72e6")
-		(property "Reference" "J11"
-			(at 346.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
-			(at 373.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
-			(at 373.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
-			(at 373.38 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
-			(at 373.38 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol"
-			(at 373.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "G14A421211112HR"
-			(at 346.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 373.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 373.38 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "A4"
-			(uuid "66b3ab11-e786-4e67-9723-3d7566aab6fd")
-		)
-		(pin "B18"
-			(uuid "fb50fca2-fe5b-481a-9466-f1451ddf6ca0")
-		)
-		(pin "B19"
-			(uuid "d547e4c6-9e20-43c9-94ca-98310caa4e8f")
-		)
-		(pin "B16"
-			(uuid "82837fe8-54d1-4fe1-84ce-d33d3c334f35")
-		)
-		(pin "A6"
-			(uuid "d6be8c5c-a011-4770-9d77-dbc23b4f8ac1")
-		)
-		(pin "A3"
-			(uuid "7bf3afaa-c6f9-40e4-9c0a-b3ebde17f908")
-		)
-		(pin "B20"
-			(uuid "a4b432cf-33ce-42f4-b033-a25d2ffa9bf8")
-		)
-		(pin "B15"
-			(uuid "b9cf2bc9-3a3e-4d90-8580-95a509fce36d")
-		)
-		(pin "B21"
-			(uuid "3248d58f-198b-496a-af75-ef75d46c815b")
-		)
-		(pin "A9"
-			(uuid "e08b33b0-5475-46d4-bbf1-b3a6d5f1f426")
-		)
-		(pin "A14"
-			(uuid "21d993e4-c29d-4541-b41e-2d4714ccd270")
-		)
-		(pin "A2"
-			(uuid "91fba707-93e7-4c4c-9a43-47d4a680f530")
-		)
-		(pin "A15"
-			(uuid "5d608e7e-8031-4efa-bdb7-e96e538a91f9")
-		)
-		(pin "A12"
-			(uuid "7e0c14e4-0f9d-4086-a713-23631f6d7945")
-		)
-		(pin "A7"
-			(uuid "aebfa816-5be6-422e-9d38-111fe35cdc98")
-		)
-		(pin "B9"
-			(uuid "1f57a825-8fb6-4a3a-b073-99eb6cb501a9")
-		)
-		(pin "A17"
-			(uuid "c5a2c666-879f-4fc4-9213-599fce28d104")
-		)
-		(pin "A20"
-			(uuid "68221440-ba02-47d5-a9d4-25c33b4f9d2f")
-		)
-		(pin "A5"
-			(uuid "dfca7109-562e-408e-9b05-09c857bfec3e")
-		)
-		(pin "B17"
-			(uuid "164ce8f7-23d2-463b-a9df-3e8bdc2efa24")
-		)
-		(pin "B11"
-			(uuid "cc910c57-6f04-4677-a263-6c9451e3b9b2")
-		)
-		(pin "B10"
-			(uuid "3c45facc-8d55-4569-bb4a-9ca1880bb5b7")
-		)
-		(pin "B12"
-			(uuid "39927521-f020-4f88-9550-02834de4f35c")
-		)
-		(pin "A10"
-			(uuid "eae62217-e850-47c5-bc9e-4c6156f4b879")
-		)
-		(pin "B4"
-			(uuid "73d02d37-3be5-41ec-bf52-948aec320985")
-		)
-		(pin "A8"
-			(uuid "73556aa6-8394-4d1d-bd9c-e3628c78860e")
-		)
-		(pin "B14"
-			(uuid "05551ec0-b5b1-4b40-bf8e-8b75b55aea8b")
-		)
-		(pin "A11"
-			(uuid "ec5d5058-da5d-4555-9dc7-4da1ef756382")
-		)
-		(pin "A19"
-			(uuid "859fb4aa-70fb-4329-b8a5-d4241cd933f8")
-		)
-		(pin "B1"
-			(uuid "71e1fbc0-03c0-4e4b-882c-1e533d0bfc71")
-		)
-		(pin "A13"
-			(uuid "a38eb5d2-6744-46f8-8a63-d6bc19986248")
-		)
-		(pin "A1"
-			(uuid "a4dca819-a92c-4461-9bc9-d9511d622eb2")
-		)
-		(pin "B8"
-			(uuid "f0cd5bf2-0691-4a9d-a741-69c127167665")
-		)
-		(pin "B5"
-			(uuid "5a8179fd-295b-46be-a9f4-b6c0da4a0140")
-		)
-		(pin "SH"
-			(uuid "fb21c34e-fc73-4460-9894-23937910214c")
-		)
-		(pin "A18"
-			(uuid "81b5051c-e753-4551-8696-0410cf25944f")
-		)
-		(pin "A16"
-			(uuid "f5d52e7d-1729-44d1-8ec8-cf88ccbfde81")
-		)
-		(pin "B3"
-			(uuid "00f8dfb4-1f9d-45c6-8430-c60383b0261e")
-		)
-		(pin "A21"
-			(uuid "41b679a0-faac-42da-b3a2-697ae2f18e73")
-		)
-		(pin "B13"
-			(uuid "de1c206c-5b39-471e-8d98-4a2008f762cd")
-		)
-		(pin "B2"
-			(uuid "121a271b-b7ea-4227-a977-98682ffe92f9")
-		)
-		(pin "B7"
-			(uuid "9427eb7d-ab95-4ac5-b276-11f109ce5649")
-		)
-		(pin "B6"
-			(uuid "332a7d81-d1b0-4eda-84cc-214b754da905")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_0R_0402_1")
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 119.38 40.64 270)
@@ -8012,6 +7770,248 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side")
+		(at 334.01 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f36041-b73e-47c7-8356-af645139c8ba")
+		(property "Reference" "J11"
+			(at 346.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
+			(at 373.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
+			(at 373.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
+			(at 373.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
+			(at 373.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 373.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G14A421211112HR"
+			(at 346.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 373.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 373.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "B8"
+			(uuid "125fdc3f-79e1-45b1-8db8-4afd5e1213fc")
+		)
+		(pin "B4"
+			(uuid "1205f503-eae4-4434-9ba0-3c9f83a56bf0")
+		)
+		(pin "A12"
+			(uuid "4c8419f8-2507-4bed-be25-e246b0111cd5")
+		)
+		(pin "A20"
+			(uuid "9dc83151-a075-4e0d-aa65-615a33ddc43c")
+		)
+		(pin "B15"
+			(uuid "17e186a3-4266-4c5d-9c87-a0969ed5155b")
+		)
+		(pin "B21"
+			(uuid "d48c43f1-9180-4aef-9748-6eabceb54044")
+		)
+		(pin "A7"
+			(uuid "f7ce27c5-488b-4a04-8c90-6a49e5b15bd3")
+		)
+		(pin "A19"
+			(uuid "adb52396-87ec-458f-babd-0d369ede708c")
+		)
+		(pin "A6"
+			(uuid "93e1b515-ad88-43f0-b989-a0c289c5808f")
+		)
+		(pin "B9"
+			(uuid "54e724e1-19a8-4854-be57-deb468bfedff")
+		)
+		(pin "A15"
+			(uuid "82816ce2-0069-47a6-a579-73408da83e13")
+		)
+		(pin "B19"
+			(uuid "7ce9d4c8-2111-4931-8895-b87128e50100")
+		)
+		(pin "B16"
+			(uuid "04d6e20e-f1bc-43bb-9767-6f773316db37")
+		)
+		(pin "B1"
+			(uuid "0f0b13c0-b13b-4322-9f75-060fec1a6379")
+		)
+		(pin "A11"
+			(uuid "d454cca9-9898-46b5-92d7-8d17a6b68510")
+		)
+		(pin "B18"
+			(uuid "cca5dfa6-c8ee-4a16-a62a-c945aefaa053")
+		)
+		(pin "A21"
+			(uuid "401b1cda-c780-409c-99fe-ae5d80d5e412")
+		)
+		(pin "A9"
+			(uuid "0aaded1c-12a6-403f-8aae-c0984aedbcca")
+		)
+		(pin "A3"
+			(uuid "7f500326-ada7-4103-9604-2989af911de3")
+		)
+		(pin "A8"
+			(uuid "f955ca6e-f102-4d16-9977-d8eb2d187264")
+		)
+		(pin "B11"
+			(uuid "be101c68-8489-44cd-8ee4-f81498cdb600")
+		)
+		(pin "B20"
+			(uuid "1b2093a2-1e96-424c-8217-8458b40659e5")
+		)
+		(pin "B17"
+			(uuid "45cde320-15b1-4130-a5f3-c772f8c439ff")
+		)
+		(pin "A10"
+			(uuid "0dd16179-05b5-4bd2-b93a-5f35fa4dafcd")
+		)
+		(pin "A13"
+			(uuid "fb8482ef-48fc-41de-841a-09c49d7a6dbe")
+		)
+		(pin "A4"
+			(uuid "df4de940-4b38-4092-944a-b8323ad1bd99")
+		)
+		(pin "A17"
+			(uuid "70b3189b-3ed7-449a-90ec-9a7405343d73")
+		)
+		(pin "B13"
+			(uuid "4ef60b65-9252-4466-bd95-5b4b3fe587e5")
+		)
+		(pin "B14"
+			(uuid "edeee69f-8c42-476f-9a95-b1442346b5fc")
+		)
+		(pin "B3"
+			(uuid "680c4ac0-c6bd-4a00-bd0a-1cf3e91299f5")
+		)
+		(pin "A16"
+			(uuid "d8a0dcfe-487a-46d7-ac60-8d59eb5ee73d")
+		)
+		(pin "B7"
+			(uuid "beb47d35-4874-4589-9952-fcb35b970b2d")
+		)
+		(pin "B12"
+			(uuid "33eea948-11e6-4edb-9483-ee281ed0789e")
+		)
+		(pin "B2"
+			(uuid "aa2a806d-e46a-4ff5-b8f8-9fb663e118b3")
+		)
+		(pin "B6"
+			(uuid "9310f723-a1a0-4935-b390-9af9bde50dfe")
+		)
+		(pin "B10"
+			(uuid "250b9986-3825-4d6b-bf8c-c9de27c7eba6")
+		)
+		(pin "A1"
+			(uuid "8c532367-9f36-4122-a60e-da03eb7f0d1c")
+		)
+		(pin "A18"
+			(uuid "1098e3fb-3566-4223-9da2-d7b3a6af9d57")
+		)
+		(pin "A5"
+			(uuid "a71dddc8-9a6f-404c-8c96-f0c4f0af0cd2")
+		)
+		(pin "SH"
+			(uuid "67535882-97c7-4242-8b50-751095516055")
+		)
+		(pin "B5"
+			(uuid "a3e50c47-eb9a-43c3-904c-99e1ed1c884e")
+		)
+		(pin "A2"
+			(uuid "592b58e1-9d0d-4cb7-9db6-d4bebbb67c3a")
+		)
+		(pin "A14"
+			(uuid "5d3a716a-47a2-46bc-b05c-595452b03b0f")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9769,6 +9769,248 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR")
+		(at 140.97 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce336360-d867-4bc4-ab83-bec2b39b684e")
+		(property "Reference" "J10"
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G14A421211112HR"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "B12"
+			(uuid "94e36f1a-7001-4072-9255-f4e5b068a460")
+		)
+		(pin "A3"
+			(uuid "fb3a0521-bfd0-4b88-9469-d87ecda39f6d")
+		)
+		(pin "A19"
+			(uuid "9e2f14d7-5eb0-4918-bee0-343785d3bf4e")
+		)
+		(pin "A1"
+			(uuid "c3f59f89-389d-4e21-b2dd-6b890b3bdbde")
+		)
+		(pin "A18"
+			(uuid "88a51014-fc63-45fb-bc0f-de5f2c32c166")
+		)
+		(pin "A10"
+			(uuid "b2385b14-4927-4b13-a8d2-0dc48f65478e")
+		)
+		(pin "B4"
+			(uuid "6eec7335-6d0c-497b-a15b-cd54ccd96ee2")
+		)
+		(pin "A14"
+			(uuid "3c65b386-121c-48a7-ae15-79d455e2e848")
+		)
+		(pin "A15"
+			(uuid "fe173a1e-123a-4c87-a350-c483634cb021")
+		)
+		(pin "B16"
+			(uuid "e7d40d30-3136-4a8a-8583-e390947e4378")
+		)
+		(pin "B3"
+			(uuid "066d9713-6376-4cca-acb4-28dc3dca65eb")
+		)
+		(pin "B15"
+			(uuid "f725934e-33ec-4e76-8db4-a8ff4e9cd3e2")
+		)
+		(pin "A4"
+			(uuid "36a81e63-8334-44ac-b5c9-b5046ec81946")
+		)
+		(pin "A17"
+			(uuid "52c33b9e-0998-4485-8f62-f0520eeb81ce")
+		)
+		(pin "A16"
+			(uuid "0ea5a17c-afbc-42f1-b960-7b8c84e9dd3e")
+		)
+		(pin "A2"
+			(uuid "146f1a7a-50c6-461e-9a01-dd717ada1a51")
+		)
+		(pin "A9"
+			(uuid "66e2b3ce-16a2-4faa-a963-4fff23cd8b3e")
+		)
+		(pin "A21"
+			(uuid "48a85333-0c8c-44bc-b380-e899997be0c4")
+		)
+		(pin "B13"
+			(uuid "34e7fbea-8eea-46f0-a101-1121c76413bf")
+		)
+		(pin "B1"
+			(uuid "6f25e519-45ce-4003-91dd-fee640b6ba8d")
+		)
+		(pin "A12"
+			(uuid "4d70c3bf-b83e-47ff-8578-a2404a81732c")
+		)
+		(pin "B2"
+			(uuid "0120a0f3-750f-4495-a70b-e24d980ea878")
+		)
+		(pin "B17"
+			(uuid "190c86a7-d78d-4432-803c-7eb728056f43")
+		)
+		(pin "B8"
+			(uuid "9ad2ade9-4653-4876-8249-08094e490c44")
+		)
+		(pin "B10"
+			(uuid "f9e92b5d-c6b7-4ee1-bc74-106295224f30")
+		)
+		(pin "B18"
+			(uuid "1af4a1ec-fff9-48eb-8f57-ada29c598034")
+		)
+		(pin "B5"
+			(uuid "0f7e7789-d2a6-4d61-81de-0c6c163fc9bc")
+		)
+		(pin "B7"
+			(uuid "ff214a32-c4cb-49fb-b888-363766ab5870")
+		)
+		(pin "B14"
+			(uuid "6a55b680-98cf-4739-9d51-8c69b853231d")
+		)
+		(pin "A8"
+			(uuid "98b6cd2c-c856-444b-811b-6a680d9e0c5e")
+		)
+		(pin "A20"
+			(uuid "19b6388f-60a7-4b6a-afa8-e7c0e4f45d36")
+		)
+		(pin "A11"
+			(uuid "dc1b885e-b2a6-4080-adac-05ce45c3799e")
+		)
+		(pin "B9"
+			(uuid "e73458b7-b869-47a1-b9fd-3101600ef50c")
+		)
+		(pin "A13"
+			(uuid "484ca54c-18a1-41c6-80e2-f8d9e916b7d9")
+		)
+		(pin "B11"
+			(uuid "e80dbcc6-0108-4b6a-bd25-b7005bd769ab")
+		)
+		(pin "B21"
+			(uuid "ac83cbf1-d6dd-4b1a-8a61-fa4a2fc612e7")
+		)
+		(pin "B6"
+			(uuid "c8d588d7-89af-4053-9376-33ab4e17e818")
+		)
+		(pin "A7"
+			(uuid "9d7fbb34-ac6b-443d-acce-67fdeec920aa")
+		)
+		(pin "A5"
+			(uuid "b90c487c-bc8e-4984-ac80-7ce41a407e88")
+		)
+		(pin "A6"
+			(uuid "28e04eda-2919-4ffc-bc5c-283890f22736")
+		)
+		(pin "SH"
+			(uuid "a917b351-1d7e-454d-9852-2854e6133216")
+		)
+		(pin "B19"
+			(uuid "9a22086e-fbd7-4702-b455-8bcd3448665e")
+		)
+		(pin "B20"
+			(uuid "a6d4640f-987f-4aef-b9ea-b1e5dddfc418")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 138.43 55.88 180)
 		(unit 1)
@@ -10280,248 +10522,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR")
-		(at 140.97 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6d3eb6c-c2a8-4f27-98b3-57b5ad80c45f")
-		(property "Reference" "J10"
-			(at 153.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
-			(at 180.34 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol"
-			(at 180.34 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "G14A421211112HR"
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 180.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "B5"
-			(uuid "912ae52c-ea8f-4de9-a723-26b6ef61554d")
-		)
-		(pin "B8"
-			(uuid "70070c85-7040-48fa-a54f-60f4e1b4ad22")
-		)
-		(pin "A15"
-			(uuid "9cf3e6bd-2591-4297-a64e-6557769af746")
-		)
-		(pin "A9"
-			(uuid "503fe7a3-9c39-4a0b-85bf-3bc22bcae392")
-		)
-		(pin "A3"
-			(uuid "fa3dd08c-08c1-47c3-b041-f39698538aa9")
-		)
-		(pin "A5"
-			(uuid "077d8381-d793-449b-a848-629bbcef4b87")
-		)
-		(pin "A18"
-			(uuid "2850722b-9252-4c42-a096-73a10a7242a0")
-		)
-		(pin "B18"
-			(uuid "7785de13-0046-4133-aaf3-5adf195b96ed")
-		)
-		(pin "A10"
-			(uuid "50593e87-483f-4cc1-80dd-b67f896cb130")
-		)
-		(pin "A11"
-			(uuid "24e2bfdc-424f-4f4f-b141-0bd685e4b393")
-		)
-		(pin "B10"
-			(uuid "185f2f10-5d99-4fa9-81f9-b38d29d0dee1")
-		)
-		(pin "A16"
-			(uuid "96b19c55-fee9-413a-b16a-2537f4ba5294")
-		)
-		(pin "A17"
-			(uuid "04f96876-9e3d-4142-a20c-dbb7b705cbb4")
-		)
-		(pin "B17"
-			(uuid "ccbd844e-76c9-4bbe-9d80-77c09c5a9027")
-		)
-		(pin "A7"
-			(uuid "27a5aa91-0123-4333-874b-2c54cad040b9")
-		)
-		(pin "B16"
-			(uuid "0d27553d-9348-4352-979c-3328b4cf21c3")
-		)
-		(pin "A1"
-			(uuid "9f9c8973-d790-4e28-9d80-c3d6abb5c12e")
-		)
-		(pin "A12"
-			(uuid "ea283b68-cb9f-40de-90f9-708373d255fc")
-		)
-		(pin "B4"
-			(uuid "ed01adae-e9b4-4e8f-a2d1-dfb5c353c49e")
-		)
-		(pin "A2"
-			(uuid "5e329b4b-aba7-4ee1-b10d-f8abbf05dc02")
-		)
-		(pin "A6"
-			(uuid "f66ae23c-ee99-4cea-89c1-e2b436ec67ba")
-		)
-		(pin "A21"
-			(uuid "3a7eba61-cf2f-42b3-be37-e9d18f76dfc4")
-		)
-		(pin "B3"
-			(uuid "d6168f44-32af-4c89-bf93-f8e2439bbd1b")
-		)
-		(pin "B7"
-			(uuid "dfd5d20f-fda8-4bb4-ad63-d066b7630be2")
-		)
-		(pin "B20"
-			(uuid "31637d4b-25e0-4ac6-849e-bb71bdb053ef")
-		)
-		(pin "A13"
-			(uuid "01ce6f02-a797-4d81-a465-b744eae013e4")
-		)
-		(pin "B2"
-			(uuid "4d6f413f-eafc-4ea1-bfc9-9a18c66c8297")
-		)
-		(pin "A8"
-			(uuid "7fd50124-3d9d-42a3-b1e0-63a88c684712")
-		)
-		(pin "B6"
-			(uuid "47090abb-6078-4504-b3a8-5ffa6baf53a2")
-		)
-		(pin "B1"
-			(uuid "0fdd8b38-4e39-4b52-8765-526a202e16a7")
-		)
-		(pin "B13"
-			(uuid "c16e1300-a39e-4a58-8e2f-7a6c2ec7d174")
-		)
-		(pin "A19"
-			(uuid "b933cb40-4a06-485a-bfe1-b068bea31c02")
-		)
-		(pin "B9"
-			(uuid "b97f6854-dc6a-4591-9770-1520795bd289")
-		)
-		(pin "B19"
-			(uuid "ca46eedb-b018-4f17-8b35-633ae548352b")
-		)
-		(pin "B15"
-			(uuid "024ea779-7819-437f-9c19-16fd618b7034")
-		)
-		(pin "A20"
-			(uuid "af9dc90d-b131-482b-8179-41a5be4136d5")
-		)
-		(pin "A14"
-			(uuid "1853b374-ffee-4cbb-8acb-4f7c63dcf349")
-		)
-		(pin "A4"
-			(uuid "5656c087-da4f-4ced-9df7-83a6ac8d0fc1")
-		)
-		(pin "B14"
-			(uuid "e10a0360-12f3-4b78-84b0-30c714927f74")
-		)
-		(pin "B21"
-			(uuid "08fc0e6a-8e59-40b3-b307-85539e55ea9f")
-		)
-		(pin "B12"
-			(uuid "ca076e31-a06b-42e2-92d7-c12909ef58e6")
-		)
-		(pin "SH"
-			(uuid "332e3a92-9d55-46a4-8399-34542609a3e2")
-		)
-		(pin "B11"
-			(uuid "6e8da105-faeb-4158-be0b-e719c9633eb3")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/92b60d6e-26d5-4bc0-84f3-a50a27571d9f"
-					(reference "J10")
 					(unit 1)
 				)
 			)
