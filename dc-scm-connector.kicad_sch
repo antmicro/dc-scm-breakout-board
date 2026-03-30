@@ -3763,9 +3763,9 @@
 		)
 		(uuid "3ef7636a-e064-4ba5-950c-4d26b06e4eb2")
 	)
-	(text "This cross is intentional"
+	(text "This cross is intentional for routing purposes"
 		(exclude_from_sim no)
-		(at 364.998 157.988 0)
+		(at 340.106 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3773,9 +3773,9 @@
 		)
 		(uuid "989a0406-1d13-478f-8a44-5afecbf0463e")
 	)
-	(text "This cross is intentional"
+	(text "This cross is intentional for routing purposes"
 		(exclude_from_sim no)
-		(at 370.84 187.96 0)
+		(at 339.598 197.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9765,7 +9765,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 346.71 78.74) (xy 392.43 78.74) (xy 392.43 196.85) (xy 346.71 196.85)
+				(xy 346.71 78.74) (xy 392.43 78.74) (xy 392.43 203.2) (xy 346.71 203.2)
 			)
 			(stroke
 				(width 0)
@@ -9966,8 +9966,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 346.71 196.85 180)
-		(fields_autoplaced yes)
+		(at 346.71 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9976,7 +9975,7 @@
 		)
 		(uuid "cb2fd870-331a-4fef-a2a9-85c44ca58e5e")
 		(property "Netclass" "85Ohm-diff"
-			(at 347.4085 199.39 0)
+			(at 347.218 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +9984,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 546.1 73.66 0)
+			(at 546.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
