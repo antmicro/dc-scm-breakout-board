@@ -3107,7 +3107,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm_mask"
-			(at 365.76 205.74 0)
+			(at 274.32 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -525,8 +525,8 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.187,
-        "diff_pair_width": 0.202,
+        "diff_pair_gap": 0.189,
+        "diff_pair_width": 0.203,
         "line_style": 0,
         "name": "85Ohm-diff",
         "pcb_color": "rgb(132, 0, 132)",
@@ -895,7 +895,24 @@
         "90Ohm-diff"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "85Ohm-diff",
+        "pattern": "*PCIE*"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "*USB2*"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "*LTPI*"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "*SPI*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
