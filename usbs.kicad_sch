@@ -3977,6 +3977,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroUSBConnectors:USB-A_Amphenol_UE27AC54100"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB-A_Amphenol_UE27AC54100"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:USB-A_Receptacle_Amphenol_UE27AC54100"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/pue27acx4x0x.pdf"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB-A 2.0 Receptacle Connector, 4 Position, Through Hole, Right Angle"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "UE27AC54100"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Amphenol"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB, CONNECTOR, SMT, VERTICAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-A_Amphenol_UE27AC54100_1_1"
+				(rectangle
+					(start -12.7 2.54)
+					(end -2.54 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -11.811 -0.508)
+					(end -9.271 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -11.43 -3.556)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -3.556) (xy -10.16 -3.556) (xy -8.89 -2.286) (xy -8.255 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -3.556) (xy -9.525 -3.556) (xy -8.89 -4.826) (xy -7.62 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.525 -3.556) (xy -6.985 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 -1.143)
+					(end -12.192 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.255 -2.286)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.128 -4.445)
+					(end -7.366 -5.207)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -2.921) (xy -6.985 -4.191) (xy -5.715 -3.556) (xy -6.985 -2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 180)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5084,7 +5401,7 @@
 		(uuid "48a78406-9a85-4e3c-a270-341cafa6554b")
 	)
 	(junction
-		(at 107.95 78.74)
+		(at 107.95 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e007e64-85fb-4412-93e9-be4c26b111f1")
@@ -5106,12 +5423,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "636f5241-fe5d-4ceb-aad2-02e5477c491e")
-	)
-	(junction
-		(at 93.98 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "663bc7e4-68b4-46d8-9f29-5155dd66add9")
 	)
 	(junction
 		(at 55.88 186.69)
@@ -5186,12 +5497,6 @@
 		(uuid "b1b30116-e9ab-4cdb-8f5c-2a7694132c01")
 	)
 	(junction
-		(at 106.68 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7c5ffd0-1fd0-43ac-87dd-8f64075e4a8a")
-	)
-	(junction
 		(at 83.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5208,12 +5513,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2b131af-538d-4aa3-a2d4-3aa1f8ac4bea")
-	)
-	(junction
-		(at 104.14 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2d92dd0-fbb2-4b3d-bf4a-034b22cb4427")
 	)
 	(junction
 		(at 306.07 58.42)
@@ -5264,10 +5563,6 @@
 		(uuid "ff926156-bf19-4336-a26a-e2c29d14f81e")
 	)
 	(no_connect
-		(at 110.49 68.58)
-		(uuid "02ed7787-565c-4078-b04e-c953c2836f56")
-	)
-	(no_connect
 		(at 322.58 50.8)
 		(uuid "033ad226-a43f-4428-9637-68c5961271a7")
 	)
@@ -5296,6 +5591,10 @@
 		(uuid "30bd6159-cefa-41b6-9805-9aa58f02c591")
 	)
 	(no_connect
+		(at 110.49 55.88)
+		(uuid "36db36be-fe4f-4bb3-9e7a-ce70c319cc01")
+	)
+	(no_connect
 		(at 161.29 236.22)
 		(uuid "3b83db1d-21b1-48aa-8898-e283afb2044a")
 	)
@@ -5306,10 +5605,6 @@
 	(no_connect
 		(at 161.29 205.74)
 		(uuid "4239411a-6857-45fe-a331-ce5921fc92ea")
-	)
-	(no_connect
-		(at 110.49 71.12)
-		(uuid "579cdee4-f859-49f6-b18b-09adb4bd4d86")
 	)
 	(no_connect
 		(at 161.29 241.3)
@@ -5390,10 +5685,6 @@
 	(no_connect
 		(at 161.29 256.54)
 		(uuid "d030f132-260f-4163-a325-bbc0f5604b47")
-	)
-	(no_connect
-		(at 110.49 43.18)
-		(uuid "d997f831-fed8-4470-841e-4e11e803f9dd")
 	)
 	(no_connect
 		(at 322.58 78.74)
@@ -5679,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 63.5) (xy 106.68 63.5)
+			(xy 86.36 63.5) (xy 110.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5729,7 +6020,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 107.95 78.74)
+			(xy 107.95 66.04) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5796,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "190b596b-2b05-4b14-bc4d-e8f9b450b135")
-	)
-	(wire
-		(pts
-			(xy 93.98 50.8) (xy 96.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a293d02-3f2a-4b9d-aff5-8af5c9d7335d")
 	)
 	(bus
 		(pts
@@ -5966,16 +6247,6 @@
 			(type default)
 		)
 		(uuid "28c70148-7379-470a-8af3-127cd0aa8afb")
-	)
-	(wire
-		(pts
-			(xy 104.14 60.96) (xy 110.49 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd92cd1-e597-4cc0-bdca-52d8ac5dc1c7")
 	)
 	(wire
 		(pts
@@ -6219,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 107.95 76.2)
+			(xy 110.49 66.04) (xy 107.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6359,26 +6630,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 48.26) (xy 93.98 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62be1137-6a38-4cbc-8d74-ace536339134")
-	)
-	(wire
-		(pts
-			(xy 101.6 50.8) (xy 110.49 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c79884-490b-437f-98f5-a54b93dd9166")
-	)
-	(wire
-		(pts
 			(xy 99.06 194.31) (xy 107.95 194.31)
 		)
 		(stroke
@@ -6419,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 107.95 78.74)
+			(xy 107.95 71.12) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +6840,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 110.49 78.74)
+			(xy 107.95 68.58) (xy 110.49 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6686,16 +6937,6 @@
 			(type default)
 		)
 		(uuid "932f6f91-2d0b-4015-a212-caec678f8979")
-	)
-	(wire
-		(pts
-			(xy 90.17 50.8) (xy 93.98 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94012904-3260-4f92-8486-6537ad57132a")
 	)
 	(bus
 		(pts
@@ -6876,16 +7117,6 @@
 			(type default)
 		)
 		(uuid "a6357156-2fbf-4143-bfe6-22e93d0150be")
-	)
-	(wire
-		(pts
-			(xy 93.98 48.26) (xy 93.98 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70dedfa-a8e9-43eb-8404-bdd3a1c8a37c")
 	)
 	(bus
 		(pts
@@ -7137,16 +7368,6 @@
 		)
 		(uuid "c13f8f0c-2df7-4ea1-9120-50eaea4518c6")
 	)
-	(wire
-		(pts
-			(xy 101.6 48.26) (xy 110.49 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c33f9642-7fa1-4d45-b0c8-e8181aba066d")
-	)
 	(bus
 		(pts
 			(xy 184.15 146.05) (xy 184.15 147.32)
@@ -7196,16 +7417,6 @@
 			(type default)
 		)
 		(uuid "c7f975cb-63f2-45ba-a4cc-f6e8909dea38")
-	)
-	(wire
-		(pts
-			(xy 106.68 63.5) (xy 110.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83f3e64-9c2e-453e-99c2-619a1ef6df9e")
 	)
 	(wire
 		(pts
@@ -7296,16 +7507,6 @@
 			(type default)
 		)
 		(uuid "d8cf1e7b-5c5c-49c4-be7c-faeed5500141")
-	)
-	(wire
-		(pts
-			(xy 110.49 58.42) (xy 106.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e45682-8808-4542-aba4-286bf9f0e067")
 	)
 	(bus
 		(pts
@@ -7429,7 +7630,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 104.14 60.96)
+			(xy 83.82 60.96) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7456,16 +7657,6 @@
 			(type default)
 		)
 		(uuid "eccf88a5-af73-481e-bdd3-fe9e7fa43eca")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd451da-9aeb-4283-9c31-0bc8702c863f")
 	)
 	(wire
 		(pts
@@ -7519,16 +7710,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 104.14 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65050b5-4d75-4dc5-9472-fe96659175b4")
-	)
-	(wire
-		(pts
 			(xy 105.41 184.15) (xy 119.38 184.15)
 		)
 		(stroke
@@ -7556,16 +7737,6 @@
 			(type default)
 		)
 		(uuid "f8c50a8a-0c9c-4c76-8d53-6823b1b3812f")
-	)
-	(wire
-		(pts
-			(xy 106.68 58.42) (xy 106.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb16c176-a777-4b72-bb16-f0888f62a9e1")
 	)
 	(bus
 		(pts
@@ -10419,145 +10590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_5k1_0402")
-		(at 96.52 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39d00e34-0d28-4d22-8910-77b57506ec87")
-		(property "Reference" "R7"
-			(at 99.06 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_5k1_0402"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 116.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-5101GLF"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 116.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 116.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 116.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "5k1"
-			(at 99.06 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 116.84 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f736a8bb-d565-4473-a81d-a788d33927c2")
-		)
-		(pin "2"
-			(uuid "08fa49e0-6498-41a4-b560-a9a0cb56c102")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
 		(at 347.98 176.53 0)
 		(mirror y)
@@ -11009,101 +11041,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 90.17 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4020d813-0b68-44bf-b891-47a628dfb2e2")
-		(property "Reference" "#PWR077"
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 99.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 99.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ea51317-1feb-4240-a58b-d605f586dc72")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -12418,170 +12355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
-		(at 110.49 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "832a24d4-cdc8-4d98-b1b7-db05419e9419")
-		(property "Reference" "J2"
-			(at 123.825 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "USB-C_GCT_USB4105-GF-A"
-			(at 72.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
-			(at 72.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
-			(at 72.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 72.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 123.825 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "003f6497-a744-4901-97cf-1e893b241703")
-		)
-		(pin "SH"
-			(uuid "e7281450-f016-46ec-bb51-acd7889bf5bb")
-		)
-		(pin "B7"
-			(uuid "0d385818-b02a-4ab0-a9a2-c65007027616")
-		)
-		(pin "B9"
-			(uuid "ea63ed1f-45c8-4ecd-9c99-5030650f8efd")
-		)
-		(pin "A7"
-			(uuid "7fcf7356-1580-4690-a7a2-50c9d89358d9")
-		)
-		(pin "A1"
-			(uuid "6875bcb3-c53b-455b-b14e-2463832c5c7b")
-		)
-		(pin "A8"
-			(uuid "f43c2994-e52b-4ad6-93c9-84d3ca661294")
-		)
-		(pin "A6"
-			(uuid "6c10cc0f-cf02-4727-af72-d3338ee69ed2")
-		)
-		(pin "A4"
-			(uuid "e8ad0813-4904-4bbf-a59b-bcddc2165187")
-		)
-		(pin "B12"
-			(uuid "4498fb0a-0d08-4eaf-9dab-9b02182bd13a")
-		)
-		(pin "A9"
-			(uuid "b363fc97-2c75-4c8d-a144-ea6a73fa5eb0")
-		)
-		(pin "B1"
-			(uuid "41f2c185-5783-453c-8db0-4f9e7d4ed527")
-		)
-		(pin "B8"
-			(uuid "ce26492d-1a20-48a2-b74e-18f29e032824")
-		)
-		(pin "B6"
-			(uuid "cc581907-dc32-4a0a-8498-13c259f9dd7d")
-		)
-		(pin "A5"
-			(uuid "4c81ec06-c8f2-4a85-9d8e-36f546a56065")
-		)
-		(pin "B5"
-			(uuid "7689f101-7987-4a2c-875d-f523562f7582")
-		)
-		(pin "A12"
-			(uuid "fb97e147-4a8b-4ac1-a54b-20f69c4dabf3")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 320.04 88.9 0)
 		(mirror y)
@@ -13352,7 +13125,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 107.95 81.28 0)
+		(at 107.95 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13361,164 +13134,6 @@
 		(fields_autoplaced yes)
 		(uuid "ab185c6a-11d6-4c58-85a0-9f5242794d4b")
 		(property "Reference" "#PWR042"
-			(at 116.84 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 116.84 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48cec36c-d296-41e7-b1bd-ebdf904fabeb")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_5k1_0402")
-		(at 96.52 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b24d8289-04a1-46b8-a6a7-5e367df1fbfd")
-		(property "Reference" "R8"
-			(at 99.06 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_5k1_0402"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-5101GLF"
-			(at 116.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -13529,12 +13144,42 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
-			(at 116.84 76.2 0)
+		(property "Value" "GND"
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -13551,35 +13196,24 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "5k1"
-			(at 99.06 54.356 0)
+		(property "License" "Apache-2.0"
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "dfb6740d-dae6-41f4-9c83-f274ca851910")
-		)
-		(pin "2"
-			(uuid "0dbf2f8b-ba63-4ab1-953f-16dafe5e671b")
+			(uuid "48cec36c-d296-41e7-b1bd-ebdf904fabeb")
 		)
 		(instances
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "R8")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15961,6 +15595,134 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroUSBConnectors:USB-A_Amphenol_UE27AC54100")
+		(at 110.49 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f34eee00-a069-48fc-a245-0a8d3668762a")
+		(property "Reference" "J19"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-A_Amphenol_UE27AC54100"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USB-A_Receptacle_Amphenol_UE27AC54100"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/pue27acx4x0x.pdf"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-A 2.0 Receptacle Connector, 4 Position, Through Hole, Right Angle"
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UE27AC54100"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7266db40-3546-4548-ac33-180593f929bf")
+		)
+		(pin "1"
+			(uuid "d455029d-0b32-4647-8b8a-fe639f024d6e")
+		)
+		(pin "SH"
+			(uuid "3c7f491a-8914-4ef0-b634-1048c7ba4b3b")
+		)
+		(pin "2"
+			(uuid "66dbb808-62ad-4bda-85d9-70585cd1cb3d")
+		)
+		(pin "4"
+			(uuid "c7a76e63-f742-4c0a-8c5a-a7ed4178cbaa")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
+					(reference "J19")
 					(unit 1)
 				)
 			)
