@@ -3619,7 +3619,7 @@
 	)
 	(text "This cross is intentional for routing purposes"
 		(exclude_from_sim no)
-		(at 340.106 167.64 0)
+		(at 340.36 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3629,7 +3629,7 @@
 	)
 	(text "This cross is intentional for routing purposes"
 		(exclude_from_sim no)
-		(at 339.598 197.104 0)
+		(at 339.09 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)

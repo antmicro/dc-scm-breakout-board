@@ -3526,7 +3526,7 @@
 	)
 	(text "OCuLink SCMROOT\n"
 		(exclude_from_sim no)
-		(at 342.646 22.86 0)
+		(at 342.9 22.86 0)
 		(effects
 			(font
 				(size 4 4)

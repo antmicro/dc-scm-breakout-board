@@ -7429,7 +7429,7 @@
 	)
 	(text "NOTE:\nR36 for debugging\n"
 		(exclude_from_sim no)
-		(at 249.936 89.916 0)
+		(at 250.19 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7489,7 +7489,7 @@
 	)
 	(text "12VDC IN"
 		(exclude_from_sim no)
-		(at 53.086 50.8 0)
+		(at 53.34 50.8 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -7500,7 +7500,7 @@
 	)
 	(text "12V IN"
 		(exclude_from_sim no)
-		(at 114.046 24.892 0)
+		(at 114.3 25.4 0)
 		(effects
 			(font
 				(size 4 4)
