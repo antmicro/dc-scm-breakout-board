@@ -228,8 +228,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.55,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -494,8 +494,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -508,8 +508,8 @@
         "priority": 1,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -520,8 +520,8 @@
         "priority": 3,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.18,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -534,8 +534,8 @@
         "priority": 0,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.203,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -548,8 +548,8 @@
         "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.18,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
