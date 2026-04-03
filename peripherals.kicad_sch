@@ -5472,7 +5472,7 @@
 	)
 	(text "QWIIC"
 		(exclude_from_sim no)
-		(at 359.41 22.86 0)
+		(at 364.49 22.86 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5495,7 +5495,7 @@
 	)
 	(text "NC-SI\n"
 		(exclude_from_sim no)
-		(at 359.41 82.55 0)
+		(at 364.49 82.55 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5521,7 +5521,7 @@
 	)
 	(text "LEDs + TPs"
 		(exclude_from_sim no)
-		(at 367.03 204.47 0)
+		(at 370.84 204.47 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5583,7 +5583,7 @@
 	)
 	(text "LTPI\n"
 		(exclude_from_sim no)
-		(at 82.55 138.43 0)
+		(at 82.55 133.35 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5596,7 +5596,7 @@
 	)
 	(text "LTPI LEDs\n"
 		(exclude_from_sim no)
-		(at 243.84 135.89 0)
+		(at 243.84 132.08 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5609,7 +5609,7 @@
 	)
 	(text "JTAG\n"
 		(exclude_from_sim no)
-		(at 350.52 134.62 0)
+		(at 363.22 132.08 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5727,6 +5727,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c474d390-2dbe-4eaf-b23e-b7f3abcf8298")
+	)
+	(junction
+		(at 63.5 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d7f4b8-01a1-4dac-bd4b-fe9636a6c9fb")
 	)
 	(junction
 		(at 68.58 163.83)
@@ -6485,6 +6491,16 @@
 		)
 		(uuid "0630566e-0d52-448a-a809-07fab8d3cac3")
 	)
+	(wire
+		(pts
+			(xy 72.39 227.33) (xy 72.39 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07297aea-7449-43c4-b283-32e8165ded27")
+	)
 	(bus
 		(pts
 			(xy 109.22 60.96) (xy 107.95 62.23)
@@ -6524,6 +6540,16 @@
 			(type default)
 		)
 		(uuid "09723f51-863e-4c62-b5de-b83206fd6d06")
+	)
+	(wire
+		(pts
+			(xy 63.5 227.33) (xy 63.5 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09eb54d0-c3f9-42b9-ac24-dcde7b85b4d2")
 	)
 	(wire
 		(pts
@@ -6674,16 +6700,6 @@
 			(type default)
 		)
 		(uuid "141e8472-54af-4339-8b34-adee28919e63")
-	)
-	(wire
-		(pts
-			(xy 72.39 229.87) (xy 72.39 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146a673f-7c97-479b-994a-1dd3c81975a8")
 	)
 	(wire
 		(pts
@@ -7977,6 +7993,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 227.33) (xy 63.5 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639f4add-606f-4233-b847-db2b1c180589")
+	)
+	(wire
+		(pts
 			(xy 259.08 171.45) (xy 259.08 180.34)
 		)
 		(stroke
@@ -9107,16 +9133,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 229.87) (xy 63.5 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d6c301-738b-4d9f-9028-daf1b1220a45")
-	)
-	(wire
-		(pts
 			(xy 231.14 95.25) (xy 228.6 95.25)
 		)
 		(stroke
@@ -9834,6 +9850,16 @@
 			(type default)
 		)
 		(uuid "f7cb767b-bf39-4d10-a471-95455ad6c1d9")
+	)
+	(wire
+		(pts
+			(xy 63.5 227.33) (xy 72.39 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f887a69a-8a52-4e69-bec8-5fcb4e90d761")
 	)
 	(bus
 		(pts
@@ -10964,6 +10990,17 @@
 			(justify right)
 		)
 		(uuid "98f03e6e-bc4d-4041-af39-e88a1ab69ae6")
+	)
+	(hierarchical_label "VCC_SCM_HPM_FRU"
+		(shape input)
+		(at 60.96 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a83aa68-3e08-42a1-9139-cbd51d3567f1")
 	)
 	(hierarchical_label "DC_SCM_I2C4{I2C}"
 		(shape bidirectional)
@@ -14194,102 +14231,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "antmicropower:+3V3")
-		(at 72.39 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41d3fed1-1b96-49b2-90f4-c04a772fdce2")
-		(property "Reference" "#PWR018"
-			(at 87.63 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 72.39 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 87.63 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 87.63 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acb0a0c2-ab8f-419d-a152-e03e44037bcd")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LED_G_0402_VLMTG1500-GS08_2")
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0402_VLMTG1500-GS08")
 		(at 259.08 158.75 90)
@@ -17444,102 +17385,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "antmicropower:+3V3")
-		(at 63.5 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "928e8689-26c5-4641-9003-43525b8f5a71")
-		(property "Reference" "#PWR017"
-			(at 78.74 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.5 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 78.74 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 78.74 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "302b6c5b-58f0-4cf1-9675-084a7d5ac39b")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/f1ecdd24-c7ef-4765-8186-53d06f23944d"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
