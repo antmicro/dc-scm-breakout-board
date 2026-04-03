@@ -1,0 +1,7 @@
+(version 1)
+
+(rule "LTPI DiffPair In2"
+    (condition "A.Layer == 'In2.Cu' && A.NetName == '*LTPI*'")
+    (constraint track_width (min 0.138mm) (opt 0.138mm) (max 0.138mm))
+    (constraint diff_pair_gap (min 0.335mm) (opt 0.335mm) (max 0.335mm))
+)
