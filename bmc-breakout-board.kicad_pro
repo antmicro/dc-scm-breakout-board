@@ -556,7 +556,9 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(94, 255, 0)"
+    },
     "netclass_assignments": {
       "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0.CLK+": [
         "85Ohm-diff"
