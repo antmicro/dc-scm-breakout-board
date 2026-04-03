@@ -3413,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm_mask"
+		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm"
 			(at 264.16 231.14 0)
 			(effects
 				(font
@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:OSHW-Logo_5.7x6mm_Mask"
+		(property "Footprint" "antmicro-footprints:OSHW-Logo_5.7x6mm_Copper"
 			(at 331.978 196.596 0)
 			(effects
 				(font
