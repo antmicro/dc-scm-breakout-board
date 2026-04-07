@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:OSHW-Logo_5.7x6mm_Copper"
+		(property "Footprint" "antmicro-footprints:oshw-logo"
 			(at 331.978 196.596 0)
 			(effects
 				(font
