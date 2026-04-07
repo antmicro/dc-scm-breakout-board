@@ -916,6 +916,10 @@
       {
         "netclass": "50Ohm-se",
         "pattern": "*SPI*"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "*Net-(U3-D*)"
       }
     ]
   },
