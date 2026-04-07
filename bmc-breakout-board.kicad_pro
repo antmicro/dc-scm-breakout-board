@@ -557,7 +557,8 @@
       "version": 4
     },
     "net_colors": {
-      "+12V": "rgb(94, 255, 0)"
+      "+12V": "rgb(94, 255, 0)",
+      "+3V3": "rgb(255, 0, 221)"
     },
     "netclass_assignments": {
       "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_0.CLK+": [
