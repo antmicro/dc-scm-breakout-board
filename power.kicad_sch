@@ -7983,7 +7983,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 127 48.26)
+			(xy 116.84 48.26) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8673,7 +8673,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 116.84) (xy 62.23 116.84)
+			(xy 29.21 116.84) (xy 62.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8982,12 +8982,12 @@
 		(uuid "15bdb4f5-17a3-46ad-8d83-4b1fa2d419d3")
 	)
 	(label "12V_REVERSE_POL_PROTECTION"
-		(at 50.8 116.84 180)
+		(at 29.21 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "447d5566-68b6-4da4-a7ac-d39f401094fb")
 	)
@@ -9002,12 +9002,12 @@
 		(uuid "5e4df8cd-3650-4c49-a21d-56e70ac9f07f")
 	)
 	(label "12V_REVERSE_POL_PROTECTION"
-		(at 127 48.26 0)
+		(at 149.86 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9786cb3a-7cd3-437f-afce-605a2660ba47")
 	)

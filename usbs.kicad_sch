@@ -5941,7 +5941,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 196.85) (xy 327.66 196.85)
+			(xy 306.07 196.85) (xy 327.66 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6141,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 223.52) (xy 195.58 223.52)
+			(xy 198.12 223.52) (xy 180.34 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6451,7 +6451,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 194.31) (xy 325.12 194.31)
+			(xy 306.07 194.31) (xy 325.12 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7481,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 220.98) (xy 198.12 220.98)
+			(xy 180.34 220.98) (xy 198.12 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7730,12 +7730,12 @@
 		(uuid "1b799e22-f45e-4211-8ca2-1812f57ddc04")
 	)
 	(label "FTDI_USB_D+"
-		(at 313.69 194.31 180)
+		(at 306.07 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1e3956f1-178b-4c43-a577-00f9800ae90b")
 	)
@@ -7770,12 +7770,12 @@
 		(uuid "30652256-db49-40cb-88ac-a4c381438062")
 	)
 	(label "DC_SCM_UART.TX"
-		(at 195.58 220.98 180)
+		(at 180.34 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "31ac34f5-f16c-471c-bfd2-96485a2c158e")
 	)
@@ -7880,12 +7880,12 @@
 		(uuid "7c87a415-9b87-4b22-af54-f505d76932ba")
 	)
 	(label "DC_SCM_UART.RX"
-		(at 195.58 223.52 180)
+		(at 180.34 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7e4f53f3-3d98-4bd4-9cb0-9765a99276d7")
 	)
@@ -8000,12 +8000,12 @@
 		(uuid "d1189859-6e76-4e41-af87-639ddd7845e4")
 	)
 	(label "FTDI_USB_D-"
-		(at 313.69 196.85 180)
+		(at 306.07 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "da1bdbd5-990b-41e8-849f-351d428db06f")
 	)
