@@ -5482,6 +5482,12 @@
 		(uuid "deb1f36b-04b3-4c83-a856-84173cefaf44")
 	)
 	(junction
+		(at 320.04 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78ed5d9-c97b-4e0c-b732-824adf05851e")
+	)
+	(junction
 		(at 318.77 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5554,7 +5560,7 @@
 		(uuid "6cce998b-7a52-4840-9e3c-eb08c473cb5e")
 	)
 	(no_connect
-		(at 287.02 54.61)
+		(at 283.21 54.61)
 		(uuid "6fdaa75b-2d20-45b6-9222-37550d332f84")
 	)
 	(no_connect
@@ -5901,6 +5907,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 54.61) (xy 321.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aba1dbe-8d94-4944-9e75-5d4adaf84a7f")
+	)
+	(wire
+		(pts
 			(xy 86.36 63.5) (xy 110.49 63.5)
 		)
 		(stroke
@@ -6048,16 +6064,6 @@
 			(type default)
 		)
 		(uuid "1f0b9edb-4f2e-4127-a509-cae6e5cca98b")
-	)
-	(wire
-		(pts
-			(xy 287.02 54.61) (xy 321.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d75efa-58cf-41f2-a11d-8fe1cda5da41")
 	)
 	(wire
 		(pts
@@ -6768,6 +6774,16 @@
 			(type default)
 		)
 		(uuid "7f86f5a4-4ee7-4232-a6a6-a87b8b9358c4")
+	)
+	(wire
+		(pts
+			(xy 283.21 54.61) (xy 320.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb83f39-ef15-4e2f-8968-28fc174f8400")
 	)
 	(wire
 		(pts
@@ -7839,16 +7855,6 @@
 		)
 		(uuid "5a3fff66-e9ac-4839-bc02-d07401674485")
 	)
-	(label "VBUS_BMC_DOMAIN_UNCONNECTED"
-		(at 287.02 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c3d294e-3104-4062-bc28-650cf833e560")
-	)
 	(label "VPHY"
 		(at 105.41 179.07 0)
 		(effects
@@ -7978,6 +7984,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c0ea87f-acfd-4e65-bd6d-6c4c7954af03")
+	)
+	(label "VBUS_BMC_DOMAIN_UNCONNECTED"
+		(at 284.48 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d8680b0-09a9-4618-8674-a2536d554ad1")
 	)
 	(label "DC_SCM_UART.TX"
 		(at 179.07 214.63 0)
@@ -8967,170 +8983,6 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
-		(at 321.31 54.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1828a9fd-a413-4975-a72a-05f04674429b")
-		(property "Reference" "J3"
-			(at 334.645 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "USB-C_GCT_USB4105-GF-A"
-			(at 283.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
-			(at 283.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
-			(at 283.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-			(at 283.21 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 283.21 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 334.645 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 283.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 283.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "ceb2d4d8-72f4-45fc-9f84-7051d49e1ba8")
-		)
-		(pin "SH"
-			(uuid "12fc76d5-f0df-456d-a4f8-f7e75e13abe2")
-		)
-		(pin "B7"
-			(uuid "ed8c6f8b-9046-4b11-af57-3ab9ab073073")
-		)
-		(pin "B9"
-			(uuid "ac22c48c-40c7-4cfa-a343-4b377ab974ef")
-		)
-		(pin "A7"
-			(uuid "44e06984-5c40-40c0-a265-67017621d5fd")
-		)
-		(pin "A1"
-			(uuid "0f63fc81-7052-429f-bb7c-9f6a296f7229")
-		)
-		(pin "A8"
-			(uuid "b443e7b1-8fab-42c2-a6fa-f62efedaa476")
-		)
-		(pin "A6"
-			(uuid "60322ec6-3aaf-4266-b5bf-d76a1e920f6e")
-		)
-		(pin "A4"
-			(uuid "7c855d5a-27f8-4f9a-9d99-17dd3aca785b")
-		)
-		(pin "B12"
-			(uuid "f77c585c-7a04-4489-8137-9247274b02e8")
-		)
-		(pin "A9"
-			(uuid "be2e4527-a8d9-4a22-93e0-619029ad2240")
-		)
-		(pin "B1"
-			(uuid "be56c5c8-a943-4ec5-bc77-9a60c6a8134a")
-		)
-		(pin "B8"
-			(uuid "bfc059fc-6843-41fc-b6db-3f82900a849c")
-		)
-		(pin "B6"
-			(uuid "01a661aa-d024-4034-8489-b0dd4a17d8fa")
-		)
-		(pin "A5"
-			(uuid "355e87d3-c8db-41d8-bbff-48f8e57277f0")
-		)
-		(pin "B5"
-			(uuid "afb7f939-c7da-4ef6-b10d-0307f1d13467")
-		)
-		(pin "A12"
-			(uuid "fac655c0-392c-48e7-b4d8-1c4269a00e7c")
-		)
-		(instances
-			(project "bmc-breakout-board"
-				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12375,6 +12227,73 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
+		(at 320.04 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774be2f5-3140-42d6-ac89-f84ea75b88d7")
+		(property "Reference" "#FLG01"
+			(at 320.04 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 320.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e929d5-31c2-42ea-9799-86dde4dbd112")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 346.71 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14814,6 +14733,170 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
 					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
+		(at 321.31 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df3fcbaa-f3c1-4bb0-90dc-678c187117a3")
+		(property "Reference" "J2"
+			(at 334.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-C_GCT_USB4105-GF-A"
+			(at 283.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
+			(at 283.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+			(at 283.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+			(at 283.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 334.645 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 283.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 283.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "9a990b46-f022-495b-8384-057e15351e83")
+		)
+		(pin "SH"
+			(uuid "df1f49a3-a409-410e-9c01-3030d5de54d6")
+		)
+		(pin "B7"
+			(uuid "9af0b2e9-858d-4a62-8361-fe9deeac90bc")
+		)
+		(pin "B9"
+			(uuid "bac4fbf4-b304-4fd5-972f-bf7c7bf00fba")
+		)
+		(pin "A7"
+			(uuid "1c06d99d-cc09-4b71-acb3-b6ecb71531e7")
+		)
+		(pin "A1"
+			(uuid "d6f01f88-34ae-4c33-91b2-e4bab59e749b")
+		)
+		(pin "A8"
+			(uuid "f0d9e54f-9aff-4ad4-a457-9e4d659beb1d")
+		)
+		(pin "A6"
+			(uuid "1419b8fe-3dd4-4386-a9b9-5240b78625d6")
+		)
+		(pin "A4"
+			(uuid "40e4f020-00aa-4ca1-83bb-0ec423aa227e")
+		)
+		(pin "B12"
+			(uuid "bcc80878-7a19-4c36-8d82-4376b301be87")
+		)
+		(pin "A9"
+			(uuid "d9cbf3b5-ecc9-49ac-b31a-ad0686fd09f0")
+		)
+		(pin "B1"
+			(uuid "111c7dac-98b2-4431-ba98-d21c88461cf1")
+		)
+		(pin "B8"
+			(uuid "47ab991d-0994-4f85-9fc1-195fdca00c0f")
+		)
+		(pin "B6"
+			(uuid "47c58dc3-175d-4d93-9703-258cdbacaf6f")
+		)
+		(pin "A5"
+			(uuid "f65f4ec4-338f-4c02-8ce7-04d02ba38317")
+		)
+		(pin "B5"
+			(uuid "f598d308-cc0d-442c-ab5e-ad73dfd59a46")
+		)
+		(pin "A12"
+			(uuid "5bccb1b8-91e8-44db-8e36-9a8bfc4459cc")
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e/07ab1158-ddfb-42f0-9fa7-f1beb51ab908"
+					(reference "J2")
 					(unit 1)
 				)
 			)
