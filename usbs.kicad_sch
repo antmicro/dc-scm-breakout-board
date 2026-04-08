@@ -5494,10 +5494,6 @@
 		(uuid "ff926156-bf19-4336-a26a-e2c29d14f81e")
 	)
 	(no_connect
-		(at 321.31 54.61)
-		(uuid "033ad226-a43f-4428-9637-68c5961271a7")
-	)
-	(no_connect
 		(at 161.29 186.69)
 		(uuid "0f80469e-65fd-4d89-9e19-d1dd34772695")
 	)
@@ -5514,16 +5510,16 @@
 		(uuid "283dcf7b-13e7-477e-98eb-20010129283b")
 	)
 	(no_connect
+		(at 76.2 55.88)
+		(uuid "2ba1fd90-4fd2-40db-8adb-4fde3ada4c4b")
+	)
+	(no_connect
 		(at 120.65 213.36)
 		(uuid "2c73b399-5966-42d5-948b-5dc9ade2032b")
 	)
 	(no_connect
 		(at 161.29 229.87)
 		(uuid "30bd6159-cefa-41b6-9805-9aa58f02c591")
-	)
-	(no_connect
-		(at 110.49 55.88)
-		(uuid "36db36be-fe4f-4bb3-9e7a-ce70c319cc01")
 	)
 	(no_connect
 		(at 161.29 236.22)
@@ -5556,6 +5552,10 @@
 	(no_connect
 		(at 161.29 259.08)
 		(uuid "6cce998b-7a52-4840-9e3c-eb08c473cb5e")
+	)
+	(no_connect
+		(at 287.02 54.61)
+		(uuid "6fdaa75b-2d20-45b6-9222-37550d332f84")
 	)
 	(no_connect
 		(at 161.29 246.38)
@@ -6048,6 +6048,16 @@
 			(type default)
 		)
 		(uuid "1f0b9edb-4f2e-4127-a509-cae6e5cca98b")
+	)
+	(wire
+		(pts
+			(xy 287.02 54.61) (xy 321.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d75efa-58cf-41f2-a11d-8fe1cda5da41")
 	)
 	(wire
 		(pts
@@ -6728,6 +6738,16 @@
 			(type default)
 		)
 		(uuid "7e5df18c-a12c-4fcc-a8dd-d3a522058b7c")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e99a6dd-ff3d-4694-9146-a484881b1bc5")
 	)
 	(bus
 		(pts
@@ -7819,6 +7839,16 @@
 		)
 		(uuid "5a3fff66-e9ac-4839-bc02-d07401674485")
 	)
+	(label "VBUS_BMC_DOMAIN_UNCONNECTED"
+		(at 287.02 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c3d294e-3104-4062-bc28-650cf833e560")
+	)
 	(label "VPHY"
 		(at 105.41 179.07 0)
 		(effects
@@ -8008,6 +8038,16 @@
 			(justify left bottom)
 		)
 		(uuid "da1bdbd5-990b-41e8-849f-351d428db06f")
+	)
+	(label "VBUS_HOST_DOMAIN_UNCONNECTED"
+		(at 76.2 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e12f4535-d37c-45b3-9605-2a69b41f9127")
 	)
 	(label "DC_SCM_QSPI.~{CS1}"
 		(at 168.91 179.07 0)
