@@ -60,12 +60,24 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|123805000|117570000|74eabab9-c255-4cb7-805e-253b0f978b0b|00000000-0000-0000-0000-000000000000",
-          "SMD pads"
+          "courtyards_overlap|124244000|67177000|86fe8c5a-5590-4987-b372-3882337156cf|c5a83dd4-ca98-45f0-ba14-594207c81471",
+          "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
         ],
         [
-          "footprint_type_mismatch|74400000|117500000|9ae6f12f-c781-4bef-bf8d-3c8ccdc5e51e|00000000-0000-0000-0000-000000000000",
-          "SMD pads"
+          "courtyards_overlap|124245000|73529000|5a6052c0-c123-40da-9de7-6f6a08e5b232|c5a83dd4-ca98-45f0-ba14-594207c81471",
+          "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
+        ],
+        [
+          "courtyards_overlap|92245000|67177000|c2785d7e-a022-47d1-9db6-ecd512bd35d3|e3042e8b-31de-4773-b4f5-36a8984908c2",
+          "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
+        ],
+        [
+          "courtyards_overlap|92245000|73529000|4c2a2fdb-14e7-4f7e-842e-602df79421e0|c2785d7e-a022-47d1-9db6-ecd512bd35d3",
+          "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
+        ],
+        [
+          "courtyards_overlap|92245000|79891000|0cbb6676-11e8-435c-b4c0-291988aa4c43|4c2a2fdb-14e7-4f7e-842e-602df79421e0",
+          "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
         ]
       ],
       "meta": {
