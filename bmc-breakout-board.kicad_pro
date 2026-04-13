@@ -86,14 +86,6 @@
         [
           "silk_edge_clearance|147055000|120000000|f4d11800-6111-4041-a077-3602844f1bc9|02ec1f5c-7844-4b48-8ca2-d09da0dcc703",
           "USB A connector overhang"
-        ],
-        [
-          "silk_edge_clearance|69610000|120075000|f4d11800-6111-4041-a077-3602844f1bc9|f9fc5ca0-6273-430f-a2a0-ecf8146c2114",
-          "USB C connector overhang"
-        ],
-        [
-          "silk_edge_clearance|79188000|120075000|f4d11800-6111-4041-a077-3602844f1bc9|916cb1a8-56e5-44be-948f-49e01d7318c7",
-          "USB C connector overhang"
         ]
       ],
       "meta": {
