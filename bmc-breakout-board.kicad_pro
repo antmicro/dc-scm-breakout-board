@@ -78,6 +78,22 @@
         [
           "courtyards_overlap|92245000|79891000|0cbb6676-11e8-435c-b4c0-291988aa4c43|4c2a2fdb-14e7-4f7e-842e-602df79421e0",
           "Mechanical clearance verified with https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
+        ],
+        [
+          "silk_edge_clearance|133705000|120000000|f4d11800-6111-4041-a077-3602844f1bc9|92f78659-b9a3-4f58-b985-59da2ed25c20",
+          "USB A connector overhang"
+        ],
+        [
+          "silk_edge_clearance|147055000|120000000|f4d11800-6111-4041-a077-3602844f1bc9|02ec1f5c-7844-4b48-8ca2-d09da0dcc703",
+          "USB A connector overhang"
+        ],
+        [
+          "silk_edge_clearance|69610000|120075000|f4d11800-6111-4041-a077-3602844f1bc9|f9fc5ca0-6273-430f-a2a0-ecf8146c2114",
+          "USB C connector overhang"
+        ],
+        [
+          "silk_edge_clearance|79188000|120075000|f4d11800-6111-4041-a077-3602844f1bc9|916cb1a8-56e5-44be-948f-49e01d7318c7",
+          "USB C connector overhang"
         ]
       ],
       "meta": {
@@ -156,9 +172,9 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
-        "min_silk_clearance": 0.1,
+        "min_silk_clearance": 0.0,
         "min_text_height": 0.7,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
