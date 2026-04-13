@@ -86,6 +86,126 @@
         [
           "silk_edge_clearance|147055000|120000000|f4d11800-6111-4041-a077-3602844f1bc9|02ec1f5c-7844-4b48-8ca2-d09da0dcc703",
           "USB A connector overhang"
+        ],
+        [
+          "silk_overlap|119200000|67308000|4079e03e-3d9e-4572-b009-484f635fff45|bc70dd12-3eda-4133-a203-6dbfaacf92dd",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|119200000|67308000|996fc362-deff-4432-8bf9-de3dbd77282d|bc70dd12-3eda-4133-a203-6dbfaacf92dd",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|119200000|67554000|4079e03e-3d9e-4572-b009-484f635fff45|fd68c9ba-d5b5-4161-8089-a0e0e3f7be03",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|119200000|73660000|00558ecb-f4b5-4c31-80dd-f122842d005f|22f1fe8a-326a-4621-be27-80ccd38dea3f",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|119200000|73905000|00558ecb-f4b5-4c31-80dd-f122842d005f|1c3d9a5a-aa8c-4a91-a877-8fc32ff8c85c",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|119200000|73905000|1c3d9a5a-aa8c-4a91-a877-8fc32ff8c85c|a677954d-f2cb-44f2-817b-4c253c075ac8",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122800000|67308000|71053c15-efa7-491f-a3ab-9820a9afac03|e6db425b-5172-400c-b9f1-2309208edba5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122801000|67308000|206fa862-7708-4f7c-bca4-20639d1ec9c0|e6db425b-5172-400c-b9f1-2309208edba5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122801000|67554000|206fa862-7708-4f7c-bca4-20639d1ec9c0|54e01efb-08f8-45df-b904-9bd54c1c2ecd",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122801000|73660000|211bc712-f27f-4541-b7d1-a10736ff6164|d1a3d90b-6b9a-4ed8-9cd8-fd5019991516",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122801000|73660000|516c0f63-7ef9-49ee-a4db-cac81fbe5d9c|d1a3d90b-6b9a-4ed8-9cd8-fd5019991516",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|122801000|73905000|3af5d074-6cb6-4152-9901-b5035e1e222c|516c0f63-7ef9-49ee-a4db-cac81fbe5d9c",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|67308000|46af72a0-88da-4542-81f7-9b5080c08645|e599e964-c9f0-4117-8038-32b95e2cfafe",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|67553000|46af72a0-88da-4542-81f7-9b5080c08645|be7b488b-88d5-4a85-9598-b82e5a1672a7",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|67553000|92895255-0000-4b6b-9292-b655061c87ac|be7b488b-88d5-4a85-9598-b82e5a1672a7",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|73660000|0e98d9c7-df5f-4e19-b367-0468b0d2974e|c9f615d1-4825-48f1-a30f-f21afd7b45a5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|73660000|18275a4f-47d9-43c3-a763-8b2c2b4d059d|c9f615d1-4825-48f1-a30f-f21afd7b45a5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|73905000|18275a4f-47d9-43c3-a763-8b2c2b4d059d|c22006cf-c4c1-4d74-8452-58fbce0257bf",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|80076000|3d31d5e4-ee1e-432e-a96e-14ab309ee95e|54cff06e-dfcd-4d9f-aa93-ada1b1f744c6",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87200000|80076000|3d31d5e4-ee1e-432e-a96e-14ab309ee95e|dcba0fd1-5d0a-42c0-b94f-ccc477b09534",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|87235000|80257000|25ab0ae7-7b40-4f68-b8d5-579c2f3544ba|54cff06e-dfcd-4d9f-aa93-ada1b1f744c6",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90765000|80076000|3f7760d3-e7bb-4e25-a649-f7641f74efc5|a64597e4-2c68-42c1-a8d2-e0322649de94",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90765000|80257000|0e70d748-c8eb-4c9c-929c-6918879df437|3f7760d3-e7bb-4e25-a649-f7641f74efc5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|67308000|06238a10-cdb5-40b0-b621-fad7eeea356f|ba0890fb-782b-428a-b22c-333853c14688",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|67553000|06238a10-cdb5-40b0-b621-fad7eeea356f|e70a0ee3-5dc8-4880-815a-2ea6309aecf4",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|67553000|7a56eed4-4ffb-40f8-8a75-1c0ccf0ea650|e70a0ee3-5dc8-4880-815a-2ea6309aecf4",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|73660000|0dbcc3c7-c1d9-4dcb-ab8b-94268b90389c|dc863aeb-976a-4e5e-9402-7080cbdb1517",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|73660000|a566a498-de0f-4418-a1c7-a98802b3ed79|dc863aeb-976a-4e5e-9402-7080cbdb1517",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|73905000|0dbcc3c7-c1d9-4dcb-ab8b-94268b90389c|2f5485dc-0458-4c04-b4b9-d998952312b5",
+          "Intentional silkscreen overlap on pin header footprint"
+        ],
+        [
+          "silk_overlap|90801000|80076000|a64597e4-2c68-42c1-a8d2-e0322649de94|dcba0fd1-5d0a-42c0-b94f-ccc477b09534",
+          "Intentional silkscreen overlap on pin header footprint"
         ]
       ],
       "meta": {
@@ -160,7 +280,7 @@
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.125,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
