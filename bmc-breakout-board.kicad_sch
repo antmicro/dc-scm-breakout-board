@@ -726,7 +726,7 @@
 	)
 	(text "Logotypes"
 		(exclude_from_sim no)
-		(at 336.55 185.42 0)
+		(at 336.55 176.53 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -739,7 +739,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 336.55 203.2 0)
+		(at 336.55 194.31 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -3581,6 +3581,99 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
+		(at 339.09 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a212da2-d154-4b90-a476-87744c46c417")
+		(property "Reference" "FD5"
+			(at 342.9 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 342.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
+			(at 347.98 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 348.31 222.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 348.31 225.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 347.98 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 347.98 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(reference "FD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 81.28 177.8 0)
 		(unit 1)
@@ -3697,7 +3790,7 @@
 	)
 	(symbol
 		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
-		(at 339.09 210.82 0)
+		(at 339.09 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3706,7 +3799,7 @@
 		(fields_autoplaced yes)
 		(uuid "68186aca-60e4-431b-ac72-e34384559b34")
 		(property "Reference" "FD2"
-			(at 342.9 209.55 0)
+			(at 342.9 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3809,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 342.9 212.09 0)
+			(at 342.9 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3819,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 347.98 215.9 0)
+			(at 347.98 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 348.31 221.31 0)
+			(at 348.31 212.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3841,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 348.31 223.85 0)
+			(at 348.31 214.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3851,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 347.98 218.44 0)
+			(at 347.98 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3862,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 347.98 220.98 0)
+			(at 347.98 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,6 +3876,98 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "FD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
+		(at 300.99 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c980b62-d7b4-40be-b032-af06c6891f1d")
+		(property "Reference" "FD4"
+			(at 304.8 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 304.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
+			(at 309.88 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 310.21 222.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 310.21 225.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 309.88 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(reference "FD4")
 					(unit 1)
 				)
 			)
@@ -4097,7 +4282,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:oshw_logo")
-		(at 330.2 191.77 0)
+		(at 330.2 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4106,7 +4291,7 @@
 		(fields_autoplaced yes)
 		(uuid "b34001eb-9062-42fc-a7bf-0dbc44534037")
 		(property "Reference" "N2"
-			(at 336.55 189.7862 0)
+			(at 336.55 180.8962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4301,7 @@
 			)
 		)
 		(property "Value" "oshw_logo"
-			(at 336.55 192.3262 0)
+			(at 336.55 183.4362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4311,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:oshw-logo"
-			(at 345.44 201.93 0)
+			(at 345.44 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 204.47 0)
+			(at 345.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4333,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 345.44 214.63 0)
+			(at 345.44 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4343,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 345.44 207.01 0)
+			(at 345.44 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4354,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 345.44 209.55 0)
+			(at 345.44 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4365,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 330.2 191.77 0)
+			(at 330.2 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4373,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 345.44 212.09 0)
+			(at 345.44 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,6 +4502,99 @@
 			(project "bmc-breakout-board"
 				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
+		(at 375.92 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2188a03-4707-428c-9714-3e22f021962a")
+		(property "Reference" "FD6"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 379.73 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
+			(at 384.81 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 385.14 222.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 385.14 225.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 384.81 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bmc-breakout-board"
+				(path "/5d67ef28-5805-4f87-b722-2926dabf7f6e"
+					(reference "FD6")
 					(unit 1)
 				)
 			)
@@ -4631,7 +4909,7 @@
 	)
 	(symbol
 		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
-		(at 375.92 210.82 0)
+		(at 375.92 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4640,7 +4918,7 @@
 		(fields_autoplaced yes)
 		(uuid "e10db023-668a-4b83-9dc2-4094edb076f8")
 		(property "Reference" "FD3"
-			(at 379.73 209.55 0)
+			(at 379.73 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4928,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 379.73 212.09 0)
+			(at 379.73 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 384.81 215.9 0)
+			(at 384.81 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 385.14 221.31 0)
+			(at 385.14 212.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4960,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 385.14 223.85 0)
+			(at 385.14 214.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4970,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 384.81 218.44 0)
+			(at 384.81 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4981,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 384.81 220.98 0)
+			(at 384.81 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5309,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:antmicro_logo")
-		(at 356.87 191.77 0)
+		(at 356.87 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5040,7 +5318,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0a9b3a-5b10-4606-95ac-916ef846b30c")
 		(property "Reference" "N1"
-			(at 363.22 189.7862 0)
+			(at 363.22 180.8962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5328,7 @@
 			)
 		)
 		(property "Value" "antmicro_logo"
-			(at 363.22 192.3262 0)
+			(at 363.22 183.4362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5338,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:antmicro-logo"
-			(at 372.11 201.93 0)
+			(at 372.11 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 204.47 0)
+			(at 372.11 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 372.11 214.63 0)
+			(at 372.11 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5370,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 356.87 191.77 0)
+			(at 356.87 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5378,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 372.11 212.09 0)
+			(at 372.11 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5389,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 372.11 207.01 0)
+			(at 372.11 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5400,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 372.11 209.55 0)
+			(at 372.11 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5421,7 @@
 	)
 	(symbol
 		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask2mm")
-		(at 300.99 210.82 0)
+		(at 300.99 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5151,7 +5429,7 @@
 		(dnp no)
 		(uuid "f30c6c68-b389-4094-8397-cabdd16220d9")
 		(property "Reference" "FD1"
-			(at 304.8 209.55 0)
+			(at 304.8 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5439,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 304.8 212.09 0)
+			(at 304.8 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5449,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 309.88 215.9 0)
+			(at 309.88 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 310.21 221.31 0)
+			(at 310.21 212.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5471,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 310.21 223.85 0)
+			(at 310.21 214.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5481,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 309.88 218.44 0)
+			(at 309.88 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5492,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 309.88 220.98 0)
+			(at 309.88 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
