@@ -3524,16 +3524,6 @@
 		)
 		(uuid "1c9549fc-3bd0-474e-8ef7-ac17a8e1b156")
 	)
-	(text "VSP_P"
-		(exclude_from_sim no)
-		(at 308.102 72.898 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f915307-91a2-4d61-8a9c-410fe4b833c5")
-	)
 	(text "OCuLink SCMROOT\n"
 		(exclude_from_sim no)
 		(at 342.9 22.86 0)
