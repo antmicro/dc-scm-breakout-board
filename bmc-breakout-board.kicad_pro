@@ -400,7 +400,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1714500|1168400|18dc7c3a-d4b8-4f20-abb4-5070313efcdf|a1595de8-977c-4994-949c-d9b4fa1dad44|/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800|/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800|/5d67ef28-5805-4f87-b722-2926dabf7f6e/6a40469a-13ae-4d69-8a2b-3c10ffcd9800",
+        "Nets +12V and P12_AUX are electrically equivalent and connected"
+      ]
+    ],
     "meta": {
       "version": 0
     },
