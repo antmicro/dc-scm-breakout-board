@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Datacenter Secure Control Module Breakout Board")
+		(date "2026-04-17")
+		(rev "2.0.0")
+		(company "Antmicro")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
