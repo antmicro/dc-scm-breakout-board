@@ -13,8 +13,6 @@ This board aids software development and allows for initial testing of the DC-SC
 This board is compatible with Antmicro's experimental DC-SCM cards:
 
 * Lattice CertusPro-NX FPGA and NXP i.MX943 based [DC-SCM Carrier Card for OSM-L SoMs](https://github.com/antmicro/dc-scm-osm-l-carrier-card) + [OSM-L System on Module for BMC](https://github.com/antmicro/osm-l-bmc-som)
-* AMD-Xilinx Artix-7 FPGA based [Artix DC-SCM](https://github.com/antmicro/artix-dc-scm)
-* Lattice ECP-5 FPGA based [ECP5 DC-SCM](https://github.com/antmicro/ecp5-dc-scm)
 
 ## Project structure
 
