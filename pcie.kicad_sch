@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Datacenter Secure Control Module Breakout Board")
-		(date "2021-12-16")
+		(date "2026-04-17")
 		(rev "2.0.0")
 	)
 	(lib_symbols
