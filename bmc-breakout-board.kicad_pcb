@@ -163342,7 +163342,7 @@
 		(uuid "57eda1d9-0c4f-4ebd-9a4c-88ff1c3ec507")
 		(at 90.12 116.46)
 		(property "Reference" "J10"
-			(at 8.38 -5.36 90)
+			(at -6.36 -5.2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3d6d77d1-b5c9-4d3f-81cb-e51e32c0fb0e")
@@ -184126,7 +184126,7 @@
 		(uuid "5d9cdd6c-2cc6-45bb-b015-9c0b2fc53fb9")
 		(at 107.56 116.46)
 		(property "Reference" "J11"
-			(at 8.14 -5.26 90)
+			(at -6.65 -5.52 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0300088b-5745-4ad7-a9d1-53baa0e6ee69")
@@ -226524,7 +226524,7 @@
 		(uuid "74eabab9-c255-4cb7-805e-253b0f978b0b")
 		(at 123.805 117.57)
 		(property "Reference" "J2"
-			(at 6.17 -3.195 90)
+			(at -5.295 -3.195 90)
 			(layer "F.SilkS")
 			(uuid "9e6933a0-523a-4c6f-a6b2-07e570a0458a")
 			(effects
@@ -373214,7 +373214,7 @@
 		(uuid "d951508e-51cc-48a8-8dfe-138645ca67ca")
 		(at 136.88 107.99)
 		(property "Reference" "J19"
-			(at -3.955 -1.415 90)
+			(at -5.3 0.58 90)
 			(layer "F.SilkS")
 			(uuid "bd45d56d-927b-4cf9-887a-e8dab80a0dc3")
 			(effects
@@ -440324,6 +440324,66 @@
 			)
 		)
 	)
+	(gr_text "DEBUG USB"
+		(at 69.7 120 90)
+		(layer "F.SilkS" knockout)
+		(uuid "5e6e9b4e-cd59-4991-a994-449e639f0dfd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "OCuLink HPMROOT\n"
+		(at 81.4 120 90)
+		(layer "F.SilkS" knockout)
+		(uuid "3474725f-0aef-492f-a3ab-1694973b6947")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "OCuLink SCMROOT\n"
+		(at 98.87 120 90)
+		(layer "F.SilkS" knockout)
+		(uuid "88466b66-4e3c-4920-99e5-f66f4919aa71")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "BMC USB"
+		(at 118 120 90)
+		(layer "F.SilkS" knockout)
+		(uuid "6eee8bd8-fbd2-4265-88a0-4e48fa1f3c04")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Host USB"
+		(at 131.07 120 90)
+		(layer "F.SilkS" knockout)
+		(uuid "00000000-0000-0000-0000-000060c237d8")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "JTAG +3V3"
 		(at 69.8 65.2 90)
 		(layer "F.SilkS" knockout)
@@ -440362,61 +440422,6 @@
 		(at 68.5 110.1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "a9ab7b46-beeb-45a8-8b6d-041c51b62f28")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "DEBUG USB"
-		(at 69.7 116.85 90)
-		(layer "F.SilkS" knockout)
-		(uuid "5e6e9b4e-cd59-4991-a994-449e639f0dfd")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "OCuLink HPMROOT\n"
-		(at 81.35 115.1 90)
-		(layer "F.SilkS" knockout)
-		(uuid "3474725f-0aef-492f-a3ab-1694973b6947")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "OCuLink SCMROOT\n"
-		(at 116.4 115.1 90)
-		(layer "F.SilkS" knockout)
-		(uuid "88466b66-4e3c-4920-99e5-f66f4919aa71")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "BMC USB"
-		(at 118 115.55 90)
-		(layer "F.SilkS" knockout)
-		(uuid "6eee8bd8-fbd2-4265-88a0-4e48fa1f3c04")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "Host USB"
-		(at 131 109.2 90)
-		(layer "F.SilkS" knockout)
-		(uuid "00000000-0000-0000-0000-000060c237d8")
 		(effects
 			(font
 				(size 0.7 0.7)
