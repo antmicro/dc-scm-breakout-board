@@ -439388,7 +439388,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "I2C19 SDA"
+	(gr_text "I3C19 SDA"
 		(at 92.275 71.995 0)
 		(layer "F.SilkS" knockout)
 		(uuid "265b8d53-3543-4346-a58d-be6e387b43e6")
@@ -439676,7 +439676,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "SPI_SCMCNTRL D0"
+	(gr_text "SPI_SCMCNTRL DO"
 		(at 124.5 78.3225 0)
 		(layer "F.SilkS" knockout)
 		(uuid "72eee0e2-7499-424c-99f1-1e64bb1f838b")
@@ -440072,7 +440072,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "TPM_SPI D1"
+	(gr_text "TPM_SPI DI\n"
 		(at 117.5 76.958429 0)
 		(layer "F.SilkS" knockout)
 		(uuid "e4a2d905-569b-4ba0-ac53-77516eda7262")
@@ -440084,7 +440084,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "TPM_SPI D0"
+	(gr_text "TPM_SPI DO"
 		(at 117.5 78.228714 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c8b830cf-389b-4516-86e6-3da2131947d3")
