@@ -19,7 +19,7 @@ The design files were prepared in KiCad 9.x
 * Expansion connector compatible with 168-pin DC-SCM cards
 * USB 2.0 (type-A) connector for testing USB host controllers
 * USB 2.0 (type C) connector for testing USB client controllers
-* USB 2.0 (type C)connector with serial console break-routed from one of the DC-SCM UART ports
+* USB 2.0 (type C) connector with serial console break-routed from one of the DC-SCM UART ports
 * Power connector
 * LTPI header
 * Onboard temperature sensors for testing the I2C connectivity
